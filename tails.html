@@ -76,7 +76,7 @@ constructor(props) { super(props); this.state = {}; }
 renderVals() {
 const F = window.FHJ, D = F.data;
 const v = {
-tails: ((D.tails || {}).tails || []).map((t) => { const FL = { 'jordan': 'jo', 'czech republic': 'cz', 'czechia': 'cz', 'germany': 'de', 'netherlands': 'nl', 'austria': 'at', 'france': 'fr', 'italy': 'it', 'belgium': 'be', 'ireland': 'ie' }; const parts = String(t.route || '').split(/\s*(?:→|->)\s*/); const from = parts[0] || '', to = parts[1] || ''; const fl = (n) => { const k = n.split(',').pop().trim().toLowerCase(); return FL[k] ? 'img/flag-' + FL[k] + '.svg' : ''; }; return { ...t, from, to, fromFlag: fl(from), toFlag: fl(to), color: F.color(t.color, 'sky'), link: t.link || 'javascript:void(0)', hasStory: !!t.link, noPhoto: !t.photo, icon: t.species === 'cat' ? 'img/cat-icon.png' : 'img/dog-icon.png' }; })
+tails: ((D.tails || {}).tails || []).map((t) => { const FL = { 'jordan': 'jo', 'czech republic': 'cz', 'czechia': 'cz', 'germany': 'de', 'netherlands': 'nl', 'austria': 'at', 'france': 'fr', 'italy': 'it', 'belgium': 'be', 'ireland': 'ie', 'united kingdom': 'gb', 'uk': 'gb', 'england': 'gb', 'london': 'gb', 'scotland': 'gb' }; const parts = String(t.route || '').split(/\s*(?:→|->)\s*/); const from = parts[0] || '', to = parts[1] || ''; const fl = (n) => { const k = n.split(',').pop().trim().toLowerCase(); return FL[k] ? 'img/flag-' + FL[k] + '.svg' : ''; }; return { ...t, from, to, fromFlag: fl(from), toFlag: fl(to), color: F.color(t.color, 'sky'), link: t.link || 'javascript:void(0)', hasStory: !!t.link, noPhoto: !t.photo, icon: t.species === 'cat' ? 'img/cat-icon.png' : 'img/dog-icon.png' }; })
 };
 return { tails: v.tails, count: v.tails.length };
 }

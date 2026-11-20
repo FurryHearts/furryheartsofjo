@@ -119,6 +119,22 @@
       "link": "",
       "color": "aqua",
       "species": "cat"
+    },
+    {
+      "name": "Suzy",
+      "route": "Jordan → United Kingdom",
+      "photo": "",
+      "link": "",
+      "color": "pink-light",
+      "species": "cat"
+    },
+    {
+      "name": "Peter",
+      "route": "Jordan → United Kingdom",
+      "photo": "",
+      "link": "",
+      "color": "olive",
+      "species": "cat"
     }
   ]
 }
