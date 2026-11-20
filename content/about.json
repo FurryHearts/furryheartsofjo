@@ -8,8 +8,25 @@
   "today_title": "Today",
   "today_body": "Furry Hearts of Jordan is a volunteer rescue in Amman. We feed street cats and dogs, treat the sick and injured, and find them loving homes in Jordan and around the world.",
   "pillars": [
-    {"title": "Feeding", "body": "Food and water for street cats and dogs.", "icon": "feed.svg", "color": "sunshine"},
-    {"title": "Healing", "body": "Vet care, surgery and special-needs care.", "icon": "heal.svg", "color": "coral"},
-    {"title": "Rehoming", "body": "Loving homes in Jordan and abroad.", "icon": "home.svg", "color": "green"}
-  ]
+    {
+      "title": "Feeding",
+      "body": "Food and water for street cats and dogs.",
+      "icon": "feed.svg",
+      "color": "sunshine"
+    },
+    {
+      "title": "Healing",
+      "body": "Vet care, surgery and special-needs care.",
+      "icon": "heal.svg",
+      "color": "coral"
+    },
+    {
+      "title": "Rehoming",
+      "body": "Loving homes in Jordan and abroad.",
+      "icon": "home.svg",
+      "color": "green"
+    }
+  ],
+  "video_title": "Our place",
+  "video_reel": "DZ-edl1tEfI"
 }
