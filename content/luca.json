@@ -1,0 +1,25 @@
+{
+  "name": "Luca",
+  "color": "rose",
+  "photo": "img/luca.jpg",
+  "flag": "it",
+  "place": "Milan, Italy",
+  "intro": "Left on the street, found just in time, and now home in Milan.",
+  "before_title": "Left behind",
+  "before_body": "Luca's owners were travelling to watch a football match, so they put him out on the street and left. A pet supply shop nearby called us about him. By then he had been outside for about a week. He was sick with a cold and covered in fleas.\n\nLuca is a gentle Scottish Fold who had no idea how to survive outside, and any passing car could have hit him. When we went to pick him up, a man nearby asked us to bring him back later so he could breed him with his own cat. We said no, and took Luca home.",
+  "before_photos": [
+    {
+      "src": "img/luca-before-1.jpg",
+      "color": "sunshine"
+    },
+    {
+      "src": "img/luca-before-2.jpg",
+      "color": "sky"
+    }
+  ],
+  "care_title": "Getting better",
+  "care_body": "We treated his cold, got rid of the fleas and nursed him back to health. Then we shared his story so the right family could find him.",
+  "care_photos": [],
+  "after_title": "Home in Milan",
+  "after_body": "Today Luca lives in Milan, Italy, safe, healthy and loved by his new family."
+}
