@@ -27,8 +27,6 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) left bottom/22px 22px space n
 radial-gradient(circle,#fff 8px,transparent 8.6px) left top/22px 22px no-repeat space,
 radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat space}
 .stamp>*{position:relative;z-index:1}
-.logo-mobile{display:none}
-@media (max-width:720px){.logo-mobile{display:block}.logo-wide{display:none}}
 </style>
 <style>html{scroll-behavior:smooth}img{max-width:100%}@media (max-width:720px){h1{font-size:52px!important;width:auto!important;height:auto!important}h2{font-size:38px!important}section,footer{width:auto!important}p{width:auto!important;height:auto!important}}</style>
 </head>
@@ -39,8 +37,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 
 <header style="max-width: 1240px; margin: 0 auto; padding: 20px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; padding-top: 50px">
 <a href="index.html" aria-label="Furry Hearts of Jordan home" style="display: flex; align-items: center; text-decoration: none">
-<img class="logo-mobile" src="img/logo-round.png" alt="Furry Hearts of Jordan logo" style="width: 64px; height: 64px">
-<img class="logo-wide" src="img/logo-wide.png" alt="Furry Hearts of Jordan — Feeding. Healing. Rehoming" style="width: 260px; height: auto; display: block">
+<img class="logo-wide" src="img/logo-wide.png" alt="Furry Hearts of Jordan — Feeding. Healing. Rehoming" style="width: 260px; max-width: 62vw; height: auto; display: block">
 </a>
 <a href="{{fileHref}}" style="font-weight: 500; font-size: 16px; color: var(--cocoa, #A38273)">← Back to {{name}}'s file</a>
 </header>
