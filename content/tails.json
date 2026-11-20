@@ -5,49 +5,80 @@
       "route": "Jordan → Czech Republic",
       "photo": "img/bella-sit.jpg",
       "link": "bella.html",
-      "color": "sky"
+      "color": "sky",
+      "species": "dog"
     },
     {
       "name": "Beige",
       "route": "Jordan → Czech Republic",
       "photo": "img/beige-face.jpg",
       "link": "bella.html",
-      "color": "pink"
+      "color": "pink",
+      "species": "dog"
     },
     {
       "name": "Aliksa",
       "route": "Jordan → Czech Republic",
       "photo": "",
       "link": "",
-      "color": "orange"
+      "color": "orange",
+      "species": "dog"
     },
     {
       "name": "Bruno",
       "route": "Jordan → Czech Republic",
       "photo": "",
       "link": "",
-      "color": "teal"
+      "color": "teal",
+      "species": "dog"
     },
     {
       "name": "Kouvo",
       "route": "Jordan → Czech Republic",
       "photo": "",
       "link": "",
-      "color": "denim"
+      "color": "denim",
+      "species": "dog"
     },
     {
       "name": "Vanilla",
       "route": "Jordan → Czech Republic",
       "photo": "",
       "link": "",
-      "color": "orchid"
+      "color": "orchid",
+      "species": "dog"
     },
     {
       "name": "Della",
-      "route": "",
+      "route": "Jordan → Czech Republic",
       "photo": "",
       "link": "",
-      "color": "green"
+      "color": "green",
+      "species": "dog"
+    },
+    {
+      "name": "Moka",
+      "route": "Jordan → Milan, Italy",
+      "photo": "",
+      "link": "",
+      "color": "tangerine",
+      "species": "cat"
+    },
+    {
+      "name": "Casper",
+      "route": "Jordan → Milan, Italy",
+      "photo": "",
+      "link": "",
+      "color": "lavender",
+      "species": "cat"
+    },
+    {
+      "name": "Luca",
+      "route": "Jordan → Milan, Italy",
+      "photo": "",
+      "link": "",
+      "color": "rose",
+      "species": "cat"
     }
   ]
 }
