@@ -3,11 +3,11 @@
   "route": "Jordan → Milan, Italy",
   "color": "lavender",
   "photo": "img/casper.jpg",
-  "intro": "From a cold street corner to a cozy home in Milan.",
-  "before_title": "Where we found him",
-  "before_body": "Casper was alone on the street, his white fur matted and dirty and his eyes sore and teary. He was tired, but he still let us pick him up.",
+  "intro": "Found in the winter rain, cold, hungry and barely one kilo.",
+  "before_title": "A cold, rainy night",
+  "before_body": "I found Casper on the street in the middle of winter. It was raining, and he was freezing and very, very hungry. He weighed barely a kilo, so thin you could feel every bone.\n\nHe was covered in fleas, had a fungal skin infection and a bad cold, and ear mites had gone deep inside his ears.",
   "care_title": "Getting better",
-  "care_body": "His matted fur had to be shaved off, his eyes were cleaned and treated, and little by little he got his strength back.",
+  "care_body": "We ran blood tests and kept taking him back to the clinic for check-ups. Thankfully, his bloodwork showed we had reached him just in time. Little by little he gained weight, his fur grew back, and he turned into the beautiful boy you see today.",
   "care_photos": [
     {
       "src": "img/casper-care-1.jpg",
@@ -26,8 +26,8 @@
       "color": "teal"
     }
   ],
-  "after_title": "Home in Milan",
-  "after_body": "Today Casper lives in Milan, Italy, with soft blankets, a chair of his own and a family who loves him.",
+  "after_title": "Home in Milan, with Moka and Luca",
+  "after_body": "I started sharing his story, and found him a wonderful home in Milan, Italy. The same family had already adopted Moka and Luca from us, and Casper was the last of the three to fly to them.\n\nToday the three of them share one happy home.",
   "flag": "it",
   "place": "Milan, Italy",
   "before_photos": [
