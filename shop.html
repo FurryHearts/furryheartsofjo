@@ -49,7 +49,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <template data-sc-if="{{noTedPhoto}}"><div style="position: absolute; left: 11.7%; top: 11.7%; width: 76.6%; height: 76.6%; border-radius: 2.4%; z-index: 1; background: var(--cream, #fcf2f0); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px"><img src="img/cat-icon.png" alt="" style="width: 34%; opacity: .55"><span style="font-family: var(--font-display, 'Pesta Rakyat', sans-serif); font-size: 44px; color: var(--peach, #ffb68d)">TED</span></div></template>
 </div>
 <div style="display: flex; flex-direction: column; gap: 16px">
-<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 44px; text-transform: uppercase; color: var(--cocoa, #a38273)">{{s.ted_title}}</h2>
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 44px; text-transform: uppercase; color: var(--cocoa, #a38273); color: var(--peach, #ffb68d)">{{s.ted_title}}</h2>
 <template data-sc-for="{{tedParas}}" data-as="p"><p style="margin: 0; font-size: 18px; line-height: 1.65; color: var(--accent-text, #704f44)">{{p.text}}</p></template>
 </div>
 </div>
@@ -89,7 +89,7 @@ constructor(props) { super(props); this.state = {}; }
 renderVals() {
 const F = window.FHJ, D = F.data, S = D.settings || {}, s = D.shop || {};
 const sp = (t) => String(t || '').split(/\n\s*\n/).map((x) => x.trim()).filter(Boolean).map((text) => ({ text }));
-const gc = ['var(--orchid)', 'var(--peach)'];
+const gc = ['var(--peach)', 'var(--peach)'];
 return { s, igHref: s.instagram ? 'https://ig.me/m/' + s.instagram : 'javascript:void(0)', igMsg: s.instagram ? 'https://ig.me/m/' + s.instagram : '',
   shopMsg: "Hi Furry Hearts of Jordan! I would like to ask about Ted's Shop (sent from furryheartsofjordan.com)",
   shopMsgOn: s.instagram ? "Hi Ted's Shop! I would like to ask about a product (sent from furryheartsofjordan.com)" : '',
