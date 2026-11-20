@@ -1,99 +1,151 @@
 {
   "title": "When to see a vet",
-  "intro": "Some signs mean home care is not enough. If you notice any of these, please take your cat to a vet as soon as possible.",
+  "intro": "Some signs mean home care is not enough. Here is when to rush to a vet, and when to book a visit soon.",
   "note": "This list comes from our 7 years of rescue experience and trusted veterinary sources. It is not a full list, and it never replaces a vet. When in doubt, always call your vet.",
-  "signs": [
-    {
-      "title": "Swollen ear flap",
-      "body": "A puffy, soft ear flap can be an ear hematoma, a pocket of blood under the skin. It needs a vet to drain or treat it.",
-      "color": "coral"
-    },
-    {
-      "title": "Yellow ears, gums or nose",
-      "body": "A yellow tint on the skin, gums or inside the ears can be jaundice, often a sign of a liver problem or another serious illness.",
-      "color": "sunshine"
-    },
-    {
-      "title": "Blood in the stool",
-      "body": "Blood in their poop, red or very dark, always needs to be checked by a vet.",
-      "color": "rose"
-    },
-    {
-      "title": "Not eating for 2 days",
-      "body": "A cat who stops eating for more than two days can quickly become very ill, especially their liver.",
-      "color": "orange"
-    },
-    {
-      "title": "Hiding and not eating",
-      "body": "Cats hide pain. If your cat is hiding and refusing food, something is wrong.",
-      "color": "purple"
-    },
-    {
-      "title": "Sore or infected eyes",
-      "body": "Never use any eye drops before a vet checks the eye. The wrong drops can damage the eye and even cause blindness.",
-      "color": "sky"
-    },
-    {
-      "title": "Straining but cannot pee",
-      "body": "Going back and forth to the litter box with only drops or no urine at all, often crying. Most common in male cats. A blocked cat can die within a day or two, so go straight to a vet.",
-      "color": "denim"
-    },
-    {
-      "title": "Trouble breathing",
-      "body": "Breathing with an open mouth, panting or gasping. Cats do not pant like dogs, so this is always urgent.",
-      "color": "teal"
-    },
-    {
-      "title": "Swallowed string or thread",
-      "body": "String, thread, wool, hair ties or tinsel. If you see a string hanging from the mouth or bottom, never pull it and do not try to make them vomit. Go to a vet.",
-      "color": "green"
-    },
-    {
-      "title": "Swallowed something else",
-      "body": "Toys, needles, plastic or bones. Even if your cat seems fine, call your vet. Watch for vomiting, belly pain and not eating.",
-      "color": "lavender"
-    },
-    {
-      "title": "Vomiting again and again",
-      "body": "Repeated vomiting, especially with weakness, not eating or pale gums.",
-      "color": "pink"
-    },
-    {
-      "title": "Pale or white gums",
-      "body": "Healthy gums are light pink. Pale, white or grey gums can mean blood loss or shock.",
-      "color": "purple"
-    },
-    {
-      "title": "Seizure or collapse",
-      "body": "Shaking fits, falling over, or a cat who is very weak and barely responds to you.",
-      "color": "orange"
-    },
-    {
-      "title": "A fall, accident or fight",
-      "body": "After a fall from height, a car accident or a bad fight, see a vet even if your cat is still walking. Some injuries are inside and cannot be seen.",
-      "color": "sky"
-    },
-    {
-      "title": "Heavy bleeding",
-      "body": "Bleeding that does not stop, from a wound, the mouth, the stool or the urine.",
-      "color": "rose"
-    },
-    {
-      "title": "Ate something poisonous",
-      "body": "Lilies, human medicines, cleaning products or rat poison. Go to the vet even before signs appear, and bring the package or plant with you.",
-      "color": "olive"
-    },
-    {
-      "title": "Heatstroke",
-      "body": "Panting, heavy drooling and a body that feels very hot, especially on hot days or after being shut in a car or room.",
-      "color": "tangerine"
-    },
-    {
-      "title": "Crying in pain",
-      "body": "Screaming or crying when touched, a hunched back, or a cat who suddenly cannot use their back legs.",
-      "color": "coral"
-    }
-  ],
   "ask_title": "Not sure if it is an emergency?",
-  "ask_body": "Message us and tell us what you see. We will help you decide your next step, but if your cat seems in danger, go straight to a vet."
+  "ask_body": "Message us and tell us what you see. We will help you decide your next step, but if your cat seems in danger, go straight to a vet.",
+  "groups": [
+    {
+      "title": "Go to a vet now",
+      "badge": "Emergency",
+      "signs": [
+        {
+          "title": "Swollen ear flap",
+          "body": "A puffy, soft ear flap can be an ear hematoma, a pocket of blood under the skin. It needs a vet to drain or treat it.",
+          "color": "coral"
+        },
+        {
+          "title": "Yellow ears, gums or nose",
+          "body": "A yellow tint on the skin, gums or inside the ears can be jaundice, often a sign of a liver problem or another serious illness.",
+          "color": "sunshine"
+        },
+        {
+          "title": "Blood in the stool",
+          "body": "Blood in their poop, red or very dark, always needs to be checked by a vet.",
+          "color": "rose"
+        },
+        {
+          "title": "Not eating for 2 days",
+          "body": "A cat who stops eating for more than two days can quickly become very ill, especially their liver.",
+          "color": "orange"
+        },
+        {
+          "title": "Hiding and not eating",
+          "body": "Cats hide pain. If your cat is hiding and refusing food, something is wrong.",
+          "color": "purple"
+        },
+        {
+          "title": "Sore or infected eyes",
+          "body": "Never use any eye drops before a vet checks the eye. The wrong drops can damage the eye and even cause blindness.",
+          "color": "sky"
+        },
+        {
+          "title": "Straining but cannot pee",
+          "body": "Going back and forth to the litter box with only drops or no urine at all, often crying. Most common in male cats. A blocked cat can die within a day or two, so go straight to a vet.",
+          "color": "denim"
+        },
+        {
+          "title": "Trouble breathing",
+          "body": "Breathing with an open mouth, panting or gasping. Cats do not pant like dogs, so this is always urgent.",
+          "color": "teal"
+        },
+        {
+          "title": "Swallowed string or thread",
+          "body": "String, thread, wool, hair ties or tinsel. If you see a string hanging from the mouth or bottom, never pull it and do not try to make them vomit. Go to a vet.",
+          "color": "green"
+        },
+        {
+          "title": "Swallowed something else",
+          "body": "Toys, needles, plastic or bones. Even if your cat seems fine, call your vet. Watch for vomiting, belly pain and not eating.",
+          "color": "lavender"
+        },
+        {
+          "title": "Vomiting again and again",
+          "body": "Repeated vomiting, especially with weakness, not eating or pale gums.",
+          "color": "pink"
+        },
+        {
+          "title": "Pale or white gums",
+          "body": "Healthy gums are light pink. Pale, white or grey gums can mean blood loss or shock.",
+          "color": "purple"
+        },
+        {
+          "title": "Seizure or collapse",
+          "body": "Shaking fits, falling over, or a cat who is very weak and barely responds to you.",
+          "color": "orange"
+        },
+        {
+          "title": "A fall, accident or fight",
+          "body": "After a fall from height, a car accident or a bad fight, see a vet even if your cat is still walking. Some injuries are inside and cannot be seen.",
+          "color": "sky"
+        },
+        {
+          "title": "Heavy bleeding",
+          "body": "Bleeding that does not stop, from a wound, the mouth, the stool or the urine.",
+          "color": "rose"
+        },
+        {
+          "title": "Ate something poisonous",
+          "body": "Lilies, human medicines, cleaning products or rat poison. Go to the vet even before signs appear, and bring the package or plant with you.",
+          "color": "olive"
+        },
+        {
+          "title": "Heatstroke",
+          "body": "Panting, heavy drooling and a body that feels very hot, especially on hot days or after being shut in a car or room.",
+          "color": "tangerine"
+        },
+        {
+          "title": "Crying in pain",
+          "body": "Screaming or crying when touched, a hunched back, or a cat who suddenly cannot use their back legs.",
+          "color": "coral"
+        }
+      ]
+    },
+    {
+      "title": "Book a vet visit soon",
+      "badge": "See a vet soon",
+      "signs": [
+        {
+          "title": "Yellow or brown teeth",
+          "body": "Tartar building up on the teeth. A vet can clean them (scaling) before it causes gum problems.",
+          "color": "sunshine"
+        },
+        {
+          "title": "Red, swollen or bleeding gums",
+          "body": "Inflamed gums can be painful and make eating hard.",
+          "color": "rose"
+        },
+        {
+          "title": "Bad breath",
+          "body": "A smelly mouth is often a sign of dental or gum disease, and sometimes of other illness.",
+          "color": "teal"
+        },
+        {
+          "title": "Drinking a lot of water",
+          "body": "A cat who suddenly drinks much more than usual can have kidney problems, diabetes or another illness.",
+          "color": "sky"
+        },
+        {
+          "title": "Losing a lot of fur",
+          "body": "Fur falling out in clumps, or bald patches.",
+          "color": "lavender"
+        },
+        {
+          "title": "Scaly or crusty patches",
+          "body": "White, flaky patches on the skin, especially if they spread to more places. It can be a fungal infection.",
+          "color": "orange"
+        },
+        {
+          "title": "Black dirt in the ears",
+          "body": "Dark, crumbly dirt inside the ears is often ear mites.",
+          "color": "denim"
+        },
+        {
+          "title": "Tiny jumping bugs",
+          "body": "Small bugs moving and jumping in the fur are fleas. The whole home needs treating too.",
+          "color": "green"
+        }
+      ]
+    }
+  ]
 }

@@ -96,7 +96,7 @@ const add = (title, body, where, link, color) => idx.push({ title, body: body ||
   const d = D[k] || {};
   (d.groups || [{ topics: d.topics || [] }]).forEach((g) => (g.topics || []).forEach((t) => add(t.title, t.body, name, t.link, t.color)));
 });
-((D.emergency || {}).signs || []).forEach((t) => add(t.title, t.body, 'When to see a vet', 'emergency.html', t.color));
+((D.emergency || {}).groups || []).forEach((g) => (g.signs || []).forEach((t) => add(t.title, t.body, 'When to see a vet', 'emergency.html', t.color)));
 ((D.breeds || {}).breeds || []).forEach((b) => add(b.name, b.origin, 'Cat breeds · ' + (b.origin || ''), 'breeds.html', 'purple'));
 const words = q.split(/\s+/).filter(Boolean);
 const results = words.length ? idx.filter((r) => { const h = (r.title + ' ' + r.body + ' ' + r.where).toLowerCase(); return words.every((w) => h.includes(w)); }).slice(0, 24) : [];
