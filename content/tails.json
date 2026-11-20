@@ -79,6 +79,46 @@
       "link": "luca.html",
       "color": "mint",
       "species": "cat"
+    },
+    {
+      "name": "Kitkat",
+      "route": "Jordan → Paris, France",
+      "photo": "",
+      "link": "",
+      "color": "coral",
+      "species": "cat"
+    },
+    {
+      "name": "Tooth",
+      "route": "Jordan → Paris, France",
+      "photo": "",
+      "link": "",
+      "color": "sunshine",
+      "species": "cat"
+    },
+    {
+      "name": "Leo",
+      "route": "Jordan → Paris, France",
+      "photo": "",
+      "link": "",
+      "color": "purple",
+      "species": "cat"
+    },
+    {
+      "name": "Luna",
+      "route": "Jordan → Milan, Italy",
+      "photo": "",
+      "link": "",
+      "color": "rose",
+      "species": "cat"
+    },
+    {
+      "name": "Trina",
+      "route": "Jordan → Milan, Italy",
+      "photo": "",
+      "link": "",
+      "color": "aqua",
+      "species": "cat"
     }
   ]
 }
