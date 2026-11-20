@@ -64,6 +64,13 @@
       "icon": "travel.svg",
       "color": "denim",
       "link": ""
+    },
+    {
+      "title": "Workshops",
+      "body": "Learn home-care skills with a vet.",
+      "icon": "workshops.svg",
+      "color": "olive",
+      "link": "workshops.html"
     }
   ]
 }

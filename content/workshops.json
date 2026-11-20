@@ -1,0 +1,36 @@
+{
+  "title": "Workshops",
+  "intro": "Hands-on workshops led by a vet, for rescuers, multi-cat homes and anyone caring for a cat who needs treatment at home. Learn the simple, safe skills that save you trips to the clinic and money.",
+  "why": "Our share of every workshop goes straight to our rescue cats: food, treatment and care.",
+  "note": "Every workshop is taught by a licensed vet. We only teach simple, safe skills for treatments your own vet has prescribed. Anything that needs a vein, like catheters, stays at the clinic.",
+  "workshops": [
+    {
+      "title": "Giving injections at home",
+      "body": "How to give injections under the skin and into the muscle, and how to finish an antibiotic course properly.",
+      "for": "Rescuers and multi-cat homes",
+      "color": "sky"
+    },
+    {
+      "title": "Fluids at home for kidney cats",
+      "body": "Your vet sets up the line at the clinic, and you learn to give the fluids safely at home. A big saving for cats in later stages of kidney disease.",
+      "for": "Owners of cats with kidney failure",
+      "color": "denim"
+    },
+    {
+      "title": "Everyday home care",
+      "body": "Giving pills and eye drops, cleaning eyes and ears, and trimming nails without stress.",
+      "for": "Every cat owner",
+      "color": "teal"
+    },
+    {
+      "title": "Caring for a paralyzed cat",
+      "body": "Expressing the bladder, keeping them clean, diapers, and daily routines that keep them comfortable.",
+      "for": "Owners and fosters of paralyzed cats",
+      "color": "purple"
+    }
+  ],
+  "videos_title": "Homemade recipes",
+  "videos_body": "A video series of homemade treats and meals, reviewed by a veterinary nutritionist. Each recipe will say clearly whether it is a treat or a complete meal, because homemade food is often missing important nutrients for cats.",
+  "ask_title": "Want to join?",
+  "ask_body": "Tell us which workshop you are interested in. Once enough people sign up, we will share the dates, place and price."
+}
