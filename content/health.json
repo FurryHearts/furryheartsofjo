@@ -1,39 +1,39 @@
 {
   "title": "Health & medical",
-  "intro": "Common illnesses and long-term diseases we see in rescues, and how to deal with them.",
+  "intro": "Practical tips for caring at home for cats living with common illnesses and long-term diseases.",
   "ask_title": "Have a question?",
-  "ask_body": "Send us your question about a health problem, and we will add the answers here so they can help others too.",
+  "ask_body": "Caring for a cat with one of these conditions? Send us your question, and we will add the answers here so they can help others too.",
   "groups": [
     {
       "title": "Common illnesses",
       "topics": [
         {
           "title": "Fungal infections",
-          "body": "Treating ringworm safely.",
+          "body": "Cleaning, bathing and protecting your other pets.",
           "link": "",
           "color": "lavender"
         },
         {
           "title": "Allergies",
-          "body": "Itching, sneezing and what may cause them.",
+          "body": "Finding triggers and keeping them comfortable.",
           "link": "",
           "color": "rose"
         },
         {
           "title": "Eye infections",
-          "body": "Cleaning sore, teary or infected eyes.",
+          "body": "Cleaning sore eyes gently at home.",
           "link": "",
           "color": "teal"
         },
         {
           "title": "Cat flu",
-          "body": "Sneezing, runny eyes and a blocked nose.",
+          "body": "Helping them eat, breathe and rest better.",
           "link": "",
           "color": "sky"
         },
         {
           "title": "Vaccines",
-          "body": "Which vaccines cats need, and when.",
+          "body": "What to expect and how to plan visits.",
           "link": "",
           "color": "coral"
         }
@@ -44,35 +44,36 @@
       "topics": [
         {
           "title": "FIP",
-          "body": "Feline infectious peritonitis: signs and treatment.",
+          "body": "Daily care and support during treatment.",
           "link": "",
           "color": "purple"
         },
         {
           "title": "FIV",
-          "body": "A long, happy life with feline immunodeficiency virus.",
+          "body": "A long, happy life with simple daily habits.",
           "link": "",
           "color": "orange"
         },
         {
           "title": "Kidney failure",
-          "body": "Diet, fluids and what to watch for.",
+          "body": "Fluids at home, the right food and keeping clean.",
           "link": "",
           "color": "denim"
         },
         {
           "title": "High liver values",
-          "body": "Understanding liver problems and how to help.",
+          "body": "Feeding, routines and regular blood tests.",
           "link": "",
           "color": "pink"
         },
         {
           "title": "Diabetes",
-          "body": "Insulin, meals and daily routines.",
+          "body": "Tools, food, routines and check-ups at home.",
           "link": "",
           "color": "sunshine"
         }
       ]
     }
-  ]
+  ],
+  "note": "We are not vets, and these guides never replace your vet's advice. After 7 years of rescuing and caring for cats with every kind of condition, we share the practical side: the tools, the food, the daily routines and the small tips that make life at home easier for you and your cat."
 }

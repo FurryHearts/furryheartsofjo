@@ -43,6 +43,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <a href="cat-world.html" style="align-self: flex-start; font-weight: 500; font-size: 16px; color: var(--cocoa, #a38273)">← Cat World</a>
 <h1 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 72px; line-height: 1; text-transform: uppercase; color: var(--cocoa, #a38273); color: var(--peach, #ffb68d)">{{c.title}}</h1>
 <p style="margin: 0; font-size: 18px; line-height: 1.65; color: var(--accent-text, #704f44); text-wrap: balance">{{c.intro}}</p>
+<template data-sc-if="{{c.note}}"><p style="margin: 4px 0 0; padding: 16px 20px; border-radius: 20px; background: var(--cream, #fcf2f0); font-size: 15px; line-height: 1.6; color: var(--accent-text, #704f44); text-wrap: pretty">{{c.note}}</p></template>
 </div>
 <template data-sc-for="{{groups}}" data-as="g">
 <div style="display: flex; flex-direction: column; gap: 20px">
@@ -64,7 +65,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <section style="max-width: 1240px; margin: 0 auto; padding: 24px 32px 96px">
 <div style="border-radius: 28px; padding: 32px 36px; background: var(--cream, #fcf2f0); display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between">
 <div style="display: flex; flex-direction: column; gap: 8px; max-width: 680px"><h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', sans-serif); font-weight: 400; font-size: 44px; line-height: 1.05; text-transform: uppercase; color: var(--peach, #ffb68d)">{{c.ask_title}}</h2><p style="margin: 0; font-size: 18px; line-height: 1.65; color: var(--accent-text, #704f44); text-wrap: balance">{{c.ask_body}}</p></div>
-<a href="{{igMsg}}" data-msg="{{askMsg}}" target="_blank" rel="noopener" style="text-decoration: none; background: var(--teal, #3dcad1); color: #fff; padding: 16px 28px; border-radius: 999px; font-weight: 500; font-size: 17px">Ask us on Instagram</a>
+<a href="{{igMsg}}" data-msg="{{askMsg}}" target="_blank" rel="noopener" style="text-decoration: none; background: var(--peach, #ffb68d); color: #fff; padding: 16px 28px; border-radius: 999px; font-weight: 500; font-size: 17px">Ask us on Instagram</a>
 </div>
 </section>
 <footer class="fhj-footer"><div class="fhj-foot-in"><img class="fhj-foot-logo" src="img/logo-round.png" alt="Furry Hearts of Jordan logo"><p class="fhj-slogan">Rewriting their story,<br>one paw at a time.</p><div class="fhj-foot-info"><span>Amman, Jordan</span><a href="https://www.instagram.com/furryheartsofjordan/" target="_blank" rel="noopener">@furryheartsofjordan</a><a href="https://www.instagram.com/theteefamilyhouse/" target="_blank" rel="noopener">@theteefamilyhouse</a></div></div></footer>
