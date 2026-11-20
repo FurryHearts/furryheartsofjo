@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="fhj-data" content="content/settings.json content/catworld.json content/specialcare.json content/kittencare.json content/health.json content/emergency.json content/breeds.json">
+<meta name="fhj-data" content="content/settings.json content/catworld.json content/specialcare.json content/kittencare.json content/health.json content/surgery.json content/emergency.json content/breeds.json">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Furry Hearts of Jordan — Cat world</title>
 <meta name="description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
@@ -92,7 +92,7 @@ const q = (this.state.q || '').trim().toLowerCase();
 const idx = [];
 const add = (title, body, where, link, color) => idx.push({ title, body: body || '', where, href: link || 'javascript:void(0)', color: F.color(color), soonText: link ? '' : ' · Coming soon' });
 (c.topics || []).forEach((t) => add(t.title, t.body, 'Cat World', t.link, t.color));
-[['specialcare', 'Special needs care', 'special-care.html'], ['kittencare', 'Kitten care', 'kitten-care.html'], ['health', 'Health & medical', 'health.html']].forEach(([k, name]) => {
+[['specialcare', 'Special needs care', 'special-care.html'], ['kittencare', 'Kitten care', 'kitten-care.html'], ['health', 'Health & medical', 'health.html'], ['surgery', 'After surgery', 'surgery.html']].forEach(([k, name]) => {
   const d = D[k] || {};
   (d.groups || [{ topics: d.topics || [] }]).forEach((g) => (g.topics || []).forEach((t) => add(t.title, t.body, name, t.link, t.color)));
 });

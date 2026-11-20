@@ -52,6 +52,13 @@
       "link": "special-care.html"
     },
     {
+      "title": "After surgery",
+      "body": "Healing at home after fractures, spaying and more.",
+      "icon": "surgery.svg",
+      "color": "orchid",
+      "link": "surgery.html"
+    },
+    {
       "title": "Travel papers",
       "body": "What a cat needs to fly to a new home.",
       "icon": "travel.svg",

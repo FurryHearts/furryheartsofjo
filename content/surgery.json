@@ -1,0 +1,61 @@
+{
+  "title": "After surgery",
+  "intro": "How to help your cat heal at home after an operation, from setting up a rest cage to keeping wounds clean.",
+  "note": "We are not vets, and these guides never replace your vet's advice. Always follow your vet's instructions after surgery. We share the practical side we learned caring for our own rescues: how to set up their space, keep wounds clean and help them heal at home.",
+  "groups": [
+    {
+      "title": "Bones & fractures",
+      "topics": [
+        {
+          "title": "Pins and fixators",
+          "body": "Cage rest and keeping pins clean after bone surgery.",
+          "link": "",
+          "color": "denim"
+        },
+        {
+          "title": "Pelvic fractures",
+          "body": "Rest, toileting and moving gently while the hips heal.",
+          "link": "",
+          "color": "teal"
+        },
+        {
+          "title": "Cage rest at home",
+          "body": "Setting up a safe, comfy rest cage.",
+          "link": "",
+          "color": "sky"
+        }
+      ]
+    },
+    {
+      "title": "Other operations",
+      "topics": [
+        {
+          "title": "Spaying (females)",
+          "body": "Rest, the wound and stopping them from licking.",
+          "link": "",
+          "color": "pink"
+        },
+        {
+          "title": "Neutering (males)",
+          "body": "A small operation that still needs care.",
+          "link": "",
+          "color": "orange"
+        },
+        {
+          "title": "Nose surgery",
+          "body": "After widening narrow nostrils.",
+          "link": "",
+          "color": "lavender"
+        },
+        {
+          "title": "Licking the wound",
+          "body": "Cones and body suits to stop licking and bleeding.",
+          "link": "",
+          "color": "rose"
+        }
+      ]
+    }
+  ],
+  "ask_title": "Have a question?",
+  "ask_body": "Caring for a cat after surgery? Send us your question, and we will add the answers here so they can help others too."
+}
