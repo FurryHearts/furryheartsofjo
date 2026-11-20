@@ -29,7 +29,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) left top/22px 22px no-repeat 
 radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat space}
 .stamp>*{position:relative;z-index:1}
 </style>
-<style>html{scroll-behavior:smooth}img{max-width:100%}@media (max-width:720px){h1{font-size:52px!important;width:auto!important;height:auto!important}h2{font-size:38px!important}section,footer{width:auto!important}p{width:auto!important;height:auto!important}}</style>
+<style>html{scroll-behavior:smooth}img{max-width:100%}@media (max-width:720px){h1{font-size:52px!important;width:auto!important;height:auto!important}h2{font-size:38px!important}section,footer{width:auto!important}p{width:auto!important;height:auto!important}}.fhj-steps>*{min-width:0}@media (max-width:1100px){.fhj-steps{grid-template-columns:repeat(3,minmax(0,1fr))!important}}@media (max-width:720px){.fhj-steps{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px!important}.fhj-steps>*{padding:10px!important;gap:4px!important;border-radius:22px!important}.fhj-steps>* span{width:26px!important;height:26px!important;font-size:14px!important;top:8px!important;left:8px!important}.fhj-steps h3{font-size:15px!important}.fhj-steps p{font-size:12px!important;line-height:1.3!important}.fhj-steps img{width:40px!important;height:40px!important}}</style>
 </head>
 <body>
 <template id="dc-root">
@@ -108,12 +108,13 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 52px; text-transform: uppercase; color: var(--cocoa, #a38273)">Give them a second chance</h2>
 <p style="margin: 0; font-size: 18px; line-height: 1.6; color: var(--accent-text, #704f44)">Wherever you are in the world, you can open your home to one of our rescues. One decision from you, and a cat who started life on the streets of Jordan gets a whole new life.</p>
 </div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 22px">
+<div class="fhj-steps" style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 20px">
 <template data-sc-for="{{steps}}" data-as="s">
-<div style="border: 3px solid {{s.color}}; border-radius: 28px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
-<span style="width: 56px; height: 56px; border-radius: 999px; background: {{s.color}}; display: flex; align-items: center; justify-content: center; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-size: 28px; color: var(--paper, #ffffff)">{{s.n}}</span>
-<h3 style="margin: 0; font-size: 22px; font-weight: 500; color: var(--cocoa, #a38273)">{{s.title}}</h3>
-<p style="margin: 0; font-size: 16px; line-height: 1.55; color: var(--accent-text, #704f44)">{{s.body}}</p>
+<div style="aspect-ratio: 1 / 1; position: relative; border: 3px solid {{s.color}}; border-radius: 28px; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 8px">
+<span style="position: absolute; top: 12px; left: 12px; width: 34px; height: 34px; border-radius: 999px; background: {{s.color}}; display: flex; align-items: center; justify-content: center; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-size: 18px; color: var(--paper, #ffffff)">{{s.n}}</span>
+<img src="img/{{s.icon}}" alt="" style="width: 72px; height: 72px; object-fit: contain">
+<h3 style="margin: 0; font-size: 20px; font-weight: 500; color: var(--cocoa, #a38273)">{{s.title}}</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.45; color: var(--accent-text, #704f44)">{{s.body}}</p>
 </div>
 </template>
 </div>
@@ -229,11 +230,11 @@ return {
     copyLabel: this.state.copied === i ? 'Copied ✓' : 'Copy', wa: 'https://ig.me/m/' + ig, msg: 'Hi Furry Hearts of Jordan! I just sent a CliQ donation to ' + c.alias + ' (' + c.title + ') through your website. Here is my screenshot 🐾 (sent from furryheartsofjordan.com)',
     copy: () => { try { navigator.clipboard.writeText(String(c.alias).replace(/\s/g, '')); } catch (e) {} this.setState({ copied: i }); } })),
   steps: [
-    { n: '1', title: 'Fall in love', body: 'Meet our rescues, read their stories and look through their photos, reels and health records.', color: 'var(--sky, #43BDFF)' },
-    { n: '2', title: 'Say hello', body: 'Tap "Apply to adopt" on the one who stole your heart. It opens a chat with Dina, who looks after every Furry Hearts rescue and knows each one by heart.', color: 'var(--orchid, #E86CE8)' },
-    { n: '3', title: 'We prepare the journey', body: 'Once we know it is the right match, we take care of every travel paper: vaccines, microchip, titer test, health certificate and permits.', color: 'var(--sunshine, #FEC200)' },
-    { n: '4', title: 'Time to fly', body: 'Your rescue travels with a kind travel buddy, or with a trusted pet shipping company we work with.', color: 'var(--orange, #FF9D46)' },
-    { n: '5', title: 'Welcome home', body: 'A new life begins. Please keep sending us photos and updates, so we can share their happy tail with everyone who helped.', color: 'var(--green, #4BC939)' }
+    { n: '1', icon: 'step-1.svg', title: 'Fall in love', body: 'Find the rescue who steals your heart.', color: 'var(--sky, #43BDFF)' },
+    { n: '2', icon: 'step-2.svg', title: 'Say hello', body: 'Tap Apply to adopt and chat with us on Instagram.', color: 'var(--orchid, #E86CE8)' },
+    { n: '3', icon: 'step-3.svg', title: 'We get ready', body: 'We prepare all the travel papers.', color: 'var(--sunshine, #FEC200)' },
+    { n: '4', icon: 'step-4.svg', title: 'Time to fly', body: 'With a travel buddy or a pet shipping company.', color: 'var(--orange, #FF9D46)' },
+    { n: '5', icon: 'step-5.svg', title: 'Welcome home', body: 'A new life begins. Send us updates!', color: 'var(--green, #4BC939)' }
   ],
   needs: (S.needs || []).map((n) => ({ label: n.label, color: F.color(n.color) })),
   tails: ((D.tails || {}).tails || []).map((t) => ({ ...t, color: F.color(t.color, 'sky'), link: t.link || '#', hasStory: !!t.link })),
