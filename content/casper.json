@@ -1,0 +1,32 @@
+{
+  "name": "Casper",
+  "route": "Jordan → Milan, Italy",
+  "color": "lavender",
+  "photo": "img/casper.jpg",
+  "intro": "From a cold street corner to a cozy home in Milan.",
+  "before_title": "Where we found him",
+  "before_body": "Casper was alone on the street, his white fur matted and dirty and his eyes sore and teary. He was tired, but he still let us pick him up.",
+  "before_photo": "img/casper-street.jpg",
+  "care_title": "Getting better",
+  "care_body": "His matted fur had to be shaved off, his eyes were cleaned and treated, and little by little he got his strength back.",
+  "care_photos": [
+    {
+      "src": "img/casper-care-1.jpg",
+      "color": "sky"
+    },
+    {
+      "src": "img/casper-care-2.jpg",
+      "color": "sunshine"
+    },
+    {
+      "src": "img/casper-care-3.jpg",
+      "color": "pink"
+    },
+    {
+      "src": "img/casper-care-4.jpg",
+      "color": "teal"
+    }
+  ],
+  "after_title": "Home in Milan",
+  "after_body": "Today Casper lives in Milan, Italy, with soft blankets, a chair of his own and a family who loves him."
+}
