@@ -6,6 +6,20 @@
       "photo": "img/bella-sit.jpg",
       "link": "bella.html",
       "color": "sky"
+    },
+    {
+      "name": "Beige",
+      "route": "Jordan → Czech Republic",
+      "photo": "img/beige-face.jpg",
+      "link": "bella.html",
+      "color": "pink"
+    },
+    {
+      "name": "Aliksa",
+      "route": "Jordan → Czech Republic",
+      "photo": "",
+      "link": "",
+      "color": "orange"
     }
   ]
 }
