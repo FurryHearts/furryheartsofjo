@@ -80,9 +80,12 @@
 
   function render() {
     vals = instance.renderVals();
+    var ae = document.activeElement, fid = ae && ae.id && app.contains(ae) ? ae.id : null, ss = null, se = null;
+    try { if (fid) { ss = ae.selectionStart; se = ae.selectionEnd; } } catch (e) {}
     var frag = document.createDocumentFragment();
     renderInto(tpl.content, vals, frag);
     app.replaceChildren(frag);
+    if (fid) { var nf = document.getElementById(fid); if (nf) { nf.focus(); try { if (ss != null) nf.setSelectionRange(ss, se); } catch (e) {} } }
   }
 
   // Site content (edited in /admin) — loaded before the page draws.
