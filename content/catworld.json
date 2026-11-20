@@ -10,6 +10,13 @@
       "link": "health.html"
     },
     {
+      "title": "When to see a vet",
+      "body": "Emergency signs you should never ignore.",
+      "icon": "emergency.svg",
+      "color": "tangerine",
+      "link": "emergency.html"
+    },
+    {
       "title": "Cat breeds",
       "body": "Get to know different breeds and their personalities.",
       "icon": "breeds-cat.png",

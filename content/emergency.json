@@ -1,0 +1,39 @@
+{
+  "title": "When to see a vet",
+  "intro": "Some signs mean home care is not enough. If you notice any of these, please take your cat to a vet as soon as possible.",
+  "note": "This list comes from our 7 years of rescue experience. It is not a full list, and it never replaces a vet. When in doubt, always call your vet.",
+  "signs": [
+    {
+      "title": "Swollen ear flap",
+      "body": "A puffy, soft ear flap can be an ear hematoma, a pocket of blood under the skin. It needs a vet to drain or treat it.",
+      "color": "coral"
+    },
+    {
+      "title": "Yellow ears, gums or nose",
+      "body": "A yellow tint on the skin, gums or inside the ears can be jaundice, often a sign of a liver problem or another serious illness.",
+      "color": "sunshine"
+    },
+    {
+      "title": "Blood in the stool",
+      "body": "Blood in their poop, red or very dark, always needs to be checked by a vet.",
+      "color": "rose"
+    },
+    {
+      "title": "Not eating for 2 days",
+      "body": "A cat who stops eating for more than two days can quickly become very ill, especially their liver.",
+      "color": "orange"
+    },
+    {
+      "title": "Hiding and not eating",
+      "body": "Cats hide pain. If your cat is hiding and refusing food, something is wrong.",
+      "color": "purple"
+    },
+    {
+      "title": "Sore or infected eyes",
+      "body": "Never use any eye drops before a vet checks the eye. The wrong drops can damage the eye and even cause blindness.",
+      "color": "sky"
+    }
+  ],
+  "ask_title": "Not sure if it is an emergency?",
+  "ask_body": "Message us and tell us what you see. We will help you decide your next step, but if your cat seems in danger, go straight to a vet."
+}
