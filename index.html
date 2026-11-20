@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="fhj-data" content="content/settings.json content/rescues-index.json content/cliq.json content/tails.json">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Furry Hearts of Jordan — Home</title>
+<meta name="description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
+<meta property="og:title" content="Furry Hearts of Jordan — Home">
+<meta property="og:description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
+<meta property="og:image" content="https://furryheartsofjo.org/img/hero.jpg">
+<link rel="icon" href="img/icon-180.png">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&amp;family=Figtree:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+h1,h2{color:var(--cocoa, #A38273)}
+
+strong,b,th,dt,h3{font-weight:500}
+a{color:var(--ink, #2B1E1A)}a:hover{color:var(--accent-text, #B4471F)}
+.stamp{position:relative}
+.stamp::before{content:"";position:absolute;inset:-11px;pointer-events:none;z-index:0;
+background:
+radial-gradient(circle,#fff 8px,transparent 8.6px) left top/22px 22px space no-repeat,
+radial-gradient(circle,#fff 8px,transparent 8.6px) left bottom/22px 22px space no-repeat,
+radial-gradient(circle,#fff 8px,transparent 8.6px) left top/22px 22px no-repeat space,
+radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat space}
+.stamp>*{position:relative;z-index:1}
+.logo-mobile{display:none}
+@media (max-width:720px){.logo-mobile{display:block}.logo-wide{display:none}}
+</style>
+<style>html{scroll-behavior:smooth}img{max-width:100%}@media (max-width:720px){h1{font-size:52px!important;width:auto!important;height:auto!important}h2{font-size:38px!important}section,footer{width:auto!important}p{width:auto!important;height:auto!important}}</style>
+</head>
+<body>
+<template id="dc-root">
+
+<div style="font-family: var(--font-sans, 'GT Walsheim', 'Figtree', system-ui, sans-serif); color: var(--ink, #2B1E1A); background: var(--paper, #FFFFFF); min-height: 100vh; font-weight: 300">
+
+<header style="max-width: 1240px; margin: 0 auto; padding: 20px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; padding-top: 50px">
+<a href="#" aria-label="Furry Hearts of Jordan home" style="display: flex; align-items: center; text-decoration: none">
+<img class="logo-mobile" src="img/logo-round.png" alt="Furry Hearts of Jordan logo" style="width: 64px; height: 64px">
+<img class="logo-wide" src="img/logo-wide.png" alt="Furry Hearts of Jordan — Feeding. Healing. Rehoming" style="width: 260px; height: auto; display: block">
+</a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px; font-weight: 500; font-size: 16px; color: var(--accent-text, #704f44)">
+<a href="#rescues" style="text-decoration: none; color: var(--cocoa, #A38273)">Our Rescues</a>
+<a href="#adopt" style="text-decoration: none; color: var(--cocoa, #A38273)">Adopt Abroad</a>
+<a href="#tails" style="text-decoration: none; color: var(--cocoa, #A38273)">Happy Tails</a>
+<a href="#support" style="text-decoration: none; color: var(--cocoa, #A38273)">Support Us</a>
+<a href="#support" style="text-decoration: none; background: {{accent}}; color: var(--ink, #2B1E1A); padding: 12px 22px; border-radius: 999px; font-weight: 500">Donate</a>
+</nav>
+</header>
+
+<section style="max-width: 1240px; margin: 0 auto; padding: 32px 32px 72px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
+<div style="flex: 1 1 460px; display: flex; flex-direction: column; gap: 24px">
+<p style="margin: 0; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; font-size: 14px; color: var(--tangerine, #ff8049)">Rescue · Heal · Rehome</p>
+<h1 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 76px; line-height: 0.98; text-transform: uppercase; color: var(--cocoa, #a38273); width: 510px; height: 303px">RESCUED IN JORDAN LOVED AROUND THE WORLD.</h1>
+<p style="margin: 0; font-size: 20px; line-height: 1.55; max-width: 520px; color: var(--accent-text, #704f44)">We rescue, treat and care for street cats and dogs in Jordan, then help them travel safely to loving homes abroad.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 14px; color: var(--paper, #ffffff)">
+<a href="#rescues" style="text-decoration: none; background: var(--ink, #2B1E1A); color: var(--paper, #FFFFFF); padding: 16px 28px; border-radius: 999px; font-weight: 500; font-size: 17px">Meet our rescues</a>
+<a href="#support" style="text-decoration: none; background: {{accent}}; color: var(--paper, #FFFFFF); padding: 16px 28px; border-radius: 999px; font-weight: 500; font-size: 17px">Support a rescue</a>
+</div>
+</div>
+<div style="flex: 1 1 460px; background: {{accent}}; padding: 26px; border-radius: 4px; width: 582px; height: 590px; box-sizing: border-box">
+<div class="stamp" style="background: var(--paper, #FFFFFF); padding: 14px; height: 100%; box-sizing: border-box">
+<img src="img/hero.jpg" alt="The founder of Furry Hearts of Jordan hugging a rescued black and white cat wrapped in a pink blanket" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 35%">
+</div>
+</div>
+</section>
+
+<section id="rescues" style="padding: 88px 32px; background-color: var(--cream, #fcf2f0)">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 44px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 52px; text-transform: uppercase; color: var(--cocoa, #a38273)">Waiting for a home</h2>
+<p style="margin: 0; font-size: 18px; color: var(--accent-text, #704f44)">Every rescue has a full profile: health records, personality and travel status.</p>
+</div>
+<a href="rescues.html" style="font-weight: 500; font-size: 17px; color: var(--cocoa, #a38273)">See all rescues →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 36px">
+<template data-sc-for="{{cases}}" data-as="c">
+<a href="{{c.href}}" style="text-decoration: none; background: {{c.color}}; padding: 18px; display: block">
+<div class="stamp" style="background: var(--paper, #FFFFFF); padding: 14px; display: flex; flex-direction: column; gap: 14px">
+<div style="position: relative">
+<template data-sc-if="{{c.photo}}">
+<img src="{{c.photo}}" alt="{{c.name}}" style="display: block; width: 100%; height: 220px; object-fit: cover; object-position: center 25%">
+</template>
+<template data-sc-if="{{c.tint}}">
+<div style="height: 220px; background: {{c.tint}}; display: flex; align-items: center; justify-content: center; font-weight: 500; font-size: 15px">[ Rescue photo ]</div>
+</template>
+<span aria-label="{{c.kind}}" role="img" style="position: absolute; top: 10px; right: 10px; width: 44px; height: 44px; border-radius: 999px; background: {{c.color}}; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 3px var(--paper, #FFFFFF)">
+<template data-sc-if="{{c.isCat}}"><img src="img/cat-icon.png" alt="" aria-hidden="true" style="display: block; width: 28px; height: 28px; object-fit: contain"></template>
+<template data-sc-if="{{c.isDog}}"><img src="img/dog-icon.png" alt="" aria-hidden="true" style="display: block; width: 28px; height: 28px; object-fit: contain"></template>
+</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 8px; color: var(--cocoa, #a38273)">
+<span style="font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-size: 26px; text-transform: uppercase; color: {{c.textColor}}; min-width: 0; overflow-wrap: anywhere">{{c.name}}</span>
+<span style="font-size: 13px; font-weight: 500; background: {{c.color}}; color: var(--paper, #FFFFFF); padding: 5px 10px; border-radius: 999px; background: {{c.statusColor}}; white-space: nowrap">{{c.status}}</span>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--accent-text, #704f44)">{{c.meta}}</p>
+</div>
+</a>
+</template>
+</div>
+</div>
+</section>
+
+<section id="adopt" style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 52px; text-transform: uppercase; color: var(--cocoa, #a38273)">Adopt from anywhere</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: var(--accent-text, #704f44)">The adoption fee isn't a price tag. It covers everything your new family member needs to travel safely and legally to your door.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px">
+<template data-sc-for="{{steps}}" data-as="s">
+<div style="border: 3px solid {{s.color}}; border-radius: 28px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<span style="width: 56px; height: 56px; border-radius: 999px; background: {{s.color}}; display: flex; align-items: center; justify-content: center; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-size: 28px; color: var(--paper, #ffffff)">{{s.n}}</span>
+<h3 style="margin: 0; font-size: 22px; font-weight: 500; color: var(--cocoa, #a38273)">{{s.title}}</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; color: var(--accent-text, #704f44)">{{s.body}}</p>
+</div>
+</template>
+</div>
+<div style="color: var(--paper, #FFFFFF); border-radius: 28px; padding: 32px 36px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; background-color: var(--cocoa, #a38273)">
+<p style="margin: 0; font-size: 18px; line-height: 1.6; max-width: 760px"><strong>Your adoption fee covers:</strong> vaccines, microchip, rabies titer test, spay/neuter, health certificate, export permits, IATA travel crate and flight. [YOUR FEE RANGE]</p>
+<a href="#" style="text-decoration: none; color: var(--cocoa, #a38273); padding: 16px 28px; border-radius: 999px; font-weight: 500; font-size: 17px; background-color: var(--paper, #ffffff)">Apply to adopt</a>
+</div>
+</section>
+
+<section id="support" style="background: {{accent}}; padding: 40px 32px">
+<div class="stamp" style="max-width: 1180px; margin: 0 auto; background: var(--paper, #FFFFFF); padding: 72px 48px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 26px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 60px; line-height: 1.02; text-transform: uppercase; max-width: 900px; color: var(--cocoa, #a38273)">But who supports the rescuer?</h2>
+<p style="margin: 0; font-size: 20px; line-height: 1.6; max-width: 720px; color: var(--accent-text, #704f44)">Food. Water. Litter. Boarding. Medication. Shelter. Rescue doesn't end when treatment ends, and even 5 or 10 JOD helps cover the bills.</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 14px">
+<template data-sc-for="{{needs}}" data-as="n">
+<span style="background: {{n.color}}; padding: 12px 22px; border-radius: 999px; font-weight: 500; font-size: 16px; color: var(--paper, #ffffff)">{{n.label}}</span>
+</template>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; color: var(--accent-text, #704f44)">
+<a href="{{gofundme}}" style="text-decoration: none; background: var(--green, #4BC939); color: var(--paper, #FFFFFF); padding: 18px 32px; border-radius: 999px; font-weight: 500; font-size: 18px">Donate on GoFundMe</a>
+<a href="#cliq" style="text-decoration: none; background: var(--orange, #FF9D46); color: var(--paper, #FFFFFF); padding: 18px 32px; border-radius: 999px; font-weight: 500; font-size: 18px">Donate by CliQ</a>
+<a href="{{paypal}}" style="text-decoration: none; background: var(--sky, #43BDFF); color: var(--paper, #FFFFFF); padding: 18px 32px; border-radius: 999px; font-weight: 500; font-size: 18px">Donate with PayPal</a>
+</div>
+<p style="margin: 0; font-size: 15px; color: var(--accent-text, #704f44)">Donations go directly to clinics &amp; suppliers. Invoices and documentation are available.</p>
+<div style="width: 100%; max-width: 820px; box-sizing: border-box; background: var(--cream, #FCF2F0); border-radius: 28px; padding: 28px 32px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between; text-align: left">
+<div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 6px">
+<strong style="font-size: 20px">Paid by CliQ? Send us your screenshot</strong>
+<span style="font-size: 15px; line-height: 1.55">Pick a CliQ account below. After your transfer, send us the screenshot so we can update the total and track the balance. (GoFundMe and PayPal send an automatic receipt, so no screenshot is needed.)</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<a href="{{igMsg}}" data-msg="{{donateMsg}}" target="_blank" rel="noopener" style="text-decoration: none; background: var(--peach, #FFB68D); color: var(--paper, #FFFFFF); padding: 14px 22px; border-radius: 999px; font-weight: 500; font-size: 16px">Send on Instagram</a>
+<template data-sc-if="{{hasEmail}}"><a href="{{mailto}}" style="text-decoration: none; border: 3px solid var(--peach, #FFB68D); color: var(--peach-deep, #F59668); padding: 11px 20px; border-radius: 999px; font-weight: 500; font-size: 16px">Send by email</a></template>
+</div>
+</div>
+</div>
+</section>
+
+<section id="cliq" style="max-width: 1240px; margin: 0 auto; padding: 96px 32px 24px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 820px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 52px; text-transform: uppercase; color: var(--cocoa, #a38273)">Donate by CliQ</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: var(--accent-text, #704f44); width: 907px; height: 37px">Choose what you want to support. Most transfers go straight to the clinic or supplier, and we post every invoice.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 32px">
+<template data-sc-for="{{cliq}}" data-as="c">
+<article style="border-radius: 28px; overflow: hidden; background: var(--paper, #FFFFFF); box-shadow: 0 0 0 3px {{c.color}} inset; display: flex; flex-direction: column">
+<div style="background: {{c.color}}; padding: 32px 28px 18px">
+<h3 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 34px; line-height: 1.02; text-transform: uppercase; color: #FFFFFF">{{c.title}}</h3>
+</div>
+<div aria-hidden="true" style="height: 16px; background: radial-gradient(circle at 50% 0, {{c.color}} 15px, transparent 15.5px) 0 0 / 32px 16px repeat-x"></div>
+<div style="padding: 12px 28px 28px; display: flex; flex-direction: column; gap: 16px; flex-grow: 1">
+<p style="margin: 0; font-size: 16px; line-height: 1.55; font-weight: 500; color: var(--cocoa, #a38273)">{{c.purpose}}</p>
+<div style="background: {{c.color}}; border-radius: 16px; padding: 16px 18px; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<span style="font-size: 26px; font-weight: 500; letter-spacing: 0.5px; color: var(--paper, #ffffff)">CliQ: {{c.alias}}</span>
+<button type="button" onClick="{{c.copy}}" aria-label="Copy CliQ {{c.alias}}" style="font: inherit; cursor: pointer; font-size: 14px; font-weight: 500; background: var(--paper, #FFFFFF); color: var(--ink, #2B1E1A); border: 0; border-radius: 999px; padding: 10px 14px; white-space: nowrap">{{c.copyLabel}}</button>
+</div>
+<span style="font-size: 14px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; color: var(--cocoa, #a38273)">{{c.name}}</span>
+<p lang="ar" dir="rtl" style="margin: 0; font-size: 15px; line-height: 1.7; color: var(--cocoa, #a38273)">يرجى إرسال صورة عن تحويل التبرع حتى أتمكن من تحديث المجموع ومتابعة الرصيد المتبقي.</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--cocoa, #a38273)">Please share a screenshot of your donation so we can track the balance.</p>
+<a href="{{c.wa}}" data-msg="{{c.msg}}" target="_blank" rel="noopener" style="margin-top: auto; text-decoration: none; text-align: center; color: var(--paper, #FFFFFF); padding: 14px; border-radius: 999px; font-weight: 500; font-size: 16px; background-color: {{c.color}}; display: grid">Send screenshot on Instagram</a>
+</div>
+</article>
+</template>
+</div>
+</section>
+
+<section id="tails" style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 36px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 52px; text-transform: uppercase; color: var(--cocoa, #a38273)">Happy tails</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px">
+<template data-sc-for="{{tails}}" data-as="t">
+<a href="{{t.link}}" style="text-decoration: none; display: flex; flex-direction: column; gap: 14px">
+<img src="{{t.photo}}" alt="{{t.name}} in their new home" style="display: block; width: 100%; height: 300px; object-fit: cover; object-position: center 30%; border-radius: 28px; box-shadow: 0 0 0 4px {{t.color}}">
+<span style="font-size: 16px; line-height: 1.5; color: var(--accent-text, #704f44)"><strong style="color: {{t.color}}">{{t.name}}</strong> · {{t.route}}</span>
+<template data-sc-if="{{t.hasStory}}"><span style="font-size: 15px; font-weight: 500; color: var(--cocoa, #a38273)">Read the story →</span></template>
+</a>
+</template>
+</div>
+</section>
+
+<footer style="color: var(--paper, #FFFFFF); padding: 56px 32px; background-color: var(--cocoa, #a38273)">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 28px">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="img/logo-round.png" alt="Furry Hearts of Jordan logo" style="width: 120px; height: 120px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-size: 22px">Furry Hearts of Jordan</span>
+<span style="font-size: 15px">{{city}} · <a href="{{igProfile}}" style="color: var(--paper, #FFFFFF)">@{{igUser}}</a></span>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; max-width: 420px; line-height: 1.6">Help with transport. Foster. Donate. Adopt. Share. Don't just send us the problem, be part of the solution.</p>
+</div>
+</footer>
+</div>
+</template>
+<div id="dc-app"></div>
+<noscript><p style="padding:40px;font-family:sans-serif">Please turn on JavaScript to see this page.</p></noscript>
+<script type="text/x-dc">
+class Component extends DCLogic {
+constructor(props) { super(props); this.state = { copied: -1 }; }
+renderVals() {
+const F = window.FHJ, D = F.data, S = D.settings || {};
+const ig = S.instagram_user || '';
+const card = (r) => ({
+  name: r.name, status: F.statusLabel(r.status), href: 'rescue.html#' + r.slug,
+  meta: F.meta(r),
+  color: F.cardColor(r), textColor: F.solid(r), statusColor: F.status(r.status),
+  photo: (r.photos && r.photos[0] && r.photos[0].image) || '', tint: (r.photos && r.photos.length) ? '' : F.cardColor(r),
+  isDog: r.species === 'Dog', isCat: r.species !== 'Dog', kind: r.species || 'Cat'
+});
+const rescues = ((D['rescues-index'] || {}).rescues || []);
+return {
+  accent: 'var(--peach, #FFB68D)',
+  cases: rescues.filter((r) => r.featured).sort((a, b) => String(a.name).localeCompare(String(b.name))).slice(0, 4).map(card),
+  cliq: ((D.cliq || {}).accounts || []).map((c, i) => ({ ...c, color: F.color(c.color),
+    copyLabel: this.state.copied === i ? 'Copied ✓' : 'Copy', wa: 'https://ig.me/m/' + ig, msg: 'Hi Furry Hearts of Jordan! I just sent a CliQ donation to ' + c.alias + ' (' + c.title + ') through your website. Here is my screenshot 🐾 (sent from furryheartsofjo.org)',
+    copy: () => { try { navigator.clipboard.writeText(String(c.alias).replace(/\s/g, '')); } catch (e) {} this.setState({ copied: i }); } })),
+  steps: [
+    { n: '1', title: 'Fall in love', body: 'Browse full profiles with photos, videos and health records.', color: 'var(--sky, #43BDFF)' },
+    { n: '2', title: 'Apply', body: 'Fill in a short application and we video-call to get to know you.', color: 'var(--orchid, #E86CE8)' },
+    { n: '3', title: 'Travel papers', body: 'We handle vet checks, permits and every document for your country.', color: 'var(--sunshine, #FEC200)' },
+    { n: '4', title: 'Welcome home', body: 'Your rescue flies to you with a volunteer or as cargo, safely.', color: 'var(--green, #4BC939)' }
+  ],
+  needs: (S.needs || []).map((n) => ({ label: n.label, color: F.color(n.color) })),
+  tails: ((D.tails || {}).tails || []).map((t) => ({ ...t, color: F.color(t.color, 'sky'), link: t.link || '#', hasStory: !!t.link })),
+  gofundme: S.gofundme_url || '#', paypal: S.paypal_url || '#',
+  igMsg: 'https://ig.me/m/' + ig, donateMsg: 'Hi Furry Hearts of Jordan! I just donated by CliQ through your website. Here is my screenshot 🐾 (sent from furryheartsofjo.org)', igProfile: 'https://www.instagram.com/' + ig + '/', igUser: ig,
+  hasEmail: !!S.donation_email, mailto: 'mailto:' + (S.donation_email || '') + '?subject=My%20CliQ%20transfer',
+  city: S.city || 'Amman, Jordan'
+};
+}
+}
+</script>
+<script src="js/dc-runtime.js"></script>
+</body>
+</html>

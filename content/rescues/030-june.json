@@ -1,0 +1,31 @@
+{
+  "name": "June",
+  "number": 30,
+  "order": 30,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "sunshine",
+  "condition": "Problem with her shoulder",
+  "tags": [
+    "Special needs"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "30",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="fhj-data" content="content/settings.json content/rescues-index.json">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Furry Hearts of Jordan — Waiting for a home</title>
+<meta name="description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
+<meta property="og:title" content="Furry Hearts of Jordan — Waiting for a home">
+<meta property="og:description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
+<meta property="og:image" content="https://furryheartsofjo.org/img/hero.jpg">
+<link rel="icon" href="img/icon-180.png">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&amp;family=Figtree:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+h1,h2{color:var(--cocoa, #A38273)}
+strong,b,th,dt,h3{font-weight:500}
+a{color:var(--ink, #704F44)}a:hover{color:var(--accent-text, #704F44)}
+.stamp{position:relative}
+.stamp::before{content:"";position:absolute;inset:-11px;pointer-events:none;z-index:0;
+background:
+radial-gradient(circle,#fff 8px,transparent 8.6px) left top/22px 22px space no-repeat,
+radial-gradient(circle,#fff 8px,transparent 8.6px) left bottom/22px 22px space no-repeat,
+radial-gradient(circle,#fff 8px,transparent 8.6px) left top/22px 22px no-repeat space,
+radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat space}
+.stamp>*{position:relative;z-index:1}
+.logo-mobile{display:none}
+@media (max-width:720px){.logo-mobile{display:block}.logo-wide{display:none}}
+</style>
+<style>html{scroll-behavior:smooth}img{max-width:100%}@media (max-width:720px){h1{font-size:52px!important;width:auto!important;height:auto!important}h2{font-size:38px!important}section,footer{width:auto!important}p{width:auto!important;height:auto!important}}</style>
+</head>
+<body>
+<template id="dc-root">
+
+<div style="font-family: var(--font-sans, 'GT Walsheim', 'Figtree', system-ui, sans-serif); color: var(--ink, #704F44); background: var(--paper, #FFFFFF); min-height: 100vh; font-weight: 300">
+
+<header style="max-width: 1240px; margin: 0 auto; padding: 20px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; padding-top: 50px">
+<a href="index.html" aria-label="Furry Hearts of Jordan home" style="display: flex; align-items: center; text-decoration: none">
+<img class="logo-mobile" src="img/logo-round.png" alt="Furry Hearts of Jordan logo" style="width: 64px; height: 64px">
+<img class="logo-wide" src="img/logo-wide.png" alt="Furry Hearts of Jordan — Feeding. Healing. Rehoming" style="width: 260px; height: auto; display: block">
+</a>
+<a href="index.html" style="font-weight: 500; font-size: 16px; color: var(--cocoa, #A38273)">← Home</a>
+</header>
+
+<section style="max-width: 1240px; margin: 0 auto; padding: 40px 32px 32px; display: flex; flex-direction: column; gap: 18px">
+<h1 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 76px; line-height: 0.98; text-transform: uppercase">Our rescue family</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; max-width: 680px; color: var(--accent-text, #704F44)">Every cat we have rescued, treated and loved: the ones waiting for a home, the ones who live with us, the ones who flew to new families, and the ones we lost. Tap a card to meet them.</p>
+</section>
+
+<section aria-label="Filters" style="max-width: 1240px; margin: 0 auto; padding: 8px 32px 40px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between">
+<div role="group" aria-label="Species" style="display: flex; flex-wrap: wrap; gap: 10px">
+<template data-sc-for="{{speciesBtns}}" data-as="b">
+<button type="button" aria-pressed="{{b.pressed}}" onClick="{{b.pick}}" style="font: inherit; cursor: pointer; font-weight: 500; font-size: 16px; padding: 12px 22px; border-radius: 999px; border: 3px solid {{b.color}}; background: {{b.bg}}; color: {{b.fg}}">{{b.label}}</button>
+</template>
+</div>
+<div role="group" aria-label="Status" style="display: flex; flex-wrap: wrap; gap: 10px">
+<template data-sc-for="{{statusBtns}}" data-as="b">
+<button type="button" aria-pressed="{{b.pressed}}" onClick="{{b.pick}}" style="font: inherit; cursor: pointer; font-weight: 500; font-size: 15px; padding: 10px 18px; border-radius: 999px; border: 3px solid {{b.color}}; background: {{b.bg}}; color: {{b.fg}}">{{b.label}}</button>
+</template>
+</div>
+<template data-sc-if="{{showCountOnly}}"><span style="width: 100%; font-size: 15px; color: var(--cocoa)">{{countLabel}}</span></template>
+<template data-sc-if="{{showAvail}}"><div role="group" aria-label="Available" style="display: flex; flex-wrap: wrap; gap: 10px; width: 100%">
+<template data-sc-for="{{availBtns}}" data-as="b">
+<button type="button" aria-pressed="{{b.pressed}}" onClick="{{b.pick}}" style="font: inherit; cursor: pointer; font-weight: 500; font-size: 15px; padding: 10px 18px; border-radius: 999px; border: 3px solid {{b.color}}; background: {{b.bg}}; color: {{b.fg}}">{{b.label}}</button>
+</template>
+<span style="align-self: center; margin-left: auto; font-size: 15px; color: var(--cocoa)">{{countLabel}}</span>
+</div></template>
+<template data-sc-if="{{showTags}}"><div role="group" aria-label="Group" style="display: flex; flex-wrap: wrap; gap: 10px; width: 100%">
+<template data-sc-for="{{tagBtns}}" data-as="b">
+<button type="button" aria-pressed="{{b.pressed}}" onClick="{{b.pick}}" style="font: inherit; cursor: pointer; font-weight: 500; font-size: 15px; padding: 10px 18px; border-radius: 999px; border: 3px solid {{b.color}}; background: {{b.bg}}; color: {{b.fg}}">{{b.label}}</button>
+</template>
+<span style="align-self: center; margin-left: auto; font-size: 15px; color: var(--cocoa)">{{countLabel}}</span>
+</div></template>
+</section>
+
+<section style="max-width: 1240px; margin: 0 auto; padding: 0 32px 96px">
+<div style="display: flex; flex-direction: column; gap: 40px">
+<template data-sc-for="{{groups}}" data-as="g">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<template data-sc-if="{{g.label}}"><span style="font-weight: 500; font-size: 16px; color: {{g.color}}">{{g.label}}</span></template>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax({{g.min}}, 1fr)); gap: 36px">
+<template data-sc-for="{{g.cards}}" data-as="c">
+<a href="{{c.href}}" style="text-decoration: none; background: {{c.color}}; padding: 18px; display: block">
+<div class="stamp" style="background: var(--paper, #FFFFFF); padding: 14px; display: flex; flex-direction: column; gap: 14px">
+<div style="position: relative">
+<template data-sc-if="{{c.hasPhoto}}">
+<img src="{{c.photo}}" alt="{{c.name}}" style="display: block; width: 100%; height: 220px; object-fit: cover; object-position: {{c.pos}}">
+</template>
+<template data-sc-if="{{c.noPhoto}}">
+<div style="height: 220px; background: {{c.tint}}; display: flex; align-items: center; justify-content: center; font-weight: 500; font-size: 15px; color: var(--paper, #FFFFFF)"><img src="img/{{c.icon}}" alt="" style="width: 84px; height: 84px; opacity: 0.9"></div>
+</template>
+<span aria-label="{{c.kind}}" role="img" style="position: absolute; top: 10px; right: 10px; width: 44px; height: 44px; border-radius: 999px; background: {{c.color}}; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 3px var(--paper, #FFFFFF)">
+<template data-sc-if="{{c.isCat}}"><img src="img/cat-icon.png" alt="" aria-hidden="true" style="display: block; width: 28px; height: 28px; object-fit: contain"></template>
+<template data-sc-if="{{c.isDog}}"><img src="img/dog-icon.png" alt="" aria-hidden="true" style="display: block; width: 28px; height: 28px; object-fit: contain"></template>
+</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 8px">
+<span style="font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-size: 26px; text-transform: uppercase; color: {{c.textColor}}; min-width: 0; overflow-wrap: anywhere">{{c.name}}</span>
+<span style="font-size: 13px; font-weight: 500; color: var(--paper, #FFFFFF); padding: 5px 10px; border-radius: 999px; white-space: nowrap; background: {{c.statusColor}}">{{c.status}}</span>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--accent-text, #704F44)">{{c.meta}}</p>
+</div>
+</a>
+</template>
+</div>
+</div>
+</template>
+</div>
+<template data-sc-if="{{empty}}">
+<p style="margin: 40px 0 0; font-size: 18px; text-align: center; color: var(--cocoa, #A38273)">No rescues match these filters right now.</p>
+</template>
+</section>
+
+<section style="max-width: 1240px; margin: 0 auto 96px; padding: 0 32px">
+<div style="background: var(--peach, #FFB68D); padding: 22px">
+<div class="stamp" style="background: var(--paper, #FFFFFF); padding: 48px; display: flex; flex-wrap: wrap; gap: 28px; align-items: center; justify-content: space-between">
+<div style="flex: 1 1 460px; display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 44px; line-height: 1.02; text-transform: uppercase">Can't adopt? You can still help</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: var(--accent-text, #704F44)">Foster, help with transport, donate or share a rescue's story. It might reach their family.</p>
+</div>
+<a href="index.html#cliq" style="text-decoration: none; color: var(--paper, #FFFFFF); padding: 17px 30px; border-radius: 999px; font-weight: 500; font-size: 17px; background-color: var(--peach-deep, #f59668)">Ways to donate</a>
+</div>
+</div>
+</section>
+
+<footer style="color: var(--paper, #FFFFFF); padding: 48px 32px; background-color: var(--cocoa, #a38273)">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 24px; font-size: 15px">
+<img src="img/logo-round.png" alt="Furry Hearts of Jordan logo" style="width: 120px; height: 120px">
+<span>Help with transport. Foster. Donate. Adopt. Share.</span>
+</div>
+</footer>
+</div>
+</template>
+<div id="dc-app"></div>
+<noscript><p style="padding:40px;font-family:sans-serif">Please turn on JavaScript to see this page.</p></noscript>
+<script type="text/x-dc">
+class Component extends DCLogic {
+constructor(props) { super(props); this.state = { species: 'cat', status: 'Available', tag: 'all', avail: 'all' }; }
+renderVals() {
+const F = window.FHJ, all = ((F.data['rescues-index'] || {}).rescues || []);
+const sp = this.state.species, st = this.state.status, isAvail = st === 'Available', noTags = isAvail || ['Missing', 'Adopted', 'Reserved', 'Soon traveling', 'In treatment', 'Passed away'].indexOf(st) >= 0, tg = noTags ? 'all' : this.state.tag, av = isAvail ? this.state.avail : 'all';
+const ageOk = (x) => { if (av === 'all') return true; if (av === 'sn') return (x.tags || []).indexOf('Special needs') >= 0; const m = F.ageMonths(x); if (m === null) return false; return av === 'kitten' ? m < 12 : m >= 12; };
+const shown = all.slice().sort((a, b) => String(a.name).localeCompare(String(b.name)) || (a.number || 0) - (b.number || 0)).filter((x) => (sp === 'all' || (x.species || 'Cat').toLowerCase() === sp) && (st === 'all' || x.status === st) && (tg === 'all' || (x.tags || []).indexOf(tg) >= 0) && ageOk(x))
+.map((x) => { const photo = (x.photos && x.photos[0] && x.photos[0].image) || ''; const dog = x.species === 'Dog'; return {
+  name: x.name, slug: x.slug, href: 'rescue.html#' + x.slug, status: F.statusLabel(x.status), isDog: dog, isCat: !dog, kind: x.species || 'Cat',
+  meta: F.meta(x), color: F.cardColor(x), textColor: F.solid(x), statusColor: F.status(x.status), tint: F.cardColor(x), icon: dog ? 'dog-icon.png' : 'cat-icon.png',
+  photo: photo, pos: 'center 30%', hasPhoto: !!photo, noPhoto: !photo }; });
+const btn = (label, active, color, pick) => ({ label, pressed: active ? 'true' : 'false', color, bg: active ? color : 'var(--paper, #FFFFFF)', fg: active ? 'var(--paper, #FFFFFF)' : color, pick });
+const S = (label, id, color) => btn(label, st === id, color, () => this.setState({ status: id, tag: 'all', avail: 'all' }));
+const T = (label, id, color) => btn(label, tg === id, color, () => this.setState({ tag: id }));
+return {
+  shown, groups: (() => {
+    if (tg !== 'Siblings') return [{ label: '', color: '', min: '260px', cards: shown }];
+    const map = {}, order = [];
+    shown.forEach((c) => { const x = all.find((y) => y.slug === c.slug) || {}; const names = [x.name].concat(String(x.family || '').replace(/^Sibling of /, '').split(',').map((n) => n.trim()).filter(Boolean)); const key = names.slice().sort().join('|'); if (!map[key]) { map[key] = []; order.push(key); } map[key].push(c); });
+    return order.map((k) => ({ label: map[k].map((c) => c.name).join(' & ').replace(/ & (?=.* & )/g, ', '), color: map[k][0].textColor, min: '260px', cards: map[k] }));
+  })(), empty: shown.length === 0, showTags: !noTags, showAvail: isAvail, showCountOnly: noTags && !isAvail,
+  availBtns: [['Everyone', 'all', 'var(--pink)'], [sp === 'dog' ? 'Puppies (under 1 year)' : 'Kittens (under 1 year)', 'kitten', 'var(--pink)'], [sp === 'dog' ? 'Adult dogs (1 year+)' : 'Adult cats (1 year+)', 'adult', 'var(--pink)'], ['Special needs', 'sn', 'var(--pink)']].map((a) => btn(a[0], av === a[1], a[2], () => this.setState({ avail: a[1] }))), countLabel: shown.length + ' ' + (sp === 'dog' ? (shown.length === 1 ? 'dog' : 'dogs') : (shown.length === 1 ? 'cat' : 'cats')),
+  speciesBtns: [btn('Cats', sp === 'cat', 'var(--sky)', () => this.setState({ species: 'cat' })), btn('Dogs', sp === 'dog', 'var(--orchid)', () => this.setState({ species: 'dog' }))],
+  statusBtns: [S('Available', 'Available', 'var(--pink)'), S('Lives with us', 'Lives with us', 'var(--sky)'), S('In treatment', 'In treatment', 'var(--sunshine)'), S('Reserved', 'Reserved', 'var(--orange)'), S('Soon traveling', 'Soon traveling', 'var(--purple)'), S('Adopted', 'Adopted', 'var(--green)'), S('Missing', 'Missing', '#B8B2B0'), Object.assign(S('In loving memory', 'Passed away', F.memoryRainbow() ? 'transparent' : '#1E1A19'), F.memoryRainbow() ? { bg: st === 'Passed away' ? F.RAINBOW + ' padding-box, ' + F.RAINBOW + ' border-box' : 'linear-gradient(#fff, #fff) padding-box, ' + F.RAINBOW + ' border-box', fg: st === 'Passed away' ? '#fff' : '#B87FD9' } : {})],
+  tagBtns: [T('Everyone', 'all', 'var(--cocoa)'), T('Special needs', 'Special needs', 'var(--tangerine)'), T('Rescued as kittens', 'Rescued as a kitten', 'var(--purple)'), T('Mothers', 'Mother', 'var(--rose)'), T('Siblings', 'Siblings', 'var(--teal)'), T('Outdoor cats', 'Outdoor cat', 'var(--denim)')]
+};
+}
+}
+</script>
+<script src="js/dc-runtime.js"></script>
+</body>
+</html>

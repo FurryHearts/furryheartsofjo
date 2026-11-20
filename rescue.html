@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="fhj-data" content="content/settings.json content/rescues-index.json content/care.json">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Furry Hearts of Jordan — {{name}}'s rescue file</title>
+<meta name="description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
+<meta property="og:title" content="Furry Hearts of Jordan — {{name}}'s rescue file">
+<meta property="og:description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
+<meta property="og:image" content="https://furryheartsofjo.org/img/hero.jpg">
+<link rel="icon" href="img/icon-180.png">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&amp;family=Figtree:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+h1,h2{color:var(--cocoa, #A38273)}
+
+strong,b,th,dt,h3{font-weight:500}
+a{color:var(--ink, #2B1E1A)}a:hover{color:var(--accent-text, #B4471F)}
+.stamp{position:relative}
+.stamp::before{content:"";position:absolute;inset:-11px;pointer-events:none;z-index:0;
+background:
+radial-gradient(circle,#fff 8px,transparent 8.6px) left top/22px 22px space no-repeat,
+radial-gradient(circle,#fff 8px,transparent 8.6px) left bottom/22px 22px space no-repeat,
+radial-gradient(circle,#fff 8px,transparent 8.6px) left top/22px 22px no-repeat space,
+radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat space}
+.stamp>*{position:relative;z-index:1}
+.logo-mobile{display:none}
+@media (max-width:720px){.logo-mobile{display:block}.logo-wide{display:none}}
+</style>
+<style>html{scroll-behavior:smooth}img{max-width:100%}@media (max-width:720px){h1{font-size:52px!important;width:auto!important;height:auto!important}h2{font-size:38px!important}section,footer{width:auto!important}p{width:auto!important;height:auto!important}}</style>
+</head>
+<body>
+<template id="dc-root">
+
+<div style="font-family: var(--font-sans, 'GT Walsheim', 'Figtree', system-ui, sans-serif); color: var(--ink, #2B1E1A); background: var(--paper, #FFFFFF); min-height: 100vh; font-weight: 300">
+
+<header style="max-width: 1240px; margin: 0 auto; padding: 20px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; padding-top: 50px">
+<a href="index.html" aria-label="Furry Hearts of Jordan home" style="display: flex; align-items: center; text-decoration: none">
+<img class="logo-mobile" src="img/logo-round.png" alt="Furry Hearts of Jordan logo" style="width: 56px; height: 56px">
+<img class="logo-wide" src="img/logo-wide.png" alt="Furry Hearts of Jordan — Feeding. Healing. Rehoming" style="width: 260px; height: auto; display: block">
+</a>
+<a href="index.html" style="font-weight: 500; font-size: 16px">← All rescues</a>
+</header>
+
+<section style="max-width: 1240px; margin: 0 auto; padding: 24px 32px 56px; display: flex; flex-wrap: wrap; gap: 56px">
+<div style="flex: 1 1 520px; display: flex; flex-direction: column; gap: 18px">
+<div style="background: {{color}}; padding: 22px">
+<div class="stamp" style="background: var(--paper, #FFFFFF); padding: 12px">
+<template data-sc-if="{{mainSrc}}">
+<img src="{{mainSrc}}" alt="{{mainLabel}}" style="display: block; width: 100%; height: 500px; object-fit: cover; object-position: center 30%">
+</template>
+<template data-sc-if="{{mainEmpty}}">
+<div style="height: 500px; background: var(--cream, #FCF2F0); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; font-weight: 500; font-size: 17px">
+<span>📷</span>
+<span style="font-size: 14px; font-weight: 500">Photos coming soon</span>
+</div>
+</template>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px">
+<template data-sc-for="{{photos}}" data-as="p">
+<button type="button" onClick="{{p.pick}}" aria-label="Show {{p.label}}" style="font: inherit; cursor: pointer; height: 84px; border-radius: 14px; background: var(--cream, #FCF2F0); border: {{p.border}}; font-size: 12px; font-weight: 500; color: var(--ink, #2B1E1A); padding: 4px; overflow: hidden"><template data-sc-if="{{p.src}}"><img src="{{p.src}}" alt="" style="display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 10px"></template><template data-sc-if="{{p.empty}}"><span>{{p.short}}</span></template></button>
+</template>
+</div>
+</div>
+
+<div style="flex: 1 1 440px; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<span style="background: {{statusColor}}; color: var(--paper, #FFFFFF); padding: 7px 14px; border-radius: 999px; font-weight: 500; font-size: 14px">{{status}}</span>
+<template data-sc-if="{{canFly}}"><span style="background: var(--sunshine, #FEC200); color: var(--paper, #FFFFFF); padding: 7px 14px; border-radius: 999px; font-weight: 500; font-size: 14px">Can fly worldwide</span></template>
+<template data-sc-if="{{caseNo}}"><span style="background: var(--pink-light, #FFA9DC); color: var(--paper, #FFFFFF); padding: 7px 14px; border-radius: 999px; font-weight: 500; font-size: 14px">Case #{{caseNo}}</span></template>
+</div>
+<h1 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 84px; line-height: 0.95; text-transform: uppercase">{{name}}</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6">{{story}}</p>
+<dl style="margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border: 3px solid {{colorSolid}}; border-radius: 24px; overflow: hidden">
+<template data-sc-for="{{facts}}" data-as="f">
+<div style="padding: 14px 20px; border-bottom: 1px solid var(--sky-light, #A9E5FF); display: flex; flex-direction: column; gap: 4px">
+<dt style="font-size: 13px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase">{{f.k}}</dt>
+<dd style="margin: 0; font-size: 17px; font-weight: 500">{{f.v}}</dd>
+</div>
+</template>
+</dl>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<template data-sc-if="{{ctaHref}}"><a href="{{ctaHref}}" data-msg="{{ctaMsg}}" target="_blank" rel="noopener" style="text-decoration: none; background: {{ctaBg}}; color: var(--paper, #FFFFFF); padding: 17px 30px; border-radius: 999px; font-weight: 500; font-size: 17px">{{ctaLabel}}</a></template><template data-sc-if="{{ctaText}}"><span style="background: {{ctaBg}}; color: var(--paper, #FFFFFF); padding: 17px 30px; border-radius: 999px; font-weight: 500; font-size: 17px">{{ctaLabel}}</span></template>
+</div>
+</div>
+</section>
+
+<section style="background: var(--cream, #FCF2F0); padding: 64px 32px 88px">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 48px; text-transform: uppercase; color: var(--cocoa, #a38273)">{{name}}'s file</h2>
+<p style="margin: 0; font-size: 16px; max-width: 460px; line-height: 1.5">Everything about this rescue, out in the open: their journey, vet results, every clinic receipt and their travel costs.</p>
+</div>
+<div role="tablist" aria-label="Rescue file sections" style="display: flex; flex-wrap: wrap; gap: 10px">
+<template data-sc-for="{{tabs}}" data-as="t">
+<button type="button" role="tab" aria-selected="{{t.selected}}" onClick="{{t.pick}}" style="font: inherit; cursor: pointer; font-weight: 500; font-size: 16px; padding: 14px 24px; border-radius: 999px; border: 3px solid var(--ink, #2B1E1A); background: {{t.bg}}; color: {{t.fg}}; border-color: var(--peach-deep, #f59668)">{{t.label}}</button>
+</template>
+</div>
+
+<template data-sc-if="{{isReels}}">
+<div role="tabpanel" style="display: flex; flex-direction: column; gap: 28px">
+<div style="background: var(--paper, #FFFFFF); border-radius: 28px; padding: 24px 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px">
+<div style="display: flex; align-items: center; gap: 16px">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--ink, #2B1E1A)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.6" fill="var(--ink, #2B1E1A)"></circle></svg>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<strong style="font-size: 18px">Follow {{name}}'s journey on Instagram</strong>
+<span style="font-size: 15px">Rescue day, recovery and daily life, told in reels.</span>
+</div>
+</div>
+<a href="{{igProfile}}" style="text-decoration: none; background: var(--ink, #2B1E1A); color: var(--paper, #FFFFFF); padding: 14px 24px; border-radius: 999px; font-weight: 500; font-size: 16px">Open @{{igUser}} ↗</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px">
+<template data-sc-for="{{reels}}" data-as="r">
+<a href="{{r.url}}" target="_blank" rel="noopener" style="text-decoration: none; display: flex; flex-direction: column; gap: 12px">
+<div style="aspect-ratio: 9 / 16; border-radius: 24px; background: {{r.tint}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; font-weight: 500; font-size: 14px">
+<span style="width: 64px; height: 64px; border-radius: 999px; background: var(--paper, #FFFFFF); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="var(--ink, #2B1E1A)" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span>
+<span>Reel</span>
+</div>
+<span style="font-size: 13px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase">{{r.when}}</span>
+<span style="font-size: 17px; font-weight: 500; line-height: 1.35">{{r.title}}</span>
+<span style="font-size: 15px; font-weight: 500; text-decoration: underline">Watch on Instagram ↗</span>
+</a>
+</template>
+</div>
+</div>
+</template>
+
+<template data-sc-if="{{isMedical}}">
+<div role="tabpanel" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 22px">
+<template data-sc-for="{{tests}}" data-as="x">
+<div style="background: var(--paper, #FFFFFF); border-radius: 24px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px">
+<strong style="font-size: 19px; line-height: 1.3">{{x.name}}</strong>
+<span style="background: {{x.pill}}; padding: 5px 12px; border-radius: 999px; font-weight: 500; font-size: 13px; white-space: nowrap">{{x.result}}</span>
+</div>
+<span style="font-size: 15px">{{x.date}} · {{x.clinic}}</span>
+<template data-sc-if="{{x.file}}"><a href="{{x.file}}" target="_blank" rel="noopener" style="font-weight: 500; font-size: 15px">View full report ↗</a></template>
+</div>
+</template>
+</div>
+</template>
+
+<template data-sc-if="{{isReceipts}}">
+<div role="tabpanel" style="display: flex; flex-direction: column; gap: 22px">
+<div style="background: var(--paper, #FFFFFF); border-radius: 28px; padding: 8px 28px; overflow-x: auto">
+<table style="width: 100%; min-width: 720px; border-collapse: collapse; font-size: 16px">
+<thead>
+<tr style="text-align: left; font-size: 13px; letter-spacing: 1px; text-transform: uppercase">
+<th style="padding: 18px 8px; border-bottom: 2px solid var(--ink, #2B1E1A)">Date</th>
+<th style="padding: 18px 8px; border-bottom: 2px solid var(--ink, #2B1E1A)">Clinic / supplier</th>
+<th style="padding: 18px 8px; border-bottom: 2px solid var(--ink, #2B1E1A)">For</th>
+<th style="padding: 18px 8px; border-bottom: 2px solid var(--ink, #2B1E1A); text-align: right">Amount</th>
+<th style="padding: 18px 8px; border-bottom: 2px solid var(--ink, #2B1E1A); text-align: right">Receipt</th>
+</tr>
+</thead>
+<tbody>
+<template data-sc-for="{{receipts}}" data-as="rc">
+<tr>
+<td style="padding: 16px 8px; border-bottom: 1px solid var(--blush, #EADCD9)">{{rc.date}}</td>
+<td style="padding: 16px 8px; border-bottom: 1px solid var(--blush, #EADCD9)">{{rc.who}}</td>
+<td style="padding: 16px 8px; border-bottom: 1px solid var(--blush, #EADCD9)">{{rc.what}}</td>
+<td style="padding: 16px 8px; border-bottom: 1px solid var(--blush, #EADCD9); text-align: right; font-weight: 500">{{rc.amount}} JOD</td>
+<td style="padding: 16px 8px; border-bottom: 1px solid var(--blush, #EADCD9); text-align: right"><template data-sc-if="{{rc.file}}"><a href="{{rc.file}}" target="_blank" rel="noopener" style="font-weight: 500">View ↗</a></template></td>
+</tr>
+</template>
+<tr>
+<td colspan="3" style="padding: 18px 8px; font-weight: 500">Total spent on {{name}} so far</td>
+<td style="padding: 18px 8px; text-align: right; font-weight: 500; font-size: 18px">{{total}} JOD</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.6">Donations go directly to clinics and suppliers. Personal details on receipts are blurred for privacy.</p>
+</div>
+</template>
+
+<template data-sc-if="{{isCare}}">
+<div role="tabpanel" style="display: flex; flex-wrap: wrap; gap: 28px; align-items: flex-start">
+<div style="flex: 1 1 560px; background: var(--paper, #FFFFFF); border-radius: 28px; border: 3px solid {{colorSolid}}; padding: 32px; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 32px; line-height: 1.05; text-transform: uppercase; color: var(--orange, #FF9D46)">How to express {{name}}'s bladder</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6">{{name}} can't empty his bladder on his own, so it is gently pressed out {{bladderTimes}}. It sounds scary, but it becomes a calm 2-minute routine. We teach every adopter in person or on a video call before {{name}} goes home.</p>
+</div>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 18px">
+<template data-sc-for="{{bladderSteps}}" data-as="s">
+<li style="display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-start; align-content: flex-start">
+<img src="{{s.img}}" alt="" aria-hidden="true" style="display: block; width: 100%; aspect-ratio: 4 / 3; border-radius: 18px">
+<span style="flex: none; width: 40px; height: 40px; border-radius: 999px; background: var(--orange, #FF9D46); display: flex; align-items: center; justify-content: center; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-size: 20px; color: var(--paper, #FFFFFF)">{{s.n}}</span>
+<div style="flex: 1 1 140px; min-width: 0; display: flex; flex-direction: column; gap: 4px; padding-top: 8px">
+<strong style="font-size: 17px; color: var(--cocoa, #A38273)">{{s.title}}</strong>
+<span style="font-size: 15px; line-height: 1.55">{{s.body}}</span>
+</div>
+</li>
+</template>
+</ol>
+<div style="background: var(--cream, #FCF2F0); border-radius: 18px; padding: 18px 20px; display: flex; flex-direction: column; gap: 6px">
+<strong style="font-size: 16px; color: var(--coral, #FF696A)">Call the vet the same day if</strong>
+<span style="font-size: 15px; line-height: 1.55">{{warning}}</span>
+</div>
+<a href="{{careHref}}" style="align-self: flex-start; text-decoration: none; background: var(--orange, #FF9D46); color: var(--paper, #FFFFFF); padding: 14px 24px; border-radius: 999px; font-weight: 500; font-size: 16px">Open {{name}}'s full care guide →</a>
+<template data-sc-if="{{hasCareVideo}}">
+<a href="{{careVideo}}" target="_blank" rel="noopener" style="align-self: flex-start; text-decoration: none; background: var(--orange, #FF9D46); color: var(--paper, #FFFFFF); padding: 14px 24px; border-radius: 999px; font-weight: 500; font-size: 16px">Watch how we do it ↗</a>
+</template>
+</div>
+<div style="flex: 1 1 360px; display: flex; flex-direction: column; gap: 28px">
+<div style="background: var(--paper, #FFFFFF); border-radius: 28px; padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<h3 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 28px; text-transform: uppercase; color: var(--teal, #3DCAD1)">{{name}}'s diet</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55">{{dietNote}}</p>
+<template data-sc-for="{{diet}}" data-as="d">
+<div style="border: 3px solid var(--teal, #3DCAD1); border-radius: 18px; padding: 14px 16px; display: flex; justify-content: space-between; align-items: center; gap: 12px">
+<template data-sc-if="{{d.photo}}"><img src="{{d.photo}}" alt="{{d.name}} {{d.type}}" style="flex: none; width: 72px; height: 88px; object-fit: contain; display: block"></template>
+<template data-sc-if="{{d.noPhoto}}"><span style="flex: none; width: 72px; height: 88px; border-radius: 12px; background: var(--aqua, #89F0EF); display: flex; align-items: center; justify-content: center; text-align: center; font-size: 11px; font-weight: 500; color: var(--paper, #FFFFFF)">[ bag photo ]</span></template>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 2px">
+<strong style="font-size: 16px; color: var(--cocoa, #A38273)">{{d.name}}</strong>
+<span style="font-size: 14px">{{d.note}}</span>
+</div>
+<span style="background: var(--teal, #3DCAD1); color: var(--paper, #FFFFFF); padding: 6px 12px; border-radius: 999px; font-weight: 500; font-size: 13px; white-space: nowrap">{{d.type}}</span>
+</div>
+</template>
+</div>
+<div style="background: var(--paper, #FFFFFF); border-radius: 28px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 28px; text-transform: uppercase; color: var(--orchid, #E86CE8)">Daily care</h3>
+<template data-sc-for="{{daily}}" data-as="c">
+<div style="display: flex; gap: 12px; align-items: flex-start; font-size: 15px; line-height: 1.55">
+<span style="flex: none; width: 22px; height: 22px; margin-top: 1px; border-radius: 999px; background: var(--orchid, #E86CE8); color: var(--paper, #FFFFFF); display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 500">✓</span>
+<span>{{c}}</span>
+</div>
+</template>
+</div>
+</div>
+</div>
+</template>
+
+<template data-sc-if="{{isFee}}">
+<div role="tabpanel" style="display: flex; flex-wrap: wrap; gap: 40px">
+<div style="flex: 1 1 520px; display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 17px; line-height: 1.6">Total adoption fee to {{feeCountry}}: <strong>{{feeTotal}}</strong>. It covers getting {{name}} to you safely, nothing more.</p>
+<div style="background: var(--paper, #FFFFFF); border-radius: 24px; padding: 8px 24px">
+<template data-sc-for="{{fees}}" data-as="fe">
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--blush, #EADCD9); font-size: 16px"><span>{{fe.label}}</span><span style="font-weight: 500">{{fe.cost}}</span></div>
+</template>
+</div>
+</div>
+<div style="flex: 1 1 320px; background: var(--paper, #FFFFFF); border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 12px; align-self: flex-start">
+<strong style="font-size: 18px">Travel status</strong>
+<template data-sc-for="{{travel}}" data-as="tr">
+<div style="display: flex; align-items: center; gap: 12px; font-size: 16px">
+<span style="width: 26px; height: 26px; border-radius: 999px; background: {{tr.dot}}; flex: none"></span>
+<span>{{tr.label}}</span>
+</div>
+</template>
+<a href="{{papersHref}}" style="margin-top: 8px; text-decoration: none; text-align: center; background: var(--ink, #2B1E1A); color: var(--paper, #FFFFFF); padding: 14px 20px; border-radius: 999px; font-weight: 500; font-size: 16px">View travel papers →</a>
+</div>
+</div>
+</template>
+</div>
+</section>
+
+<section id="sponsor" style="padding: 72px 32px">
+<div style="max-width: 1180px; margin: 0 auto; background: var(--peach, #FFB68D); padding: 22px">
+<div class="stamp" style="background: var(--paper, #FFFFFF); padding: 40px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px">
+<div style="flex: 1 1 420px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 38px; line-height: 1.05; text-transform: uppercase">Can't adopt? Sponsor {{name}}</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.6">Help cover food, litter, medication and boarding while {{name}} waits for a family.</p>
+</div>
+<div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+<button type="button" style="font: inherit; font-weight: 500; font-size: 17px; padding: 14px 0; border-radius: 16px; border: 3px solid var(--ink, #2B1E1A); background: var(--paper, #FFFFFF); color: var(--ink, #2B1E1A)">5 JOD</button>
+<button type="button" style="font: inherit; font-weight: 500; font-size: 17px; padding: 14px 0; border-radius: 16px; border: 3px solid var(--ink, #2B1E1A); background: var(--ink, #2B1E1A); color: var(--paper, #FFFFFF)">10 JOD</button>
+<button type="button" style="font: inherit; font-weight: 500; font-size: 17px; padding: 14px 0; border-radius: 16px; border: 3px solid var(--ink, #2B1E1A); background: var(--paper, #FFFFFF); color: var(--ink, #2B1E1A)">25 JOD</button>
+</div>
+<a href="{{gofundme}}" style="text-decoration: none; text-align: center; background: var(--ink, #2B1E1A); color: var(--paper, #FFFFFF); padding: 16px; border-radius: 999px; font-weight: 500; font-size: 17px">Donate on GoFundMe</a>
+<a href="{{paypal}}" style="text-decoration: none; text-align: center; border: 3px solid var(--ink, #2B1E1A); padding: 13px; border-radius: 999px; font-weight: 500; font-size: 17px">Donate with PayPal</a>
+</div>
+</div>
+</div>
+</section>
+
+<footer style="background: var(--ink, #2B1E1A); color: var(--paper, #FFFFFF); padding: 40px 32px">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; font-size: 15px">
+<span>Furry Hearts of Jordan · Amman</span>
+<span>Share {{name}}'s story. It might reach their family.</span>
+</div>
+</footer>
+</div>
+</template>
+<div id="dc-app"></div>
+<noscript><p style="padding:40px;font-family:sans-serif">Please turn on JavaScript to see this page.</p></noscript>
+<script type="text/x-dc">
+class Component extends DCLogic {
+constructor(props) { super(props); this.state = { tab: 'reels', photo: 0 }; }
+renderVals() {
+const F = window.FHJ, D = F.data, S = D.settings || {}, C = D.care || {};
+const all = ((D['rescues-index'] || {}).rescues || []);
+const r = all.find((x) => x.slug === F.param('id')) || all[0] || { name: '' };
+document.title = r.name + "'s rescue file — Furry Hearts of Jordan";
+const ig = S.instagram_user || '';
+const photos = (r.photos || []).filter((p) => p.image);
+const color = F.cardColor(r), colorSolid = F.solid(r);
+const tabsAll = [
+  { id: 'reels', label: 'Story & reels', show: true },
+  { id: 'medical', label: 'Medical tests', show: (r.tests || []).length > 0 },
+  { id: 'care', label: 'Special care & diet', show: !!r.care_enabled },
+  { id: 'receipts', label: 'Clinic receipts', show: (r.receipts || []).length > 0 },
+  { id: 'fee', label: 'Adoption & travel', show: true }
+].filter((t) => t.show);
+const tab = tabsAll.find((t) => t.id === this.state.tab) ? this.state.tab : 'reels';
+const msg = 'https://ig.me/m/' + ig, SITE = S.site_url || 'https://furryheartsofjo.org';
+const ctas = {
+  'Available': { label: 'Apply to adopt ' + r.name, bg: 'var(--pink)', href: msg, msg: 'Hi Furry Hearts of Jordan! I would like to adopt ' + r.name + ' (#' + (r.number || '') + ') 🐾 ' + SITE + '/rescue.html#' + r.slug + ' (sent from furryheartsofjo.org)' },
+  'In treatment': { label: 'Sponsor ' + r.name + "'s treatment", bg: 'var(--sunshine)', href: '#sponsor' },
+  'Reserved': { label: r.name + ' is reserved ♥', bg: 'var(--orange)', href: '' },
+  'Adopted': { label: r.name + ' found a home ♥', bg: 'var(--green)', href: '' },
+  'Lives with us': { label: 'Sponsor ' + r.name, bg: 'var(--sky)', href: '#sponsor' },
+  'Passed away': { label: 'Forever in our hearts ♥', bg: F.status('Passed away'), href: '' },
+  'Soon traveling': { label: r.name + ' flies home soon ✈', bg: 'var(--purple)', href: '' },
+  'Missing': { label: 'Seen ' + r.name + '? Message us', bg: '#B8B2B0', href: msg, msg: 'Hi Furry Hearts of Jordan! I think I saw ' + r.name + '. Here is where and when: ' }
+};
+const cta = ctas[r.status] || ctas['Available'];
+const total = (r.receipts || []).reduce((a, x) => a + (parseFloat(x.amount) || 0), 0);
+const dots = { done: 'var(--green)', progress: 'var(--sunshine)', todo: 'var(--blush)' };
+const tints = ['var(--sky-light)', 'var(--pink-light)', 'var(--lime)', 'var(--mint)'];
+return {
+  name: r.name, status: F.statusLabel(r.status), statusColor: F.status(r.status), color: color, colorSolid: colorSolid,
+  story: r.story || '', canFly: !!r.can_fly, caseNo: r.case_number || '',
+  ctaMsg: cta.msg || '', ctaLabel: cta.label, ctaBg: cta.bg, ctaHref: cta.href, ctaText: !cta.href,
+  mainLabel: (photos[this.state.photo] || {}).label || 'Photo', mainSrc: (photos[this.state.photo] || {}).image || '', mainEmpty: !photos.length, photoNum: this.state.photo + 1,
+  photos: photos.map((p, i) => ({ label: p.label || 'Photo', short: p.label || '', src: p.image, empty: false,
+    border: i === this.state.photo ? '4px solid ' + colorSolid : '3px solid var(--peach)', pick: () => this.setState({ photo: i }) })),
+  tabs: tabsAll.map((t) => ({ label: t.label, selected: t.id === tab ? 'true' : 'false', bg: t.id === tab ? 'var(--ink)' : 'var(--paper)', fg: t.id === tab ? 'var(--paper)' : 'var(--ink)', pick: () => this.setState({ tab: t.id }) })),
+  isReels: tab === 'reels', isMedical: tab === 'medical', isReceipts: tab === 'receipts', isFee: tab === 'fee', isCare: tab === 'care',
+  facts: [{ k: 'Species', v: r.species }, { k: 'Age', v: r.age }, { k: 'Sex', v: r.sex }, { k: 'Condition', v: r.condition }, { k: 'Family', v: r.family }, { k: 'Group', v: (r.tags || []).filter((t) => t !== 'Special needs' && t !== 'Siblings').join(', ') }].concat((r.facts || []).map((f) => ({ k: f.label, v: f.value }))).filter((f) => f.v),
+  igProfile: 'https://www.instagram.com/' + ig + '/', igUser: ig,
+  reels: (r.reels || []).map((x, i) => ({ when: x.title || 'Reel', title: x.title || '', url: x.url || '#', tint: tints[i % 4] })),
+  tests: (r.tests || []).map((x) => ({ name: x.name, result: x.result, date: x.date || '', clinic: x.clinic || '', file: x.file || '', pill: /neg|normal|pass|done|valid|up to date/i.test(x.result || '') ? 'var(--mint)' : 'var(--sunshine)' })),
+  receipts: (r.receipts || []).map((x) => ({ date: x.date || '', who: x.who || '', what: x.what || '', amount: x.amount || '', file: x.file || '' })),
+  total: total ? String(total) : '0',
+  feeCountry: r.fee_country || 'your country', feeTotal: r.fee_total || 'ask us',
+  fees: (r.fee_items && r.fee_items.length ? r.fee_items : ['Vaccinations & deworming', 'Microchip', 'Rabies titer test', 'Spay / neuter', 'Health certificate & export permits', 'IATA travel crate', 'Flight ticket / cargo'].map((l) => ({ label: l, cost: '' }))).map((f) => ({ label: f.label, cost: f.cost || '' })),
+  travel: (r.travel || []).map((x) => ({ label: x.label, dot: dots[x.state] || dots.todo })),
+  papersHref: 'travel-papers.html#' + r.slug, careHref: 'care.html#' + r.slug,
+  bladderTimes: r.care_times || '', bladderSteps: r.care_bladder ? (C.bladder_steps || []).map((x, i) => ({ n: String(i + 1), img: x.image, title: x.title, body: F.fill(x.body, r) })) : [],
+  warning: F.fill(C.warning, r), careVideo: r.care_video || '', hasCareVideo: !!r.care_video,
+  dietNote: r.care_diet_note || '', diet: (r.care_diet || []).map((d) => ({ ...d, photo: d.photo || '', noPhoto: !d.photo })),
+  daily: [].concat(...(r.care_day || []).map((d) => F.lines(d.tasks))).filter((x, i, a) => a.indexOf(x) === i).slice(0, 6),
+  gofundme: S.gofundme_url || '#', paypal: S.paypal_url || '#'
+};
+}
+}
+</script>
+<script src="js/dc-runtime.js"></script>
+</body>
+</html>

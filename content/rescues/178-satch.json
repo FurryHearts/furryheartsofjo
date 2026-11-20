@@ -1,0 +1,32 @@
+{
+  "name": "Satch",
+  "number": 178,
+  "order": 178,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "tangerine",
+  "condition": "",
+  "tags": [
+    "Rescued as a kitten",
+    "Siblings"
+  ],
+  "family": "Sibling of Satchi",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "178",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

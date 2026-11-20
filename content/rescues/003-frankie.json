@@ -1,0 +1,31 @@
+{
+  "name": "Frankie",
+  "number": 3,
+  "order": 3,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "orange",
+  "condition": "Congenital eye condition with tumor",
+  "tags": [
+    "Special needs"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "3",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

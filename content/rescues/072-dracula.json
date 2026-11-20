@@ -1,0 +1,31 @@
+{
+  "name": "Dracula",
+  "number": 72,
+  "order": 72,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "sunshine",
+  "condition": "Gunshot survivor, bladder sensitivity, stiff leg reflexes",
+  "tags": [
+    "Special needs"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "72",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

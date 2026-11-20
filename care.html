@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="fhj-data" content="content/settings.json content/rescues-index.json content/care.json">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Furry Hearts of Jordan — How to care for {{name}}</title>
+<meta name="description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
+<meta property="og:title" content="Furry Hearts of Jordan — How to care for {{name}}">
+<meta property="og:description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
+<meta property="og:image" content="https://furryheartsofjo.org/img/hero.jpg">
+<link rel="icon" href="img/icon-180.png">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&amp;family=Figtree:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+h1,h2{color:var(--cocoa, #A38273)}
+strong,b,th,dt,h3{font-weight:500}
+a{color:var(--ink, #704F44)}a:hover{color:var(--accent-text, #704F44)}
+.stamp{position:relative}
+.stamp::before{content:"";position:absolute;inset:-11px;pointer-events:none;z-index:0;
+background:
+radial-gradient(circle,#fff 8px,transparent 8.6px) left top/22px 22px space no-repeat,
+radial-gradient(circle,#fff 8px,transparent 8.6px) left bottom/22px 22px space no-repeat,
+radial-gradient(circle,#fff 8px,transparent 8.6px) left top/22px 22px no-repeat space,
+radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat space}
+.stamp>*{position:relative;z-index:1}
+.logo-mobile{display:none}
+@media (max-width:720px){.logo-mobile{display:block}.logo-wide{display:none}}
+</style>
+<style>html{scroll-behavior:smooth}img{max-width:100%}@media (max-width:720px){h1{font-size:52px!important;width:auto!important;height:auto!important}h2{font-size:38px!important}section,footer{width:auto!important}p{width:auto!important;height:auto!important}}</style>
+</head>
+<body>
+<template id="dc-root">
+
+<div style="font-family: var(--font-sans, 'GT Walsheim', 'Figtree', system-ui, sans-serif); color: var(--ink, #704F44); background: var(--paper, #FFFFFF); min-height: 100vh; font-weight: 300">
+
+<header style="max-width: 1240px; margin: 0 auto; padding: 20px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; padding-top: 50px">
+<a href="index.html" aria-label="Furry Hearts of Jordan home" style="display: flex; align-items: center; text-decoration: none">
+<img class="logo-mobile" src="img/logo-round.png" alt="Furry Hearts of Jordan logo" style="width: 64px; height: 64px">
+<img class="logo-wide" src="img/logo-wide.png" alt="Furry Hearts of Jordan — Feeding. Healing. Rehoming" style="width: 260px; height: auto; display: block">
+</a>
+<a href="{{fileHref}}" style="font-weight: 500; font-size: 16px; color: var(--cocoa, #A38273)">← Back to {{name}}'s file</a>
+</header>
+
+<section style="max-width: 1240px; margin: 0 auto; padding: 32px 32px 72px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 1 1 520px; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<span style="background: var(--orange, #FF9D46); color: var(--paper, #FFFFFF); padding: 8px 16px; border-radius: 999px; font-weight: 500; font-size: 14px">Special-needs care guide</span>
+<span style="background: var(--teal, #3DCAD1); color: var(--paper, #FFFFFF); padding: 8px 16px; border-radius: 999px; font-weight: 500; font-size: 14px">For adopters &amp; fosters</span>
+</div>
+<h1 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 72px; line-height: 0.98; text-transform: uppercase">How to care for {{name}}</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; max-width: 560px">{{intro}}</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; max-width: 560px; color: var(--cocoa, #A38273)">You are never alone with it: we teach you in person or on a video call before {{name}} goes home, and we stay one message away after.</p>
+</div>
+<div style="flex: 1 1 420px; background: {{color}}; padding: 22px">
+<div class="stamp" style="background: var(--paper, #FFFFFF); padding: 12px">
+<img src="{{photo}}" alt="{{name}}" style="display: block; width: 100%; height: 440px; object-fit: cover; object-position: center 30%">
+</div>
+</div>
+</section>
+
+<section style="background: var(--cream, #FCF2F0); padding: 80px 32px">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 760px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 52px; line-height: 1.02; text-transform: uppercase; color: var(--orange, #FF9D46)">Expressing his bladder</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6">{{name}} can't empty his bladder on his own, so it is gently pressed out {{bladderTimes}}. It sounds scary at first, but it quickly becomes a calm 2-minute routine.</p>
+</div>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px">
+<template data-sc-for="{{bladderSteps}}" data-as="s">
+<li style="background: var(--paper, #FFFFFF); border-radius: 28px; padding: 18px; display: flex; flex-wrap: wrap; gap: 14px; align-content: flex-start">
+<img src="{{s.img}}" alt="" aria-hidden="true" style="display: block; width: 100%; aspect-ratio: 4 / 3; border-radius: 18px">
+<span style="flex: none; width: 44px; height: 44px; border-radius: 999px; background: var(--orange, #FF9D46); display: flex; align-items: center; justify-content: center; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-size: 22px; color: var(--paper, #FFFFFF)">{{s.n}}</span>
+<div style="flex: 1 1 160px; min-width: 0; display: flex; flex-direction: column; gap: 6px; padding-top: 8px">
+<strong style="font-size: 19px; color: var(--cocoa, #A38273)">{{s.title}}</strong>
+<span style="font-size: 16px; line-height: 1.55">{{s.body}}</span>
+</div>
+</li>
+</template>
+</ol>
+<div style="background: var(--paper, #FFFFFF); border: 3px solid var(--coral, #FF696A); border-radius: 24px; padding: 22px 26px; display: flex; flex-direction: column; gap: 6px">
+<strong style="font-size: 18px; color: var(--coral, #FF696A)">Call the vet the same day if</strong>
+<span style="font-size: 16px; line-height: 1.6">{{warning}}</span>
+</div>
+</div>
+</section>
+
+<section style="max-width: 1240px; margin: 0 auto; padding: 88px 32px; display: flex; flex-direction: column; gap: 32px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 52px; text-transform: uppercase; color: var(--sky, #43BDFF)">A day with {{name}}</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px">
+<template data-sc-for="{{day}}" data-as="d">
+<div style="border: 3px solid {{d.color}}; border-radius: 28px; padding: 26px; display: flex; flex-direction: column; gap: 12px">
+<span style="align-self: flex-start; background: {{d.color}}; color: var(--paper, #FFFFFF); padding: 6px 14px; border-radius: 999px; font-weight: 500; font-size: 14px">{{d.when}}</span>
+<template data-sc-for="{{d.tasks}}" data-as="t">
+<div style="display: flex; gap: 10px; align-items: flex-start; font-size: 16px; line-height: 1.5">
+<span style="flex: none; width: 8px; height: 8px; margin-top: 8px; border-radius: 999px; background: {{d.color}}"></span>
+<span>{{t}}</span>
+</div>
+</template>
+</div>
+</template>
+</div>
+</section>
+
+<section style="background: var(--cream, #FCF2F0); padding: 80px 32px">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start">
+<div style="flex: 1 1 520px; display: flex; flex-direction: column; gap: 22px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 52px; text-transform: uppercase; color: var(--teal, #3DCAD1)">{{name}}'s diet</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6">{{dietNote}}</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px">
+<template data-sc-for="{{diet}}" data-as="d">
+<div style="background: var(--paper, #FFFFFF); border: 3px solid var(--teal, #3DCAD1); border-radius: 28px; padding: 22px; display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center">
+<img src="{{d.photo}}" alt="{{d.name}} {{d.type}}" style="display: block; width: 100%; max-width: 200px; height: 220px; object-fit: contain">
+<span style="background: var(--teal, #3DCAD1); color: var(--paper, #FFFFFF); padding: 6px 14px; border-radius: 999px; font-weight: 500; font-size: 14px">{{d.type}}</span>
+<strong style="font-size: 17px; color: var(--cocoa, #A38273)">{{d.name}}</strong>
+<span style="font-size: 15px; line-height: 1.5">{{d.note}}</span>
+</div>
+</template>
+</div>
+</div>
+<div style="flex: 1 1 360px; background: var(--paper, #FFFFFF); border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<h3 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 32px; text-transform: uppercase; color: var(--orchid, #E86CE8)">What you'll need at home</h3>
+<template data-sc-for="{{kit}}" data-as="k">
+<div style="display: flex; gap: 12px; align-items: flex-start; font-size: 16px; line-height: 1.55">
+<span style="flex: none; width: 24px; height: 24px; margin-top: 1px; border-radius: 999px; background: var(--orchid, #E86CE8); color: var(--paper, #FFFFFF); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 500">✓</span>
+<span>{{k}}</span>
+</div>
+</template>
+</div>
+</div>
+</section>
+
+<section style="max-width: 1240px; margin: 0 auto; padding: 88px 32px; display: flex; flex-direction: column; gap: 28px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 52px; text-transform: uppercase; color: var(--green, #4BC939)">Keeping him healthy</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px">
+<template data-sc-for="{{health}}" data-as="h">
+<div style="background: var(--paper, #FFFFFF); border: 3px solid {{h.color}}; border-radius: 24px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+<strong style="font-size: 18px; color: {{h.color}}">{{h.title}}</strong>
+<span style="font-size: 15px; line-height: 1.55">{{h.body}}</span>
+</div>
+</template>
+</div>
+</section>
+
+<section style="max-width: 1240px; margin: 0 auto 96px; padding: 0 32px">
+<div style="background: var(--peach, #FFB68D); padding: 22px">
+<div class="stamp" style="background: var(--paper, #FFFFFF); padding: 48px; display: flex; flex-wrap: wrap; gap: 28px; align-items: center; justify-content: space-between">
+<div style="flex: 1 1 460px; display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 44px; line-height: 1.02; text-transform: uppercase">Questions about special-needs care?</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6">Message us anytime. We'll show you on video, answer at night if we have to, and stay in touch long after adoption.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="{{igMsg}}" data-msg="{{askMsg}}" target="_blank" rel="noopener" style="text-decoration: none; background: var(--peach, #FFB68D); color: var(--paper, #FFFFFF); padding: 17px 28px; border-radius: 999px; font-weight: 500; font-size: 17px">Message us on Instagram</a>
+<a href="{{fileHref}}" style="text-decoration: none; border: 3px solid var(--peach, #FFB68D); color: var(--peach-deep, #F59668); padding: 14px 26px; border-radius: 999px; font-weight: 500; font-size: 17px">Back to {{name}}'s file</a>
+</div>
+</div>
+</div>
+</section>
+
+<footer style="color: var(--paper, #FFFFFF); padding: 48px 32px; background-color: var(--cocoa, #a38273)">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 24px; font-size: 15px">
+<img src="img/logo-round.png" alt="Furry Hearts of Jordan logo" style="width: 120px; height: 120px">
+<span>This guide supports, but never replaces, advice from your own vet.</span>
+</div>
+</footer>
+</div>
+</template>
+<div id="dc-app"></div>
+<noscript><p style="padding:40px;font-family:sans-serif">Please turn on JavaScript to see this page.</p></noscript>
+<script type="text/x-dc">
+class Component extends DCLogic {
+renderVals() {
+const F = window.FHJ, D = F.data, S = D.settings || {}, C = D.care || {};
+const all = ((D['rescues-index'] || {}).rescues || []);
+const r = all.find((x) => x.slug === F.param('id')) || all.find((x) => x.care_enabled) || { name: '' };
+document.title = 'How to care for ' + r.name + ' — Furry Hearts of Jordan';
+const dayColors = ['var(--sunshine)', 'var(--sky)', 'var(--orchid)', 'var(--purple)'];
+return {
+  name: r.name, color: F.cardColor(r), photo: ((r.photos || [])[1] || (r.photos || [])[0] || {}).image || '',
+  intro: r.care_intro || '', fileHref: 'rescue.html#' + r.slug, askMsg: 'Hi Furry Hearts of Jordan! I have a question about caring for ' + r.name + ' (sent from furryheartsofjo.org)', igMsg: 'https://ig.me/m/' + (S.instagram_user || ''),
+  bladderTimes: r.care_times || '',
+  bladderSteps: r.care_bladder ? (C.bladder_steps || []).map((x, i) => ({ n: String(i + 1), img: x.image, title: x.title, body: F.fill(x.body, r) })) : [],
+  warning: F.fill(C.warning, r),
+  day: (r.care_day || []).map((d, i) => ({ when: d.when, color: dayColors[i % 4], tasks: F.lines(d.tasks) })),
+  dietNote: r.care_diet_note || '', diet: (r.care_diet || []).map((d) => ({ ...d })),
+  kit: F.lines(r.care_kit), health: (C.health || []).map((h) => ({ ...h, color: F.color(h.color) }))
+};
+}
+}
+</script>
+<script src="js/dc-runtime.js"></script>
+</body>
+</html>

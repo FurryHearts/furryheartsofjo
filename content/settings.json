@@ -1,0 +1,40 @@
+{
+  "instagram_user": "furryheartsofjordan",
+  "gofundme_url": "#",
+  "paypal_url": "https://paypal.me/Dinadiranieh",
+  "donation_email": "",
+  "city": "Amman, Jordan",
+  "adoption_fee_note": "vaccines, microchip, rabies titer test, spay/neuter, health certificate, export permits, IATA travel crate and flight.",
+  "needs": [
+    {
+      "label": "Food",
+      "color": "sunshine"
+    },
+    {
+      "label": "Litter",
+      "color": "sky"
+    },
+    {
+      "label": "Vet care",
+      "color": "orchid"
+    },
+    {
+      "label": "Boarding",
+      "color": "orange"
+    },
+    {
+      "label": "Medications",
+      "color": "green"
+    },
+    {
+      "label": "Cleaning products",
+      "color": "teal"
+    },
+    {
+      "label": "Grocery",
+      "color": "coral"
+    }
+  ],
+  "memory_style": "rainbow",
+  "site_url": "https://furryheartsofjo.org"
+}

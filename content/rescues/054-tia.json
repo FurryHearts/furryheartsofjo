@@ -1,0 +1,31 @@
+{
+  "name": "Tia",
+  "number": 54,
+  "order": 54,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "tangerine",
+  "condition": "",
+  "tags": [
+    "Rescued as a kitten"
+  ],
+  "family": "Lia's kitten",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "54",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

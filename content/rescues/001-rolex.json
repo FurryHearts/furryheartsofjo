@@ -1,0 +1,31 @@
+{
+  "name": "Rolex",
+  "number": 1,
+  "order": 1,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "orchid",
+  "condition": "Blind, lost both eyes",
+  "tags": [
+    "Special needs"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "1",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

@@ -1,0 +1,57 @@
+{
+  "cliq_alias": "078 506 0007",
+  "cliq_name": "Dia Alhaq Mohammad A Altaybeen",
+  "rides": [
+    {
+      "day": "Today",
+      "date": "[Date]",
+      "trip": "Clinic visit",
+      "cost": "[00] JOD",
+      "paid": false,
+      "color": "purple",
+      "pets": [
+        {
+          "name": "[Name]",
+          "kind": "Cat",
+          "photo": ""
+        },
+        {
+          "name": "[Name]",
+          "kind": "Cat",
+          "photo": ""
+        }
+      ]
+    },
+    {
+      "day": "Tomorrow",
+      "date": "[Date]",
+      "trip": "Check-up",
+      "cost": "[00] JOD",
+      "paid": false,
+      "color": "sky",
+      "pets": [
+        {
+          "name": "Kai",
+          "kind": "Cat",
+          "photo": "img/kai-1.jpg"
+        }
+      ]
+    },
+    {
+      "day": "Yesterday",
+      "date": "[Date]",
+      "trip": "Back home",
+      "cost": "[00] JOD",
+      "paid": true,
+      "thanks": "Thank you!",
+      "color": "teal",
+      "pets": [
+        {
+          "name": "[Name]",
+          "kind": "Dog",
+          "photo": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Marley",
+  "number": 163,
+  "order": 163,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "denim",
+  "condition": "Paralyzed, nerve, gastro and bladder issues",
+  "tags": [
+    "Special needs",
+    "Rescued as a kitten"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "163",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

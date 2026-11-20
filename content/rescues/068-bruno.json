@@ -1,0 +1,31 @@
+{
+  "name": "Bruno",
+  "number": 68,
+  "order": 68,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "tangerine",
+  "condition": "",
+  "tags": [
+    "Rescued as a kitten"
+  ],
+  "family": "Pia's kitten",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "68",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

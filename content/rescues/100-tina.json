@@ -1,0 +1,32 @@
+{
+  "name": "Tina",
+  "number": 100,
+  "order": 100,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "coral",
+  "condition": "",
+  "tags": [
+    "Rescued as a kitten",
+    "Siblings"
+  ],
+  "family": "Sibling of Teen",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "100",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

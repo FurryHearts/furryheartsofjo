@@ -1,0 +1,135 @@
+{
+  "name": "Kai",
+  "slug": "kai",
+  "order": 1,
+  "featured": true,
+  "species": "Cat",
+  "status": "Reserved",
+  "color": "orange",
+  "age": "About 4 months",
+  "sex": "Male",
+  "summary": "Fully vaccinated. Paralyzed, needs his bladder expressed. Reserved by a special-needs home.",
+  "story": "[Short story: where and how Kai was found, what he has been through, and who he is today.]",
+  "case_number": "205",
+  "can_fly": true,
+  "photos": [
+    {
+      "image": "img/kai-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/kai-2.jpg",
+      "label": "Rescue day"
+    },
+    {
+      "image": "img/kai-3.jpg",
+      "label": "At the clinic"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Vaccines",
+      "value": "Fully vaccinated"
+    },
+    {
+      "label": "Special needs",
+      "value": "Paralyzed"
+    },
+    {
+      "label": "Daily care",
+      "value": "Bladder expressing"
+    },
+    {
+      "label": "Neutered",
+      "value": "[Not yet / Yes]"
+    },
+    {
+      "label": "Rescued",
+      "value": "[Month 2026]"
+    }
+  ],
+  "reels": [
+    {
+      "title": "Meet Kai",
+      "url": "https://www.instagram.com/reel/DdQr9wHOUNB/",
+      "cover": ""
+    }
+  ],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [
+    {
+      "label": "Vaccinated & microchipped",
+      "state": "done"
+    },
+    {
+      "label": "Titer test",
+      "state": "todo"
+    },
+    {
+      "label": "Export permit",
+      "state": "todo"
+    },
+    {
+      "label": "Flight",
+      "state": "todo"
+    }
+  ],
+  "papers": [],
+  "care_enabled": true,
+  "care_bladder": true,
+  "care_times": "3 to 4 times a day, about every 6 to 8 hours",
+  "care_intro": "Kai is paralyzed in his back legs, but he is a happy, playful kitten. He needs a little extra help every day: his bladder expressed, a high-fiber diet and a clean, soft space.",
+  "care_diet_note": "Paralyzed cats often have slower digestion, so Kai eats a high-fiber veterinary diet that keeps his bowels moving easily. Always keep fresh water out, and change his food only with your vet.",
+  "care_diet": [
+    {
+      "name": "Royal Canin Gastrointestinal Fibre Response",
+      "type": "Wet",
+      "note": "Chunks in gravy. Adds extra water to his day.",
+      "photo": "img/food-wet.png"
+    },
+    {
+      "name": "Royal Canin Gastrointestinal Fibre Response",
+      "type": "Dry",
+      "note": "Dry kibble with psyllium fiber for easy transit.",
+      "photo": "img/food-dry.png"
+    }
+  ],
+  "care_day": [
+    {
+      "when": "Morning",
+      "tasks": "Express his bladder\nWet food breakfast\nClean and check his skin"
+    },
+    {
+      "when": "Afternoon",
+      "tasks": "Express his bladder\nPlay time and gentle leg stretches\nChange his position and bedding if wet"
+    },
+    {
+      "when": "Evening",
+      "tasks": "Express his bladder\nDinner (wet + dry)\nCheck his poop for the day"
+    },
+    {
+      "when": "Before bed",
+      "tasks": "Last bladder expressing\nFresh water and dry food out\nSoft, clean bed for the night"
+    }
+  ],
+  "care_kit": [
+    "Puppy pads or washable pads for his bed",
+    "Unscented baby wipes",
+    "Soft, washable bedding (2 sets)",
+    "A low-entry litter box he can drag himself into",
+    "Small scissors or clippers to keep his back end trimmed",
+    "His Royal Canin wet and dry food"
+  ],
+  "care_video": "",
+  "number": 205,
+  "condition": "Paralyzed",
+  "tags": [
+    "Special needs",
+    "Rescued as a kitten"
+  ],
+  "family": ""
+}

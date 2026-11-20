@@ -1,0 +1,8 @@
+Brand fonts for furryheartsofjo.org
+Put the font files in this folder with exactly these names:
+  PestaRakyat.otf            (titles)
+  GTWalsheim-Light.woff2     (body text)
+  GTWalsheim-Regular.woff2
+  GTWalsheim-Medium.woff2    (subtitles, buttons)
+GT Walsheim needs a WEB licence from Grilli Type to be used on a website.
+Until the files are here, the site shows Bagel Fat One and Figtree instead.

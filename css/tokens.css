@@ -1,0 +1,17 @@
+/* Furry Hearts of Jordan — brand colors. Change a color here and it changes on every page. */
+:root{
+--peach:#ffb68d;--peach-deep:#f59668;--tangerine:#ff8049;--cocoa:#a38273;--blush:#eadcd9;--cream:#fcf2f0;
+--sky:#43bdff;--sky-light:#a9e5ff;--denim:#436fb0;--purple:#bf45ff;--orchid:#e86ce8;--lavender:#b8b8ff;
+--sunshine:#fec200;--orange:#ff9d46;--coral:#ff696a;--pink-light:#ffa9dc;--pink:#fd6bbc;--rose:#f94b7e;
+--olive:#6a9142;--green:#4bc939;--lime:#ccd874;--mint:#76dead;--aqua:#89f0ef;--teal:#3dcad1;
+--ink:#704f44;--accent-text:#704f44;--paper:#ffffff;
+--font-display:"Pesta Rakyat","Bagel Fat One",sans-serif;
+--font-sans:"GT Walsheim",Figtree,system-ui,sans-serif;
+}
+
+/* Brand fonts. Put the font files in /fonts with these exact names.
+   Until they are there, the site uses Bagel Fat One (titles) and Figtree (text). */
+@font-face{font-family:"Pesta Rakyat";src:url("../fonts/PestaRakyat.woff2") format("woff2"),url("../fonts/PestaRakyat.otf") format("opentype");font-weight:400;font-display:swap}
+@font-face{font-family:"GT Walsheim";src:url("../fonts/GTWalsheim-Light.woff2") format("woff2");font-weight:300;font-display:swap}
+@font-face{font-family:"GT Walsheim";src:url("../fonts/GTWalsheim-Regular.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"GT Walsheim";src:url("../fonts/GTWalsheim-Medium.woff2") format("woff2");font-weight:500;font-display:swap}

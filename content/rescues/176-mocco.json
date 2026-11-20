@@ -1,0 +1,32 @@
+{
+  "name": "Mocco",
+  "number": 176,
+  "order": 176,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "orchid",
+  "condition": "",
+  "tags": [
+    "Rescued as a kitten",
+    "Siblings"
+  ],
+  "family": "Sibling of Rocco",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "176",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Vito",
+  "number": 24,
+  "order": 24,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "rose",
+  "condition": "",
+  "tags": [
+    "Rescued as a kitten"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "24",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

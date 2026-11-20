@@ -1,0 +1,31 @@
+{
+  "name": "Pino",
+  "number": 39,
+  "order": 39,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "olive",
+  "condition": "",
+  "tags": [
+    "Rescued as a kitten"
+  ],
+  "family": "Cocoley's kitten",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "39",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

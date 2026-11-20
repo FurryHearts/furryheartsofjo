@@ -1,0 +1,31 @@
+{
+  "name": "Priscilla",
+  "number": 73,
+  "order": 73,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "orange",
+  "condition": "Nerve, gastro and bladder issues",
+  "tags": [
+    "Special needs"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "73",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Kartal",
+  "number": 185,
+  "order": 185,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "orange",
+  "condition": "Kidney failure",
+  "tags": [
+    "Special needs"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "185",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

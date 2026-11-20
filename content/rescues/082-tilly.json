@@ -1,0 +1,32 @@
+{
+  "name": "Tilly",
+  "number": 82,
+  "order": 82,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "tangerine",
+  "condition": "Lost her tail",
+  "tags": [
+    "Special needs",
+    "Rescued as a kitten"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "82",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

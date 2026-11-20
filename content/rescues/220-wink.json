@@ -1,0 +1,31 @@
+{
+  "name": "Wink",
+  "number": 220,
+  "order": 220,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "rose",
+  "condition": "",
+  "tags": [
+    "Outdoor cat"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "220",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

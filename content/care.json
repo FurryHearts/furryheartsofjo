@@ -1,0 +1,67 @@
+{
+  "bladder_steps": [
+    {
+      "title": "Learn it hands-on first",
+      "image": "img/bladder-1.svg",
+      "body": "Watch us or your vet do it, then do it yourself with us guiding your hands. Written steps help you remember, but they are not a replacement for practice."
+    },
+    {
+      "title": "Get calm and comfortable",
+      "image": "img/bladder-2.svg",
+      "body": "Hold {name} over the litter box, a sink or a puppy pad, supported against your body so they feel safe and do not slide."
+    },
+    {
+      "title": "Find the bladder",
+      "image": "img/bladder-3.svg",
+      "body": "It sits in the lower belly, just in front of the back legs. When full it feels like a small water balloon."
+    },
+    {
+      "title": "Cradle and press gently",
+      "image": "img/bladder-4.svg",
+      "body": "Cup the bladder between your fingers and thumb and press softly and steadily, back toward the tail, not up toward the ribs. Use the least pressure that makes urine flow."
+    },
+    {
+      "title": "Keep going until it stops",
+      "image": "img/bladder-5.svg",
+      "body": "Hold the gentle pressure until the stream stops and the bladder feels small and soft. A bladder left half full can lead to infection."
+    },
+    {
+      "title": "Clean and dry",
+      "image": "img/bladder-6.svg",
+      "body": "Wipe the belly and back legs with unscented wipes and dry well. Clean skin prevents urine scald and sores."
+    }
+  ],
+  "warning": "the bladder feels very hard and nothing comes out with gentle pressure, there is blood in the urine, it smells very strong, there has been no poop in 2 days, or {name} cries, stops eating or seems unwell.",
+  "health": [
+    {
+      "title": "Pressure sores",
+      "body": "Change position often and keep soft bedding. Check hips, knees and tail area for redness.",
+      "color": "coral"
+    },
+    {
+      "title": "Urine scald",
+      "body": "Urine left on skin burns it. Clean and dry after every expressing and keep the fur short.",
+      "color": "orange"
+    },
+    {
+      "title": "Bladder infections",
+      "body": "Paralyzed pets get them more easily. Regular urine tests at the vet catch them early.",
+      "color": "sunshine"
+    },
+    {
+      "title": "Constipation",
+      "body": "A high-fiber diet helps. Tell your vet after 2 days without pooping.",
+      "color": "teal"
+    },
+    {
+      "title": "Muscles and joints",
+      "body": "Gentle stretches and play keep legs supple. Ask your vet about physiotherapy.",
+      "color": "sky"
+    },
+    {
+      "title": "A happy mind",
+      "body": "Toys, cuddles and company. Special-needs pets live full, joyful lives.",
+      "color": "green"
+    }
+  ]
+}

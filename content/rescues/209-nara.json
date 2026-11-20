@@ -1,0 +1,31 @@
+{
+  "name": "Nara",
+  "number": 209,
+  "order": 209,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "lavender",
+  "condition": "",
+  "tags": [
+    "Rescued as a kitten"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "209",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

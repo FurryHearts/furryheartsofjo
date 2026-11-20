@@ -1,0 +1,32 @@
+{
+  "name": "Zoe",
+  "number": 81,
+  "order": 81,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "olive",
+  "condition": "Cross-eyed with partial jaw loss",
+  "tags": [
+    "Special needs",
+    "Rescued as a kitten"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "81",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

@@ -1,0 +1,186 @@
+# Furry Hearts of Jordan — admin settings
+backend:
+  name: github
+  repo: FurryHearts/furryheartsofjo
+  branch: main
+
+site_url: https://furryheartsofjo.org
+display_url: https://furryheartsofjo.org
+logo_url: https://furryheartsofjo.org/img/logo-round.png
+locale: en
+
+media_folder: img/uploads
+public_folder: img/uploads
+
+collections:
+  - name: rescues
+    label: "Rescues · الحيوانات"
+    label_singular: "Rescue"
+    description: "Every rescue gets a page with photos, reels, tests, receipts and travel papers."
+    folder: content/rescues
+    extension: json
+    format: json
+    create: true
+    delete: true
+    slug: "{{name}}"
+    summary: "{{number}}. {{name}} — {{status}}"
+    sortable_fields: [number, name, status]
+    fields:
+      - {label: "Name · الاسم", name: name, widget: string}
+      - {label: "Number in our list", name: number, widget: number, required: false}
+      - {label: "Show on home page", name: featured, widget: boolean, default: true, required: false}
+      - {label: "Order (1 = first)", name: order, widget: number, default: 10, required: false}
+      - {label: "Species", name: species, widget: select, options: ["Cat", "Dog"], default: "Cat"}
+      - {label: "Status · الحالة (Available = full file ready · Reserved = someone interested · Soon traveling = papers done, waiting for health certificate & flight)", name: status, widget: select, options: ["Lives with us", "Available", "In treatment", "Reserved", "Soon traveling", "Adopted", "Missing", "Passed away"], default: "Lives with us"}
+      - {label: "Card & frame color", name: "color", widget: select, default: "orchid", required: false, options: ["peach", "orange", "tangerine", "coral", "rose", "pink", "pink-light", "orchid", "purple", "lavender", "sky", "sky-light", "denim", "teal", "aqua", "mint", "green", "olive", "lime", "sunshine", "cocoa"]}
+      - {label: "Age", name: "age", widget: string, required: false}
+      - {label: "Birth date (approx.) — sorts kittens and adults automatically", name: birth, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", required: false}
+      - {label: "Condition / special needs · الحالة الصحية", name: condition, widget: string, required: false}
+      - {label: "Groups", name: tags, widget: select, multiple: true, required: false, options: ["Special needs", "Rescued as a kitten", "Mother", "Siblings", "Outdoor cat"]}
+      - {label: "Family (e.g. Mother of Tia / Sibling of Misty)", name: family, widget: string, required: false}
+      - {label: "Sex", name: sex, widget: select, options: ["Male", "Female"], required: false}
+      - {label: "Short line for the card", name: "summary", widget: text, required: false}
+      - {label: "Story · القصة", name: "story", widget: text, required: false}
+      - {label: "Case number", name: "case_number", widget: string, required: false}
+      - {label: "Can fly worldwide", name: can_fly, widget: boolean, default: true, required: false}
+      - label: "Photos · الصور (first one is the main photo)"
+        name: photos
+        widget: list
+        required: false
+        fields:
+          - {label: "Photo", name: image, widget: image}
+          - {label: "Caption (e.g. Rescue day)", name: "label", widget: string, required: false}
+      - label: "Facts (Vaccines, Neutered, Special needs...)"
+        name: facts
+        widget: list
+        required: false
+        fields: [{label: "Label", name: "label", widget: string, required: false}, {label: "Value", name: "value", widget: string, required: false}]
+      - label: "Instagram reels"
+        name: reels
+        widget: list
+        required: false
+        fields: [{label: "Title", name: "title", widget: string, required: false}, {label: "Reel link", name: "url", widget: string, required: false}]
+      - label: "Medical tests · الفحوصات"
+        name: tests
+        widget: list
+        required: false
+        fields: [{label: "Test", name: "name", widget: string, required: false}, {label: "Result", name: "result", widget: string, required: false}, {label: "Date", name: "date", widget: string, required: false}, {label: "Clinic", name: "clinic", widget: string, required: false}, {label: "Report (PDF or photo)", name: "file", widget: file, required: false}]
+      - label: "Clinic receipts · الفواتير"
+        name: receipts
+        widget: list
+        required: false
+        fields: [{label: "Date", name: "date", widget: string, required: false}, {label: "Clinic / supplier", name: "who", widget: string, required: false}, {label: "For", name: "what", widget: string, required: false}, {label: "Amount in JOD (number only)", name: "amount", widget: string, required: false}, {label: "Receipt (PDF or photo, blur personal details)", name: "file", widget: file, required: false}]
+      - {label: "Adopting to (country)", name: "fee_country", widget: string, required: false}
+      - {label: "Total adoption fee", name: "fee_total", widget: string, required: false}
+      - label: "Adoption fee breakdown"
+        name: fee_items
+        widget: list
+        required: false
+        fields: [{label: "Item", name: "label", widget: string, required: false}, {label: "Cost", name: "cost", widget: string, required: false}]
+      - label: "Travel progress"
+        name: travel
+        widget: list
+        required: false
+        fields: [{label: "Step", name: "label", widget: string, required: false}, {label: "State", name: state, widget: select, options: ["done", "progress", "todo"], default: "todo"}, {label: "Date", name: "date", widget: string, required: false}]
+      - label: "Travel papers"
+        name: papers
+        widget: list
+        required: false
+        fields: [{label: "Document (Microchip, Rabies titer test...)", name: "title", widget: string, required: false}, {label: "Status (Valid, Booked...)", name: "status", widget: string, required: false}, {label: "What it is for", name: "why", widget: text, required: false}, {label: "Details, one per line as  Label: value", name: "details", widget: text, required: false}, {label: "Document (PDF)", name: "file", widget: file, required: false}]
+      - {label: "All papers in one PDF", name: "papers_pdf", widget: file, required: false}
+      - {label: "Special-needs care page", name: care_enabled, widget: boolean, default: false, required: false}
+      - {label: "Needs bladder expressing", name: care_bladder, widget: boolean, default: false, required: false}
+      - {label: "How often (bladder)", name: "care_times", widget: string, required: false}
+      - {label: "Care intro", name: "care_intro", widget: text, required: false}
+      - {label: "Diet note", name: "care_diet_note", widget: text, required: false}
+      - label: "Diet foods"
+        name: care_diet
+        widget: list
+        required: false
+        fields: [{label: "Food", name: "name", widget: string, required: false}, {label: "Type", name: type, widget: select, options: ["Wet", "Dry", "Treat", "Supplement"]}, {label: "Note", name: "note", widget: string, required: false}, {label: "Photo", name: "photo", widget: image, required: false}]
+      - label: "A day with this rescue"
+        name: care_day
+        widget: list
+        required: false
+        fields: [{label: "Time (Morning...)", name: "when", widget: string, required: false}, {label: "Tasks, one per line", name: "tasks", widget: text, required: false}]
+      - label: "What adopters need at home"
+        name: care_kit
+        widget: list
+        required: false
+        field: {label: "Item", name: "item", widget: string, required: false}
+      - {label: "Care video link (optional)", name: "care_video", widget: string, required: false}
+
+  - name: pages
+    label: "Site content · محتوى الموقع"
+    files:
+      - label: "Pet Taxi rides · رحلات أبو زيد"
+        name: rides
+        file: content/rides.json
+        format: json
+        fields:
+          - {label: "Abu Zayed CliQ", name: "cliq_alias", widget: string, required: false}
+          - {label: "CliQ name", name: "cliq_name", widget: string, required: false}
+          - label: "Rides (newest first)"
+            name: rides
+            widget: list
+            summary: "{{fields.day}} · {{fields.trip}} · {{fields.cost}}"
+            fields:
+              - {label: "Day (Today, Tomorrow...)", name: "day", widget: string, required: false}
+              - {label: "Date", name: "date", widget: string, required: false}
+              - {label: "Trip (Clinic visit...)", name: "trip", widget: string, required: false}
+              - {label: "Cost (e.g. 10 JOD)", name: "cost", widget: string, required: false}
+              - {label: "Paid ✓", name: paid, widget: boolean, default: false}
+              - {label: "Thank-you note when paid", name: "thanks", widget: string, required: false}
+              - {label: "Color", name: "color", widget: select, default: "purple", required: false, options: ["peach", "orange", "tangerine", "coral", "rose", "pink", "pink-light", "orchid", "purple", "lavender", "sky", "sky-light", "denim", "teal", "aqua", "mint", "green", "olive", "lime", "sunshine", "cocoa"]}
+              - label: "Pets on this ride"
+                name: pets
+                widget: list
+                fields: [{label: "Name", name: "name", widget: string, required: false}, {label: "Kind", name: kind, widget: select, options: ["Cat", "Dog"], default: "Cat"}, {label: "Photo", name: "photo", widget: image, required: false}]
+      - label: "CliQ accounts"
+        name: cliq
+        file: content/cliq.json
+        format: json
+        fields:
+          - label: "Accounts"
+            name: accounts
+            widget: list
+            summary: "{{fields.title}} · {{fields.alias}}"
+            fields: [{label: "Title", name: "title", widget: string, required: false}, {label: "What it pays for", name: "purpose", widget: text, required: false}, {label: "CliQ alias / number", name: "alias", widget: string, required: false}, {label: "Account name", name: "name", widget: string, required: false}, {label: "Color", name: "color", widget: select, default: "orange", required: false, options: ["peach", "orange", "tangerine", "coral", "rose", "pink", "pink-light", "orchid", "purple", "lavender", "sky", "sky-light", "denim", "teal", "aqua", "mint", "green", "olive", "lime", "sunshine", "cocoa"]}]
+      - label: "Happy tails"
+        name: tails
+        file: content/tails.json
+        format: json
+        fields:
+          - label: "Happy tails"
+            name: tails
+            widget: list
+            fields: [{label: "Name", name: "name", widget: string, required: false}, {label: "Route (Jordan → ...)", name: "route", widget: string, required: false}, {label: "Photo", name: "photo", widget: image, required: false}, {label: "Story page link (optional)", name: "link", widget: string, required: false}, {label: "Color", name: "color", widget: select, default: "sky", required: false, options: ["peach", "orange", "tangerine", "coral", "rose", "pink", "pink-light", "orchid", "purple", "lavender", "sky", "sky-light", "denim", "teal", "aqua", "mint", "green", "olive", "lime", "sunshine", "cocoa"]}]
+      - label: "Settings & links · الإعدادات"
+        name: settings
+        file: content/settings.json
+        format: json
+        fields:
+          - {label: "Instagram username for messages: adoption, CliQ screenshots, rides (no @)", name: "instagram_user", widget: string, required: false}
+          - {label: "GoFundMe link", name: "gofundme_url", widget: string, required: false}
+          - {label: "PayPal link", name: "paypal_url", widget: string, required: false}
+          - {label: "Email for donation screenshots", name: "donation_email", widget: string, required: false}
+          - {label: "City", name: "city", widget: string, required: false}
+          - {label: "In loving memory style", name: memory_style, widget: select, options: ["rainbow", "black"], default: "rainbow"}
+          - label: "Needs (donate section)"
+            name: needs
+            widget: list
+            fields: [{label: "Need", name: "label", widget: string, required: false}, {label: "Color", name: "color", widget: select, default: "sunshine", required: false, options: ["peach", "orange", "tangerine", "coral", "rose", "pink", "pink-light", "orchid", "purple", "lavender", "sky", "sky-light", "denim", "teal", "aqua", "mint", "green", "olive", "lime", "sunshine", "cocoa"]}]
+      - label: "Special-needs care guide (shared)"
+        name: care
+        file: content/care.json
+        format: json
+        fields:
+          - label: "Bladder steps ({name} is replaced by the pet's name)"
+            name: bladder_steps
+            widget: list
+            fields: [{label: "Title", name: "title", widget: string, required: false}, {label: "Text", name: "body", widget: text, required: false}, {label: "Illustration", name: "image", widget: image, required: false}]
+          - {label: "Call the vet if...", name: "warning", widget: text, required: false}
+          - label: "Keeping healthy cards"
+            name: health
+            widget: list
+            fields: [{label: "Title", name: "title", widget: string, required: false}, {label: "Text", name: "body", widget: text, required: false}, {label: "Color", name: "color", widget: select, default: "orange", required: false, options: ["peach", "orange", "tangerine", "coral", "rose", "pink", "pink-light", "orchid", "purple", "lavender", "sky", "sky-light", "denim", "teal", "aqua", "mint", "green", "olive", "lime", "sunshine", "cocoa"]}]

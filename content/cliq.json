@@ -1,0 +1,39 @@
+{
+  "accounts": [
+    {
+      "title": "Healing",
+      "purpose": "Vet bills, medication and emergencies for sick and injured cats.",
+      "alias": "079 060 33 44",
+      "name": "Faisal Albrezat / Healthy Pet Clinic",
+      "color": "teal"
+    },
+    {
+      "title": "Food & pet supplies",
+      "purpose": "Daily meals and supplies for over 160 rescued cats.",
+      "alias": "Petzone",
+      "name": "Hamzeh Hassan for Pet Supplies Company",
+      "color": "pink-light"
+    },
+    {
+      "title": "Food",
+      "purpose": "Daily meals for over 160 rescued cats.",
+      "alias": "MOHDABDEID",
+      "name": "Etihad Bank / Shareket Wesam Ramdan w Sharekeh",
+      "color": "orange"
+    },
+    {
+      "title": "Transportation",
+      "purpose": "Rides from the clinic, to the Furry Hearts home and during rescue missions.",
+      "alias": "078 506 0007",
+      "name": "Dia Alhaq Mohammad A Altaybeen",
+      "color": "lavender"
+    },
+    {
+      "title": "Other bills & needs",
+      "purpose": "Medications, supplies and other essentials for rescued cats.",
+      "alias": "FHJO100",
+      "name": "Furry Hearts of Jordan",
+      "color": "peach"
+    }
+  ]
+}

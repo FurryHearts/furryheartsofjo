@@ -1,0 +1,32 @@
+{
+  "name": "Pumpkin",
+  "number": 65,
+  "order": 65,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "denim",
+  "condition": "Limited vision",
+  "tags": [
+    "Special needs",
+    "Rescued as a kitten"
+  ],
+  "family": "Sophie's kitten",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "65",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

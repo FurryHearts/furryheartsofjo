@@ -1,0 +1,44 @@
+{
+  "name": "Patchi",
+  "slug": "patchi",
+  "order": 2,
+  "featured": true,
+  "species": "Cat",
+  "status": "Available",
+  "color": "orchid",
+  "age": "3–4 years",
+  "sex": "Male",
+  "summary": "Fully vaccinated and neutered.",
+  "story": "[Patchi's story]",
+  "case_number": "17",
+  "can_fly": true,
+  "photos": [
+    {
+      "image": "img/patchi.jpg",
+      "label": "Main photo"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Vaccines",
+      "value": "Fully vaccinated"
+    },
+    {
+      "label": "Neutered",
+      "value": "Yes"
+    }
+  ],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false,
+  "number": 17,
+  "condition": "",
+  "tags": [],
+  "family": ""
+}

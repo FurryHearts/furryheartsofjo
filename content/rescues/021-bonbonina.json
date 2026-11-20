@@ -1,0 +1,31 @@
+{
+  "name": "Bonbonina",
+  "number": 21,
+  "order": 21,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "green",
+  "condition": "50% deaf",
+  "tags": [
+    "Special needs"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "21",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

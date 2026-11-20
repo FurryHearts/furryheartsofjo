@@ -1,0 +1,31 @@
+{
+  "name": "Raffaello",
+  "number": 15,
+  "order": 15,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "orchid",
+  "condition": "One eye lost",
+  "tags": [
+    "Special needs"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "15",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}

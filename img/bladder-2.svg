@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150"><rect width="200" height="150" rx="24" fill="#FCF2F0"/><path d="M30 112 h140 l-10 26 h-120z" fill="#3DCAD1" stroke="#A38273" stroke-width="4" stroke-linejoin="round"/>
+<g fill="#FFFFFF"><circle cx="60" cy="124" r="3"/><circle cx="90" cy="128" r="3"/><circle cx="120" cy="124" r="3"/><circle cx="145" cy="128" r="3"/></g>
+<g transform="translate(104 70) scale(0.9)" stroke="#A38273" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M48 -6 C70 -14 78 -34 66 -44" fill="none"/>
+<ellipse cx="8" cy="0" rx="46" ry="24" fill="#FFB68D"/>
+
+<path d="M-26 22 l-4 18 M-10 22 l0 18 M30 20 l2 20 M44 14 l6 22" fill="none"/>
+<circle cx="-42" cy="-20" r="20" fill="#FFB68D"/>
+<path d="M-58 -30 l-2 -20 l14 10 M-36 -39 l8 -16 l4 18" fill="#FFB68D"/>
+<circle cx="-50" cy="-22" r="2.5" fill="#A38273" stroke="none"/>
+<path d="M-60 -14 q3 3 6 0" fill="none" stroke-width="3"/>
+</g>
+<path d="M40 96 q30 -8 50 -4" fill="none" stroke="#A38273" stroke-width="12" stroke-linecap="round"/>
+<path d="M40 96 q30 -8 50 -4" fill="none" stroke="#FFB68D" stroke-width="5" stroke-linecap="round"/></svg>

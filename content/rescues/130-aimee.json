@@ -1,0 +1,31 @@
+{
+  "name": "Aimee",
+  "number": 130,
+  "order": 130,
+  "featured": false,
+  "species": "Cat",
+  "status": "Lives with us",
+  "color": "coral",
+  "condition": "Fully blind, eyes removed, lost one ear",
+  "tags": [
+    "Special needs"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "",
+  "summary": "",
+  "story": "",
+  "case_number": "130",
+  "can_fly": true,
+  "photos": [],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}
