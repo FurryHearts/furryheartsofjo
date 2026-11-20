@@ -156,14 +156,14 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 </div>
 <div aria-hidden="true" style="height: 16px; background: radial-gradient(circle at 50% 0, {{c.color}} 15px, transparent 15.5px) 0 0 / 32px 16px repeat-x"></div>
 <div style="padding: 6px 24px 20px; display: flex; flex-direction: column; gap: 8px; flex-grow: 1">
-<p style="margin: 0; font-size: 15px; line-height: 1.45; font-weight: 500; color: var(--cocoa, #a38273)">{{c.purpose}}</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.45; font-weight: 500; padding: 0 14px; color: {{c.color}}">{{c.purpose}}</p>
 <div style="background: {{c.color}}; border-radius: 16px; padding: 12px 14px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 18px">
 <span class="fhj-alias" style="font-size: 21px; font-weight: 500; white-space: nowrap; color: var(--paper, #ffffff)">CliQ: {{c.alias}}</span>
-<button type="button" onClick="{{c.copy}}" aria-label="Copy CliQ {{c.alias}}" style="font: inherit; cursor: pointer; font-size: 14px; font-weight: 500; background: var(--paper, #FFFFFF); color: var(--ink, #2B1E1A); border: 0; border-radius: 999px; padding: 10px 14px; white-space: nowrap">{{c.copyLabel}}</button>
+<button type="button" onClick="{{c.copy}}" aria-label="Copy CliQ {{c.alias}}" style="font: inherit; cursor: pointer; font-size: 14px; font-weight: 500; background: var(--paper, #FFFFFF); color: {{c.color}}; border: 0; border-radius: 999px; padding: 10px 14px; white-space: nowrap">{{c.copyLabel}}</button>
 </div>
-<span style="font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; color: var(--cocoa, #a38273)">{{c.name}}</span>
-<p lang="ar" dir="rtl" style="margin: 0; text-align: left; font-family: 'Readex Pro', var(--font-sans), sans-serif; font-weight: 300; font-size: 13.5px; line-height: 1.6; color: var(--cocoa, #a38273)">يرجى إرسال صورة عن تحويل التبرع حتى أتمكن من تحديث المجموع ومتابعة الرصيد المتبقي.</p>
-<p style="margin: 0; font-size: 13.5px; line-height: 1.45; color: var(--cocoa, #a38273)">Please share a screenshot of your donation so we can track the balance.</p>
+<span style="font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; padding: 0 14px; color: {{c.color}}">{{c.name}}</span>
+<p lang="ar" dir="rtl" style="margin: 0; text-align: left; font-family: 'Readex Pro', var(--font-sans), sans-serif; font-weight: 400; font-size: 13.5px; line-height: 1.6; padding: 0 14px; color: {{c.color}}">يرجى إرسال صورة عن تحويل التبرع حتى أتمكن من تحديث المجموع ومتابعة الرصيد المتبقي.</p>
+<p style="margin: 0; font-size: 13.5px; line-height: 1.45; font-weight: 400; padding: 0 14px; color: {{c.color}}">Please share a screenshot of your donation so we can track the balance.</p>
 <a href="{{c.wa}}" data-msg="{{c.msg}}" target="_blank" rel="noopener" style="margin-top: auto; text-decoration: none; text-align: center; color: var(--paper, #FFFFFF); padding: 12px; border-radius: 999px; font-weight: 500; font-size: 15px; background-color: {{c.color}}; display: grid">Send screenshot on Instagram</a>
 </div>
 </article>
