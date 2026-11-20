@@ -1,7 +1,7 @@
 {
   "title": "When to see a vet",
   "intro": "Some signs mean home care is not enough. If you notice any of these, please take your cat to a vet as soon as possible.",
-  "note": "This list comes from our 7 years of rescue experience. It is not a full list, and it never replaces a vet. When in doubt, always call your vet.",
+  "note": "This list comes from our 7 years of rescue experience and trusted veterinary sources. It is not a full list, and it never replaces a vet. When in doubt, always call your vet.",
   "signs": [
     {
       "title": "Swollen ear flap",
@@ -32,6 +32,66 @@
       "title": "Sore or infected eyes",
       "body": "Never use any eye drops before a vet checks the eye. The wrong drops can damage the eye and even cause blindness.",
       "color": "sky"
+    },
+    {
+      "title": "Straining but cannot pee",
+      "body": "Going back and forth to the litter box with only drops or no urine at all, often crying. Most common in male cats. A blocked cat can die within a day or two, so go straight to a vet.",
+      "color": "denim"
+    },
+    {
+      "title": "Trouble breathing",
+      "body": "Breathing with an open mouth, panting or gasping. Cats do not pant like dogs, so this is always urgent.",
+      "color": "teal"
+    },
+    {
+      "title": "Swallowed string or thread",
+      "body": "String, thread, wool, hair ties or tinsel. If you see a string hanging from the mouth or bottom, never pull it and do not try to make them vomit. Go to a vet.",
+      "color": "green"
+    },
+    {
+      "title": "Swallowed something else",
+      "body": "Toys, needles, plastic or bones. Even if your cat seems fine, call your vet. Watch for vomiting, belly pain and not eating.",
+      "color": "lavender"
+    },
+    {
+      "title": "Vomiting again and again",
+      "body": "Repeated vomiting, especially with weakness, not eating or pale gums.",
+      "color": "pink"
+    },
+    {
+      "title": "Pale or white gums",
+      "body": "Healthy gums are light pink. Pale, white or grey gums can mean blood loss or shock.",
+      "color": "purple"
+    },
+    {
+      "title": "Seizure or collapse",
+      "body": "Shaking fits, falling over, or a cat who is very weak and barely responds to you.",
+      "color": "orange"
+    },
+    {
+      "title": "A fall, accident or fight",
+      "body": "After a fall from height, a car accident or a bad fight, see a vet even if your cat is still walking. Some injuries are inside and cannot be seen.",
+      "color": "sky"
+    },
+    {
+      "title": "Heavy bleeding",
+      "body": "Bleeding that does not stop, from a wound, the mouth, the stool or the urine.",
+      "color": "rose"
+    },
+    {
+      "title": "Ate something poisonous",
+      "body": "Lilies, human medicines, cleaning products or rat poison. Go to the vet even before signs appear, and bring the package or plant with you.",
+      "color": "olive"
+    },
+    {
+      "title": "Heatstroke",
+      "body": "Panting, heavy drooling and a body that feels very hot, especially on hot days or after being shut in a car or room.",
+      "color": "tangerine"
+    },
+    {
+      "title": "Crying in pain",
+      "body": "Screaming or crying when touched, a hunched back, or a cat who suddenly cannot use their back legs.",
+      "color": "coral"
     }
   ],
   "ask_title": "Not sure if it is an emergency?",
