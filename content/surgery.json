@@ -1,6 +1,6 @@
 {
   "title": "After surgery",
-  "intro": "How to help your cat heal at home after an operation, from setting up a rest cage to keeping wounds clean.",
+  "intro": "How to help your cat heal at home after an operation. After every surgery, your cat needs a cone so they cannot lick or pull at their stitches.",
   "note": "We are not vets, and these guides never replace your vet's advice. Always follow your vet's instructions after surgery. We share the practical side we learned caring for our own rescues: how to set up their space, keep wounds clean and help them heal at home.",
   "groups": [
     {
@@ -8,21 +8,38 @@
       "topics": [
         {
           "title": "Pins and fixators",
-          "body": "Cage rest and keeping pins clean after bone surgery.",
+          "body": "Cage rest and keeping the pins clean after bone surgery.",
           "link": "",
           "color": "denim"
         },
         {
           "title": "Pelvic fractures",
-          "body": "Rest, toileting and moving gently while the hips heal.",
+          "body": "Cage rest, toileting and moving gently while the hips heal.",
           "link": "",
           "color": "teal"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Amputations",
+      "topics": [
         {
-          "title": "Cage rest at home",
-          "body": "Setting up a safe, comfy rest cage.",
+          "title": "Leg amputation",
+          "body": "Rest, the wound and learning to walk on three legs.",
           "link": "",
           "color": "sky"
+        },
+        {
+          "title": "Tail amputation",
+          "body": "Keeping the wound clean and dry while it heals.",
+          "link": "",
+          "color": "green"
+        },
+        {
+          "title": "Ear amputation",
+          "body": "Caring for the wound and protecting the head.",
+          "link": "",
+          "color": "rose"
         }
       ]
     },
@@ -31,7 +48,7 @@
       "topics": [
         {
           "title": "Spaying (females)",
-          "body": "Rest, the wound and stopping them from licking.",
+          "body": "Rest and caring for the wound after spaying.",
           "link": "",
           "color": "pink"
         },
@@ -48,10 +65,10 @@
           "color": "lavender"
         },
         {
-          "title": "Licking the wound",
-          "body": "Cones and body suits to stop licking and bleeding.",
+          "title": "Ear hematoma surgery",
+          "body": "After draining a swollen ear flap.",
           "link": "",
-          "color": "rose"
+          "color": "purple"
         }
       ]
     }
