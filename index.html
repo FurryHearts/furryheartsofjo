@@ -105,10 +105,10 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 
 <section id="adopt" style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 48px">
 <div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
-<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 52px; text-transform: uppercase; color: var(--cocoa, #a38273)">Adopt from anywhere</h2>
-<p style="margin: 0; font-size: 18px; line-height: 1.6; color: var(--accent-text, #704f44)">The adoption fee isn't a price tag. It covers everything your new family member needs to travel safely and legally to your door.</p>
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 52px; text-transform: uppercase; color: var(--cocoa, #a38273)">Give them a second chance</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: var(--accent-text, #704f44)">Wherever you are in the world, you can open your home to one of our rescues. One decision from you, and a cat who started life on the streets of Jordan gets a whole new life.</p>
 </div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 22px">
 <template data-sc-for="{{steps}}" data-as="s">
 <div style="border: 3px solid {{s.color}}; border-radius: 28px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
 <span style="width: 56px; height: 56px; border-radius: 999px; background: {{s.color}}; display: flex; align-items: center; justify-content: center; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-size: 28px; color: var(--paper, #ffffff)">{{s.n}}</span>
@@ -118,8 +118,8 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 </template>
 </div>
 <div style="color: var(--paper, #FFFFFF); border-radius: 28px; padding: 32px 36px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; background-color: var(--cocoa, #a38273)">
-<p style="margin: 0; font-size: 18px; line-height: 1.6; max-width: 760px"><strong>Your adoption fee covers:</strong> vaccines, microchip, rabies titer test, spay/neuter, health certificate, export permits, IATA travel crate and flight. [YOUR FEE RANGE]</p>
-<a href="#" style="text-decoration: none; color: var(--cocoa, #a38273); padding: 16px 28px; border-radius: 999px; font-weight: 500; font-size: 17px; background-color: var(--paper, #ffffff)">Apply to adopt</a>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; max-width: 760px"><strong>A little note about the adoption fee:</strong> it is never a price on their head. It simply covers their journey to you: vaccines, microchip, rabies titer test, health certificate, export permits, a travel crate, and their flight with a travel buddy or a trusted pet shipping company. Each rescue's file shows exactly what it includes.</p>
+<a href="rescues.html" style="text-decoration: none; color: var(--cocoa, #a38273); padding: 16px 28px; border-radius: 999px; font-weight: 500; font-size: 17px; background-color: var(--paper, #ffffff); white-space: nowrap">Meet our rescues</a>
 </div>
 </section>
 
@@ -229,10 +229,11 @@ return {
     copyLabel: this.state.copied === i ? 'Copied ✓' : 'Copy', wa: 'https://ig.me/m/' + ig, msg: 'Hi Furry Hearts of Jordan! I just sent a CliQ donation to ' + c.alias + ' (' + c.title + ') through your website. Here is my screenshot 🐾 (sent from furryheartsofjordan.com)',
     copy: () => { try { navigator.clipboard.writeText(String(c.alias).replace(/\s/g, '')); } catch (e) {} this.setState({ copied: i }); } })),
   steps: [
-    { n: '1', title: 'Fall in love', body: 'Browse full profiles with photos, videos and health records.', color: 'var(--sky, #43BDFF)' },
-    { n: '2', title: 'Apply', body: 'Fill in a short application and we video-call to get to know you.', color: 'var(--orchid, #E86CE8)' },
-    { n: '3', title: 'Travel papers', body: 'We handle vet checks, permits and every document for your country.', color: 'var(--sunshine, #FEC200)' },
-    { n: '4', title: 'Welcome home', body: 'Your rescue flies to you with a volunteer or as cargo, safely.', color: 'var(--green, #4BC939)' }
+    { n: '1', title: 'Fall in love', body: 'Meet our rescues, read their stories and look through their photos, reels and health records.', color: 'var(--sky, #43BDFF)' },
+    { n: '2', title: 'Say hello', body: 'Tap "Apply to adopt" on the one who stole your heart. It opens a chat with Dina, who looks after every Furry Hearts rescue and knows each one by heart.', color: 'var(--orchid, #E86CE8)' },
+    { n: '3', title: 'We prepare the journey', body: 'Once we know it is the right match, we take care of every travel paper: vaccines, microchip, titer test, health certificate and permits.', color: 'var(--sunshine, #FEC200)' },
+    { n: '4', title: 'Time to fly', body: 'Your rescue travels with a kind travel buddy, or with a trusted pet shipping company we work with.', color: 'var(--orange, #FF9D46)' },
+    { n: '5', title: 'Welcome home', body: 'A new life begins. Please keep sending us photos and updates, so we can share their happy tail with everyone who helped.', color: 'var(--green, #4BC939)' }
   ],
   needs: (S.needs || []).map((n) => ({ label: n.label, color: F.color(n.color) })),
   tails: ((D.tails || {}).tails || []).map((t) => ({ ...t, color: F.color(t.color, 'sky'), link: t.link || '#', hasStory: !!t.link })),
