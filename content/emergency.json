@@ -15,6 +15,11 @@
           "color": "coral"
         },
         {
+          "title": "Bladder cannot be expressed",
+          "body": "For paralyzed cats: if you press the bladder as usual and no urine comes out, the opening may be blocked. This is an emergency, go to a vet straight away.",
+          "color": "purple"
+        },
+        {
           "title": "Yellow ears, gums or nose",
           "body": "A yellow tint on the skin, gums or inside the ears can be jaundice, often a sign of a liver problem or another serious illness.",
           "color": "sunshine"
@@ -56,7 +61,7 @@
         },
         {
           "title": "Swallowed something else",
-          "body": "Toys, needles, plastic or bones. Even if your cat seems fine, call your vet. Watch for vomiting, belly pain and not eating.",
+          "body": "Plastic bags, nylon, toys, needles or bones. If your cat swallowed something and it does not come out in the stool, see a vet. Watch for vomiting, belly pain and not eating.",
           "color": "lavender"
         },
         {
@@ -76,7 +81,7 @@
         },
         {
           "title": "A fall, accident or fight",
-          "body": "After a fall from height, a car accident or a bad fight, see a vet even if your cat is still walking. Some injuries are inside and cannot be seen.",
+          "body": "If your cat falls from a high floor, go to a vet immediately, even if they seem fine. The same after a car accident or a bad fight. Some injuries are inside and cannot be seen.",
           "color": "sky"
         },
         {
@@ -144,6 +149,21 @@
           "title": "Tiny jumping bugs",
           "body": "Small bugs moving and jumping in the fur are fleas. The whole home needs treating too.",
           "color": "green"
+        },
+        {
+          "title": "White grains in the stool",
+          "body": "Small white grains, like rice, in the poop or around the bottom are often tapeworm pieces.",
+          "color": "olive"
+        },
+        {
+          "title": "Worms in the stool",
+          "body": "White threads, sometimes still moving, in your cat's poop are worms.",
+          "color": "pink"
+        },
+        {
+          "title": "Vomiting worms",
+          "body": "Sometimes a cat throws up a worm, often with yellow liquid. Your cat needs deworming from a vet.",
+          "color": "coral"
         }
       ]
     }
