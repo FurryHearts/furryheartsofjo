@@ -174,7 +174,10 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <div class="fhj-tails" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px">
 <template data-sc-for="{{tails}}" data-as="t">
 <a href="{{t.link}}" style="text-decoration: none; display: flex; flex-direction: column; gap: 14px">
-<img src="{{t.photo}}" alt="{{t.name}} in their new home" style="display: block; width: 100%; aspect-ratio: 1 / 1; height: auto; object-fit: cover; object-position: center 30%; border-radius: 28px; box-shadow: 0 0 0 4px {{t.color}}">
+<div style="position: relative; aspect-ratio: 1 / 1; width: 100%">
+<img src="{{t.photo}}" alt="{{t.name}} in their new home" style="position: absolute; left: 3%; top: 3%; width: 94%; height: 94%; object-fit: cover; object-position: center 30%; border-radius: 9%">
+<svg viewBox="0 0 100 100" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none"><rect x="2" y="2" width="96" height="96" rx="11" pathLength="120" style="fill: none; stroke: {{t.color}}; stroke-width: 3.4; stroke-linecap: round; stroke-dasharray: 0 1"></rect></svg>
+</div>
 <span style="font-size: 16px; line-height: 1.5; color: var(--accent-text, #704f44)"><strong style="color: {{t.color}}">{{t.name}}</strong> · {{t.route}}</span>
 <template data-sc-if="{{t.hasStory}}"><span style="font-size: 15px; font-weight: 500; color: var(--cocoa, #a38273)">Read the story →</span></template>
 </a>
