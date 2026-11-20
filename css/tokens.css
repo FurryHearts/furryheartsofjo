@@ -9,9 +9,9 @@
 --font-sans:"GT Walsheim",Figtree,system-ui,sans-serif;
 }
 
-/* Brand fonts. Put the font files in /fonts with these exact names.
-   Until they are there, the site uses Bagel Fat One (titles) and Figtree (text). */
-@font-face{font-family:"Pesta Rakyat";src:url("../fonts/PestaRakyat.woff2") format("woff2"),url("../fonts/PestaRakyat.otf") format("opentype");font-weight:400;font-display:swap}
+/* Brand fonts. Pesta Rakyat by Khurasan: free for personal & commercial use (see fonts/PestaRakyat-license.txt). */
+@font-face{font-family:"Pesta Rakyat";src:url("../fonts/PestaRakyat.woff") format("woff"),url("../fonts/PestaRakyat.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}
+/* GT Walsheim needs a web licence: add GTWalsheim-Light/Regular/Medium.woff2 here when available. Until then body text uses Figtree. */
 @font-face{font-family:"GT Walsheim";src:url("../fonts/GTWalsheim-Light.woff2") format("woff2");font-weight:300;font-display:swap}
 @font-face{font-family:"GT Walsheim";src:url("../fonts/GTWalsheim-Regular.woff2") format("woff2");font-weight:400;font-display:swap}
 @font-face{font-family:"GT Walsheim";src:url("../fonts/GTWalsheim-Medium.woff2") format("woff2");font-weight:500;font-display:swap}
