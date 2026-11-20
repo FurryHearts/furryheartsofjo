@@ -1,0 +1,13 @@
+{
+  "title": "Ted's Shop",
+  "intro": "Cozy supplies for your cat, picked the same way we pick them for our own rescues. Every order helps pay for a rescue's treatment.",
+  "soon": "Our shop is opening soon. Message us if you see something you like, and we will let you know when it is ready.",
+  "categories": [
+    {"title": "Blankets", "body": "Soft and warm, like the ones our rescues love.", "icon": "blanket.svg", "color": "pink"},
+    {"title": "Beds", "body": "A cozy corner to curl up in.", "icon": "bed.svg", "color": "lavender"},
+    {"title": "Toys", "body": "Balls, wands and things to chase.", "icon": "toys.svg", "color": "sunshine"},
+    {"title": "Bowls", "body": "For food and water.", "icon": "bowls.svg", "color": "teal"},
+    {"title": "Collars & harnesses", "body": "Safe and comfy for every size.", "icon": "collars.svg", "color": "rose"},
+    {"title": "Carriers", "body": "For vet visits and travel.", "icon": "carriers.svg", "color": "denim"}
+  ]
+}
