@@ -44,12 +44,16 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <h1 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 72px; line-height: 1; text-transform: uppercase; color: var(--cocoa, #a38273); color: var(--peach, #ffb68d)">{{c.title}}</h1>
 <p style="margin: 0; font-size: 18px; line-height: 1.65; color: var(--accent-text, #704f44); text-wrap: balance">{{c.intro}}</p>
 <p style="margin: 0; font-size: 17px; font-weight: 500; color: var(--peach, #ffb68d)">{{c.why}}</p>
+<div style="display: flex; gap: 16px; align-items: flex-start; padding: 18px 20px; border-radius: 20px; box-shadow: inset 0 0 0 3px var(--peach, #ffb68d); background: #fff">
+<svg viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" style="flex: 0 0 auto"><rect x="4" y="6" width="32" height="22" rx="4" fill="#ffb68d"></rect><path d="M10 13h20M10 19h12" stroke="#fff" stroke-width="2.6" stroke-linecap="round"></path><circle cx="28" cy="27" r="6" fill="#fff" stroke="#ffb68d" stroke-width="3"></circle><path d="M25 32l-2 6 5-2 5 2-2-6" fill="#ffb68d"></path></svg>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: var(--accent-text, #704f44)"><strong style="font-weight: 500; color: var(--peach, #ffb68d)">Certificate included. </strong>{{c.cert}}</p>
+</div>
 <p style="margin: 4px 0 0; padding: 16px 20px; border-radius: 20px; background: var(--cream, #fcf2f0); font-size: 15px; line-height: 1.6; color: var(--accent-text, #704f44)">{{c.note}}</p>
 </div>
 <div class="fhj-signs" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px">
 <template data-sc-for="{{ws}}" data-as="t">
 <article style="border-radius: 28px; padding: 28px; background: color-mix(in srgb, {{t.color}} 10%, white); box-shadow: inset 0 0 0 4px {{t.color}}; display: flex; flex-direction: column; gap: 10px">
-<span style="align-self: flex-start; padding: 5px 12px; border-radius: 999px; background: {{t.color}}; color: #fff; font-size: 13px; font-weight: 500">With a vet</span>
+<span style="align-self: flex-start; padding: 5px 12px; border-radius: 999px; background: {{t.color}}; color: #fff; font-size: 13px; font-weight: 500">With a vet · Certificate</span>
 <h3 style="margin: 0; font-size: 23px; font-weight: 500; color: {{t.color}}">{{t.title}}</h3>
 <p style="margin: 0; font-size: 15px; line-height: 1.55; color: var(--accent-text, #704f44)">{{t.body}}</p>
 <p style="margin: 0; font-size: 14px; font-weight: 500; color: {{t.color}}">For: {{t.for}}</p>
