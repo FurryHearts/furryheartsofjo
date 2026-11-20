@@ -38,11 +38,11 @@
       "link": ""
     },
     {
-      "title": "Special needs care",
-      "body": "Caring for paralyzed and disabled cats.",
+      "title": "Special care",
+      "body": "Guides for cats who need a little extra care.",
       "icon": "special.svg",
       "color": "mint",
-      "link": "care.html#205-kai"
+      "link": "special-care.html"
     },
     {
       "title": "Travel papers",

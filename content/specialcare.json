@@ -1,0 +1,80 @@
+{
+  "title": "Special care",
+  "intro": "Practical guides for cats who need a little extra care, from everything we have learned caring for our own rescues.",
+  "topics": [
+    {
+      "title": "Expressing the bladder",
+      "body": "Step by step, for cats who cannot pee on their own.",
+      "link": "care.html#205-kai",
+      "color": "coral"
+    },
+    {
+      "title": "Paralyzed cats",
+      "body": "Daily care, hygiene, food and keeping them happy.",
+      "link": "",
+      "color": "purple"
+    },
+    {
+      "title": "Blind cats",
+      "body": "Helping them feel safe and find their way.",
+      "link": "",
+      "color": "sky"
+    },
+    {
+      "title": "Cats with no teeth",
+      "body": "Soft food and gentle daily care.",
+      "link": "",
+      "color": "orange"
+    },
+    {
+      "title": "Three-legged cats",
+      "body": "Life after losing a leg.",
+      "link": "",
+      "color": "teal"
+    },
+    {
+      "title": "Cats without back legs",
+      "body": "Moving, cleaning and staying active.",
+      "link": "",
+      "color": "mint"
+    },
+    {
+      "title": "Kidney failure",
+      "body": "Diet, fluids and what to watch for.",
+      "link": "",
+      "color": "denim"
+    },
+    {
+      "title": "High liver values",
+      "body": "Understanding liver problems and how to help.",
+      "link": "",
+      "color": "pink"
+    },
+    {
+      "title": "Diabetic cats",
+      "body": "Insulin, meals and daily routines.",
+      "link": "",
+      "color": "sunshine"
+    },
+    {
+      "title": "Fungal infections",
+      "body": "Treating ringworm safely.",
+      "link": "",
+      "color": "lavender"
+    },
+    {
+      "title": "Tiny kittens",
+      "body": "Warmth, feeding and the first weeks of life.",
+      "link": "",
+      "color": "rose"
+    },
+    {
+      "title": "Newborns & nursing moms",
+      "body": "Supporting a mother cat and her babies.",
+      "link": "",
+      "color": "green"
+    }
+  ],
+  "ask_title": "Facing a special case?",
+  "ask_body": "Many of you message us about a cat you found or a pet with a special condition. Send us your question, and we will add the answers here so they can help others too."
+}
