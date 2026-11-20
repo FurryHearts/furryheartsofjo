@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="fhj-data" content="content/settings.json ">
+<meta name="fhj-data" content="content/settings.json content/breeds.json">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Furry Hearts of Jordan — Cat breeds</title>
 <meta name="description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
@@ -70,6 +70,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <script type="text/x-dc">
 class Component extends DCLogic {
 constructor(props) { super(props); this.state = { breeds: null, failed: false };
+const saved = ((window.FHJ.data.breeds || {}).breeds || []); if (saved.length) { this.state.breeds = saved.map((b) => ({ ...b, wiki: b.wiki || ('https://en.wikipedia.org/wiki/' + encodeURIComponent(b.name + ' cat')) })); return; }
 const KEY = 'fhj-breeds-v1', DAY = 864e5;
 try { const c = JSON.parse(localStorage.getItem(KEY) || 'null'); if (c && Date.now() - c.t < 7 * DAY && c.b && c.b.length) { this.state.breeds = c.b; return; } } catch (e) {}
 fetch('https://api.thecatapi.com/v1/breeds').then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((d) => {
