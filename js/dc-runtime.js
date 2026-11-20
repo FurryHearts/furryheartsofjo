@@ -38,12 +38,22 @@
     });
   }
 
+  // Keep paragraphs balanced: never leave a short word that starts a sentence
+  // alone at the end of a line, and never leave one word alone on the last line.
+  function tidy(t) {
+    if (!t || t.length < 50 || /^\s*$/.test(t)) return t;
+    t = t.replace(/([.!?:;,]) (\S{1,4}) /g, '$1 $2\u00a0');
+    t = t.replace(/ (a|an|the|to|of|in|on|at|is|it|or|and|for|by|we|you|our|your|so|if|as|be|do|no) /gi, function (m, w) { return ' ' + w + '\u00a0'; });
+    t = t.replace(/ (\S+)\s*$/, '\u00a0$1');
+    return t;
+  }
+
   function renderInto(src, scope, out) {
     var kids = src.childNodes;
     for (var i = 0; i < kids.length; i++) {
       var n = kids[i];
       if (n.nodeType === 3) {
-        out.appendChild(document.createTextNode(interp(n.nodeValue, scope)));
+        out.appendChild(document.createTextNode(tidy(interp(n.nodeValue, scope))));
         continue;
       }
       if (n.nodeType !== 1) continue;
