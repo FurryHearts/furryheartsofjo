@@ -20,6 +20,34 @@
       "photo": "",
       "link": "",
       "color": "orange"
+    },
+    {
+      "name": "Bruno",
+      "route": "Jordan → Czech Republic",
+      "photo": "",
+      "link": "",
+      "color": "teal"
+    },
+    {
+      "name": "Kouvo",
+      "route": "Jordan → Czech Republic",
+      "photo": "",
+      "link": "",
+      "color": "denim"
+    },
+    {
+      "name": "Vanilla",
+      "route": "Jordan → Czech Republic",
+      "photo": "",
+      "link": "",
+      "color": "orchid"
+    },
+    {
+      "name": "Della",
+      "route": "",
+      "photo": "",
+      "link": "",
+      "color": "green"
     }
   ]
 }
