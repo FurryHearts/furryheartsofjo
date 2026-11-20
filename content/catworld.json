@@ -4,7 +4,7 @@
   "topics": [
     {
       "title": "Health & medical",
-      "body": "Fungus, allergies, eye infections and vaccines.",
+      "body": "Common illnesses, FIP, FIV and chronic diseases.",
       "icon": "medical.svg",
       "color": "coral",
       "link": "health.html"
@@ -39,7 +39,7 @@
     },
     {
       "title": "Special needs care",
-      "body": "Long-term care for disabled and chronically ill cats.",
+      "body": "Care for paralyzed, blind and disabled cats.",
       "icon": "special.svg",
       "color": "mint",
       "link": "special-care.html"

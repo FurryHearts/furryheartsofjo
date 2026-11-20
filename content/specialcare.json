@@ -1,6 +1,6 @@
 {
   "title": "Special needs care",
-  "intro": "Long-term care for cats living with a disability or a chronic condition, from everything we have learned caring for our own rescues.",
+  "intro": "Everyday care for cats living with a disability, from everything we have learned caring for our own rescues.",
   "topics": [
     {
       "title": "Expressing the bladder",
@@ -37,24 +37,6 @@
       "body": "Moving, cleaning and staying active.",
       "link": "",
       "color": "mint"
-    },
-    {
-      "title": "Kidney failure",
-      "body": "Diet, fluids and what to watch for.",
-      "link": "",
-      "color": "denim"
-    },
-    {
-      "title": "High liver values",
-      "body": "Understanding liver problems and how to help.",
-      "link": "",
-      "color": "pink"
-    },
-    {
-      "title": "Diabetic cats",
-      "body": "Insulin, meals and daily routines.",
-      "link": "",
-      "color": "sunshine"
     }
   ],
   "ask_title": "Facing a special case?",

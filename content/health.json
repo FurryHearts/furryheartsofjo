@@ -1,32 +1,78 @@
 {
   "title": "Health & medical",
-  "intro": "Common health problems we see in rescues, and how to deal with them.",
-  "topics": [
-    {
-      "title": "Fungal infections",
-      "body": "Treating ringworm safely.",
-      "link": "",
-      "color": "lavender"
-    },
-    {
-      "title": "Allergies",
-      "body": "Itching, sneezing and what may cause them.",
-      "link": "",
-      "color": "rose"
-    },
-    {
-      "title": "Eye infections",
-      "body": "Cleaning sore, teary or infected eyes.",
-      "link": "",
-      "color": "teal"
-    },
-    {
-      "title": "Vaccines",
-      "body": "Which vaccines cats need, and when.",
-      "link": "",
-      "color": "coral"
-    }
-  ],
+  "intro": "Common illnesses and long-term diseases we see in rescues, and how to deal with them.",
   "ask_title": "Have a question?",
-  "ask_body": "Send us your question about a health problem, and we will add the answers here so they can help others too."
+  "ask_body": "Send us your question about a health problem, and we will add the answers here so they can help others too.",
+  "groups": [
+    {
+      "title": "Common illnesses",
+      "topics": [
+        {
+          "title": "Fungal infections",
+          "body": "Treating ringworm safely.",
+          "link": "",
+          "color": "lavender"
+        },
+        {
+          "title": "Allergies",
+          "body": "Itching, sneezing and what may cause them.",
+          "link": "",
+          "color": "rose"
+        },
+        {
+          "title": "Eye infections",
+          "body": "Cleaning sore, teary or infected eyes.",
+          "link": "",
+          "color": "teal"
+        },
+        {
+          "title": "Cat flu",
+          "body": "Sneezing, runny eyes and a blocked nose.",
+          "link": "",
+          "color": "sky"
+        },
+        {
+          "title": "Vaccines",
+          "body": "Which vaccines cats need, and when.",
+          "link": "",
+          "color": "coral"
+        }
+      ]
+    },
+    {
+      "title": "Serious & chronic diseases",
+      "topics": [
+        {
+          "title": "FIP",
+          "body": "Feline infectious peritonitis: signs and treatment.",
+          "link": "",
+          "color": "purple"
+        },
+        {
+          "title": "FIV",
+          "body": "A long, happy life with feline immunodeficiency virus.",
+          "link": "",
+          "color": "orange"
+        },
+        {
+          "title": "Kidney failure",
+          "body": "Diet, fluids and what to watch for.",
+          "link": "",
+          "color": "denim"
+        },
+        {
+          "title": "High liver values",
+          "body": "Understanding liver problems and how to help.",
+          "link": "",
+          "color": "pink"
+        },
+        {
+          "title": "Diabetes",
+          "body": "Insulin, meals and daily routines.",
+          "link": "",
+          "color": "sunshine"
+        }
+      ]
+    }
+  ]
 }
