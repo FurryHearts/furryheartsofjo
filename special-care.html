@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="fhj-data" content="content/settings.json content/specialcare.json">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Furry Hearts of Jordan — Special care</title>
+<title>Furry Hearts of Jordan — Special needs care</title>
 <meta name="description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
-<meta property="og:title" content="Furry Hearts of Jordan — Special care">
+<meta property="og:title" content="Furry Hearts of Jordan — Special needs care">
 <meta property="og:description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
 <meta property="og:image" content="https://furryheartsofjordan.com/img/hero.jpg">
 <link rel="icon" href="img/icon-180.png">
@@ -72,7 +72,7 @@ class Component extends DCLogic {
 constructor(props) { super(props); this.state = {}; }
 renderVals() {
 const F = window.FHJ, D = F.data, S = D.settings || {}, c = D.specialcare || {};
-return { c, igMsg: 'https://ig.me/m/' + (S.instagram_user || ''), askMsg: 'Hi Furry Hearts of Jordan! I have a question about a special case (sent from furryheartsofjordan.com)',
+return { c, igMsg: 'https://ig.me/m/' + (S.instagram_user || ''), askMsg: 'Hi Furry Hearts of Jordan! I have a question about ' + String(c.title || '').toLowerCase() + ' (sent from furryheartsofjordan.com)',
   topics: (c.topics || []).map((t) => ({ ...t, color: F.color(t.color), href: t.link || 'javascript:void(0)', cursor: t.link ? 'pointer' : 'default', soon: !t.link })) };
 }
 }

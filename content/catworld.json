@@ -4,10 +4,10 @@
   "topics": [
     {
       "title": "Health & medical",
-      "body": "Vaccines, common illnesses and when to see a vet.",
+      "body": "Fungus, allergies, eye infections and vaccines.",
       "icon": "medical.svg",
       "color": "coral",
-      "link": ""
+      "link": "health.html"
     },
     {
       "title": "Cat breeds",
@@ -18,10 +18,10 @@
     },
     {
       "title": "Kitten care",
-      "body": "The first weeks: feeding, warmth and play.",
+      "body": "Newborns, nursing moms and tiny kittens.",
       "icon": "kitten.svg",
       "color": "sky",
-      "link": ""
+      "link": "kitten-care.html"
     },
     {
       "title": "Food & nutrition",
@@ -38,8 +38,8 @@
       "link": ""
     },
     {
-      "title": "Special care",
-      "body": "Guides for cats who need a little extra care.",
+      "title": "Special needs care",
+      "body": "Long-term care for disabled and chronically ill cats.",
       "icon": "special.svg",
       "color": "mint",
       "link": "special-care.html"

@@ -1,6 +1,6 @@
 {
-  "title": "Special care",
-  "intro": "Practical guides for cats who need a little extra care, from everything we have learned caring for our own rescues.",
+  "title": "Special needs care",
+  "intro": "Long-term care for cats living with a disability or a chronic condition, from everything we have learned caring for our own rescues.",
   "topics": [
     {
       "title": "Expressing the bladder",
@@ -55,24 +55,6 @@
       "body": "Insulin, meals and daily routines.",
       "link": "",
       "color": "sunshine"
-    },
-    {
-      "title": "Fungal infections",
-      "body": "Treating ringworm safely.",
-      "link": "",
-      "color": "lavender"
-    },
-    {
-      "title": "Tiny kittens",
-      "body": "Warmth, feeding and the first weeks of life.",
-      "link": "",
-      "color": "rose"
-    },
-    {
-      "title": "Newborns & nursing moms",
-      "body": "Supporting a mother cat and her babies.",
-      "link": "",
-      "color": "green"
     }
   ],
   "ask_title": "Facing a special case?",

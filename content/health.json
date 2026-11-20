@@ -1,0 +1,32 @@
+{
+  "title": "Health & medical",
+  "intro": "Common health problems we see in rescues, and how to deal with them.",
+  "topics": [
+    {
+      "title": "Fungal infections",
+      "body": "Treating ringworm safely.",
+      "link": "",
+      "color": "lavender"
+    },
+    {
+      "title": "Allergies",
+      "body": "Itching, sneezing and what may cause them.",
+      "link": "",
+      "color": "rose"
+    },
+    {
+      "title": "Eye infections",
+      "body": "Cleaning sore, teary or infected eyes.",
+      "link": "",
+      "color": "teal"
+    },
+    {
+      "title": "Vaccines",
+      "body": "Which vaccines cats need, and when.",
+      "link": "",
+      "color": "coral"
+    }
+  ],
+  "ask_title": "Have a question?",
+  "ask_body": "Send us your question about a health problem, and we will add the answers here so they can help others too."
+}

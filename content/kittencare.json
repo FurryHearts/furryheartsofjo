@@ -1,0 +1,26 @@
+{
+  "title": "Kitten care",
+  "intro": "Everything tiny kittens need, from their first hours to their first adventures.",
+  "topics": [
+    {
+      "title": "Newborn kittens",
+      "body": "Warmth, feeding and the first days of life.",
+      "link": "",
+      "color": "sky"
+    },
+    {
+      "title": "Nursing moms",
+      "body": "Supporting a mother cat and her babies.",
+      "link": "",
+      "color": "pink"
+    },
+    {
+      "title": "Tiny kittens",
+      "body": "Growing up healthy in the first weeks.",
+      "link": "",
+      "color": "sunshine"
+    }
+  ],
+  "ask_title": "Have a question?",
+  "ask_body": "Send us your question about kittens, and we will add the answers here so they can help others too."
+}
