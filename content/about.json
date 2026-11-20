@@ -1,0 +1,15 @@
+{
+  "title": "Our story",
+  "intro": "Hi, I'm Dina. Furry Hearts of Jordan started with one cat.",
+  "first_title": "The first one",
+  "first_body": "The very first cat I rescued had diabetes. Caring for that cat taught me that every rescue deserves a real chance, no matter what they need.",
+  "story": "",
+  "story_soon": "The full story, in my own words, is coming soon.",
+  "today_title": "Today",
+  "today_body": "Furry Hearts of Jordan is a volunteer rescue in Amman. We feed street cats and dogs, treat the sick and injured, and find them loving homes in Jordan and around the world.",
+  "pillars": [
+    {"title": "Feeding", "body": "Food and water for street cats and dogs.", "icon": "feed.svg", "color": "sunshine"},
+    {"title": "Healing", "body": "Vet care, surgery and special-needs care.", "icon": "heal.svg", "color": "coral"},
+    {"title": "Rehoming", "body": "Loving homes in Jordan and abroad.", "icon": "home.svg", "color": "green"}
+  ]
+}

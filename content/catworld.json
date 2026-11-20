@@ -1,0 +1,13 @@
+{
+  "title": "Cat world",
+  "intro": "Everything we have learned from caring for hundreds of cats, shared with you.",
+  "topics": [
+    {"title": "Health & medical", "body": "Vaccines, common illnesses and when to see a vet.", "icon": "medical.svg", "color": "coral", "link": ""},
+    {"title": "Cat breeds", "body": "Get to know different breeds and their personalities.", "icon": "breeds.svg", "color": "purple", "link": ""},
+    {"title": "Kitten care", "body": "The first weeks: feeding, warmth and play.", "icon": "kitten.svg", "color": "sky", "link": ""},
+    {"title": "Food & nutrition", "body": "What to feed, how much and how often.", "icon": "food.svg", "color": "orange", "link": ""},
+    {"title": "Cat behavior", "body": "What your cat is trying to tell you.", "icon": "behavior.svg", "color": "teal", "link": ""},
+    {"title": "Special needs care", "body": "Caring for paralyzed and disabled cats.", "icon": "special.svg", "color": "peach", "link": "care.html#205-kai"},
+    {"title": "Travel papers", "body": "What a cat needs to fly to a new home.", "icon": "travel.svg", "color": "denim", "link": ""}
+  ]
+}
