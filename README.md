@@ -1,9 +1,9 @@
 # Furry Hearts of Jordan — website
 
-The website for furryheartsofjo.org.
+The website for furryheartsofjordan.com.
 
 ## Updating the site (every day)
-Go to **https://furryheartsofjo.org/admin** and sign in with GitHub.
+Go to **https://furryheartsofjordan.com/admin** and sign in with GitHub.
 
 - **Rescues · الحيوانات**: add a new rescue, change a status (Available / In treatment / Reserved / Adopted), add photos, reels, tests, receipts and travel papers.
 - **Site content → Pet Taxi rides**: add a ride at the top. Tick **Paid ✓** when the screenshot arrives.

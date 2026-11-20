@@ -8,7 +8,7 @@
 <meta name="description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
 <meta property="og:title" content="Furry Hearts of Jordan — Home">
 <meta property="og:description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
-<meta property="og:image" content="https://furryheartsofjo.org/img/hero.jpg">
+<meta property="og:image" content="https://furryheartsofjordan.com/img/hero.jpg">
 <link rel="icon" href="img/icon-180.png">
 <link rel="apple-touch-icon" href="img/icon-180.png">
 <link rel="stylesheet" href="css/tokens.css">
@@ -229,7 +229,7 @@ return {
   accent: 'var(--peach, #FFB68D)',
   cases: rescues.filter((r) => r.featured).sort((a, b) => String(a.name).localeCompare(String(b.name))).slice(0, 4).map(card),
   cliq: ((D.cliq || {}).accounts || []).map((c, i) => ({ ...c, color: F.color(c.color),
-    copyLabel: this.state.copied === i ? 'Copied ✓' : 'Copy', wa: 'https://ig.me/m/' + ig, msg: 'Hi Furry Hearts of Jordan! I just sent a CliQ donation to ' + c.alias + ' (' + c.title + ') through your website. Here is my screenshot 🐾 (sent from furryheartsofjo.org)',
+    copyLabel: this.state.copied === i ? 'Copied ✓' : 'Copy', wa: 'https://ig.me/m/' + ig, msg: 'Hi Furry Hearts of Jordan! I just sent a CliQ donation to ' + c.alias + ' (' + c.title + ') through your website. Here is my screenshot 🐾 (sent from furryheartsofjordan.com)',
     copy: () => { try { navigator.clipboard.writeText(String(c.alias).replace(/\s/g, '')); } catch (e) {} this.setState({ copied: i }); } })),
   steps: [
     { n: '1', title: 'Fall in love', body: 'Browse full profiles with photos, videos and health records.', color: 'var(--sky, #43BDFF)' },
@@ -240,7 +240,7 @@ return {
   needs: (S.needs || []).map((n) => ({ label: n.label, color: F.color(n.color) })),
   tails: ((D.tails || {}).tails || []).map((t) => ({ ...t, color: F.color(t.color, 'sky'), link: t.link || '#', hasStory: !!t.link })),
   gofundme: S.gofundme_url || '#', paypal: S.paypal_url || '#',
-  igMsg: 'https://ig.me/m/' + ig, donateMsg: 'Hi Furry Hearts of Jordan! I just donated by CliQ through your website. Here is my screenshot 🐾 (sent from furryheartsofjo.org)', igProfile: 'https://www.instagram.com/' + ig + '/', igUser: ig,
+  igMsg: 'https://ig.me/m/' + ig, donateMsg: 'Hi Furry Hearts of Jordan! I just donated by CliQ through your website. Here is my screenshot 🐾 (sent from furryheartsofjordan.com)', igProfile: 'https://www.instagram.com/' + ig + '/', igUser: ig,
   hasEmail: !!S.donation_email, mailto: 'mailto:' + (S.donation_email || '') + '?subject=My%20CliQ%20transfer',
   city: S.city || 'Amman, Jordan'
 };

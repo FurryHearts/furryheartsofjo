@@ -8,7 +8,7 @@
 <meta name="description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
 <meta property="og:title" content="Furry Hearts of Jordan — How to care for {{name}}">
 <meta property="og:description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
-<meta property="og:image" content="https://furryheartsofjo.org/img/hero.jpg">
+<meta property="og:image" content="https://furryheartsofjordan.com/img/hero.jpg">
 <link rel="icon" href="img/icon-180.png">
 <link rel="apple-touch-icon" href="img/icon-180.png">
 <link rel="stylesheet" href="css/tokens.css">
@@ -179,7 +179,7 @@ document.title = 'How to care for ' + r.name + ' — Furry Hearts of Jordan';
 const dayColors = ['var(--sunshine)', 'var(--sky)', 'var(--orchid)', 'var(--purple)'];
 return {
   name: r.name, color: F.cardColor(r), photo: ((r.photos || [])[1] || (r.photos || [])[0] || {}).image || '',
-  intro: r.care_intro || '', fileHref: 'rescue.html#' + r.slug, askMsg: 'Hi Furry Hearts of Jordan! I have a question about caring for ' + r.name + ' (sent from furryheartsofjo.org)', igMsg: 'https://ig.me/m/' + (S.instagram_user || ''),
+  intro: r.care_intro || '', fileHref: 'rescue.html#' + r.slug, askMsg: 'Hi Furry Hearts of Jordan! I have a question about caring for ' + r.name + ' (sent from furryheartsofjordan.com)', igMsg: 'https://ig.me/m/' + (S.instagram_user || ''),
   bladderTimes: r.care_times || '',
   bladderSteps: r.care_bladder ? (C.bladder_steps || []).map((x, i) => ({ n: String(i + 1), img: x.image, title: x.title, body: F.fill(x.body, r) })) : [],
   warning: F.fill(C.warning, r),

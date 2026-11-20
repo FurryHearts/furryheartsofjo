@@ -4,9 +4,9 @@ backend:
   repo: FurryHearts/furryheartsofjo
   branch: main
 
-site_url: https://furryheartsofjo.org
-display_url: https://furryheartsofjo.org
-logo_url: https://furryheartsofjo.org/img/logo-round.png
+site_url: https://furryheartsofjordan.com
+display_url: https://furryheartsofjordan.com
+logo_url: https://furryheartsofjordan.com/img/logo-round.png
 locale: en
 
 media_folder: img/uploads

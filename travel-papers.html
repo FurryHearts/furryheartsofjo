@@ -8,7 +8,7 @@
 <meta name="description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
 <meta property="og:title" content="Furry Hearts of Jordan — Travel papers">
 <meta property="og:description" content="Furry Hearts of Jordan rescues, treats and rehomes street cats and dogs in Jordan, with safe international adoption.">
-<meta property="og:image" content="https://furryheartsofjo.org/img/hero.jpg">
+<meta property="og:image" content="https://furryheartsofjordan.com/img/hero.jpg">
 <link rel="icon" href="img/icon-180.png">
 <link rel="apple-touch-icon" href="img/icon-180.png">
 <link rel="stylesheet" href="css/tokens.css">
@@ -123,7 +123,7 @@ const colors = ['var(--sky)', 'var(--orchid)', 'var(--sunshine)', 'var(--green)'
 const st = { done: 'Done', progress: 'In progress', todo: 'Not yet' };
 return {
   name: r.name, caseNo: r.case_number || '', country: r.fee_country || 'your country', fileHref: 'rescue.html#' + r.slug,
-  igMsg: 'https://ig.me/m/' + (S.instagram_user || ''), askMsg: 'Hi Furry Hearts of Jordan! I have a question about ' + r.name + "'s travel papers (sent from furryheartsofjo.org)", allPdf: r.papers_pdf || '#',
+  igMsg: 'https://ig.me/m/' + (S.instagram_user || ''), askMsg: 'Hi Furry Hearts of Jordan! I have a question about ' + r.name + "'s travel papers (sent from furryheartsofjordan.com)", allPdf: r.papers_pdf || '#',
   progress: (r.travel || []).map((x, i) => ({ n: String(i + 1), label: x.label, state: (st[x.state] || '') + (x.date ? ' · ' + x.date : ''), dot: colors[i % 6] })),
   docs: (r.papers || []).map((d, i) => ({ title: d.title, status: d.status || '', pill: /valid|registered|pass|done/i.test(d.status || '') ? ok : pending, color: colors[i % 6], why: d.why || '', file: d.file || '',
     rows: F.lines(d.details).map((l) => { const k = l.split(':'); return { k: k[0], v: k.slice(1).join(':').trim() }; }) }))

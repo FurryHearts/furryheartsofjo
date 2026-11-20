@@ -1,4 +1,4 @@
-Brand fonts for furryheartsofjo.org
+Brand fonts for furryheartsofjordan.com
 Put the font files in this folder with exactly these names:
   PestaRakyat.otf            (titles)
   GTWalsheim-Light.woff2     (body text)
