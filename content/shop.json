@@ -1,13 +1,88 @@
 {
   "title": "Ted's Shop",
-  "intro": "Cozy supplies for your cat, picked the same way we pick them for our own rescues. Every order helps pay for a rescue's treatment.",
+  "intro": "Hand-picked supplies for cats and dogs, chosen from years of caring for rescues. Every order helps pay for a rescue's treatment.",
   "soon": "Our shop is opening soon. Message us if you see something you like, and we will let you know when it is ready.",
-  "categories": [
-    {"title": "Blankets", "body": "Soft and warm, like the ones our rescues love.", "icon": "blanket.svg", "color": "pink"},
-    {"title": "Beds", "body": "A cozy corner to curl up in.", "icon": "bed.svg", "color": "lavender"},
-    {"title": "Toys", "body": "Balls, wands and things to chase.", "icon": "toys.svg", "color": "sunshine"},
-    {"title": "Bowls", "body": "For food and water.", "icon": "bowls.svg", "color": "teal"},
-    {"title": "Collars & harnesses", "body": "Safe and comfy for every size.", "icon": "collars.svg", "color": "rose"},
-    {"title": "Carriers", "body": "For vet visits and travel.", "icon": "carriers.svg", "color": "denim"}
+  "ted_title": "Why Ted?",
+  "ted_body": "Ted was one of our rescue cats, and the one who taught me the most. Caring for him was a long journey, and through it I learned how to care for cats with jaw problems, broken bones, and cats who cannot see. Along the way I tried so many tools and supplies: some went straight in the bin, and some made life so much easier.\n\nWe lost Ted, but everything he taught me stays with us. This shop carries his name so his story can keep helping other animals. Here you will only find the things I truly trust and use with our own rescues.",
+  "ted_photo": "",
+  "groups": [
+    {
+      "title": "Dina's picks",
+      "intro": "The things I highly recommend, learned the hard way with Ted and our special-needs rescues.",
+      "items": [
+        {
+          "title": "Special-needs packages",
+          "body": "Care kits I put together for special-needs cats.",
+          "icon": "package.svg",
+          "color": "orchid"
+        },
+        {
+          "title": "Care tools",
+          "body": "Pill cutters and helpers that make daily care easier.",
+          "icon": "tools.svg",
+          "color": "teal"
+        },
+        {
+          "title": "Vitamins & supplements",
+          "body": "Ones I bring in from abroad, hard to find in Jordan.",
+          "icon": "vitamins.svg",
+          "color": "sunshine"
+        },
+        {
+          "title": "Flea & tick drops",
+          "body": "The ones I trust, and why they matter.",
+          "icon": "fleadrops.svg",
+          "color": "olive"
+        }
+      ]
+    },
+    {
+      "title": "Everyday comfort",
+      "intro": "Cozy, cute and healthy things for every home.",
+      "items": [
+        {
+          "title": "Blankets",
+          "body": "Fluffy blankets with the cutest prints.",
+          "icon": "blanket.svg",
+          "color": "pink"
+        },
+        {
+          "title": "Beds",
+          "body": "Comfy beds with style.",
+          "icon": "bed.svg",
+          "color": "lavender"
+        },
+        {
+          "title": "Toys",
+          "body": "Balls, wands and things to chase.",
+          "icon": "toys.svg",
+          "color": "orange"
+        },
+        {
+          "title": "Bowls",
+          "body": "Healthy bowls, including raised ones.",
+          "icon": "bowls.svg",
+          "color": "aqua"
+        },
+        {
+          "title": "Supplies",
+          "body": "Water fountains and other essentials.",
+          "icon": "fountain.svg",
+          "color": "sky"
+        },
+        {
+          "title": "Carriers",
+          "body": "For vet visits and travel.",
+          "icon": "carriers.svg",
+          "color": "denim"
+        },
+        {
+          "title": "Collars & harnesses",
+          "body": "Safe and comfy for every size.",
+          "icon": "collars.svg",
+          "color": "rose"
+        }
+      ]
+    }
   ]
 }
