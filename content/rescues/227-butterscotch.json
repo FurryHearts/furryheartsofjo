@@ -17,7 +17,16 @@
   "story": "",
   "case_number": "227",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/butterscotch-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/butterscotch-2.jpg",
+      "label": ""
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
