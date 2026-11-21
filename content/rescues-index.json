@@ -5049,7 +5049,7 @@
       "order": 157,
       "featured": false,
       "species": "Cat",
-      "status": "Reserved",
+      "status": "In treatment",
       "color": "orange",
       "condition": "Pupils stay dilated, so he doesn't see well",
       "tags": [
@@ -5058,12 +5058,21 @@
       "family": "",
       "age": "",
       "sex": "",
-      "summary": "",
+      "summary": "Reserved. Recovering after surgery to widen his nostrils so he can breathe easier, and still on medication.",
       "story": "",
       "case_number": "157",
       "can_fly": true,
       "photos": [],
-      "facts": [],
+      "facts": [
+        {
+          "label": "Treatment",
+          "value": "Nose surgery to widen his airway, still on medication"
+        },
+        {
+          "label": "Adoption",
+          "value": "Reserved"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
