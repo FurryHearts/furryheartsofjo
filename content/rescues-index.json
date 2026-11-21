@@ -1502,7 +1502,12 @@
       "story": "",
       "case_number": "48",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/olivia-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
