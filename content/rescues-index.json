@@ -1015,7 +1015,7 @@
       "order": 33,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "Available",
       "color": "pink",
       "condition": "Blind in one eye",
       "tags": [
@@ -1732,21 +1732,43 @@
       "order": 55,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "Available",
       "color": "lavender",
       "condition": "",
       "tags": [
         "Mother"
       ],
       "family": "Mother of Teto",
-      "age": "",
+      "age": "About 2 years",
       "sex": "Female",
-      "summary": "",
-      "story": "",
+      "summary": "Fully vaccinated and spayed. A gentle, fluffy mom who is happy living with other cats.",
+      "story": "When we rescued Katy, she was pregnant and had a burn on her belly. We treated the burn, and today only a light scar is left.\n\nShe gave birth soon after. We lost one of her babies when he was very small, and her son Teto is still with us.\n\nKaty is the sweetest, most lovable girl. She is a fluffy cat who adores being petted, especially near her tail. Like all our cats, she lives with other cats and gets along with them just fine.\n\nKaty truly deserves a beautiful home of her own.",
       "case_number": "55",
       "can_fly": true,
-      "photos": [],
-      "facts": [],
+      "photos": [
+        {
+          "image": "img/katy-1.jpg",
+          "label": "Main photo"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Vaccines",
+          "value": "Fully vaccinated"
+        },
+        {
+          "label": "Spayed",
+          "value": "Yes"
+        },
+        {
+          "label": "Coat",
+          "value": "Fluffy"
+        },
+        {
+          "label": "Other cats",
+          "value": "Gets along well"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
