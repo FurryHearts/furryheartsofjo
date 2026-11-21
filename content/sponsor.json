@@ -28,5 +28,71 @@
       "cost": "",
       "note": "Diapers, wet wipes and creams"
     }
-  ]
+  ],
+  "bills_title": "Cover a whole bill",
+  "bills_intro": "Some of our costs are shared by all the cats. You can cover one of them, all of it or part of it.",
+  "bills": [
+    {
+      "id": "diapers",
+      "title": "Diapers & care",
+      "icon": "diapers",
+      "amount": "100 JOD",
+      "per": "a month",
+      "note": "Diapers, wet wipes and creams for all our paralyzed cats",
+      "color": "sky",
+      "covered": false
+    },
+    {
+      "id": "litter",
+      "title": "Litter",
+      "icon": "litter",
+      "amount": "300 JOD",
+      "per": "a week",
+      "note": "Clean litter for every cat in our care",
+      "color": "sunshine",
+      "covered": false
+    },
+    {
+      "id": "food",
+      "title": "Food bill",
+      "icon": "food",
+      "amount": "",
+      "per": "",
+      "note": "Medical food and regular food. Cover all or part of what we still owe",
+      "color": "green",
+      "covered": false
+    },
+    {
+      "id": "clinic",
+      "title": "Clinic bill",
+      "icon": "treatment",
+      "amount": "",
+      "per": "",
+      "note": "Our open balance at the vet. Cover all or part of it",
+      "color": "coral",
+      "covered": false
+    },
+    {
+      "id": "grooming",
+      "title": "Grooming",
+      "icon": "grooming",
+      "amount": "",
+      "per": "",
+      "note": "Brushing, baths and shaving for our long-haired cats",
+      "color": "purple",
+      "covered": false
+    },
+    {
+      "id": "flea",
+      "title": "Flea treatment",
+      "icon": "flea",
+      "amount": "",
+      "per": "",
+      "note": "Flea drops for every cat, every month",
+      "color": "teal",
+      "covered": false
+    }
+  ],
+  "suppliers_note": "We buy our food from Club 4 Paws, Optimeal, Royal Canin and Purina.",
+  "suppliers": []
 }

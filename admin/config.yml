@@ -170,6 +170,19 @@ collections:
             name: items
             widget: list
             fields: [{label: "ID (do not change)", name: id, widget: string}, {label: "Label", name: label, widget: string}, {label: "Monthly cost (e.g. 15 JOD)", name: cost, widget: string, required: false}, {label: "Small note", name: note, widget: string, required: false}]
+          - {label: "Bills title", name: bills_title, widget: string, required: false}
+          - {label: "Bills intro", name: bills_intro, widget: text, required: false}
+          - label: "Whole bills · الفواتير الكاملة"
+            name: bills
+            widget: list
+            summary: "{{fields.title}} — {{fields.amount}} {{fields.per}}"
+            fields: [{label: "ID", name: id, widget: string}, {label: "Title", name: title, widget: string}, {label: "Icon", name: icon, widget: select, options: ["treatment", "vaccines", "food", "litter", "diapers", "grooming", "flea"]}, {label: "Amount (e.g. 100 JOD) — leave empty if it changes", name: amount, widget: string, required: false}, {label: "Per (a month / a week)", name: per, widget: string, required: false}, {label: "Note", name: note, widget: string, required: false}, {label: "Color", name: color, widget: select, default: "sky", options: ["orange", "tangerine", "coral", "rose", "pink", "orchid", "purple", "lavender", "sky", "denim", "teal", "aqua", "mint", "green", "olive", "lime", "sunshine"]}, {label: "Covered this month", name: covered, widget: boolean, default: false, required: false}]
+          - {label: "Food suppliers line", name: suppliers_note, widget: string, required: false}
+          - label: "Food supplier logos"
+            name: suppliers
+            widget: list
+            required: false
+            fields: [{label: "Name", name: name, widget: string}, {label: "Logo", name: logo, widget: image, required: false}]
       - label: "Settings & links · الإعدادات"
         name: settings
         file: content/settings.json
