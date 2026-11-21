@@ -187,7 +187,7 @@ collections:
                 name: pay
                 widget: list
                 required: false
-                fields: [{label: "Label", name: label, widget: string, required: false}, {label: "CliQ account", name: account, widget: select, required: false, options: ["Healing", "Food & pet supplies", "Food", "Transportation", "Other bills & needs"]}, {label: "Amount", name: amount, widget: string, required: false}]
+                fields: [{label: "Label", name: label, widget: string, required: false}, {label: "CliQ account", name: account, widget: select, required: false, options: ["Healing", "House call vet", "Food & pet supplies", "Food", "Transportation", "Other bills & needs"]}, {label: "Amount", name: amount, widget: string, required: false}]
           - label: "Open clinic bills · فواتير العيادة المفتوحة"
             name: clinic_bills
             widget: list
@@ -199,7 +199,7 @@ collections:
             widget: list
             required: false
             summary: "{{fields.supplier}} · {{fields.amount}}"
-            fields: [{label: "Company", name: supplier, widget: string}, {label: "Type", name: type, widget: select, options: ["Medical", "Regular"], default: "Regular"}, {label: "Amount we owe", name: amount, widget: string, required: false}, {label: "Logo", name: logo, widget: image, required: false}, {label: "CliQ account (optional)", name: account, widget: select, required: false, options: ["Healing", "Food & pet supplies", "Food", "Transportation", "Other bills & needs"]}, {label: "Or a direct CliQ / Orange Money number", name: alias, widget: string, required: false}, {label: "Name on the account", name: name, widget: string, required: false}]
+            fields: [{label: "Company", name: supplier, widget: string}, {label: "Type", name: type, widget: select, options: ["Medical", "Regular"], default: "Regular"}, {label: "Amount we owe", name: amount, widget: string, required: false}, {label: "Logo", name: logo, widget: image, required: false}, {label: "CliQ account (optional)", name: account, widget: select, required: false, options: ["Healing", "House call vet", "Food & pet supplies", "Food", "Transportation", "Other bills & needs"]}, {label: "Or a direct CliQ / Orange Money number", name: alias, widget: string, required: false}, {label: "Name on the account", name: name, widget: string, required: false}]
           - {label: "Food suppliers line", name: suppliers_note, widget: string, required: false}
           - {label: "Foods title", name: foods_title, widget: string, required: false}
           - {label: "Foods intro", name: foods_intro, widget: text, required: false}
