@@ -249,6 +249,12 @@ collections:
             name: pay
             widget: list
             fields: [{label: "What", name: what, widget: string}, {label: "How", name: how, widget: string}]
+          - {label: "Crates title", name: crates_title, widget: string}
+          - {label: "Crates note", name: crates_note, widget: text}
+          - label: "Crate sizes"
+            name: crates
+            widget: list
+            fields: [{label: "Size", name: size, widget: string}, {label: "Dimensions", name: dims, widget: string}, {label: "Max weight", name: max, widget: string}, {label: "Status (Used now / Checking / OK)", name: status, widget: string}]
           - {label: "Pay note", name: pay_note, widget: text}
           - {label: "Medical records text", name: records, widget: text}
           - {label: "Closing title", name: closing_title, widget: string}

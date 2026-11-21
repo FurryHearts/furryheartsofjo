@@ -73,7 +73,7 @@
     {
       "title": "Travel crate",
       "cost": "About 40 JOD per cat",
-      "body": "A standard-size travel crate, including the airline sticker.",
+      "body": "A standard-size travel crate, including the airline sticker. See the crate sizes below.",
       "color": "sunshine",
       "icon": "crate"
     },
@@ -109,5 +109,27 @@
   "pay_note": "This quote covers the vet preparation and paperwork in Jordan. It does not cover transport and does not guarantee entry approval.",
   "records": "Every cat available for adoption has a clear, documented medical file. They are spayed or neutered, vaccinated, and kept up to date with deworming and flea prevention. We share each cat's full health and medical history before adoption, so you know exactly what to expect.",
   "closing_title": "You're not just adopting a cat",
-  "closing": "When you give a rescued cat a home abroad, you give them a second chance at life. Behind every rescue is a long journey of pain, recovery and hope. Rescue work in the Arab world is hard, and every adoption makes a real difference."
+  "closing": "When you give a rescued cat a home abroad, you give them a second chance at life. Behind every rescue is a long journey of pain, recovery and hope. Rescue work in the Arab world is hard, and every adoption makes a real difference.",
+  "crates_title": "Crate sizes for cats",
+  "crates_note": "We use the Stefanplast Gulliver travel crate. Our transport company asked for size 3. We are checking with them whether sizes 1 and 2 are accepted for smaller cats. Always confirm with the airline before buying.",
+  "crates": [
+    {
+      "size": "Gulliver 1",
+      "dims": "48 × 32 × 31 cm",
+      "max": "up to 6 kg",
+      "status": "Checking"
+    },
+    {
+      "size": "Gulliver 2",
+      "dims": "55 × 36 × 35 cm",
+      "max": "up to 8 kg",
+      "status": "Checking"
+    },
+    {
+      "size": "Gulliver 3",
+      "dims": "61 × 40 × 38 cm",
+      "max": "up to 12 kg",
+      "status": "Used now"
+    }
+  ]
 }
