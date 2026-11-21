@@ -1484,14 +1484,36 @@
       "condition": "",
       "tags": [],
       "family": "",
-      "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
+      "age": "About 1 year",
+      "sex": "Female",
+      "summary": "Fully vaccinated and spayed. Petite, short-legged and super friendly.",
+      "story": "Nina was only 5 months old when we found her, a kitten herself, and already pregnant. The early pregnancy caused her complications, so she had surgery and was spayed. She also had breathing problems, and we treated them.\n\nBecause her nose is a little short, she can sometimes breathe a bit harder, but overall she is a healthy, happy girl.\n\nNina is petite, with short little legs, and she is super friendly and so sweet with everyone she meets.",
       "case_number": "47",
       "can_fly": true,
-      "photos": [],
-      "facts": [],
+      "photos": [
+        {
+          "image": "img/nina-1.jpg",
+          "label": "Main photo"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Vaccines",
+          "value": "Fully vaccinated"
+        },
+        {
+          "label": "Spayed",
+          "value": "Yes"
+        },
+        {
+          "label": "Size",
+          "value": "Petite, short legs"
+        },
+        {
+          "label": "Breathing",
+          "value": "Short nose, sometimes breathes harder"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
