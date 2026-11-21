@@ -18,7 +18,12 @@
   "story": "",
   "case_number": "206",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/bloom-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
