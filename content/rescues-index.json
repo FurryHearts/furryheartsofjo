@@ -113,12 +113,7 @@
       "story": "",
       "case_number": "4",
       "can_fly": true,
-      "photos": [
-        {
-          "image": "img/sasha-1.jpg",
-          "label": "Main photo"
-        }
-      ],
+      "photos": [],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -1502,12 +1497,7 @@
       "story": "",
       "case_number": "48",
       "can_fly": true,
-      "photos": [
-        {
-          "image": "img/olivia-1.jpg",
-          "label": "Main photo"
-        }
-      ],
+      "photos": [],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -2520,12 +2510,7 @@
       "story": "",
       "case_number": "80",
       "can_fly": true,
-      "photos": [
-        {
-          "image": "img/charlie-1.jpg",
-          "label": "Main photo"
-        }
-      ],
+      "photos": [],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -3283,12 +3268,7 @@
       "story": "",
       "case_number": "104",
       "can_fly": true,
-      "photos": [
-        {
-          "image": "img/tesho-1.jpg",
-          "label": "Main photo"
-        }
-      ],
+      "photos": [],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -4613,12 +4593,7 @@
       "story": "",
       "case_number": "146",
       "can_fly": true,
-      "photos": [
-        {
-          "image": "img/bumpa-1.jpg",
-          "label": "Main photo"
-        }
-      ],
+      "photos": [],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -5162,12 +5137,7 @@
       "story": "",
       "case_number": "163",
       "can_fly": true,
-      "photos": [
-        {
-          "image": "img/marley-1.jpg",
-          "label": "Main photo"
-        }
-      ],
+      "photos": [],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -6624,12 +6594,7 @@
       "story": "",
       "case_number": "206",
       "can_fly": true,
-      "photos": [
-        {
-          "image": "img/bloom-1.jpg",
-          "label": "Main photo"
-        }
-      ],
+      "photos": [],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -7296,16 +7261,7 @@
       "story": "",
       "case_number": "227",
       "can_fly": true,
-      "photos": [
-        {
-          "image": "img/butterscotch-1.jpg",
-          "label": "Main photo"
-        },
-        {
-          "image": "img/butterscotch-2.jpg",
-          "label": ""
-        }
-      ],
+      "photos": [],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -8521,41 +8477,6 @@
       "papers": [],
       "care_enabled": false,
       "slug": "267-eren"
-    },
-    {
-      "name": "Nonose",
-      "number": 268,
-      "order": 268,
-      "featured": false,
-      "species": "Cat",
-      "status": "Lives with us",
-      "color": "lavender",
-      "condition": "",
-      "tags": [],
-      "family": "",
-      "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
-      "case_number": "268",
-      "can_fly": true,
-      "photos": [
-        {
-          "image": "img/nonose-1.jpg",
-          "label": "Main photo"
-        }
-      ],
-      "facts": [],
-      "reels": [],
-      "tests": [],
-      "receipts": [],
-      "fee_country": "",
-      "fee_total": "",
-      "fee_items": [],
-      "travel": [],
-      "papers": [],
-      "care_enabled": false,
-      "slug": "268-nonose"
     }
   ]
 }
