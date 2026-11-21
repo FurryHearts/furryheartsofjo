@@ -235,7 +235,7 @@ const card = (r) => ({
 const rescues = ((D['rescues-index'] || {}).rescues || []);
 return {
   accent: 'var(--peach, #FFB68D)',
-  cases: rescues.filter((r) => r.featured).sort((a, b) => String(a.name).localeCompare(String(b.name))).slice(0, 4).map(card),
+  cases: rescues.filter((r) => r.status === 'Available').sort((a, b) => ((b.photos || []).length ? 1 : 0) - ((a.photos || []).length ? 1 : 0) || (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || String(a.name).localeCompare(String(b.name))).slice(0, 8).map(card),
   cliq: ((D.cliq || {}).accounts || []).map((c, i) => ({ ...c, color: F.color(c.color),
     copyLabel: this.state.copied === i ? 'Copied ✓' : 'Copy', wa: 'https://ig.me/m/' + ig, msg: 'Hi Furry Hearts of Jordan! I just sent a CliQ donation to ' + c.alias + ' (' + c.title + ') through your website. Here is my screenshot 🐾 (sent from furryheartsofjordan.com)',
     copy: () => { try { navigator.clipboard.writeText(String(c.alias).replace(/\s/g, '')); } catch (e) {} this.setState({ copied: i }); } })),
