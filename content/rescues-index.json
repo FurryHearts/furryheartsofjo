@@ -4411,7 +4411,7 @@
       "order": 137,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "In treatment",
       "color": "olive",
       "condition": "Nerve damage",
       "tags": [
@@ -4420,7 +4420,7 @@
       "family": "",
       "age": "",
       "sex": "",
-      "summary": "",
+      "summary": "Nerve damage. Still under close observation.",
       "story": "",
       "case_number": "137",
       "can_fly": true,
@@ -5967,7 +5967,7 @@
       "order": 185,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "In treatment",
       "color": "orange",
       "condition": "Kidney failure",
       "tags": [
@@ -6557,7 +6557,7 @@
       "order": 204,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "In treatment",
       "color": "purple",
       "condition": "Paralyzed",
       "tags": [
@@ -6877,7 +6877,7 @@
       "order": 210,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "In treatment",
       "color": "sky",
       "condition": "Lost his back limbs",
       "tags": [
