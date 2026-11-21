@@ -116,6 +116,30 @@
       var v = parseFloat(m[1]), u = m[2].toLowerCase();
       return u.indexOf('week') === 0 ? v / 4.3 : (u.indexOf('y') === 0 ? v * 12 : v);
     },
+    sponsor: function (r) {
+      var F = window.FHJ, D = F.data, S = D.sponsor || {}, ig = (D.settings || {}).instagram_user || '';
+      var items = (S.items && S.items.length ? S.items : [{ id: 'treatment', label: 'Treatment' }, { id: 'vaccines', label: 'Vaccines' }, { id: 'food', label: 'Food' }, { id: 'litter', label: 'Litter' }]);
+      var now = new Date(), cur = now.getFullYear() * 12 + now.getMonth();
+      var MONTH = now.toLocaleString('en', { month: 'long' });
+      var m = /^(\d{4})-(\d{1,2})/.exec(r.sponsor_month || ''), last = m ? (+m[1]) * 12 + (+m[2] - 1) : null;
+      var since = last === null ? null : cur - last, thisMonth = since === 0;
+      var got = thisMonth ? (r.sponsor_covered || []) : [];
+      var color = F.solid(r);
+      var out = items.map(function (it) {
+        var on = got.indexOf(it.id) >= 0;
+        return { id: it.id, label: it.label, cost: it.cost || '', hasCost: !!it.cost, on: on, off: !on,
+          icon: 'img/sp-' + it.id + '.svg', fg: on ? color : '#D8C8C2', bg: on ? 'color-mix(in srgb, ' + color + ' 18%, #fff)' : 'var(--cream, #fcf2f0)',
+          state: on ? 'Covered ✓' : 'Sponsor', href: 'https://ig.me/m/' + ig,
+          msg: 'Hi Furry Hearts of Jordan! I would like to sponsor ' + r.name + "'s " + it.label.toLowerCase() + ' for ' + MONTH + ' 🐾 (sent from furryheartsofjordan.com)' };
+      });
+      var n = out.filter(function (x) { return x.on; }).length;
+      var line = n === out.length ? r.name + ' is fully covered for ' + MONTH + '. Thank you! ♥'
+        : n > 0 ? n + ' of ' + out.length + ' covered for ' + MONTH + '.'
+        : since === null ? 'Be the first to sponsor ' + r.name + '.'
+        : since === 1 ? 'No one has sponsored ' + r.name + ' this month yet.'
+        : 'No one has sponsored ' + r.name + ' for ' + since + ' months.';
+      return { items: out, covered: n, line: line, urgent: n === 0 && since !== null && since >= 2, month: MONTH };
+    },
     statusLabel: function (s) { return { 'Passed away': 'In loving memory' }[s] || s; },
     meta: function (r) {
       var bits = [];

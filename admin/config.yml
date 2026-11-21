@@ -55,6 +55,8 @@ collections:
         widget: list
         required: false
         fields: [{label: "Label", name: "label", widget: string, required: false}, {label: "Value", name: "value", widget: string, required: false}]
+      - {label: "Sponsored month · شهر الكفالة (e.g. 2026-11)", name: sponsor_month, widget: string, required: false, hint: "Write the month someone sponsored this cat, like 2026-11. If it is an old month, the site shows how long since anyone sponsored."}
+      - {label: "Covered this month · شو انكفل هالشهر", name: sponsor_covered, widget: select, multiple: true, required: false, options: ["treatment", "vaccines", "food", "litter"]}
       - label: "Instagram reels"
         name: reels
         widget: list
@@ -155,6 +157,17 @@ collections:
             name: tails
             widget: list
             fields: [{label: "Name", name: "name", widget: string, required: false}, {label: "Route (Jordan → ...)", name: "route", widget: string, required: false}, {label: "Photo", name: "photo", widget: image, required: false}, {label: "Story page link (optional)", name: "link", widget: string, required: false}, {label: "Color", name: "color", widget: select, default: "sky", required: false, options: ["peach", "orange", "tangerine", "coral", "rose", "pink", "pink-light", "orchid", "purple", "lavender", "sky", "sky-light", "denim", "teal", "aqua", "mint", "green", "olive", "lime", "sunshine", "cocoa"]}]
+      - label: "Sponsor a cat · الكفالة"
+        name: sponsor
+        file: content/sponsor.json
+        format: json
+        fields:
+          - {label: "Title", name: title, widget: string, required: false}
+          - {label: "Intro", name: intro, widget: text, required: false}
+          - label: "Needs (icons)"
+            name: items
+            widget: list
+            fields: [{label: "ID (do not change)", name: id, widget: string}, {label: "Label", name: label, widget: string}, {label: "Monthly cost (e.g. 15 JOD)", name: cost, widget: string, required: false}]
       - label: "Settings & links · الإعدادات"
         name: settings
         file: content/settings.json
