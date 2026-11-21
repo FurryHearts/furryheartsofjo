@@ -11,12 +11,29 @@
   "family": "",
   "age": "",
   "sex": "",
-  "summary": "",
+  "summary": "Neutered, first vaccine done.",
   "story": "",
   "case_number": "277",
   "can_fly": true,
   "photos": [],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Vaccines",
+      "value": "First vaccine done, second coming up"
+    },
+    {
+      "label": "Neutered",
+      "value": "Yes"
+    },
+    {
+      "label": "Deworming",
+      "value": "Done"
+    },
+    {
+      "label": "Flea & tick",
+      "value": "Bravecto, done"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],

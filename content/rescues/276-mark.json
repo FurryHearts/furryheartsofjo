@@ -6,17 +6,40 @@
   "species": "Dog",
   "status": "Lives with us",
   "color": "denim",
-  "condition": "",
-  "tags": [],
+  "condition": "Tripod (three legs)",
+  "tags": [
+    "Special needs"
+  ],
   "family": "",
   "age": "",
   "sex": "",
-  "summary": "",
+  "summary": "A happy tripod dog. Neutered, first vaccine done.",
   "story": "",
   "case_number": "276",
   "can_fly": true,
   "photos": [],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Special needs",
+      "value": "Tripod, three legs"
+    },
+    {
+      "label": "Vaccines",
+      "value": "First vaccine done, second coming up"
+    },
+    {
+      "label": "Neutered",
+      "value": "Yes"
+    },
+    {
+      "label": "Deworming",
+      "value": "Done"
+    },
+    {
+      "label": "Flea & tick",
+      "value": "Bravecto, done"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],

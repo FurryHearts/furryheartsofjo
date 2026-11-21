@@ -4,19 +4,28 @@
   "order": 278,
   "featured": false,
   "species": "Dog",
-  "status": "Lives with us",
+  "status": "Soon traveling",
   "color": "coral",
   "condition": "",
   "tags": [],
   "family": "",
   "age": "",
   "sex": "",
-  "summary": "",
+  "summary": "Fully vaccinated and neutered. His travel papers are ready.",
   "story": "",
   "case_number": "278",
   "can_fly": true,
   "photos": [],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Vaccines",
+      "value": "Fully vaccinated"
+    },
+    {
+      "label": "Neutered",
+      "value": "Yes"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],

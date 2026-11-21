@@ -8907,12 +8907,21 @@
       "family": "",
       "age": "",
       "sex": "",
-      "summary": "",
+      "summary": "Fully vaccinated and neutered.",
       "story": "",
       "case_number": "274",
       "can_fly": true,
       "photos": [],
-      "facts": [],
+      "facts": [
+        {
+          "label": "Vaccines",
+          "value": "Fully vaccinated"
+        },
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
@@ -8937,12 +8946,21 @@
       "family": "",
       "age": "",
       "sex": "",
-      "summary": "",
+      "summary": "Fully vaccinated and neutered.",
       "story": "",
       "case_number": "275",
       "can_fly": true,
       "photos": [],
-      "facts": [],
+      "facts": [
+        {
+          "label": "Vaccines",
+          "value": "Fully vaccinated"
+        },
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
@@ -8962,17 +8980,40 @@
       "species": "Dog",
       "status": "Lives with us",
       "color": "denim",
-      "condition": "",
-      "tags": [],
+      "condition": "Tripod (three legs)",
+      "tags": [
+        "Special needs"
+      ],
       "family": "",
       "age": "",
       "sex": "",
-      "summary": "",
+      "summary": "A happy tripod dog. Neutered, first vaccine done.",
       "story": "",
       "case_number": "276",
       "can_fly": true,
       "photos": [],
-      "facts": [],
+      "facts": [
+        {
+          "label": "Special needs",
+          "value": "Tripod, three legs"
+        },
+        {
+          "label": "Vaccines",
+          "value": "First vaccine done, second coming up"
+        },
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        },
+        {
+          "label": "Deworming",
+          "value": "Done"
+        },
+        {
+          "label": "Flea & tick",
+          "value": "Bravecto, done"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
@@ -8997,12 +9038,29 @@
       "family": "",
       "age": "",
       "sex": "",
-      "summary": "",
+      "summary": "Neutered, first vaccine done.",
       "story": "",
       "case_number": "277",
       "can_fly": true,
       "photos": [],
-      "facts": [],
+      "facts": [
+        {
+          "label": "Vaccines",
+          "value": "First vaccine done, second coming up"
+        },
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        },
+        {
+          "label": "Deworming",
+          "value": "Done"
+        },
+        {
+          "label": "Flea & tick",
+          "value": "Bravecto, done"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
@@ -9020,8 +9078,47 @@
       "order": 278,
       "featured": false,
       "species": "Dog",
-      "status": "Lives with us",
+      "status": "Soon traveling",
       "color": "coral",
+      "condition": "",
+      "tags": [],
+      "family": "",
+      "age": "",
+      "sex": "",
+      "summary": "Fully vaccinated and neutered. His travel papers are ready.",
+      "story": "",
+      "case_number": "278",
+      "can_fly": true,
+      "photos": [],
+      "facts": [
+        {
+          "label": "Vaccines",
+          "value": "Fully vaccinated"
+        },
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        }
+      ],
+      "reels": [],
+      "tests": [],
+      "receipts": [],
+      "fee_country": "",
+      "fee_total": "",
+      "fee_items": [],
+      "travel": [],
+      "papers": [],
+      "care_enabled": false,
+      "slug": "278-golden"
+    },
+    {
+      "name": "Brookie",
+      "number": 279,
+      "order": 279,
+      "featured": false,
+      "species": "Dog",
+      "status": "Passed away",
+      "color": "sky",
       "condition": "",
       "tags": [],
       "family": "",
@@ -9029,7 +9126,7 @@
       "sex": "",
       "summary": "",
       "story": "",
-      "case_number": "278",
+      "case_number": "279",
       "can_fly": true,
       "photos": [],
       "facts": [],
@@ -9042,7 +9139,37 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
-      "slug": "278-golden"
+      "slug": "279-brookie"
+    },
+    {
+      "name": "Milo",
+      "number": 280,
+      "order": 280,
+      "featured": false,
+      "species": "Dog",
+      "status": "Passed away",
+      "color": "orange",
+      "condition": "",
+      "tags": [],
+      "family": "",
+      "age": "",
+      "sex": "",
+      "summary": "",
+      "story": "",
+      "case_number": "280",
+      "can_fly": true,
+      "photos": [],
+      "facts": [],
+      "reels": [],
+      "tests": [],
+      "receipts": [],
+      "fee_country": "",
+      "fee_total": "",
+      "fee_items": [],
+      "travel": [],
+      "papers": [],
+      "care_enabled": false,
+      "slug": "280-milo"
     }
   ]
 }

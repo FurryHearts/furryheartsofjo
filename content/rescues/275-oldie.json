@@ -11,12 +11,21 @@
   "family": "",
   "age": "",
   "sex": "",
-  "summary": "",
+  "summary": "Fully vaccinated and neutered.",
   "story": "",
   "case_number": "275",
   "can_fly": true,
   "photos": [],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Vaccines",
+      "value": "Fully vaccinated"
+    },
+    {
+      "label": "Neutered",
+      "value": "Yes"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
