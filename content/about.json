@@ -1,6 +1,6 @@
 {
   "title": "Our story",
-  "intro": "Hi, I'm Dina. Furry Hearts of Jordan started with one cat.",
+  "intro": "Hi, I'm Dina, an independent animal rescuer and the founder of Furry Hearts of Jordan.",
   "first_title": "The first one",
   "first_body": "The very first cat I rescued had diabetes. Caring for that cat taught me that every rescue deserves a real chance, no matter what they need.",
   "story": "",
@@ -30,5 +30,51 @@
   "video_title": "Inside the furry house",
   "video_reel": "DZ-edl1tEfI",
   "first_photo": "",
-  "first_name": "Tushi"
+  "first_name": "Tushi",
+  "sections": [
+    {
+      "title": "How it all began",
+      "paras": [
+        "I’m Dina, an independent animal rescuer based in Amman and the founder of Furry Hearts of Jordan. My story with cats began about six years ago. I had one cat, and when my sister travelled, she left her cat with me. I knew very little about cats at the time. The two mated, and my sister’s cat had four kittens. Friends and family suggested I sell them, but I didn’t believe in selling animals. I thought I’d find homes for them when they were older. Then I saw how attached their mother was to them, and I realised how attached I’d become, too. I kept them together.",
+        "I started The Tee Family House on Instagram to share everyday life with those cats. It was the first page I created, and it became the place where I shared my first rescues, their recoveries, and the everyday moments that come with caring for them. I still share most of my daily updates there. I want people to see what happens after someone stops to help an animal, and to feel that they can give an animal that chance, too."
+      ]
+    },
+    {
+      "title": "The cat who changed everything",
+      "paras": [
+        "My first rescue was Tushi. I found him shivering under a car one freezing February day. He had lost patches of fur and had wounds across his body. He was a Scottish Straight, and I later learned he had diabetes. Caring for him changed how I looked at the cats I passed on the street. I started noticing the ones who were hiding, struggling to move, or clearly used to living in a home.",
+        "Year after year, I’ve come across more abandoned pets in Jordan, including cats and kittens from breeds people pay a lot of money for. Some were sick or injured when I found them. Seeing where they ended up made me more determined to speak up about abandonment and the sale of animals, and to encourage people to adopt. Taking an animal home means taking responsibility for them throughout their life."
+      ]
+    },
+    {
+      "title": "From an Instagram page to Furry Hearts of Jordan",
+      "paras": [
+        "As the rescue work grew, I designed a logo for Furry Hearts of Jordan and began building a website where the animals could each have a profile of their own. I manage both Instagram pages daily. The Tee Family House is where I share most of our day-to-day life, while Furry Hearts of Jordan gives people a more organised way to follow the rescue cats, learn about their needs, and see who’s waiting for a home.",
+        "I run this work independently, without funding from institutions or companies. I’ve explored registering Furry Hearts of Jordan as an association or a nonprofit company, and I’m still working out what I can sustain. I currently care for more than 200 rescued cats and five rescued dogs. Some are recovering from injuries or surgery. Others live with chronic illnesses or disabilities and need daily care. Food, litter, medication, vet visits, and transport are ongoing expenses."
+      ]
+    },
+    {
+      "title": "The Guardians of Canaani Dog",
+      "paras": [
+        "When I started Furry Hearts of Jordan, my focus was on cats. That changed as I saw what Canaan dogs in Jordan were facing. I wanted to make videos about what was happening to them, speak up about the violence, poisoning, and killing they face, and help people understand these dogs. That’s why I created The Guardians of Canaani Dog, an initiative within Furry Hearts of Jordan with a logo of its own.",
+        "Through the initiative, I want to keep advocating for their protection and helping where I can, whether that means arranging veterinary care for an injured dog or finding a safe home. I hope the stories I share help people see the dogs as individuals and understand how much their lives can change when someone gives them a chance."
+      ]
+    },
+    {
+      "title": "Finding homes and supporting the animals in my care",
+      "paras": [
+        "I’ve helped rescued cats and dogs travel from Jordan to safe homes in Europe, and I share their stories from their first days in my care to life with their new families. I mainly look for adopters abroad, and I only move forward once I’ve taken the time to get to know the family and feel sure they can meet that animal’s needs. The adoption fee covers only the animal’s travel expenses.",
+        "I’m building this website so people can get to know the animals still waiting for homes and reach out if they’d like to adopt or help with their care. For supporters in Jordan, I ask that contributions go directly to the clinics and suppliers I work with. That might mean paying part of a vet bill or covering an order of food, litter, or other supplies."
+      ]
+    },
+    {
+      "title": "What I’m building next",
+      "paras": [
+        "Through Cat World, I want to share practical things I’ve learned from caring for my own cats and the cats I’ve rescued. If you find an injured cat, where can you turn for help? If your cat comes home after surgery, what should you have ready? I remember how much more confident I felt when a veterinarian took the time to show me what to do at home. In the future, I hope to work with veterinarians to offer workshops where people can ask questions and learn those skills firsthand.",
+        "I’m also developing Ted’s Shop, named after one of my rescues. I want to bring together things I’ve found useful in everyday care, from toys my cats actually play with to tools that make their routines easier. I’d also love to bring my work as an illustrator into the shop through custom cat portraits and a printed care journal.",
+        "I hope I can keep sharing the quiet, happy moments on The Tee Family House, finding homes through Furry Hearts of Jordan, and speaking up for Canaan dogs through The Guardians of Canaani Dog. And I hope that when someone sees one of these stories and later comes across an animal who needs help, they feel a little more prepared to stop and take that first step."
+      ]
+    }
+  ],
+  "heart_section": "The cat who changed everything"
 }
