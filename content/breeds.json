@@ -1,1 +1,348 @@
-{"updated": "", "source": "TheCatAPI", "breeds": []}
+{
+ "updated": "2026-11-22",
+ "source": "Furry Hearts of Jordan",
+ "breeds": [
+  {
+   "name": "Abyssinian",
+   "origin": "Egypt",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Abyssinian_cat"
+  },
+  {
+   "name": "American Bobtail",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/American_Bobtail_cat"
+  },
+  {
+   "name": "American Curl",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/American_Curl_cat"
+  },
+  {
+   "name": "American Shorthair",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/American_Shorthair_cat"
+  },
+  {
+   "name": "American Wirehair",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/American_Wirehair_cat"
+  },
+  {
+   "name": "Arabian Mau",
+   "origin": "Arabian Peninsula",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Arabian_Mau"
+  },
+  {
+   "name": "Balinese",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Balinese_cat"
+  },
+  {
+   "name": "Bengal",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Bengal_cat"
+  },
+  {
+   "name": "Birman",
+   "origin": "Myanmar",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Birman_cat"
+  },
+  {
+   "name": "Bombay",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Bombay_cat"
+  },
+  {
+   "name": "British Longhair",
+   "origin": "United Kingdom",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/British_Longhair_cat"
+  },
+  {
+   "name": "British Shorthair",
+   "origin": "United Kingdom",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/British_Shorthair_cat"
+  },
+  {
+   "name": "Burmese",
+   "origin": "Myanmar",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Burmese_cat"
+  },
+  {
+   "name": "Burmilla",
+   "origin": "United Kingdom",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Burmilla_cat"
+  },
+  {
+   "name": "Chartreux",
+   "origin": "France",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Chartreux_cat"
+  },
+  {
+   "name": "Chausie",
+   "origin": "Egypt",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Chausie_cat"
+  },
+  {
+   "name": "Cornish Rex",
+   "origin": "United Kingdom",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Cornish_Rex_cat"
+  },
+  {
+   "name": "Cymric",
+   "origin": "Canada",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Cymric_cat"
+  },
+  {
+   "name": "Devon Rex",
+   "origin": "United Kingdom",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Devon_Rex_cat"
+  },
+  {
+   "name": "Domestic Longhair",
+   "origin": "Worldwide",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Domestic_long-haired_cat"
+  },
+  {
+   "name": "Domestic Shorthair",
+   "origin": "Worldwide",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Domestic_short-haired_cat"
+  },
+  {
+   "name": "Egyptian Mau",
+   "origin": "Egypt",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Egyptian_Mau_cat"
+  },
+  {
+   "name": "European Burmese",
+   "origin": "Myanmar",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/European_Burmese_cat"
+  },
+  {
+   "name": "Exotic Shorthair",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Exotic_Shorthair_cat"
+  },
+  {
+   "name": "Havana Brown",
+   "origin": "United Kingdom",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Havana_Brown_cat"
+  },
+  {
+   "name": "Himalayan",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Himalayan_cat"
+  },
+  {
+   "name": "Japanese Bobtail",
+   "origin": "Japan",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Japanese_Bobtail_cat"
+  },
+  {
+   "name": "Khao Manee",
+   "origin": "Thailand",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Khao_Manee_cat"
+  },
+  {
+   "name": "Korat",
+   "origin": "Thailand",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Korat_cat"
+  },
+  {
+   "name": "Kurilian Bobtail",
+   "origin": "Russia",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Kurilian_Bobtail_cat"
+  },
+  {
+   "name": "LaPerm",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/LaPerm_cat"
+  },
+  {
+   "name": "Maine Coon",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Maine_Coon_cat"
+  },
+  {
+   "name": "Manx",
+   "origin": "Isle of Man",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Manx_cat"
+  },
+  {
+   "name": "Munchkin",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Munchkin_cat"
+  },
+  {
+   "name": "Nebelung",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Nebelung_cat"
+  },
+  {
+   "name": "Norwegian Forest Cat",
+   "origin": "Norway",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Norwegian_Forest_cat"
+  },
+  {
+   "name": "Ocicat",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Ocicat_cat"
+  },
+  {
+   "name": "Oriental Shorthair",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Oriental_Shorthair_cat"
+  },
+  {
+   "name": "Persian",
+   "origin": "Iran",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Persian_cat"
+  },
+  {
+   "name": "Pixie-bob",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Pixie-bob_cat"
+  },
+  {
+   "name": "Ragamuffin",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Ragamuffin_cat"
+  },
+  {
+   "name": "Ragdoll",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Ragdoll_cat"
+  },
+  {
+   "name": "Russian Blue",
+   "origin": "Russia",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Russian_Blue_cat"
+  },
+  {
+   "name": "Savannah",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Savannah_cat"
+  },
+  {
+   "name": "Scottish Fold",
+   "origin": "United Kingdom",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Scottish_Fold_cat"
+  },
+  {
+   "name": "Scottish Straight",
+   "origin": "United Kingdom",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Scottish_Fold"
+  },
+  {
+   "name": "Selkirk Rex",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Selkirk_Rex_cat"
+  },
+  {
+   "name": "Siamese",
+   "origin": "Thailand",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Siamese_cat"
+  },
+  {
+   "name": "Siberian",
+   "origin": "Russia",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Siberian_cat"
+  },
+  {
+   "name": "Singapura",
+   "origin": "Singapore",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Singapura_cat"
+  },
+  {
+   "name": "Snowshoe",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Snowshoe_cat"
+  },
+  {
+   "name": "Somali",
+   "origin": "Somalia",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Somali_cat"
+  },
+  {
+   "name": "Sphynx",
+   "origin": "Canada",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Sphynx_cat"
+  },
+  {
+   "name": "Tonkinese",
+   "origin": "Canada",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Tonkinese_cat"
+  },
+  {
+   "name": "Toyger",
+   "origin": "United States",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Toyger_cat"
+  },
+  {
+   "name": "Turkish Angora",
+   "origin": "Turkey",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Turkish_Angora_cat"
+  },
+  {
+   "name": "Turkish Van",
+   "origin": "Turkey",
+   "img": "",
+   "wiki": "https://en.wikipedia.org/wiki/Turkish_Van_cat"
+  }
+ ]
+}

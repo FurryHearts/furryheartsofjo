@@ -17,7 +17,7 @@ if (process.env.CAT_API_KEY) headers['x-api-key'] = process.env.CAT_API_KEY;
       img: (x.image && x.image.url) || (x.reference_image_id ? 'https://cdn2.thecatapi.com/images/' + x.reference_image_id + '.jpg' : ''),
       wiki: x.wikipedia_url || ''
     })).filter((b) => b.name).sort((a, b) => a.name.localeCompare(b.name));
-    if (!breeds.length) throw new Error('empty list');
+    if (breeds.length < 30) throw new Error('list too short');
     fs.writeFileSync(out, JSON.stringify({ updated: new Date().toISOString(), source: 'TheCatAPI', breeds }, null, 1));
     console.log('fetch-breeds: saved ' + breeds.length + ' breeds');
   } catch (e) {
