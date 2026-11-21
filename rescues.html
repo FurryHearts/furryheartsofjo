@@ -153,7 +153,7 @@ const shown = all.slice().sort((a, b) => String(a.name).localeCompare(String(b.n
 const btn = (label, active, color, pick) => ({ label, pressed: active ? 'true' : 'false', color, bg: active ? color : 'var(--paper, #FFFFFF)', fg: active ? 'var(--paper, #FFFFFF)' : color, pick });
 const S = (label, id, color) => btn(label, st === id, color, () => this.setState({ status: id, tag: 'all', avail: 'all' }));
 const T = (label, id, color) => btn(label, tg === id, color, () => this.setState({ tag: id }));
-return {
+const __r = {
   globe: (sp === 'dog' && (F.data.settings || {}).snowglobe_dog) ? F.data.settings.snowglobe_dog : 'img/snowglobe.jpg', globeAlt: sp === 'dog' ? 'A felted puppy holding a peach heart inside a snow globe' : 'A felted kitten holding a peach heart inside a snow globe',
   q: this.state.q || '', searching: !!words.length, notSearching: !words.length,
   ph: window.innerWidth < 560 ? 'Name, blind, ' + (this.state.species === 'dog' ? 'puppy' : 'kitten') + '…' : 'Search by name, or try: special needs, blind, ' + (this.state.species === 'dog' ? 'puppy' : 'kitten'),
@@ -172,6 +172,9 @@ return {
   statusBtns: [S('Available', 'Available', 'var(--pink)'), S('Lives with us', 'Lives with us', 'var(--sky)'), S('In treatment', 'In treatment', 'var(--sunshine)'), S('Reserved', 'Reserved', 'var(--orange)'), S('Soon traveling', 'Soon traveling', 'var(--purple)'), S('Adopted', 'Adopted', 'var(--green)'), S('Missing', 'Missing', '#B8B2B0'), Object.assign(S('In loving memory', 'Passed away', F.memoryRainbow() ? 'transparent' : '#1E1A19'), F.memoryRainbow() ? { bg: st === 'Passed away' ? F.RAINBOW + ' padding-box, ' + F.RAINBOW + ' border-box' : 'linear-gradient(#fff, #fff) padding-box, ' + F.RAINBOW + ' border-box', fg: st === 'Passed away' ? '#fff' : '#B87FD9' } : {})],
   tagBtns: [T('Everyone', 'all', 'var(--cocoa)'), T('Special needs', 'Special needs', 'var(--tangerine)'), T(sp === 'dog' ? 'Rescued as puppies' : 'Rescued as kittens', 'Rescued as a kitten', 'var(--purple)'), T('Mothers', 'Mother', 'var(--rose)'), T('Siblings', 'Siblings', 'var(--teal)'), T(sp === 'dog' ? 'Outdoor dogs' : 'Outdoor cats', 'Outdoor cat', 'var(--denim)')]
 };
+__r.statusBtns = __r.statusBtns.filter((b) => !(sp === 'dog' && b.label === 'Missing'));
+__r.tagBtns = __r.tagBtns.filter((b) => !(sp === 'dog' && /^Outdoor/.test(b.label)));
+return __r;
 }
 }
 </script>
