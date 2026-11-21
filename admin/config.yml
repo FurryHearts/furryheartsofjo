@@ -239,6 +239,8 @@ collections:
             fields: [{label: "Item", name: label, widget: string}, {label: "Cost (JOD)", name: cost, widget: string}, {label: "Note", name: note, widget: string, required: false}]
           - {label: "Total", name: total, widget: string}
           - {label: "Total in USD", name: total_usd, widget: string}
+          - {label: "Total in EUR", name: total_eur, widget: string}
+          - {label: "Exchange rate note", name: rate_note, widget: string}
           - {label: "DHL title", name: dhl_title, widget: string}
           - {label: "DHL text", name: dhl_body, widget: text}
           - label: "Paid separately"
