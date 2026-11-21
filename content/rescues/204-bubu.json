@@ -39,9 +39,10 @@
   "papers": [],
   "care_enabled": false,
   "sponsor_needs": [
-    "treatment",
-    "vaccines",
     "food",
+    "vaccines",
+    "flea",
+    "treatment",
     "diapers"
   ],
   "sponsor_food": "Royal Canin Gastrointestinal Fibre Response"

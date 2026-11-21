@@ -89,7 +89,6 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <span title="{{s.title}}" style="width: 46px; height: 46px; border-radius: 999px; background: {{s.bg}}; display: flex; align-items: center; justify-content: center; position: relative"><span style="width: 26px; height: 26px; background: {{s.fg}}; -webkit-mask: url({{s.icon}}) center / contain no-repeat; mask: url({{s.icon}}) center / contain no-repeat"></span><template data-sc-if="{{s.on}}"><span style="position: absolute; right: -3px; bottom: -3px; width: 18px; height: 18px; border-radius: 999px; background: {{s.fg}}; color: #fff; font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 2px #fff">✓</span></template></span>
 </template>
 </div>
-<p style="margin: 0; text-align: center; font-size: 15px; font-weight: 500; line-height: 1.4; color: var(--accent-text, #704f44); text-wrap: balance">{{c.line}}</p>
 </a>
 </template>
 </div>
@@ -110,9 +109,9 @@ const all = ((D['rescues-index'] || {}).rescues || []).filter((r) => ['Available
 const q = String(this.state.q || '').trim().toLowerCase(), lim = this.state.n || 24;
 const rows = all.map((r) => { const s = F.sponsor(r); const photo = (r.photos && r.photos[0] && r.photos[0].image) || ''; const color = F.solid(r);
   return { r, s, photo, color, name: r.name, href: 'rescue.html#' + r.slug, noPhoto: !photo, line: s.line,
-    items: s.items.map((x) => ({ ...x, title: x.label + (x.on ? ' · covered' : ' · not covered yet'), fg: x.on ? color : '#D8C8C2', bg: x.on ? 'color-mix(in srgb, ' + color + ' 18%, #fff)' : 'var(--cream, #fcf2f0)' })) }; })
+    items: s.items.map((x) => ({ ...x, title: x.label })) }; })
   .filter((x) => !q || String(x.name).toLowerCase().indexOf(q) >= 0)
-  .sort((a, b) => (b.photo ? 1 : 0) - (a.photo ? 1 : 0) || (b.s.urgent ? 1 : 0) - (a.s.urgent ? 1 : 0) || a.s.covered - b.s.covered || String(a.name).localeCompare(String(b.name)));
+  .sort((a, b) => (b.photo ? 1 : 0) - (a.photo ? 1 : 0) || String(a.name).localeCompare(String(b.name)));
 const legend = F.sponsor({ name: '' }).items;
 const ig = (D.settings || {}).instagram_user || '', MONTH = new Date().toLocaleString('en', { month: 'long' });
 const bills = (S.bills || []).map((b) => { const c = F.color(b.color, 'sky'); return { title: b.title, amount: b.amount || '', per: b.per || '', note: b.note || '', icon: 'img/sp-' + (b.icon || b.id) + '.svg', color: c, tint: 'color-mix(in srgb, ' + c + ' 18%, #fff)',

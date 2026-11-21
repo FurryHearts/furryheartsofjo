@@ -1,26 +1,30 @@
 {
   "title": "Sponsor a cat",
-  "intro": "Can't adopt right now? You can still change a cat's month. Pick a cat and cover one of their needs: treatment, vaccines, food, litter or diapers. When it's covered, its icon lights up.",
+  "intro": "Can't adopt right now? You can still help. Every cat here needs food, vaccines, flea treatment and vet care, and some need diapers too. Tap a cat to see what they need and sponsor it.",
   "items": [
     {
-      "id": "treatment",
-      "label": "Treatment",
-      "cost": ""
+      "id": "food",
+      "label": "Food",
+      "cost": "",
+      "note": "Wet and dry food"
     },
     {
       "id": "vaccines",
       "label": "Vaccines",
-      "cost": ""
+      "cost": "",
+      "note": ""
     },
     {
-      "id": "food",
-      "label": "Food",
-      "cost": ""
+      "id": "flea",
+      "label": "Flea treatment",
+      "cost": "",
+      "note": ""
     },
     {
-      "id": "litter",
-      "label": "Litter",
-      "cost": ""
+      "id": "treatment",
+      "label": "Clinic bills",
+      "cost": "",
+      "note": ""
     },
     {
       "id": "diapers",
