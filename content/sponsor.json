@@ -124,6 +124,54 @@
           "amount": "27 JOD"
         }
       ]
+    },
+    {
+      "id": "transport",
+      "title": "Rides balance",
+      "icon": "transport",
+      "amount": "",
+      "per": "",
+      "note": "Rides to the clinic and on rescue missions add up. Cover all or part of our balance",
+      "color": "denim",
+      "pay": [
+        {
+          "label": "Rides",
+          "account": "Transportation",
+          "amount": ""
+        }
+      ]
+    },
+    {
+      "id": "cleaning",
+      "title": "Cleaning products",
+      "icon": "cleaning",
+      "amount": "",
+      "per": "",
+      "note": "Disinfectant, detergent and everything that keeps the cats’ home clean",
+      "color": "tangerine",
+      "pay": [
+        {
+          "label": "Cleaning products",
+          "account": "Other bills & needs",
+          "amount": ""
+        }
+      ]
+    },
+    {
+      "id": "house",
+      "title": "Cat house bills",
+      "icon": "house",
+      "amount": "",
+      "per": "",
+      "note": "Electricity, water and everything the cats’ home needs",
+      "color": "orchid",
+      "pay": [
+        {
+          "label": "Cat house",
+          "account": "Other bills & needs",
+          "amount": ""
+        }
+      ]
     }
   ],
   "suppliers_note": "We buy our food from Club 4 Paws, Optimeal, Royal Canin and Purina.",

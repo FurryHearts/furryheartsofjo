@@ -177,7 +177,7 @@ collections:
             fields:
               - {label: "ID", name: id, widget: string}
               - {label: "Title", name: title, widget: string}
-              - {label: "Icon", name: icon, widget: select, options: ["treatment", "vaccines", "food", "litter", "diapers", "grooming", "flea"]}
+              - {label: "Icon", name: icon, widget: select, options: ["treatment", "vaccines", "food", "litter", "diapers", "grooming", "flea", "transport", "cleaning", "house"]}
               - {label: "Amount (e.g. 100 JOD)", name: amount, widget: string, required: false}
               - {label: "Per (a month / a cat / a 20 L bag)", name: per, widget: string, required: false}
               - {label: "Note", name: note, widget: string, required: false}
