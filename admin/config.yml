@@ -220,6 +220,39 @@ collections:
             widget: list
             required: false
             fields: [{label: "Name", name: name, widget: string}, {label: "Logo", name: logo, widget: image, required: false}]
+      - label: "Travel & costs · السفر والتكاليف"
+        name: travel
+        file: content/travel.json
+        format: json
+        fields:
+          - {label: "Title", name: title, widget: string}
+          - {label: "Subtitle", name: subtitle, widget: string}
+          - {label: "Note", name: note, widget: text}
+          - {label: "Duration", name: duration, widget: string}
+          - label: "Steps"
+            name: steps
+            widget: list
+            fields: [{label: "When", name: when, widget: string}, {label: "Title", name: title, widget: string}, {label: "Text", name: body, widget: text}, {label: "Color", name: color, widget: string}]
+          - label: "Price items (JOD)"
+            name: items
+            widget: list
+            fields: [{label: "Item", name: label, widget: string}, {label: "Cost (JOD)", name: cost, widget: string}, {label: "Note", name: note, widget: string, required: false}]
+          - {label: "Total", name: total, widget: string}
+          - {label: "Total in USD", name: total_usd, widget: string}
+          - {label: "DHL title", name: dhl_title, widget: string}
+          - {label: "DHL text", name: dhl_body, widget: text}
+          - label: "Paid separately"
+            name: extras
+            widget: list
+            fields: [{label: "Title", name: title, widget: string}, {label: "Cost", name: cost, widget: string}, {label: "Text", name: body, widget: text}, {label: "Color", name: color, widget: string}, {label: "Icon", name: icon, widget: select, options: ["treatment", "crate", "flea", "plane", "vaccines", "food", "transport"]}]
+          - label: "How to pay"
+            name: pay
+            widget: list
+            fields: [{label: "What", name: what, widget: string}, {label: "How", name: how, widget: string}]
+          - {label: "Pay note", name: pay_note, widget: text}
+          - {label: "Medical records text", name: records, widget: text}
+          - {label: "Closing title", name: closing_title, widget: string}
+          - {label: "Closing text", name: closing, widget: text}
       - label: "Settings & links · الإعدادات"
         name: settings
         file: content/settings.json

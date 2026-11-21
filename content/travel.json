@@ -1,0 +1,113 @@
+{
+  "title": "Little paws, big journeys",
+  "subtitle": "Cat travel preparation, from Jordan to forever homes around the world.",
+  "note": "These steps apply to most European countries and many countries worldwide, but requirements may vary by destination.",
+  "steps": [
+    {
+      "when": "Step 1",
+      "title": "Microchip & rabies vaccine",
+      "body": "The journey starts at the vet in Jordan.",
+      "color": "sky"
+    },
+    {
+      "when": "30 days later",
+      "title": "Blood sample",
+      "body": "Sent to an EU-approved lab in Germany for the rabies titer test.",
+      "color": "purple"
+    },
+    {
+      "when": "3 months later",
+      "title": "Ready to fly",
+      "body": "Counted from the blood sample date, once the result is good.",
+      "color": "green"
+    }
+  ],
+  "duration": "About 4 months",
+  "items": [
+    {
+      "label": "Rabies vaccination",
+      "cost": "12"
+    },
+    {
+      "label": "Microchip",
+      "cost": "35"
+    },
+    {
+      "label": "Local lab fee (Amman)",
+      "cost": "5"
+    },
+    {
+      "label": "Veterinary service fee",
+      "cost": "35"
+    },
+    {
+      "label": "Travel documents preparation",
+      "cost": "35"
+    },
+    {
+      "label": "DHL blood sample shipment",
+      "cost": "60",
+      "note": "Same price for 2 cats or more"
+    },
+    {
+      "label": "Customs and processing fees",
+      "cost": "30"
+    },
+    {
+      "label": "Health certificate",
+      "cost": "25"
+    }
+  ],
+  "total": "237 JOD per cat",
+  "total_usd": "about $334",
+  "dhl_title": "More cats to the same country, lower DHL cost per cat",
+  "dhl_body": "When several cats are getting ready for adoption in the same country, we send their blood samples together in one DHL shipment, so each cat pays less. It makes international adoption more affordable for everyone.",
+  "extras": [
+    {
+      "title": "German lab fee",
+      "cost": "EUR 53–55 (estimated)",
+      "body": "Paid by the adopter directly to Viro Vet Diagnostik UG in Germany, the lab we work with for rabies antibody titer testing. Payment instructions come by email. Not included in the Jordan total.",
+      "color": "coral",
+      "icon": "treatment"
+    },
+    {
+      "title": "Travel crate",
+      "cost": "About 40 JOD per cat",
+      "body": "A standard-size travel crate, including the airline sticker.",
+      "color": "sunshine",
+      "icon": "crate"
+    },
+    {
+      "title": "Flea, tick & deworming",
+      "cost": "Extra cost",
+      "body": "Even if a cat is already parasite-free and up to date, the passport and health certificate may need fresh treatments right before travel.",
+      "color": "teal",
+      "icon": "flea"
+    },
+    {
+      "title": "Flight & shipping",
+      "cost": "Quoted separately",
+      "body": "The airline ticket, travel buddy and cargo costs are not included. The transport company sends its own PDF quote, based on the airline, destination and travel plan.",
+      "color": "denim",
+      "icon": "plane"
+    }
+  ],
+  "pay": [
+    {
+      "what": "Jordan preparation",
+      "how": "Paid directly to the vet or clinic."
+    },
+    {
+      "what": "German lab fee",
+      "how": "Paid directly to the lab."
+    },
+    {
+      "what": "Transport",
+      "how": "Quoted separately by the transport provider."
+    }
+  ],
+  "pay_note": "This quote covers the vet preparation and paperwork in Jordan. It does not cover transport and does not guarantee entry approval.",
+  "records": "Every cat available for adoption has a clear, documented medical file. They are spayed or neutered, vaccinated, and kept up to date with deworming and flea prevention. We share each cat's full health and medical history before adoption, so you know exactly what to expect.",
+  "closing_title": "You're not just adopting a cat",
+  "closing": "When you give a rescued cat a home abroad, you give them a second chance at life. Behind every rescue is a long journey of pain, recovery and hope. Rescue work in the Arab world is hard, and every adoption makes a real difference."
+}
