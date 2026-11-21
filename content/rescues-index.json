@@ -2515,7 +2515,12 @@
       "story": "",
       "case_number": "80",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/charlie-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
