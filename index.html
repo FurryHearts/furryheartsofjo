@@ -119,8 +119,8 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 
 <section id="support" style="background: {{accent}}; padding: 40px 32px">
 <div class="stamp" style="max-width: 1180px; margin: 0 auto; background: var(--paper, #FFFFFF); padding: 72px 48px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 26px">
-<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 60px; line-height: 1.02; text-transform: uppercase; max-width: 900px; color: var(--cocoa, #a38273)">But who supports the rescuer?</h2>
-<p style="margin: 0; font-size: 20px; line-height: 1.6; max-width: 720px; color: var(--accent-text, #704f44)">Food. Water. Litter. Boarding. Medication. Shelter. Rescue doesn't end when treatment ends, and even 5 or 10 JOD helps cover the bills.</p>
+<h2 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 60px; line-height: 1.02; text-transform: uppercase; max-width: 900px; color: var(--peach, #ffb68d)">Our needs</h2>
+<p style="margin: 0; font-size: 20px; line-height: 1.6; max-width: 720px; color: var(--accent-text, #704f44)">Food, litter, vet bills, medication and a safe home. Rescue doesn't end when treatment ends. Every cat in our care needs these, every single day.</p>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 14px">
 <template data-sc-for="{{needs}}" data-as="n">
 <span style="background: {{n.color}}; padding: 12px 22px; border-radius: 999px; font-weight: 500; font-size: 16px; color: var(--paper, #ffffff)">{{n.label}}</span>
@@ -134,11 +134,11 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <p style="margin: 0; font-size: 15px; color: var(--accent-text, #704f44)">Donations go directly to clinics &amp; suppliers. Invoices and documentation are available.</p>
 <div style="width: 100%; max-width: 820px; box-sizing: border-box; background: var(--cream, #FCF2F0); border-radius: 28px; padding: 28px 32px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between; text-align: left">
 <div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 6px">
-<strong style="font-size: 20px">Paid by CliQ? Send us your screenshot</strong>
-<span style="font-size: 15px; line-height: 1.55">Pick a CliQ account below. After your transfer, send us the screenshot so we can update the total and track the balance. (GoFundMe and PayPal send an automatic receipt, so no screenshot is needed.)</span>
+<strong style="font-size: 20px">Important: paid by CliQ? Send us your screenshot</strong>
+<span style="font-size: 15px; line-height: 1.55">Pick a CliQ account below. After your transfer, please send the screenshot on Instagram to <strong style="font-weight: 500; margin-left: .25em">@furryheartsofjordan</strong>, so we can update the total and track the balance. (GoFundMe and PayPal send an automatic receipt, so no screenshot is needed.)</span>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 10px">
-<a href="{{igMsg}}" data-msg="{{donateMsg}}" target="_blank" rel="noopener" style="text-decoration: none; background: var(--peach, #FFB68D); color: var(--paper, #FFFFFF); padding: 14px 22px; border-radius: 999px; font-weight: 500; font-size: 16px">Send on Instagram</a>
+<a href="{{igMsg}}" data-msg="{{donateMsg}}" target="_blank" rel="noopener" style="text-decoration: none; background: var(--peach, #FFB68D); color: var(--paper, #FFFFFF); padding: 14px 22px; border-radius: 999px; font-weight: 500; font-size: 16px">Send to @furryheartsofjordan</a>
 <template data-sc-if="{{hasEmail}}"><a href="{{mailto}}" style="text-decoration: none; border: 3px solid var(--peach, #FFB68D); color: var(--peach-deep, #F59668); padding: 11px 20px; border-radius: 999px; font-weight: 500; font-size: 16px">Send by email</a></template>
 </div>
 </div>
@@ -165,7 +165,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 </div>
 <span style="font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; padding: 0 14px; color: {{c.color}}">{{c.name}}</span>
 <p lang="ar" dir="rtl" style="margin: 0; text-align: left; font-family: 'Readex Pro', var(--font-sans), sans-serif; font-weight: 400; font-size: 13.5px; line-height: 1.6; padding: 0 14px; color: {{c.color}}">يرجى إرسال صورة عن تحويل التبرع حتى أتمكن من تحديث المجموع ومتابعة الرصيد المتبقي.</p>
-<p style="margin: 0; font-size: 13.5px; line-height: 1.45; font-weight: 400; padding: 0 14px; color: {{c.color}}">Please share a screenshot of your donation so we can track the balance.</p>
+<p style="margin: 0; font-size: 13.5px; line-height: 1.45; font-weight: 400; padding: 0 14px; color: {{c.color}}">Please send a screenshot of your donation on Instagram to @furryheartsofjordan so we can track the balance.</p>
 <a href="{{c.wa}}" data-msg="{{c.msg}}" target="_blank" rel="noopener" style="margin-top: auto; text-decoration: none; text-align: center; color: var(--paper, #FFFFFF); padding: 12px; border-radius: 999px; font-weight: 500; font-size: 15px; background-color: {{c.color}}; display: grid">Send screenshot on Instagram</a>
 </div>
 </article>
