@@ -165,7 +165,7 @@
   }
   document.addEventListener('click', function (e) {
     var sb = e.target.closest && e.target.closest('[data-scroll]');
-    if (sb) { var sec = sb.closest('section'); var row = sec && sec.querySelector('.fhj-tails'); if (row) { var card = row.firstElementChild; var step = card ? card.getBoundingClientRect().width + 28 : 300; row.scrollBy({ left: step * Number(sb.getAttribute('data-scroll')), behavior: 'smooth' }); } return; }
+    if (sb) { var sec = sb.closest('section'); var row = sec && sec.querySelector('.fhj-tails, .fhj-row'); if (row) { var card = row.firstElementChild; var step = card ? card.getBoundingClientRect().width + (parseFloat(getComputedStyle(row).columnGap) || 28) : 300; row.scrollBy({ left: step * Number(sb.getAttribute('data-scroll')), behavior: 'smooth' }); } return; }
     var a = e.target.closest && e.target.closest('a[data-msg]');
     if (!a || !a.getAttribute('data-msg')) return;
     var text = a.getAttribute('data-msg');
