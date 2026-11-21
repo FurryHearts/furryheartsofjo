@@ -1017,13 +1017,15 @@
       "species": "Cat",
       "status": "Lives with us",
       "color": "pink",
-      "condition": "",
-      "tags": [],
+      "condition": "Blind in one eye",
+      "tags": [
+        "Special needs"
+      ],
       "family": "",
-      "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
+      "age": "About 2 years",
+      "sex": "Male",
+      "summary": "Fully vaccinated and neutered. Blind in one eye, and one of the sweetest cats you will ever meet.",
+      "story": "Cappy spent months living in a vegetable market, waiting for someone to take him home. A kind woman messaged us again and again on Instagram asking for help. When we finally saw her messages, his story broke our hearts, and we went to get him.\n\nCappy later got a hematoma in his ear. We did surgery to save it and bring it back to normal, and today his ear is doing great, with no problems at all.\n\nHe sees from one eye only, but it doesn't slow him down for a second. Cappy is one of the gentlest, cutest and most loving cats you could ever meet. One eye is no reason not to open your heart to him.",
       "case_number": "33",
       "can_fly": true,
       "photos": [
@@ -1032,7 +1034,20 @@
           "label": "Main photo"
         }
       ],
-      "facts": [],
+      "facts": [
+        {
+          "label": "Vaccines",
+          "value": "Fully vaccinated"
+        },
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        },
+        {
+          "label": "Ear",
+          "value": "Hematoma surgery, fully healed"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
