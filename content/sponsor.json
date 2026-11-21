@@ -46,19 +46,19 @@
       "id": "litter",
       "title": "Litter",
       "icon": "litter",
-      "amount": "300 JOD",
-      "per": "a week",
-      "note": "Clean litter for every cat in our care",
+      "amount": "12 JOD",
+      "per": "a 20 L bag",
+      "note": "We go through about 300 JOD of litter every week",
       "color": "sunshine",
       "covered": false
     },
     {
       "id": "food",
-      "title": "Food bill",
+      "title": "Food balance",
       "icon": "food",
       "amount": "",
       "per": "",
-      "note": "Medical food and regular food. Cover all or part of what we still owe",
+      "note": "What we still owe for medical and regular food. Cover all or part of it",
       "color": "green",
       "covered": false
     },
@@ -68,7 +68,7 @@
       "icon": "treatment",
       "amount": "",
       "per": "",
-      "note": "Our open balance at the vet. Cover all or part of it",
+      "note": "Tap to see every clinic bill we haven’t closed yet",
       "color": "coral",
       "covered": false
     },
@@ -76,9 +76,9 @@
       "id": "grooming",
       "title": "Grooming",
       "icon": "grooming",
-      "amount": "",
-      "per": "",
-      "note": "Brushing, baths and shaving for our long-haired cats",
+      "amount": "20 JOD",
+      "per": "a cat",
+      "note": "A full grooming trip: the ride there, the haircut and the ride back",
       "color": "purple",
       "covered": false
     },
@@ -86,13 +86,17 @@
       "id": "flea",
       "title": "Flea treatment",
       "icon": "flea",
-      "amount": "",
-      "per": "",
-      "note": "Flea drops for every cat, every month",
+      "amount": "27 JOD",
+      "per": "a cat",
+      "note": "Bravecto: one dose protects a cat for 3 months",
       "color": "teal",
       "covered": false
     }
   ],
   "suppliers_note": "We buy our food from Club 4 Paws, Optimeal, Royal Canin and Purina.",
-  "suppliers": []
+  "suppliers": [],
+  "clinic_bills": [],
+  "foods_title": "What our cats eat",
+  "foods_intro": "Want to buy food for our cats? These are the brands and flavors we use.",
+  "foods": []
 }

@@ -177,7 +177,27 @@ collections:
             widget: list
             summary: "{{fields.title}} — {{fields.amount}} {{fields.per}}"
             fields: [{label: "ID", name: id, widget: string}, {label: "Title", name: title, widget: string}, {label: "Icon", name: icon, widget: select, options: ["treatment", "vaccines", "food", "litter", "diapers", "grooming", "flea"]}, {label: "Amount (e.g. 100 JOD) — leave empty if it changes", name: amount, widget: string, required: false}, {label: "Per (a month / a week)", name: per, widget: string, required: false}, {label: "Note", name: note, widget: string, required: false}, {label: "Color", name: color, widget: select, default: "sky", options: ["orange", "tangerine", "coral", "rose", "pink", "orchid", "purple", "lavender", "sky", "denim", "teal", "aqua", "mint", "green", "olive", "lime", "sunshine"]}, {label: "Covered this month", name: covered, widget: boolean, default: false, required: false}]
+          - label: "Open clinic bills · فواتير العيادة المفتوحة"
+            name: clinic_bills
+            widget: list
+            required: false
+            summary: "{{fields.date}} · {{fields.pet}} · {{fields.amount}}"
+            fields: [{label: "Date", name: date, widget: string, required: false}, {label: "Cat", name: pet, widget: string, required: false}, {label: "What for", name: what, widget: string, required: false}, {label: "Amount (e.g. 45 JOD)", name: amount, widget: string, required: false}, {label: "Bill photo (blur the clinic address)", name: file, widget: file, required: false}, {label: "Paid (hide it)", name: paid, widget: boolean, default: false, required: false}]
           - {label: "Food suppliers line", name: suppliers_note, widget: string, required: false}
+          - {label: "Foods title", name: foods_title, widget: string, required: false}
+          - {label: "Foods intro", name: foods_intro, widget: text, required: false}
+          - label: "What our cats eat · الأكل"
+            name: foods
+            widget: list
+            required: false
+            summary: "{{fields.brand}}"
+            fields:
+              - {label: "Brand", name: brand, widget: string}
+              - {label: "Logo", name: logo, widget: image, required: false}
+              - label: "Products"
+                name: items
+                widget: list
+                fields: [{label: "Name & flavor", name: name, widget: string}, {label: "Type", name: type, widget: select, options: ["Medical", "Regular"], default: "Regular"}, {label: "Photo", name: photo, widget: image, required: false}]
           - label: "Food supplier logos"
             name: suppliers
             widget: list
