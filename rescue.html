@@ -325,7 +325,7 @@ return {
   receipts: (r.receipts || []).map((x) => ({ date: x.date || '', who: x.who || '', what: x.what || '', amount: x.amount || '', file: x.file || '' })),
   total: total ? String(total) : '0',
   feeCountry: r.fee_country || 'your country', feeTotal: r.fee_total || 'ask us',
-  fees: (r.fee_items && r.fee_items.length ? r.fee_items : ['Vaccinations & deworming', 'Microchip', 'Rabies titer test', 'Spay / neuter', 'Health certificate & export permits', 'IATA travel crate', 'Flight ticket / cargo'].map((l) => ({ label: l, cost: '' }))).map((f) => ({ label: f.label, cost: f.cost || '' })),
+  fees: (r.fee_items && r.fee_items.length ? r.fee_items : ['Vaccinations & deworming', 'Microchip', 'Rabies titer test (EU-approved lab in Germany)', 'Spay / neuter', 'Health certificate & export permits', 'IATA travel crate', 'Flight ticket / cargo'].map((l) => ({ label: l, cost: '' }))).map((f) => ({ label: f.label, cost: f.cost || '' })),
   travel: (r.travel || []).map((x) => ({ label: x.label, dot: dots[x.state] || dots.todo })),
   papersHref: 'travel-papers.html#' + r.slug, careHref: 'care.html#' + r.slug,
   bladderTimes: r.care_times || '', bladderSteps: r.care_bladder ? (C.bladder_steps || []).map((x, i) => ({ n: String(i + 1), img: x.image, title: x.title, body: F.fill(x.body, r) })) : [],
