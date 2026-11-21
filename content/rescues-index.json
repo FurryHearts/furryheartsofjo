@@ -1026,7 +1026,12 @@
       "story": "",
       "case_number": "33",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/cappy-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
