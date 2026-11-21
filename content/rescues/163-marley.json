@@ -18,7 +18,12 @@
   "story": "",
   "case_number": "163",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/marley-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
