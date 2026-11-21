@@ -44,7 +44,13 @@
       "per": "a month",
       "note": "Diapers, wet wipes and creams for all our paralyzed cats",
       "color": "sky",
-      "covered": false
+      "pay": [
+        {
+          "label": "Diapers & care",
+          "account": "Other bills & needs",
+          "amount": "100 JOD"
+        }
+      ]
     },
     {
       "id": "litter",
@@ -54,7 +60,13 @@
       "per": "a 20 L bag",
       "note": "We go through about 300 JOD of litter every week",
       "color": "sunshine",
-      "covered": false
+      "pay": [
+        {
+          "label": "Litter",
+          "account": "Food & pet supplies",
+          "amount": ""
+        }
+      ]
     },
     {
       "id": "food",
@@ -62,9 +74,9 @@
       "icon": "food",
       "amount": "",
       "per": "",
-      "note": "What we still owe for medical and regular food. Cover all or part of it",
+      "note": "See how much we still owe each food company",
       "color": "green",
-      "covered": false
+      "mode": "food"
     },
     {
       "id": "clinic",
@@ -74,17 +86,28 @@
       "per": "",
       "note": "Tap to see every clinic bill we haven’t closed yet",
       "color": "coral",
-      "covered": false
+      "mode": "clinic"
     },
     {
       "id": "grooming",
       "title": "Grooming",
       "icon": "grooming",
-      "amount": "20 JOD",
+      "amount": "24.75 JOD",
       "per": "a cat",
-      "note": "A full grooming trip: the ride there, the haircut and the ride back",
+      "note": "18.75 JOD grooming + 6 JOD for the ride there and back",
       "color": "purple",
-      "covered": false
+      "pay": [
+        {
+          "label": "Grooming",
+          "account": "Healing",
+          "amount": "18.75 JOD"
+        },
+        {
+          "label": "Ride there and back",
+          "account": "Transportation",
+          "amount": "6 JOD"
+        }
+      ]
     },
     {
       "id": "flea",
@@ -94,7 +117,13 @@
       "per": "a cat",
       "note": "Bravecto: one dose protects a cat for 3 months",
       "color": "teal",
-      "covered": false
+      "pay": [
+        {
+          "label": "Flea treatment",
+          "account": "Healing",
+          "amount": "27 JOD"
+        }
+      ]
     }
   ],
   "suppliers_note": "We buy our food from Club 4 Paws, Optimeal, Royal Canin and Purina.",
@@ -102,5 +131,6 @@
   "clinic_bills": [],
   "foods_title": "What our cats eat",
   "foods_intro": "Want to buy food for our cats? These are the brands and flavors we use.",
-  "foods": []
+  "foods": [],
+  "food_debts": []
 }

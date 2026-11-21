@@ -174,13 +174,32 @@ collections:
             name: bills
             widget: list
             summary: "{{fields.title}} — {{fields.amount}} {{fields.per}}"
-            fields: [{label: "ID", name: id, widget: string}, {label: "Title", name: title, widget: string}, {label: "Icon", name: icon, widget: select, options: ["treatment", "vaccines", "food", "litter", "diapers", "grooming", "flea"]}, {label: "Amount (e.g. 100 JOD) — leave empty if it changes", name: amount, widget: string, required: false}, {label: "Per (a month / a week)", name: per, widget: string, required: false}, {label: "Note", name: note, widget: string, required: false}, {label: "Color", name: color, widget: select, default: "sky", options: ["orange", "tangerine", "coral", "rose", "pink", "orchid", "purple", "lavender", "sky", "denim", "teal", "aqua", "mint", "green", "olive", "lime", "sunshine"]}, {label: "Covered this month", name: covered, widget: boolean, default: false, required: false}]
+            fields:
+              - {label: "ID", name: id, widget: string}
+              - {label: "Title", name: title, widget: string}
+              - {label: "Icon", name: icon, widget: select, options: ["treatment", "vaccines", "food", "litter", "diapers", "grooming", "flea"]}
+              - {label: "Amount (e.g. 100 JOD)", name: amount, widget: string, required: false}
+              - {label: "Per (a month / a cat / a 20 L bag)", name: per, widget: string, required: false}
+              - {label: "Note", name: note, widget: string, required: false}
+              - {label: "Color", name: color, widget: select, default: "sky", options: ["orange", "tangerine", "coral", "rose", "pink", "orchid", "purple", "lavender", "sky", "denim", "teal", "aqua", "mint", "green", "olive", "lime", "sunshine"]}
+              - {label: "Opens a list instead (clinic / food)", name: mode, widget: select, required: false, options: ["", "clinic", "food"]}
+              - label: "Pay to (CliQ accounts shown when someone taps Cover it)"
+                name: pay
+                widget: list
+                required: false
+                fields: [{label: "Label", name: label, widget: string, required: false}, {label: "CliQ account", name: account, widget: select, options: ["Healing", "Food & pet supplies", "Food", "Transportation", "Other bills & needs"]}, {label: "Amount", name: amount, widget: string, required: false}]
           - label: "Open clinic bills · فواتير العيادة المفتوحة"
             name: clinic_bills
             widget: list
             required: false
             summary: "{{fields.date}} · {{fields.pet}} · {{fields.amount}}"
             fields: [{label: "Date", name: date, widget: string, required: false}, {label: "Cat", name: pet, widget: string, required: false}, {label: "What for", name: what, widget: string, required: false}, {label: "Amount (e.g. 45 JOD)", name: amount, widget: string, required: false}, {label: "Bill photo (blur the clinic address)", name: file, widget: file, required: false}, {label: "Paid (hide it)", name: paid, widget: boolean, default: false, required: false}]
+          - label: "Food balance · ديون الأكل"
+            name: food_debts
+            widget: list
+            required: false
+            summary: "{{fields.supplier}} · {{fields.amount}}"
+            fields: [{label: "Company", name: supplier, widget: string}, {label: "Type", name: type, widget: select, options: ["Medical", "Regular"], default: "Regular"}, {label: "Amount we owe", name: amount, widget: string, required: false}, {label: "Logo", name: logo, widget: image, required: false}, {label: "CliQ account (optional)", name: account, widget: select, required: false, options: ["Healing", "Food & pet supplies", "Food", "Transportation", "Other bills & needs"]}]
           - {label: "Food suppliers line", name: suppliers_note, widget: string, required: false}
           - {label: "Foods title", name: foods_title, widget: string, required: false}
           - {label: "Foods intro", name: foods_intro, widget: text, required: false}
