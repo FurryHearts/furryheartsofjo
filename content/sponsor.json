@@ -119,9 +119,16 @@
       "color": "teal",
       "pay": [
         {
-          "label": "Flea treatment",
-          "account": "Healing",
+          "label": "CliQ",
+          "alias": "DRFAIZA",
+          "name": "Dr. Faiza Ahmad, house call vet",
           "amount": "27 JOD"
+        },
+        {
+          "label": "Orange Money",
+          "alias": "079 633 5651",
+          "name": "Dr. Faiza Ahmad",
+          "amount": ""
         }
       ]
     },
