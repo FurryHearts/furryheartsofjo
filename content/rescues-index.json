@@ -1628,7 +1628,7 @@
       "order": 51,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "Reserved",
       "color": "denim",
       "condition": "",
       "tags": [],
@@ -2708,7 +2708,7 @@
       "order": 83,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "Reserved",
       "color": "lavender",
       "condition": "",
       "tags": [
@@ -5049,7 +5049,7 @@
       "order": 157,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "Reserved",
       "color": "orange",
       "condition": "Pupils stay dilated, so he doesn't see well",
       "tags": [
@@ -6742,7 +6742,7 @@
       "order": 206,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "Reserved",
       "color": "rose",
       "condition": "One eye lost",
       "tags": [
@@ -6780,7 +6780,7 @@
       "order": 207,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "Soon traveling",
       "color": "olive",
       "condition": "",
       "tags": [
@@ -6804,6 +6804,7 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "destination": "England, UK",
       "slug": "207-ray"
     },
     {
