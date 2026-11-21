@@ -219,7 +219,7 @@ collections:
             name: suppliers
             widget: list
             required: false
-            fields: [{label: "Name", name: name, widget: string}, {label: "Logo", name: logo, widget: image, required: false}]
+            fields: [{label: "Name", name: name, widget: string}, {label: "Logo", name: logo, widget: image, required: false}, {label: "Logo height (e.g. 52px)", name: h, widget: string, required: false}]
       - label: "Travel & costs · السفر والتكاليف"
         name: travel
         file: content/travel.json

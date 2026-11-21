@@ -182,7 +182,23 @@
     }
   ],
   "suppliers_note": "We buy our food from Club 4 Paws, Optimeal, Royal Canin and Purina.",
-  "suppliers": [],
+  "suppliers": [
+    {
+      "name": "Club 4 Paws",
+      "logo": "img/club4paws.png",
+      "h": "56px"
+    },
+    {
+      "name": "Optimeal",
+      "logo": "img/optimeal.png",
+      "h": "76px"
+    },
+    {
+      "name": "Royal Canin",
+      "logo": "img/logo-royalcanin.svg",
+      "h": "52px"
+    }
+  ],
   "clinic_bills": [],
   "foods_title": "What our cats eat",
   "foods_intro": "Want to buy food for our cats? These are the brands and flavors we use.",
