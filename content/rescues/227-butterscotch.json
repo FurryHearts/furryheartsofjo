@@ -11,10 +11,10 @@
     "Rescued as a kitten"
   ],
   "family": "",
-  "age": "",
-  "sex": "",
-  "summary": "",
-  "story": "",
+  "age": "Under a year",
+  "sex": "Male",
+  "summary": "Fully vaccinated and neutered. A panleukopenia survivor.",
+  "story": "Butterscotch came to us as a tiny, very frightened kitten. His brothers and sisters were sick too, and we treated all of them, but panleukopenia took them one by one. He held on so tight to his brother, and in the end he lost him to the virus as well.\n\nButterscotch was the lucky one. He fought the virus and won, and today he is healthy, strong and doing really well.\n\nHe is fully vaccinated and neutered, his travel papers are done, and very soon he flies to his new family in Milan, Italy.",
   "case_number": "227",
   "can_fly": true,
   "photos": [
@@ -27,14 +27,49 @@
       "label": ""
     }
   ],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Vaccines",
+      "value": "Fully vaccinated"
+    },
+    {
+      "label": "Neutered",
+      "value": "Yes"
+    },
+    {
+      "label": "Survived",
+      "value": "Panleukopenia"
+    },
+    {
+      "label": "New home",
+      "value": "Milan, Italy"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
   "fee_country": "",
   "fee_total": "",
   "fee_items": [],
-  "travel": [],
+  "travel": [
+    {
+      "label": "Fully vaccinated",
+      "state": "done"
+    },
+    {
+      "label": "Neutered",
+      "state": "done"
+    },
+    {
+      "label": "Travel papers",
+      "state": "done"
+    },
+    {
+      "label": "Flight to Milan",
+      "state": "todo"
+    }
+  ],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "destination": "Milan, Italy"
 }

@@ -101,6 +101,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <span style="font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-size: 26px; text-transform: uppercase; color: {{c.textColor}}; min-width: 0; overflow-wrap: anywhere">{{c.name}}</span>
 <span style="font-size: 13px; font-weight: 500; color: var(--paper, #FFFFFF); padding: 5px 10px; border-radius: 999px; white-space: nowrap; background: {{c.statusColor}}">{{c.status}}</span>
 </div>
+<template data-sc-if="{{c.dest}}"><span style="align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px; border-radius: 999px; background: var(--cream, #fcf2f0); color: var(--accent-text, #704f44); font-size: 14px; font-weight: 500; white-space: nowrap"><template data-sc-if="{{c.destFlag}}"><img src="{{c.destFlag}}" alt="" style="width: 22px; height: 15px; border-radius: 3px; object-fit: cover; display: block"></template>✈ {{c.dest}}</span></template>
 <p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--accent-text, #704F44)">{{c.meta}}</p>
 </div>
 </a>
@@ -142,9 +143,10 @@ const STOP = { a: 1, an: 1, the: 1, with: 1, and: 1, of: 1, for: 1, is: 1, who: 
 const words = String(this.state.q || '').toLowerCase().replace(/[^a-z0-9؀-ۿ#]+/g, ' ').split(' ').filter((w) => w && !STOP[w]).map((w) => w.replace(/^#/, '').replace(/(ies)$/, 'y').replace(/([^s])s$/, '$1'));
 const hay = (x) => { const m = F.ageMonths(x); return [x.name, x.species, x.species === 'Dog' ? 'dog puppy' : 'cat kitty', x.status, F.statusLabel(x.status), x.condition, (x.tags || []).join(' '), x.family, x.sex, x.age, x.breed, x.color_name, x.summary, x.story, x.number, x.case_number, m !== null && m < 12 ? 'kitten puppy baby young' : '', m !== null && m >= 12 ? 'adult' : '', (x.tags || []).indexOf('Special needs') >= 0 ? 'special need disabled' : '', x.status === 'Passed away' ? 'memory rainbow' : '', x.status === 'Available' ? 'adopt adoption' : '', x.can_fly ? 'abroad travel fly' : ''].join(' ').toLowerCase(); };
 const hit = (x) => { const h = hay(x); return words.every((w) => h.indexOf(w) >= 0); };
+const FLC = { italy: 'it', switzerland: 'ch', germany: 'de', 'czech republic': 'cz', czechia: 'cz', netherlands: 'nl', austria: 'at', france: 'fr', belgium: 'be', ireland: 'ie', 'united kingdom': 'gb', uk: 'gb', jordan: 'jo' }; const flagOf = (d) => { const k = String(d || '').split(',').pop().trim().toLowerCase(); return FLC[k] ? 'img/flag-' + FLC[k] + '.svg' : ''; };
 const shown = all.slice().sort((a, b) => String(a.name).localeCompare(String(b.name)) || (a.number || 0) - (b.number || 0)).filter((x) => words.length ? hit(x) : ((sp === 'all' || (x.species || 'Cat').toLowerCase() === sp) && (st === 'all' || x.status === st) && (tg === 'all' || (x.tags || []).indexOf(tg) >= 0) && ageOk(x)))
 .map((x) => { const photo = (x.photos && x.photos[0] && x.photos[0].image) || ''; const dog = x.species === 'Dog'; return {
-  name: x.name, slug: x.slug, href: 'rescue.html#' + x.slug, status: F.statusLabel(x.status), isDog: dog, isCat: !dog, kind: x.species || 'Cat',
+  dest: x.status === 'Soon traveling' ? (x.destination || '') : '', destFlag: flagOf(x.destination), name: x.name, slug: x.slug, href: 'rescue.html#' + x.slug, status: F.statusLabel(x.status), isDog: dog, isCat: !dog, kind: x.species || 'Cat',
   meta: F.meta(x), color: F.cardColor(x), textColor: F.solid(x), statusColor: F.status(x.status), tint: F.cardColor(x), icon: dog ? 'dog-icon.png' : 'cat-icon.png',
   photo: photo, pos: 'center 30%', hasPhoto: !!photo, noPhoto: !photo }; });
 const btn = (label, active, color, pick) => ({ label, pressed: active ? 'true' : 'false', color, bg: active ? color : 'var(--paper, #FFFFFF)', fg: active ? 'var(--paper, #FFFFFF)' : color, pick });

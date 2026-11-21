@@ -65,7 +65,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <div style="flex: 1 1 440px; display: flex; flex-direction: column; gap: 22px">
 <div style="display: flex; flex-wrap: wrap; gap: 10px">
 <span style="background: {{statusColor}}; color: var(--paper, #FFFFFF); padding: 7px 14px; border-radius: 999px; font-weight: 500; font-size: 14px">{{status}}</span>
-<template data-sc-if="{{canFly}}"><span style="background: var(--sunshine, #FEC200); color: var(--paper, #FFFFFF); padding: 7px 14px; border-radius: 999px; font-weight: 500; font-size: 14px">Can fly worldwide</span></template>
+<template data-sc-if="{{dest}}"><span style="align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px; border-radius: 999px; background: var(--cream, #fcf2f0); color: var(--accent-text, #704f44); font-size: 14px; font-weight: 500; white-space: nowrap"><template data-sc-if="{{destFlag}}"><img src="{{destFlag}}" alt="" style="width: 22px; height: 15px; border-radius: 3px; object-fit: cover; display: block"></template>✈ {{dest}}</span></template><template data-sc-if="{{canFly}}"><span style="background: var(--sunshine, #FEC200); color: var(--paper, #FFFFFF); padding: 7px 14px; border-radius: 999px; font-weight: 500; font-size: 14px">Can fly worldwide</span></template>
 <template data-sc-if="{{caseNo}}"><span style="background: var(--pink-light, #FFA9DC); color: var(--paper, #FFFFFF); padding: 7px 14px; border-radius: 999px; font-weight: 500; font-size: 14px">Case #{{caseNo}}</span></template>
 </div>
 <h1 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 84px; line-height: 0.95; text-transform: uppercase">{{name}}</h1>
@@ -317,7 +317,7 @@ const dots = { done: 'var(--green)', progress: 'var(--sunshine)', todo: 'var(--b
 const tints = ['var(--sky-light)', 'var(--pink-light)', 'var(--lime)', 'var(--mint)'];
 return {
   name: r.name, status: F.statusLabel(r.status), statusColor: F.status(r.status), color: color, colorSolid: colorSolid,
-  story: r.story || '', canFly: !!r.can_fly, caseNo: r.case_number || '',
+  story: r.story || '', dest: r.status === 'Soon traveling' ? (r.destination || '') : '', destFlag: (() => { const FLC = { italy: 'it', switzerland: 'ch', germany: 'de', 'czech republic': 'cz', czechia: 'cz', netherlands: 'nl', austria: 'at', france: 'fr', belgium: 'be', ireland: 'ie', 'united kingdom': 'gb', uk: 'gb', jordan: 'jo' }; const flagOf = (d) => { const k = String(d || '').split(',').pop().trim().toLowerCase(); return FLC[k] ? 'img/flag-' + FLC[k] + '.svg' : ''; }; return flagOf(r.destination); })(), canFly: !!r.can_fly && !(r.status === 'Soon traveling' && r.destination), caseNo: r.case_number || '',
   ctaMsg: cta.msg || '', ctaLabel: cta.label, ctaBg: cta.bg, ctaHref: cta.href, ctaText: !cta.href,
   mainLabel: (photos[this.state.photo] || {}).label || 'Photo', mainSrc: (photos[this.state.photo] || {}).image || '', mainEmpty: !photos.length, photoNum: this.state.photo + 1,
   photos: photos.map((p, i) => ({ label: p.label || 'Photo', short: p.label || '', src: p.image, empty: false,

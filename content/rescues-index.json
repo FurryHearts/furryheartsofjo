@@ -113,7 +113,12 @@
       "story": "",
       "case_number": "4",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/sasha-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -1497,7 +1502,12 @@
       "story": "",
       "case_number": "48",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/olivia-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -2510,7 +2520,12 @@
       "story": "",
       "case_number": "80",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/charlie-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -3268,7 +3283,12 @@
       "story": "",
       "case_number": "104",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/tesho-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -4593,7 +4613,12 @@
       "story": "",
       "case_number": "146",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/bumpa-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -5137,7 +5162,12 @@
       "story": "",
       "case_number": "163",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/marley-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -6594,7 +6624,12 @@
       "story": "",
       "case_number": "206",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/bloom-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -7208,6 +7243,7 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "destination": "Switzerland",
       "slug": "225-april"
     },
     {
@@ -7240,6 +7276,7 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "destination": "Switzerland",
       "slug": "226-tavi"
     },
     {
@@ -7255,23 +7292,67 @@
         "Rescued as a kitten"
       ],
       "family": "",
-      "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
+      "age": "Under a year",
+      "sex": "Male",
+      "summary": "Fully vaccinated and neutered. A panleukopenia survivor.",
+      "story": "Butterscotch came to us as a tiny, very frightened kitten. His brothers and sisters were sick too, and we treated all of them, but panleukopenia took them one by one. He held on so tight to his brother, and in the end he lost him to the virus as well.\n\nButterscotch was the lucky one. He fought the virus and won, and today he is healthy, strong and doing really well.\n\nHe is fully vaccinated and neutered, his travel papers are done, and very soon he flies to his new family in Milan, Italy.",
       "case_number": "227",
       "can_fly": true,
-      "photos": [],
-      "facts": [],
+      "photos": [
+        {
+          "image": "img/butterscotch-1.jpg",
+          "label": "Main photo"
+        },
+        {
+          "image": "img/butterscotch-2.jpg",
+          "label": ""
+        }
+      ],
+      "facts": [
+        {
+          "label": "Vaccines",
+          "value": "Fully vaccinated"
+        },
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        },
+        {
+          "label": "Survived",
+          "value": "Panleukopenia"
+        },
+        {
+          "label": "New home",
+          "value": "Milan, Italy"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
       "fee_country": "",
       "fee_total": "",
       "fee_items": [],
-      "travel": [],
+      "travel": [
+        {
+          "label": "Fully vaccinated",
+          "state": "done"
+        },
+        {
+          "label": "Neutered",
+          "state": "done"
+        },
+        {
+          "label": "Travel papers",
+          "state": "done"
+        },
+        {
+          "label": "Flight to Milan",
+          "state": "todo"
+        }
+      ],
       "papers": [],
       "care_enabled": false,
+      "destination": "Milan, Italy",
       "slug": "227-butterscotch"
     },
     {
@@ -7304,6 +7385,7 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "destination": "Milan, Italy",
       "slug": "228-lia"
     },
     {
@@ -7334,6 +7416,7 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "destination": "Milan, Italy",
       "slug": "229-mia"
     },
     {
@@ -7366,6 +7449,7 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "destination": "Milan, Italy",
       "slug": "230-dino"
     },
     {
@@ -8477,6 +8561,41 @@
       "papers": [],
       "care_enabled": false,
       "slug": "267-eren"
+    },
+    {
+      "name": "Nonose",
+      "number": 268,
+      "order": 268,
+      "featured": false,
+      "species": "Cat",
+      "status": "Lives with us",
+      "color": "lavender",
+      "condition": "",
+      "tags": [],
+      "family": "",
+      "age": "",
+      "sex": "",
+      "summary": "",
+      "story": "",
+      "case_number": "268",
+      "can_fly": true,
+      "photos": [
+        {
+          "image": "img/nonose-1.jpg",
+          "label": "Main photo"
+        }
+      ],
+      "facts": [],
+      "reels": [],
+      "tests": [],
+      "receipts": [],
+      "fee_country": "",
+      "fee_total": "",
+      "fee_items": [],
+      "travel": [],
+      "papers": [],
+      "care_enabled": false,
+      "slug": "268-nonose"
     }
   ]
 }
