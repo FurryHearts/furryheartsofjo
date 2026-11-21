@@ -120,7 +120,7 @@ const all = ((D['rescues-index'] || {}).rescues || []).filter((r) => ['Available
 const q = String(this.state.q || '').trim().toLowerCase(), lim = this.state.n || 24;
 const rows = all.map((r) => { const s = F.sponsor(r); const photo = (r.photos && r.photos[0] && r.photos[0].image) || ''; const color = F.solid(r);
   return { r, s, photo, color, name: r.name, href: 'rescue.html#' + r.slug, noPhoto: !photo, line: s.line,
-    items: s.items.map((x) => ({ ...x, title: x.label })) }; })
+    items: s.items.map((x) => ({ ...x, title: x.label, fg: 'color-mix(in srgb, ' + color + ' 55%, #fff)', bg: 'color-mix(in srgb, ' + color + ' 10%, #fff)' })) }; })
   .filter((x) => !q || String(x.name).toLowerCase().indexOf(q) >= 0)
   .sort((a, b) => (b.photo ? 1 : 0) - (a.photo ? 1 : 0) || String(a.name).localeCompare(String(b.name)));
 const legend = F.sponsor({ name: '' }).items;
