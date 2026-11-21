@@ -42,7 +42,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <section class="fhj-rhero" style="max-width: 1240px; margin: 0 auto; padding: 24px 32px 32px; display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 32px; align-items: center"><div style="display: flex; flex-direction: column; gap: 18px; min-width: 0">
 <h1 style="margin: 0; font-family: var(--font-display, 'Pesta Rakyat', 'Bagel Fat One', sans-serif); font-weight: 400; font-size: 64px; line-height: 1; text-transform: uppercase; color: var(--peach, #FFB68D)">Who will find a home this Christmas?</h1>
 <span style="font-size: 22px; font-weight: 500; color: var(--peach, #FFB68D)">Meet our rescue family</span>
-<p style="margin: 0; font-size: 19px; line-height: 1.6; max-width: 680px; color: var(--accent-text, #704F44)">Every cat we have rescued, treated and loved: the ones waiting for a home, the ones who live with us, the ones who flew to new families, and the ones we lost. Tap a card to meet them.</p>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; max-width: 680px; color: var(--accent-text, #704F44)">{{intro}}</p>
 <label style="display: flex; align-items: center; gap: 10px; max-width: 640px; margin-top: 10px; padding: 6px 6px 6px 22px; border-radius: 999px; border: 3px solid var(--peach, #ffb68d); background: #fff">
 <input id="fhj-search" type="search" value="{{q}}" onInput="{{onSearch}}" placeholder="{{ph}}" aria-label="Search our rescues" autocomplete="off" style="flex: 1; min-width: 0; border: 0; outline: 0; font: inherit; font-size: 17px; padding: 12px 0; color: var(--accent-text, #704f44); background: transparent">
 <template data-sc-if="{{q}}"><button type="button" onClick="{{clear}}" aria-label="Clear search" style="font: inherit; cursor: pointer; border: 0; border-radius: 999px; padding: 10px 16px; background: var(--cream, #fcf2f0); color: var(--peach, #ffb68d); font-weight: 500">Clear</button></template>
@@ -156,9 +156,9 @@ const T = (label, id, color) => btn(label, tg === id, color, () => this.setState
 return {
   globe: (sp === 'dog' && (F.data.settings || {}).snowglobe_dog) ? F.data.settings.snowglobe_dog : 'img/snowglobe.jpg', globeAlt: sp === 'dog' ? 'A felted puppy holding a peach heart inside a snow globe' : 'A felted kitten holding a peach heart inside a snow globe',
   q: this.state.q || '', searching: !!words.length, notSearching: !words.length,
-  ph: window.innerWidth < 560 ? 'Name, blind, kitten…' : 'Search by name, or try: special needs, blind, kitten',
+  ph: window.innerWidth < 560 ? 'Name, blind, ' + (this.state.species === 'dog' ? 'puppy' : 'kitten') + '…' : 'Search by name, or try: special needs, blind, ' + (this.state.species === 'dog' ? 'puppy' : 'kitten'),
   resultLabel: shown.length === 1 ? '1 rescue found' : shown.length + ' rescues found',
-  emptyMsg: words.length ? 'No rescue matches that yet. Try another word.' : 'No rescues match these filters right now.',
+  emptyMsg: words.length ? 'No rescue matches that yet. Try another word.' : 'No rescues match these filters right now.', intro: this.state.species === 'dog' ? 'Every dog we have rescued, treated and loved: the ones waiting for a home, the ones who live with us, the ones who flew to new families, and the ones we lost. Tap a card to meet them.' : 'Every cat we have rescued, treated and loved: the ones waiting for a home, the ones who live with us, the ones who flew to new families, and the ones we lost. Tap a card to meet them.',
   onSearch: (e) => this.setState({ q: e.target.value }),
   clear: () => { this.setState({ q: '' }); const i = document.getElementById('fhj-search'); if (i) i.focus(); },
   shown, groups: (() => {
@@ -170,7 +170,7 @@ return {
   availBtns: [['Everyone', 'all', 'var(--pink)'], [sp === 'dog' ? 'Puppies (under 1 year)' : 'Kittens (under 1 year)', 'kitten', 'var(--pink)'], [sp === 'dog' ? 'Adult dogs (1 year+)' : 'Adult cats (1 year+)', 'adult', 'var(--pink)'], ['Special needs', 'sn', 'var(--pink)']].map((a) => btn(a[0], av === a[1], a[2], () => this.setState({ avail: a[1] }))), countLabel: shown.length + ' ' + (sp === 'dog' ? (shown.length === 1 ? 'dog' : 'dogs') : (shown.length === 1 ? 'cat' : 'cats')),
   speciesBtns: [btn('Cats', sp === 'cat', 'var(--sky)', () => this.setState({ species: 'cat' })), btn('Dogs', sp === 'dog', 'var(--orchid)', () => this.setState({ species: 'dog' }))],
   statusBtns: [S('Available', 'Available', 'var(--pink)'), S('Lives with us', 'Lives with us', 'var(--sky)'), S('In treatment', 'In treatment', 'var(--sunshine)'), S('Reserved', 'Reserved', 'var(--orange)'), S('Soon traveling', 'Soon traveling', 'var(--purple)'), S('Adopted', 'Adopted', 'var(--green)'), S('Missing', 'Missing', '#B8B2B0'), Object.assign(S('In loving memory', 'Passed away', F.memoryRainbow() ? 'transparent' : '#1E1A19'), F.memoryRainbow() ? { bg: st === 'Passed away' ? F.RAINBOW + ' padding-box, ' + F.RAINBOW + ' border-box' : 'linear-gradient(#fff, #fff) padding-box, ' + F.RAINBOW + ' border-box', fg: st === 'Passed away' ? '#fff' : '#B87FD9' } : {})],
-  tagBtns: [T('Everyone', 'all', 'var(--cocoa)'), T('Special needs', 'Special needs', 'var(--tangerine)'), T('Rescued as kittens', 'Rescued as a kitten', 'var(--purple)'), T('Mothers', 'Mother', 'var(--rose)'), T('Siblings', 'Siblings', 'var(--teal)'), T('Outdoor cats', 'Outdoor cat', 'var(--denim)')]
+  tagBtns: [T('Everyone', 'all', 'var(--cocoa)'), T('Special needs', 'Special needs', 'var(--tangerine)'), T(sp === 'dog' ? 'Rescued as puppies' : 'Rescued as kittens', 'Rescued as a kitten', 'var(--purple)'), T('Mothers', 'Mother', 'var(--rose)'), T('Siblings', 'Siblings', 'var(--teal)'), T('Outdoor cats', 'Outdoor cat', 'var(--denim)')]
 };
 }
 }
