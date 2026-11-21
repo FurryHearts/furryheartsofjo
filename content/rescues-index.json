@@ -113,7 +113,12 @@
       "story": "",
       "case_number": "4",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/sasha-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
