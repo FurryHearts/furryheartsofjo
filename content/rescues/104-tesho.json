@@ -15,7 +15,12 @@
   "story": "",
   "case_number": "104",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/tesho-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
