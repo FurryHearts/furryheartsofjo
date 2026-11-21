@@ -56,7 +56,9 @@ collections:
         required: false
         fields: [{label: "Label", name: "label", widget: string, required: false}, {label: "Value", name: "value", widget: string, required: false}]
       - {label: "Sponsored month · شهر الكفالة (e.g. 2026-11)", name: sponsor_month, widget: string, required: false, hint: "Write the month someone sponsored this cat, like 2026-11. If it is an old month, the site shows how long since anyone sponsored."}
-      - {label: "Covered this month · شو انكفل هالشهر", name: sponsor_covered, widget: select, multiple: true, required: false, options: ["treatment", "vaccines", "food", "litter"]}
+      - {label: "Covered this month · شو انكفل هالشهر", name: sponsor_covered, widget: select, multiple: true, required: false, options: ["treatment", "vaccines", "food", "litter", "diapers"]}
+      - {label: "Sponsor needs (leave empty for treatment, vaccines, food, litter)", name: sponsor_needs, widget: select, multiple: true, required: false, options: ["treatment", "vaccines", "food", "litter", "diapers"]}
+      - {label: "Special food (shown under Food)", name: sponsor_food, widget: string, required: false}
       - label: "Instagram reels"
         name: reels
         widget: list
@@ -167,7 +169,7 @@ collections:
           - label: "Needs (icons)"
             name: items
             widget: list
-            fields: [{label: "ID (do not change)", name: id, widget: string}, {label: "Label", name: label, widget: string}, {label: "Monthly cost (e.g. 15 JOD)", name: cost, widget: string, required: false}]
+            fields: [{label: "ID (do not change)", name: id, widget: string}, {label: "Label", name: label, widget: string}, {label: "Monthly cost (e.g. 15 JOD)", name: cost, widget: string, required: false}, {label: "Small note", name: note, widget: string, required: false}]
       - label: "Settings & links · الإعدادات"
         name: settings
         file: content/settings.json

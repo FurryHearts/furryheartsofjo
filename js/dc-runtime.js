@@ -119,6 +119,8 @@
     sponsor: function (r) {
       var F = window.FHJ, D = F.data, S = D.sponsor || {}, ig = (D.settings || {}).instagram_user || '';
       var items = (S.items && S.items.length ? S.items : [{ id: 'treatment', label: 'Treatment' }, { id: 'vaccines', label: 'Vaccines' }, { id: 'food', label: 'Food' }, { id: 'litter', label: 'Litter' }]);
+      var needs = (r.sponsor_needs && r.sponsor_needs.length) ? r.sponsor_needs : (r.name === '' ? null : ['treatment', 'vaccines', 'food', 'litter']);
+      if (needs) items = needs.map(function (id) { return items.filter(function (x) { return x.id === id; })[0]; }).filter(Boolean);
       var now = new Date(), cur = now.getFullYear() * 12 + now.getMonth();
       var MONTH = now.toLocaleString('en', { month: 'long' });
       var m = /^(\d{4})-(\d{1,2})/.exec(r.sponsor_month || ''), last = m ? (+m[1]) * 12 + (+m[2] - 1) : null;
@@ -127,7 +129,8 @@
       var color = F.solid(r);
       var out = items.map(function (it) {
         var on = got.indexOf(it.id) >= 0;
-        return { id: it.id, label: it.label, cost: it.cost || '', hasCost: !!it.cost, on: on, off: !on,
+        var note = it.id === 'food' && r.sponsor_food ? r.sponsor_food : (it.note || '');
+        return { id: it.id, label: it.label, cost: it.cost || '', hasCost: !!it.cost, note: note, hasNote: !!note, on: on, off: !on,
           icon: 'img/sp-' + it.id + '.svg', fg: on ? color : '#D8C8C2', bg: on ? 'color-mix(in srgb, ' + color + ' 18%, #fff)' : 'var(--cream, #fcf2f0)',
           state: on ? 'Covered ✓' : 'Sponsor', href: 'https://ig.me/m/' + ig,
           msg: 'Hi Furry Hearts of Jordan! I would like to sponsor ' + r.name + "'s " + it.label.toLowerCase() + ' for ' + MONTH + ' 🐾 (sent from furryheartsofjordan.com)' };

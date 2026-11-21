@@ -24,7 +24,16 @@
       "label": "Main photo"
     }
   ],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Daily care",
+      "value": "Paralyzed. Wears diapers, and we express his bladder. Sometimes he poops on his own."
+    },
+    {
+      "label": "Diet",
+      "value": "Royal Canin Gastrointestinal Fibre Response"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
@@ -33,5 +42,12 @@
   "fee_items": [],
   "travel": [],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "sponsor_needs": [
+    "treatment",
+    "vaccines",
+    "food",
+    "diapers"
+  ],
+  "sponsor_food": "Royal Canin Gastrointestinal Fibre Response"
 }
