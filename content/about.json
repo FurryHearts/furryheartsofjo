@@ -85,7 +85,7 @@
       "frame": "img/frame-red.png",
       "fw": 700,
       "fh": 908,
-      "pos": "left: 17.1%; top: 15.83%; width: 65.71%; height: 67.06%; border-radius: 50%"
+      "pos": "left: 16.86%; top: 15.86%; width: 66.14%; height: 67.07%; -webkit-mask: url(img/mask-frame-red.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-red.png) center / 100% 100% no-repeat"
     },
     {
       "image": "img/dina-animals-2.jpg",
@@ -93,7 +93,7 @@
       "frame": "img/frame-cream.png",
       "fw": 700,
       "fh": 903,
-      "pos": "left: 21.6%; top: 18.53%; width: 56.85%; height: 63.36%; border-radius: 0"
+      "pos": "left: 21.43%; top: 18.49%; width: 57.29%; height: 63.46%; -webkit-mask: url(img/mask-frame-cream.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-cream.png) center / 100% 100% no-repeat"
     },
     {
       "image": "img/dina-animals-3.jpg",
@@ -101,7 +101,63 @@
       "frame": "img/frame-gold.png",
       "fw": 700,
       "fh": 838,
-      "pos": "left: 13.1%; top: 19.47%; width: 73.6%; height: 68.4%; border-radius: 50%"
+      "pos": "left: 12.86%; top: 19.45%; width: 74.14%; height: 68.5%; -webkit-mask: url(img/mask-frame-gold.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-gold.png) center / 100% 100% no-repeat"
+    },
+    {
+      "image": "img/dina-animals-4.jpg",
+      "alt": "Dina hugging a ginger cat in a striped sweater",
+      "frame": "img/frame-teal-rect.png",
+      "fw": 700,
+      "fh": 926,
+      "pos": "left: 19.86%; top: 18.36%; width: 60.29%; height: 64.47%; -webkit-mask: url(img/mask-frame-teal-rect.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-teal-rect.png) center / 100% 100% no-repeat"
+    },
+    {
+      "image": "img/dina-animals-5.jpg",
+      "alt": "Dina with a fluffy Himalayan cat in a blue towel",
+      "frame": "img/frame-navy.png",
+      "fw": 700,
+      "fh": 902,
+      "pos": "left: 16.57%; top: 15.52%; width: 66.86%; height: 69.84%; -webkit-mask: url(img/mask-frame-navy.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-navy.png) center / 100% 100% no-repeat"
+    },
+    {
+      "image": "img/dina-animals-6.jpg",
+      "alt": "Dina in a red beanie holding a cream kitten",
+      "frame": "img/frame-gold-rect.png",
+      "fw": 700,
+      "fh": 952,
+      "pos": "left: 13.71%; top: 17.96%; width: 72.43%; height: 70.8%; -webkit-mask: url(img/mask-frame-gold-rect.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-gold-rect.png) center / 100% 100% no-repeat"
+    },
+    {
+      "image": "img/dina-animals-7.jpg",
+      "alt": "Dina holding a fluffy ginger cat",
+      "frame": "img/frame-teal-oval.png",
+      "fw": 700,
+      "fh": 898,
+      "pos": "left: 14.29%; top: 10.47%; width: 71.29%; height: 78.06%; -webkit-mask: url(img/mask-frame-teal-oval.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-teal-oval.png) center / 100% 100% no-repeat"
+    },
+    {
+      "image": "img/dina-animals-8.jpg",
+      "alt": "Dina with a grey and white Persian cat",
+      "frame": "img/frame-wavy.png",
+      "fw": 700,
+      "fh": 920,
+      "pos": "left: 21.43%; top: 22.72%; width: 56.71%; height: 60.0%; -webkit-mask: url(img/mask-frame-wavy.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-wavy.png) center / 100% 100% no-repeat"
+    },
+    {
+      "image": "img/dina-animals-9.jpg",
+      "alt": "Dina cuddling a black and white cat in a pink blanket",
+      "frame": "img/frame-gold-oval.png",
+      "fw": 700,
+      "fh": 860,
+      "pos": "left: 15.29%; top: 16.4%; width: 69.14%; height: 71.28%; -webkit-mask: url(img/mask-frame-gold-oval.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-gold-oval.png) center / 100% 100% no-repeat"
+    },
+    {
+      "image": "img/dina-animals-10.jpg",
+      "alt": "Dina hugging a black cat with orange eyes",
+      "frame": "img/story-frame.png",
+      "fw": 760,
+      "fh": 748,
+      "pos": "left: 19.74%; top: 20.19%; width: 60.39%; height: 58.29%; -webkit-mask: url(img/mask-story-frame.png) center / 100% 100% no-repeat; mask: url(img/mask-story-frame.png) center / 100% 100% no-repeat"
     }
   ]
 }
