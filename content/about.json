@@ -81,15 +81,27 @@
   "me_photos": [
     {
       "image": "img/dina-animals-1.jpg",
-      "alt": "Dina hugging a fluffy cream cat"
+      "alt": "Dina hugging a fluffy cream cat",
+      "frame": "img/frame-red.png",
+      "fw": 700,
+      "fh": 908,
+      "pos": "left: 17.1%; top: 15.83%; width: 65.71%; height: 67.06%; border-radius: 50%"
     },
     {
       "image": "img/dina-animals-2.jpg",
-      "alt": "Dina cuddling a fluffy ginger cat"
+      "alt": "Dina cuddling a fluffy ginger cat",
+      "frame": "img/frame-cream.png",
+      "fw": 700,
+      "fh": 903,
+      "pos": "left: 21.6%; top: 18.53%; width: 56.85%; height: 63.36%; border-radius: 0"
     },
     {
       "image": "img/dina-animals-3.jpg",
-      "alt": "Dina smiling with a golden dog"
+      "alt": "Dina smiling with a golden dog",
+      "frame": "img/frame-gold.png",
+      "fw": 700,
+      "fh": 838,
+      "pos": "left: 13.1%; top: 19.47%; width: 73.6%; height: 68.4%; border-radius: 50%"
     }
   ]
 }
