@@ -159,5 +159,15 @@
       "fh": 919,
       "pos": "left: 16.29%; top: 16.87%; width: 67.29%; height: 67.36%; -webkit-mask: url(img/mask-frame-silver.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-silver.png) center / 100% 100% no-repeat"
     }
-  ]
+  ],
+  "family": {
+    "text": "My love for cats began with The Tee Family House. Because of them, I came to love every cat and to help them however I can. I never imagined I would become a rescuer, or that I could love cats this much.",
+    "image": "img/family.jpg",
+    "alt": "Dina at the window with her cat family on a red velvet sofa",
+    "caption": "Me and my cat family, The Tee Family House",
+    "frame": "img/frame-family.png",
+    "fw": 700,
+    "fh": 521,
+    "pos": "left: 13.86%; top: 20.35%; width: 72.57%; height: 61.04%; -webkit-mask: url(img/mask-frame-family.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-family.png) center / 100% 100% no-repeat"
+  }
 }
