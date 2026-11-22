@@ -6822,21 +6822,51 @@
       "order": 208,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "Available",
       "color": "tangerine",
       "condition": "",
       "tags": [
         "Rescued as a kitten"
       ],
       "family": "",
-      "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
+      "age": "4–5 months",
+      "sex": "Male",
+      "summary": "A sweet 4–5 month old tabby kitten who lives with us at home. First vaccine, deworming and flea treatment done.",
+      "story": "Music is a little tabby kitten who lives with us at home.\n\nHe loves curling up in soft blankets by the window, and he sits so politely when he wants your attention.\n\nMusic is now looking for a loving home of his own.",
       "case_number": "208",
       "can_fly": true,
-      "photos": [],
-      "facts": [],
+      "photos": [
+        {
+          "image": "img/music-1.jpg",
+          "label": "Main photo"
+        },
+        {
+          "image": "img/music-2.jpg",
+          "label": "Cozy time"
+        },
+        {
+          "image": "img/music-3.jpg",
+          "label": "Curious look"
+        },
+        {
+          "image": "img/music-4.jpg",
+          "label": "Happy squint"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Vaccines",
+          "value": "First vaccine done"
+        },
+        {
+          "label": "Deworming",
+          "value": "Done"
+        },
+        {
+          "label": "Flea treatment",
+          "value": "Done"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
