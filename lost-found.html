@@ -66,9 +66,10 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <label class="fhj-lfwide"><span class="fhj-lfl">Your name</span><input name="your_name" type="text" maxlength="60"></label>
 <label class="fhj-lfwide"><span class="fhj-lfl">Describe the cat <small>(color, collar, anything special)</small></span><textarea name="description" rows="4" maxlength="800"></textarea></label>
 <label class="fhj-lfwide"><span class="fhj-lfl">Photos <b>*</b> <small>(up to 4)</small></span><input id="fhj-lfphotos" type="file" accept="image/*" multiple></label>
-<label class="fhj-lfwide"><span class="fhj-lfl">Video link <small>(Instagram, TikTok, YouTube or Google Drive)</small></span><input name="video_link" type="url" placeholder="https://"></label>
+<label class="fhj-lfwide"><span class="fhj-lfl">Video from your phone <small>(short clip, up to about 15 seconds)</small></span><input id="fhj-lfvideo" type="file" accept="video/*"></label>
+<label class="fhj-lfwide"><span class="fhj-lfl">Or a video link <small>(Instagram, TikTok, YouTube or Google Drive)</small></span><input name="video_link" type="url" placeholder="https://"></label>
 </div>
-<p class="fhj-lfsmall"><b>*</b> Required. Please add at least one photo, or a video link.</p>
+<p class="fhj-lfsmall"><b>*</b> Required. Please add at least one photo or video.</p>
 <label class="fhj-lfcheck"><input type="checkbox" name="show_phone" value="yes" checked> Show a WhatsApp button with my number on the post</label>
 <p id="fhj-lferr" class="fhj-lferr" role="alert"></p>
 <button type="submit" class="fhj-lfsubmit">Send my post</button>
@@ -80,7 +81,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <footer class="fhj-footer"><div class="fhj-foot-in"><img class="fhj-foot-logo" src="img/logo-round.png" alt="Furry Hearts of Jordan logo"><p class="fhj-slogan">Safe Homes.<br>Lifelong Care.</p><div class="fhj-foot-info"><span style="display:inline-flex;align-items:center;gap:9px"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.5s-6.5-6.2-6.5-11.3a6.5 6.5 0 0 1 13 0c0 5.1-6.5 11.3-6.5 11.3z" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/><circle cx="12" cy="10.2" r="2.4" fill="#fff"/></svg>Amman, Jordan</span><a href="https://www.instagram.com/furryheartsofjordan/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="#fff" stroke-width="2.2"/><circle cx="12" cy="12" r="4" fill="none" stroke="#fff" stroke-width="2.2"/><circle cx="17.3" cy="6.7" r="1.3" fill="#fff"/></svg>@furryheartsofjordan</a><a href="https://www.instagram.com/theteefamilyhouse/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="#fff" stroke-width="2.2"/><circle cx="12" cy="12" r="4" fill="none" stroke="#fff" stroke-width="2.2"/><circle cx="17.3" cy="6.7" r="1.3" fill="#fff"/></svg>@theteefamilyhouse</a><a href="https://www.youtube.com/@FurryHeartsofJo" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="1.5" y="5" width="21" height="14" rx="4.5" fill="#fff"/><path d="M10 9 L15.5 12 L10 15 Z" fill="#ffb68d"/></svg>@FurryHeartsofJo</a></div></div></footer>
 </div>
 </template>
-<div id="dc-app"></div><form name="lost-found" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" hidden><input name="bot-field"><input name="type"><input name="cat_name"><input name="area"><input name="date"><input name="phone"><input name="your_name"><textarea name="description"></textarea><input type="file" name="photo_1"><input type="file" name="photo_2"><input type="file" name="photo_3"><input type="file" name="photo_4"><input name="video_link"><input name="show_phone"></form>
+<div id="dc-app"></div><form name="lost-found" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" hidden><input name="bot-field"><input name="type"><input name="cat_name"><input name="area"><input name="date"><input name="phone"><input name="your_name"><textarea name="description"></textarea><input type="file" name="photo_1"><input type="file" name="photo_2"><input type="file" name="photo_3"><input type="file" name="photo_4"><input type="file" name="video_file"><input name="video_link"><input name="show_phone"></form>
 <script>
 (function(){
 function shrink(file){return new Promise(function(res){if(!/^image\//.test(file.type)){res(file);return}var img=new Image(),u=URL.createObjectURL(file);img.onload=function(){var m=1600,s=Math.min(1,m/Math.max(img.width,img.height)),c=document.createElement('canvas');c.width=Math.round(img.width*s);c.height=Math.round(img.height*s);c.getContext('2d').drawImage(img,0,0,c.width,c.height);URL.revokeObjectURL(u);c.toBlob(function(b){res(b?new File([b],(file.name||'photo').replace(/\.[^.]+$/,'')+'.jpg',{type:'image/jpeg'}):file)},'image/jpeg',0.8)};img.onerror=function(){res(file)};img.src=u})}
@@ -90,9 +91,9 @@ var v=function(n){var el=f.elements[n];return el?String(el.value||'').trim():''}
 var files=Array.prototype.slice.call((document.getElementById('fhj-lfphotos')||{}).files||[]).slice(0,4);
 if(!v('area'))return say('Please add the area where the cat was lost or found.');
 if(!/^[0-9+ ]{9,16}$/.test(v('phone')))return say('Please add a phone number we can reach you on.');
-if(!files.length&&!v('video_link'))return say('Please add at least one photo, or a video link.');
-err.textContent='';btn.disabled=true;btn.textContent='Sending…';
-Promise.all(files.map(shrink)).then(function(sm){var fd=new FormData(f);fd.set('form-name','lost-found');sm.forEach(function(x,i){fd.set('photo_'+(i+1),x)});
+var vid=((document.getElementById('fhj-lfvideo')||{}).files||[])[0];if(!files.length&&!vid&&!v('video_link'))return say('Please add at least one photo or video.');if(vid&&vid.size>6.5*1024*1024)return say('This video is too big ('+Math.round(vid.size/1048576)+' MB). Please choose a shorter clip, about 15 seconds, or paste a video link instead.');
+err.textContent='';btn.disabled=true;btn.textContent=vid?'Uploading video…':'Sending…';
+Promise.all(files.map(shrink)).then(function(sm){var fd=new FormData(f);fd.set('form-name','lost-found');sm.forEach(function(x,i){fd.set('photo_'+(i+1),x)});if(vid)fd.set('video_file',vid);
 return fetch('/',{method:'POST',body:fd})}).then(function(r){if(!r.ok)throw 0;f.hidden=true;var ok=document.getElementById('fhj-lfok');ok.hidden=false;ok.scrollIntoView({block:'center',behavior:'smooth'})}).catch(function(){btn.disabled=false;btn.textContent='Send my post';say('Sorry, that did not send. Please check your connection, or try smaller photos.')})},true);
 })();
 </script>
@@ -107,7 +108,7 @@ const posts = (d.posts || []).filter((p) => p && p.published !== false);
 const clean = (s) => String(s || '').replace(/[^0-9+]/g, '').replace(/^00/, '+').replace(/^0(7)/, '+9627');
 const map = (p) => ({ type: p.type === 'Found' ? 'Found' : 'Lost', name: p.name || (p.type === 'Found' ? 'Found cat' : 'Lost cat'), area: p.area || 'Jordan', date: p.date || '', desc: p.description || '',
   photo: (p.photos && p.photos[0] && (p.photos[0].image || p.photos[0])) || p.photo || '', noPhoto: !((p.photos && p.photos[0]) || p.photo), alt: (p.name || 'Cat') + ', ' + (p.type || 'Lost'),
-  video: p.video_link || '', wa: (p.show_phone !== false && p.phone && p.status !== 'Reunited') ? 'https://wa.me/' + clean(p.phone).replace('+', '') + '?text=' + encodeURIComponent('Hi! I saw your ' + (p.type === 'Found' ? 'found' : 'lost') + ' cat post on Furry Hearts of Jordan.') : '',
+  video: p.video || p.video_link || '', wa: (p.show_phone !== false && p.phone && p.status !== 'Reunited') ? 'https://wa.me/' + clean(p.phone).replace('+', '') + '?text=' + encodeURIComponent('Hi! I saw your ' + (p.type === 'Found' ? 'found' : 'lost') + ' cat post on Furry Hearts of Jordan.') : '',
   reunited: p.status === 'Reunited', color: p.type === 'Found' ? '#3DCAD1' : '#fd6bbc' });
 const lost = posts.filter((p) => p.type !== 'Found'), found = posts.filter((p) => p.type === 'Found');
 const shown = (tab === 'Found' ? found : lost).map(map);

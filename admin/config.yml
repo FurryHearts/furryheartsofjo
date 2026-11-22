@@ -284,6 +284,7 @@ collections:
               - {label: "Phone (WhatsApp)", name: phone, widget: string, required: false}
               - {label: "Show WhatsApp button", name: show_phone, widget: boolean, default: true}
               - {label: "Video link", name: video_link, widget: string, required: false}
+              - {label: "Video file", name: video, widget: file, required: false}
               - {label: "Photos", name: photos, widget: list, required: false, field: {label: "Photo", name: image, widget: image}}
       - label: "Settings & links · الإعدادات"
         name: settings
