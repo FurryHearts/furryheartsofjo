@@ -13,8 +13,8 @@
   "family": "",
   "age": "",
   "sex": "Male",
-  "summary": "A gentle grey and white boy, soon flying to his new home in Milan, Italy.",
-  "story": "We found Dino on the street with his sister. Sadly, she was poisoned right in front of him, and we could not save her.\n\nWe rescued Dino and brought him somewhere safe and warm. His story is a sad one, but he is growing into a sweet, curious boy.\n\nSoon Dino will fly to his new family in Milan, Italy, to start a happy new chapter.",
+  "summary": "A gentle grey and white boy, fully vaccinated and microchipped, soon flying to his new home in Milan, Italy.",
+  "story": "We found Dino on the street with his sister. Sadly, she was poisoned right in front of him, and we could not save her.\n\nWe rescued Dino and brought him somewhere safe and warm. His story is a sad one, but he is growing into a sweet, curious boy.\n\nDino has all his vaccines and his microchip. He will be neutered before he travels.\n\nSoon Dino will fly to his new family in Milan, Italy, to start a happy new chapter.",
   "case_number": "230",
   "can_fly": true,
   "photos": [
@@ -43,7 +43,20 @@
       "label": "Growing up"
     }
   ],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Vaccines",
+      "value": "Fully vaccinated"
+    },
+    {
+      "label": "Microchip",
+      "value": "Done"
+    },
+    {
+      "label": "Neutering",
+      "value": "Before he travels"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
