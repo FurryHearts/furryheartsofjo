@@ -77,5 +77,19 @@
       ]
     }
   ],
-  "heart_section": "The cat who changed everything"
+  "heart_section": "The cat who changed everything",
+  "me_photos": [
+    {
+      "image": "img/dina-animals-1.jpg",
+      "alt": "Dina hugging a fluffy cream cat"
+    },
+    {
+      "image": "img/dina-animals-2.jpg",
+      "alt": "Dina cuddling a fluffy ginger cat"
+    },
+    {
+      "image": "img/dina-animals-3.jpg",
+      "alt": "Dina smiling with a golden dog"
+    }
+  ]
 }
