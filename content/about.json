@@ -154,10 +154,10 @@
     {
       "image": "img/dina-animals-10.jpg",
       "alt": "Dina hugging a black cat with orange eyes",
-      "frame": "img/story-frame.png",
-      "fw": 760,
-      "fh": 748,
-      "pos": "left: 19.74%; top: 20.19%; width: 60.39%; height: 58.29%; -webkit-mask: url(img/mask-story-frame.png) center / 100% 100% no-repeat; mask: url(img/mask-story-frame.png) center / 100% 100% no-repeat"
+      "frame": "img/frame-silver.png",
+      "fw": 700,
+      "fh": 919,
+      "pos": "left: 16.29%; top: 16.87%; width: 67.29%; height: 67.36%; -webkit-mask: url(img/mask-frame-silver.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-silver.png) center / 100% 100% no-repeat"
     }
   ]
 }
