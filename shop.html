@@ -45,8 +45,8 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <p style="margin: 0; font-size: 18px; line-height: 1.65; color: var(--accent-text, #704f44); text-wrap: balance">{{s.intro}}</p>
 </div>
 <div class="fhj-ted" style="display: grid; grid-template-columns: minmax(0, 480px) minmax(0, 1fr); gap: 40px; align-items: center; padding: 8px 0 8px 36px">
-<div class="fhj-tedframe" style="position: relative; aspect-ratio: 720 / 903; width: 100%; max-width: 420px; justify-self: center">
-<img src="img/ted-frame.png" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; z-index: 2; pointer-events: none">
+<div class="fhj-tedframe" style="position: relative; width: 100%; max-width: 420px; justify-self: center">
+<img src="img/ted-frame.png" alt="" aria-hidden="true" width="720" height="903" style="position: relative; display: block; width: 100%; height: auto; z-index: 2; pointer-events: none">
 <template data-sc-if="{{tedPhoto}}"><img src="{{tedPhoto}}" alt="Ted" style="position: absolute; left: 18.8%; top: 19.5%; width: 61.8%; height: 63.8%; object-fit: cover; border-radius: 50%; z-index: 1; background: #fff"></template>
 <template data-sc-if="{{noTedPhoto}}"><div style="position: absolute; left: 18.8%; top: 19.5%; width: 61.8%; height: 63.8%; border-radius: 50%; z-index: 1; background: var(--cream, #fcf2f0); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px"><img src="img/cat-icon.png" alt="" style="width: 34%; opacity: .55"><span style="font-family: var(--font-display, 'Pesta Rakyat', sans-serif); font-size: 44px; color: var(--peach, #ffb68d)">TED</span></div></template>
 </div>
