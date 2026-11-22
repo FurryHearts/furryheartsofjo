@@ -261,6 +261,30 @@ collections:
           - {label: "Medical records text", name: records, widget: text}
           - {label: "Closing title", name: closing_title, widget: string}
           - {label: "Closing text", name: closing, widget: text}
+      - label: "Lost & Found · مفقود وموجود"
+        name: lostfound
+        file: content/lostfound.json
+        format: json
+        fields:
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Intro", name: "intro", widget: text}
+          - {label: "Note above the form", name: "note", widget: text}
+          - label: "Posts (newest first)"
+            name: posts
+            widget: list
+            summary: "{{fields.type}} · {{fields.name}} · {{fields.area}} · {{fields.status}}"
+            fields:
+              - {label: "Lost or Found", name: type, widget: select, options: ["Lost", "Found"], default: "Lost"}
+              - {label: "Status", name: status, widget: select, options: ["Active", "Reunited"], default: "Active"}
+              - {label: "Show on site", name: published, widget: boolean, default: true}
+              - {label: "Cat name", name: name, widget: string, required: false}
+              - {label: "Area (no home address)", name: area, widget: string}
+              - {label: "Date", name: date, widget: string, required: false}
+              - {label: "Description", name: description, widget: text, required: false}
+              - {label: "Phone (WhatsApp)", name: phone, widget: string, required: false}
+              - {label: "Show WhatsApp button", name: show_phone, widget: boolean, default: true}
+              - {label: "Video link", name: video_link, widget: string, required: false}
+              - {label: "Photos", name: photos, widget: list, required: false, field: {label: "Photo", name: image, widget: image}}
       - label: "Settings & links · الإعدادات"
         name: settings
         file: content/settings.json
