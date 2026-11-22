@@ -82,81 +82,81 @@
     {
       "image": "img/dina-animals-1.jpg",
       "alt": "Dina hugging a fluffy cream cat",
-      "frame": "img/frame-red.png",
-      "fw": 700,
-      "fh": 908,
+      "frame": "img/frame-red.webp",
+      "fw": 1000,
+      "fh": 1298,
       "pos": "left: 16.86%; top: 15.86%; width: 66.14%; height: 67.07%; -webkit-mask: url(img/mask-frame-red.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-red.png) center / 100% 100% no-repeat"
     },
     {
       "image": "img/dina-animals-2.jpg",
       "alt": "Dina cuddling a fluffy ginger cat",
-      "frame": "img/frame-cream.png",
-      "fw": 700,
-      "fh": 903,
+      "frame": "img/frame-cream.webp",
+      "fw": 1000,
+      "fh": 1290,
       "pos": "left: 21.43%; top: 18.49%; width: 57.29%; height: 63.46%; -webkit-mask: url(img/mask-frame-cream.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-cream.png) center / 100% 100% no-repeat"
     },
     {
       "image": "img/dina-animals-3.jpg",
       "alt": "Dina smiling with a golden dog",
-      "frame": "img/frame-gold.png",
-      "fw": 700,
-      "fh": 838,
+      "frame": "img/frame-gold.webp",
+      "fw": 1000,
+      "fh": 1197,
       "pos": "left: 12.86%; top: 19.45%; width: 74.14%; height: 68.5%; -webkit-mask: url(img/mask-frame-gold.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-gold.png) center / 100% 100% no-repeat"
     },
     {
       "image": "img/dina-animals-4.jpg",
       "alt": "Dina hugging a ginger cat in a striped sweater",
-      "frame": "img/frame-teal-rect.png",
-      "fw": 700,
-      "fh": 926,
+      "frame": "img/frame-teal-rect.webp",
+      "fw": 1000,
+      "fh": 1323,
       "pos": "left: 19.86%; top: 18.36%; width: 60.29%; height: 64.47%; -webkit-mask: url(img/mask-frame-teal-rect.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-teal-rect.png) center / 100% 100% no-repeat"
     },
     {
       "image": "img/dina-animals-5.jpg",
       "alt": "Dina with a fluffy Himalayan cat in a blue towel",
-      "frame": "img/frame-navy.png",
-      "fw": 700,
-      "fh": 902,
+      "frame": "img/frame-navy.webp",
+      "fw": 1000,
+      "fh": 1288,
       "pos": "left: 16.57%; top: 15.52%; width: 66.86%; height: 69.84%; -webkit-mask: url(img/mask-frame-navy.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-navy.png) center / 100% 100% no-repeat"
     },
     {
       "image": "img/dina-animals-6.jpg",
       "alt": "Dina in a red beanie holding a cream kitten",
-      "frame": "img/frame-gold-rect.png",
-      "fw": 700,
-      "fh": 952,
+      "frame": "img/frame-gold-rect.webp",
+      "fw": 1000,
+      "fh": 1361,
       "pos": "left: 13.71%; top: 17.96%; width: 72.43%; height: 70.8%; -webkit-mask: url(img/mask-frame-gold-rect.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-gold-rect.png) center / 100% 100% no-repeat"
     },
     {
       "image": "img/dina-animals-7.jpg",
       "alt": "Dina holding a fluffy ginger cat",
-      "frame": "img/frame-teal-oval.png",
-      "fw": 700,
-      "fh": 898,
+      "frame": "img/frame-teal-oval.webp",
+      "fw": 1000,
+      "fh": 1283,
       "pos": "left: 14.29%; top: 10.47%; width: 71.29%; height: 78.06%; -webkit-mask: url(img/mask-frame-teal-oval.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-teal-oval.png) center / 100% 100% no-repeat"
     },
     {
       "image": "img/dina-animals-8.jpg",
       "alt": "Dina with a grey and white Persian cat",
-      "frame": "img/frame-wavy.png",
-      "fw": 700,
-      "fh": 920,
+      "frame": "img/frame-wavy.webp",
+      "fw": 1000,
+      "fh": 1314,
       "pos": "left: 21.43%; top: 22.72%; width: 56.71%; height: 60.0%; -webkit-mask: url(img/mask-frame-wavy.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-wavy.png) center / 100% 100% no-repeat"
     },
     {
       "image": "img/dina-animals-9.jpg",
       "alt": "Dina cuddling a black and white cat in a pink blanket",
-      "frame": "img/frame-gold-oval.png",
-      "fw": 700,
-      "fh": 860,
+      "frame": "img/frame-gold-oval.webp",
+      "fw": 1000,
+      "fh": 1225,
       "pos": "left: 15.29%; top: 16.4%; width: 69.14%; height: 71.28%; -webkit-mask: url(img/mask-frame-gold-oval.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-gold-oval.png) center / 100% 100% no-repeat"
     },
     {
       "image": "img/dina-animals-10.jpg",
       "alt": "Dina hugging a black cat with orange eyes",
-      "frame": "img/frame-silver.png",
-      "fw": 700,
-      "fh": 919,
+      "frame": "img/frame-silver.webp",
+      "fw": 1000,
+      "fh": 1313,
       "pos": "left: 16.29%; top: 16.87%; width: 67.29%; height: 67.36%; -webkit-mask: url(img/mask-frame-silver.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-silver.png) center / 100% 100% no-repeat"
     }
   ],
@@ -165,9 +165,9 @@
     "image": "img/family.jpg",
     "alt": "Dina at the window with her cat family on a red velvet sofa",
     "caption": "Me and my cat family, The Tee Family House",
-    "frame": "img/frame-family.png",
-    "fw": 700,
-    "fh": 521,
+    "frame": "img/frame-family.webp",
+    "fw": 2000,
+    "fh": 1484,
     "pos": "left: 13.86%; top: 20.35%; width: 72.57%; height: 61.04%; -webkit-mask: url(img/mask-frame-family.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-family.png) center / 100% 100% no-repeat"
   }
 }
