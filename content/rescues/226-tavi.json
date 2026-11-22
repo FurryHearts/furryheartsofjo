@@ -11,14 +11,52 @@
     "Rescued as a kitten"
   ],
   "family": "",
-  "age": "",
-  "sex": "",
-  "summary": "",
-  "story": "",
+  "age": "About 2 years",
+  "sex": "Male",
+  "summary": "Fully vaccinated, neutered and microchipped. His travel papers are ready and he is ready to fly to Switzerland.",
+  "story": "Tavi was thrown away in a black garbage bag together with his things and left in a dumpster. He was lying in his own mess with rotten food around him, and the bag was tied shut. Someone had even cut his whiskers. If we had found him any later, he would not have survived.\n\nWe rescued Tavi when he was a kitten, and he has grown into a gentle, beautiful boy.\n\nToday he is about 2 years old, fully vaccinated, neutered and microchipped, and all his travel papers are ready. He can fly to Switzerland any time.\n\nWe hope Tavi finds his forever home there and enjoys every day of his new life.",
   "case_number": "226",
   "can_fly": true,
-  "photos": [],
-  "facts": [],
+  "photos": [
+    {
+      "image": "img/tavi-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/tavi-2.jpg",
+      "label": "Saying hello"
+    },
+    {
+      "image": "img/tavi-3.jpg",
+      "label": "Cozy on the sofa"
+    },
+    {
+      "image": "img/tavi-4.jpg",
+      "label": "Curious face"
+    },
+    {
+      "image": "img/tavi-5.jpg",
+      "label": "Looking up"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Vaccines",
+      "value": "Fully vaccinated"
+    },
+    {
+      "label": "Neutered",
+      "value": "Yes"
+    },
+    {
+      "label": "Microchip",
+      "value": "Done"
+    },
+    {
+      "label": "Travel papers",
+      "value": "Ready"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
