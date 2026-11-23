@@ -17,7 +17,12 @@
   "story": "",
   "case_number": "35",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/poupette-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
