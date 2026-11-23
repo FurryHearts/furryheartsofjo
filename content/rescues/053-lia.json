@@ -4,21 +4,39 @@
   "order": 53,
   "featured": false,
   "species": "Cat",
-  "status": "Lives with us",
+  "status": "Available",
   "color": "olive",
   "condition": "",
   "tags": [
     "Mother"
   ],
   "family": "Mother of Tia",
-  "age": "",
+  "age": "About 2 years",
   "sex": "Female",
-  "summary": "",
-  "story": "",
+  "summary": "A very friendly girl, spayed and fully vaccinated. Mom of Tia.",
+  "story": "We saw people throw Lia out of a car onto the highway in Zarqa while we were driving by, so we stopped and took her. She was covered in fleas and very weak, and she was pregnant.\n\nSoon after, she gave birth to two kittens. Sadly one of them didn't make it, but her daughter survived, and we named her Tia.\n\nToday Lia is about 2 years old, spayed, fully vaccinated and very friendly.",
   "case_number": "53",
   "can_fly": true,
-  "photos": [],
-  "facts": [],
+  "photos": [
+    {
+      "image": "img/lia-1.jpg",
+      "label": "Main photo"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Spayed",
+      "value": "Yes"
+    },
+    {
+      "label": "Vaccines",
+      "value": "Fully vaccinated"
+    },
+    {
+      "label": "Personality",
+      "value": "Very friendly"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
