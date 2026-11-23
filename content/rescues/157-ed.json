@@ -17,7 +17,12 @@
   "story": "",
   "case_number": "157",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/ed-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [
     {
       "label": "Treatment",
