@@ -4,10 +4,12 @@
   "order": 277,
   "featured": false,
   "species": "Dog",
-  "status": "Lives with us",
+  "status": "Available",
   "color": "purple",
   "condition": "",
-  "tags": [],
+  "tags": [
+    "Rescued as puppies"
+  ],
   "family": "",
   "age": "",
   "sex": "",
