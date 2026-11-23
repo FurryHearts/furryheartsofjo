@@ -9244,7 +9244,12 @@
       "story": "",
       "case_number": "275",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/oldie-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [
         {
           "label": "Vaccines",
