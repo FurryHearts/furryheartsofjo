@@ -15,7 +15,12 @@
   "story": "",
   "case_number": "272",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/bruno-dog-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
