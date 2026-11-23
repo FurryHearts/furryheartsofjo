@@ -2603,7 +2603,12 @@
       "story": "",
       "case_number": "77",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/tushi-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
