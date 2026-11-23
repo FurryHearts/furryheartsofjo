@@ -4,15 +4,15 @@
   "order": 29,
   "featured": false,
   "species": "Cat",
-  "status": "Lives with us",
+  "status": "Available",
   "color": "orchid",
   "condition": "",
   "tags": [],
   "family": "",
-  "age": "",
-  "sex": "",
-  "summary": "",
-  "story": "",
+  "age": "Under 2 years",
+  "sex": "Female",
+  "summary": "A sweet young girl who has been through a lot, now healthy and ready for a loving home.",
+  "story": "Julie was found thrown out on the street, pregnant and very thin. Her owners did not want her anymore. She was only about 7 months old when she was pregnant, and sadly she lost her babies.\n\nWe rescued her and helped her get strong again. Today Julie is under 2 years old, still young and gentle, and she lives with other cats at home.\n\nShe truly deserves a family who will love her and never let her go.",
   "case_number": "29",
   "can_fly": true,
   "photos": [
@@ -21,7 +21,12 @@
       "label": "Main photo"
     }
   ],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Other cats",
+      "value": "Lives with other cats"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
