@@ -7608,7 +7608,7 @@
       "slug": "228-lia"
     },
     {
-      "name": "Mia",
+      "name": "Meya",
       "number": 229,
       "order": 229,
       "featured": false,
@@ -7619,12 +7619,21 @@
       "tags": [],
       "family": "",
       "age": "",
-      "sex": "",
-      "summary": "",
+      "sex": "Female",
+      "summary": "A gentle calico girl, soon flying to her new home in Milan, Italy.",
       "story": "",
       "case_number": "229",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/meya-1.jpg",
+          "label": "Main photo"
+        },
+        {
+          "image": "img/meya-2.jpg",
+          "label": "Her fluffy tail"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -7636,7 +7645,7 @@
       "papers": [],
       "care_enabled": false,
       "destination": "Milan, Italy",
-      "slug": "229-mia"
+      "slug": "229-meya"
     },
     {
       "name": "Dino",
