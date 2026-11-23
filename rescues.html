@@ -145,7 +145,8 @@ const STOP = { a: 1, an: 1, the: 1, with: 1, and: 1, of: 1, for: 1, is: 1, who: 
 const words = String(this.state.q || '').toLowerCase().replace(/[^a-z0-9؀-ۿ#]+/g, ' ').split(' ').filter((w) => w && !STOP[w]).map((w) => w.replace(/^#/, '').replace(/(ies)$/, 'y').replace(/([^s])s$/, '$1'));
 const hay = (x) => { const m = F.ageMonths(x); return [x.name, x.species, x.species === 'Dog' ? 'dog puppy' : 'cat kitty', x.status, F.statusLabel(x.status), x.condition, (x.tags || []).join(' '), x.family, x.sex, x.age, x.breed, x.color_name, F.coatWords(x), x.summary, x.story, x.number, x.case_number, m !== null && m < 12 ? 'kitten puppy baby young' : '', m !== null && m >= 12 ? 'adult' : '', (x.tags || []).indexOf('Special needs') >= 0 ? 'special need disabled' : '', x.status === 'Passed away' ? 'memory rainbow' : '', x.status === 'Available' ? 'adopt adoption' : '', x.can_fly ? 'abroad travel fly' : ''].join(' ').toLowerCase(); };
 const SYN = { gray: 'grey', ginger: 'orange', tuxedo: 'tuxedo', longhair: 'fluffy', longhaired: 'fluffy', fluffly: 'fluffy', striped: 'tabby', tricolor: 'calico', tortoiseshell: 'tortie', siamese: 'siamese', mau: 'mau' }; words.forEach((w, i) => { if (SYN[w]) words[i] = SYN[w]; });
-const hit = (x) => { const h = hay(x); return words.every((w) => h.indexOf(w) >= 0); };
+const SR = words.length ? F.search(all, this.state.q) : null;
+const hit = (x) => !!(SR && SR.ok[x.slug]);
 const FLC = { italy: 'it', switzerland: 'ch', germany: 'de', 'czech republic': 'cz', czechia: 'cz', netherlands: 'nl', austria: 'at', france: 'fr', belgium: 'be', ireland: 'ie', 'united kingdom': 'gb', uk: 'gb', jordan: 'jo' }; const flagOf = (d) => { const k = String(d || '').split(',').pop().trim().toLowerCase(); return FLC[k] ? 'img/flag-' + FLC[k] + '.svg' : ''; };
 const shown = all.slice().sort((a, b) => String(a.name).localeCompare(String(b.name)) || (a.number || 0) - (b.number || 0)).filter((x) => words.length ? hit(x) : ((sp === 'all' || (x.species || 'Cat').toLowerCase() === sp) && (st === 'all' || x.status === st) && (tg === 'all' || (x.tags || []).indexOf(tg) >= 0) && ageOk(x)))
 .map((x) => { const photo = (x.photos && x.photos[0] && x.photos[0].image) || ''; const dog = x.species === 'Dog'; return {
@@ -159,7 +160,7 @@ const __r = {
   globe: (sp === 'dog' && (F.data.settings || {}).snowglobe_dog) ? F.data.settings.snowglobe_dog : 'img/snowglobe.jpg', globeAlt: sp === 'dog' ? 'A felted puppy holding a peach heart inside a snow globe' : 'A felted kitten holding a peach heart inside a snow globe',
   q: this.state.q || '', searching: !!words.length, notSearching: !words.length,
   ph: window.innerWidth < 560 ? 'Name, blind, ' + (sp === 'dog' ? 'puppy' : 'kitten') + '…' : 'Search by name, or try: special needs, blind, ' + (sp === 'dog' ? 'puppy' : 'orange kitten'),
-  resultLabel: shown.length === 1 ? '1 rescue found' : shown.length + ' rescues found',
+  resultLabel: (shown.length === 1 ? '1 rescue found' : shown.length + ' rescues found') + (SR && SR.note ? '. ' + SR.note : ''),
   emptyMsg: words.length ? 'No rescue matches that yet. Try another word.' : 'No rescues match these filters right now.', intro: this.state.species === 'dog' ? 'Every dog we have rescued, treated and loved: the ones waiting for a home, the ones who live with us, the ones who flew to new families, and the ones we lost. Tap a card to meet them.' : 'Every cat we have rescued, treated and loved: the ones waiting for a home, the ones who live with us, the ones who flew to new families, and the ones we lost. Tap a card to meet them.',
   onSearch: (e) => this.setState({ q: e.target.value }),
   clear: () => { this.setState({ q: '' }); const i = document.getElementById('fhj-search'); if (i) i.focus(); },

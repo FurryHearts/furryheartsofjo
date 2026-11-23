@@ -131,6 +131,83 @@
       });
       return { items: out, n: out.length };
     },
+    search: function (all, q) {
+      var F = this;
+      var s = ' ' + String(q || '').toLowerCase().replace(/[’']/g, '') + ' ';
+      var PH = [[/blue[ -]?eye[ds]?/g, ' colorpoint '], [/black (and|&|n) white/g, ' tuxedo '], [/one[ -]?eye[ds]?/g, ' oneeye '], [/three[ -]?leg(ged|s)?/g, ' tripod '], [/special[ -]?needs?/g, ' specialneed '], [/long[ -]?hair(ed)?/g, ' fluffy '], [/short[ -]?hair(ed)?/g, ' shorthair '], [/scottish fold/g, ' fold '], [/maine coon/g, ' fluffy '], [/arabian mau/g, ' mau '], [/(cant|can not|cannot) walk/g, ' paraly '], [/no teeth/g, ' noteeth ']];
+      PH.forEach(function (p) { s = s.replace(p[0], p[1]); });
+      var raw = s.replace(/[^a-z0-9؀-ۿ#]+/g, ' ').split(' ').filter(Boolean);
+      var STOP = { a: 1, an: 1, the: 1, with: 1, and: 1, of: 1, for: 1, is: 1, who: 1, my: 1, i: 1, want: 1, looking: 1, to: 1, in: 1, that: 1, has: 1, have: 1, cute: 1, beautiful: 1, pretty: 1, lovely: 1, sweet: 1, color: 1, colour: 1, colored: 1, coloured: 1, hair: 1, haired: 1, fur: 1, furred: 1, eyes: 1, eye: 1, pet: 1, please: 1, me: 1, show: 1, find: 1, any: 1, some: 1, very: 1, little: 1, small: 1 };
+      var SYN = { gray: 'grey', silver: 'grey', blue: 'grey', ginger: 'orange', red: 'orange', redhead: 'orange', marmalade: 'orange',
+        paralysed: 'paraly', paralyzed: 'paraly', paralysis: 'paraly', paralyze: 'paraly', paralized: 'paraly', paralised: 'paraly', wheelchair: 'paraly', wheels: 'paraly',
+        disabled: 'specialneed', disability: 'specialneed', handicapped: 'specialneed', handicap: 'specialneed', special: 'specialneed', needs: 'specialneed', need: 'specialneed', sn: 'specialneed', sick: 'specialneed', chronic: 'specialneed',
+        blind: 'blind', blindness: 'blind', sight: 'blind', vision: 'blind', eyeless: 'blind', deaf: 'deaf', deafness: 'deaf', hearing: 'deaf',
+        tripod: 'tripod', amputee: 'tripod', amputated: 'tripod', legged: 'tripod',
+        healthy: 'healthy', normal: 'healthy', fit: 'healthy',
+        kitten: 'young', kittens: 'young', kitty: 'cat', baby: 'young', babies: 'young', young: 'young', puppy: 'puppy', puppies: 'puppy', pup: 'puppy',
+        adult: 'adult', grown: 'adult', senior: 'senior', old: 'senior', older: 'senior', elderly: 'senior',
+        male: 'male', boy: 'male', boys: 'male', female: 'female', girl: 'female', girls: 'female', lady: 'female',
+        cat: 'cat', cats: 'cat', feline: 'cat', dog: 'dog', dogs: 'dog', doggy: 'dog', canine: 'dog',
+        fluffy: 'fluffy', fluff: 'fluffy', furry: 'fluffy', hairy: 'fluffy', persian: 'fluffy', ragdoll: 'colorpoint', himalayan: 'colorpoint', angora: 'fluffy', turkish: 'fluffy', coon: 'fluffy',
+        siamese: 'colorpoint', point: 'colorpoint', pointed: 'colorpoint', colorpoint: 'colorpoint', colourpoint: 'colorpoint',
+        shorthair: 'shorthair', mau: 'shorthair', arabian: 'shorthair', street: 'shorthair', baladi: 'shorthair', domestic: 'shorthair',
+        mix: 'mixed', mixed: 'mixed', breed: 'mixed', breeds: 'mixed', fold: 'breedish', scottish: 'breedish', british: 'breedish', bengal: 'breedish', sphynx: 'breedish', exotic: 'breedish', pure: 'breedish', purebred: 'breedish',
+        tuxedo: 'tuxedo', bicolor: 'tuxedo', calico: 'calico', tricolor: 'calico', tricolour: 'calico', tortie: 'tortie', tortoiseshell: 'tortie', tabby: 'tabby', striped: 'tabby', stripes: 'tabby', stripey: 'tabby',
+        'قطة': 'cat', 'قطه': 'cat', 'قط': 'cat', 'بسة': 'cat', 'بسه': 'cat', 'بس': 'cat', 'قطط': 'cat', 'كلب': 'dog', 'كلبة': 'dog', 'كلاب': 'dog', 'برتقالي': 'orange', 'برتقالية': 'orange', 'اشقر': 'orange', 'شقرا': 'orange', 'اسود': 'black', 'سوداء': 'black', 'سودا': 'black', 'ابيض': 'white', 'بيضاء': 'white', 'بيضا': 'white', 'رمادي': 'grey', 'رمادية': 'grey', 'اعمى': 'blind', 'عمياء': 'blind', 'عميا': 'blind', 'مشلول': 'paraly', 'مشلولة': 'paraly', 'صغير': 'young', 'صغيرة': 'young', 'بيبي': 'young', 'شيرازي': 'fluffy', 'سيامي': 'colorpoint' };
+      var sn = function (x) { return (x.tags || []).indexOf('Special needs') >= 0 || !!x.condition; };
+      var cond = function (x) { return ' ' + [x.condition, x.summary, x.story].join(' ').toLowerCase(); };
+      var coat = function (x) { return (x.coat || []).map(function (c) { return String(c).toLowerCase(); }); };
+      var has = function (x, c) { return coat(x).indexOf(c) >= 0; };
+      var any = function (str, arr) { for (var i = 0; i < arr.length; i++) if (str.indexOf(arr[i]) >= 0) return true; return false; };
+      var age = function (x) { return F.ageMonths(x); };
+      var isCat = function (x) { return (x.species || 'Cat') !== 'Dog'; };
+      var colourTest = function (c, words) { return function (x) { return has(x, c) || (!(x.coat || []).length && any(' ' + [x.condition, x.summary, x.story, x.color_name].join(' ').toLowerCase(), words)); }; };
+      var T = {
+        cat: isCat, dog: function (x) { return !isCat(x); },
+        orange: colourTest('orange', ['orange', 'ginger']), grey: colourTest('grey', ['grey', 'gray']), black: colourTest('black', ['black cat', 'black kitten', 'all black']), white: colourTest('white', ['white cat', 'white kitten', 'all white', 'snow white']),
+        cream: colourTest('cream', ['cream']), brown: colourTest('brown', ['brown']), golden: colourTest('golden', ['golden']), tan: colourTest('tan', [' tan ']),
+        calico: colourTest('calico', ['calico']), tortie: colourTest('tortie', ['tortie', 'tortoiseshell']), tabby: colourTest('tabby', ['tabby']),
+        tuxedo: function (x) { return (has(x, 'black') && has(x, 'white')) || cond(x).indexOf('tuxedo') >= 0; },
+        fluffy: function (x) { return has(x, 'fluffy'); }, colorpoint: function (x) { return has(x, 'colorpoint') || /siamese|himalayan|ragdoll/i.test(x.breed || ''); },
+        shorthair: function (x) { return isCat(x) && (x.coat || []).length > 0 && !has(x, 'fluffy') && !has(x, 'colorpoint'); },
+        mixed: isCat, breedish: null,
+        specialneed: sn, healthy: function (x) { return !sn(x) && x.status !== 'Passed away'; },
+        paraly: function (x) { return any(cond(x), ['paraly', 'wheelchair', 'cannot walk']); },
+        blind: function (x) { return any(cond(x), ['blind', 'eyes removed', 'lost both eyes', 'one eye', 'vision', 'see well', 'eye damaged', 'eye lost', 'eye condition']); },
+        oneeye: function (x) { return any(cond(x), ['one eye', 'eye lost', 'eye damaged', 'blind in one']); },
+        deaf: function (x) { return cond(x).indexOf('deaf') >= 0; },
+        tripod: function (x) { return any(cond(x), ['tripod', 'three leg', 'amput', 'three-leg']); },
+        noteeth: function (x) { return cond(x).indexOf('no teeth') >= 0; },
+        young: function (x) { var m = age(x); return (m !== null && m < 12) || /puppy|kitten|baby/i.test(x.age || ''); }, puppy: function (x) { var m = age(x); return !isCat(x) && ((m !== null && m < 12) || /puppy|baby/i.test(x.age || '')); },
+        adult: function (x) { var m = age(x); return m !== null && m >= 12; }, senior: function (x) { var m = age(x); return (m !== null && m >= 96) || cond(x).indexOf('senior') >= 0; },
+        male: function (x) { return x.sex === 'Male'; }, female: function (x) { return x.sex === 'Female'; }
+      };
+      var lev = function (a, b) { if (Math.abs(a.length - b.length) > 2) return 9; var d = []; for (var i = 0; i <= a.length; i++) { d[i] = [i]; } for (var j = 1; j <= b.length; j++) d[0][j] = j; for (i = 1; i <= a.length; i++) for (j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); return d[a.length][b.length]; };
+      var tol = function (w) { return w.length >= 7 ? 2 : (w.length >= 4 ? 1 : 0); };
+      var hay = function (x) { return [x.name, x.species, x.status, F.statusLabel(x.status), x.condition, (x.tags || []).join(' '), x.family, x.age, x.breed, x.color_name, F.coatWords ? F.coatWords(x) : '', x.summary, x.story, x.number, x.case_number, x.destination].join(' ').toLowerCase(); };
+      var usedBreed = false, tests = [];
+      raw.forEach(function (w) {
+        if (STOP[w]) return;
+        w = w.replace(/^#/, '');
+        var c = SYN[w] || (T[w] !== undefined ? w : null);
+        if (!c && w.length >= 4) { var best = null, bd = 9; Object.keys(SYN).forEach(function (k) { if (k.length < 4) return; var d = lev(w, k); if (d < bd) { bd = d; best = k; } }); if (best && bd <= tol(w)) c = SYN[best]; }
+        if (c === 'breedish' || c === 'fluffy' && /persian|angora|turkish|coon/.test(w) || c === 'colorpoint' && /ragdoll|himalayan/.test(w) || c === 'shorthair') usedBreed = true;
+        if (c === 'breedish' || c === 'mixed') { if (c === 'mixed') tests.push({ w: w, f: T.mixed }); return; }
+        if (c && T[c]) { if (!tests.some(function (t) { return t.c === c; })) tests.push({ w: w, c: c, f: T[c] }); return; }
+        var ws = w.replace(/(ies)$/, 'y').replace(/([^s])s$/, '$1');
+        tests.push({ w: ws, text: true, f: function (x) { var h = hay(x); if (h.indexOf(ws) >= 0) return true; var t = tol(ws); if (!t) return false; var toks = h.split(/[^a-z0-9؀-ۿ]+/); for (var i = 0; i < toks.length; i++) if (toks[i].length >= 3 && lev(ws, toks[i]) <= t) return true; return false; } });
+      });
+      if (!tests.length) return { active: raw.length > 0, ok: {}, n: 0, note: usedBreed ? 'Most of our cats are beautiful mixed breeds, so try a colour or a look instead, like fluffy, orange or blue eyes.' : '' };
+      var ok = {}, n = 0;
+      all.forEach(function (x) { if (tests.every(function (t) { return t.f(x); })) { ok[x.slug] = 1; n++; } });
+      var note = usedBreed ? 'Most of our cats are beautiful mixed breeds, so we searched by look.' : '';
+      if (!n && tests.length > 1) {
+        var sc = {}, top = 0;
+        all.forEach(function (x) { var k = tests.filter(function (t) { return t.f(x); }).length; sc[x.slug] = k; if (k > top) top = k; });
+        if (top > 0) { all.forEach(function (x) { if (sc[x.slug] === top) { ok[x.slug] = 1; n++; } }); note = 'No exact match, so here are the closest ones.' + (note ? ' ' + note : ''); }
+      }
+      return { active: true, ok: ok, n: n, note: note };
+    },
     coatWords: function (r) {
       var EX = { orange: 'orange ginger', grey: 'grey gray blue', black: 'black', white: 'white', cream: 'cream', brown: 'brown', golden: 'golden', tan: 'tan brown', tabby: 'tabby striped', calico: 'calico tricolor', tortie: 'tortie tortoiseshell', colorpoint: 'colorpoint pointed', fluffy: 'fluffy longhair long hair' };
       var c = (r.coat || []).map(function (x) { return String(x).toLowerCase(); });
