@@ -292,7 +292,7 @@ const ig = S.instagram_user || '';
 const photos = (r.photos || []).filter((p) => p.image);
 const color = F.cardColor(r), colorSolid = F.solid(r);
 const __kin = (() => {
-  const byName = {}; all.forEach((x) => { byName[String(x.name).toLowerCase()] = x; });
+  const byName = {}; all.forEach((x) => { const k = String(x.name).toLowerCase(); const cur = byName[k]; if (!cur || (cur.status !== r.status && x.status === r.status)) byName[k] = x; });
   const names = (s) => String(s || '').replace(/\band\b/g, ',').split(',').map((t) => t.trim()).filter(Boolean);
   const fam = String(r.family || ''); const out = []; const seen = {}; seen[r.slug] = 1;
   const add = (x, rel, order) => { if (!x || seen[x.slug]) return; seen[x.slug] = 1; out.push({ x, rel, order }); };
@@ -300,8 +300,8 @@ const __kin = (() => {
   if ((m = fam.match(/^Mother of (.+)$/i))) names(m[1]).forEach((n) => add(byName[n.toLowerCase()], r.sex === 'Male' ? 'His kitten' : 'Her kitten', 2));
   if ((m = fam.match(/^(.+?)'s kitten$/i))) { const moms = all.filter((x) => String(x.name).toLowerCase() === m[1].toLowerCase()); const mom = moms.find((x) => new RegExp('\\b' + r.name + '\\b', 'i').test(String(x.family || ''))) || moms[0]; add(mom, 'Mom', 1); all.forEach((x) => { if (String(x.family || '').toLowerCase() === (m[1] + "'s kitten").toLowerCase()) add(x, x.sex === 'Male' ? 'Brother' : (x.sex === 'Female' ? 'Sister' : 'Sibling'), 3); }); }
   if ((m = fam.match(/^Siblings? of (.+)$/i))) names(m[1]).forEach((n) => { const x = byName[n.toLowerCase()]; add(x, x && x.sex === 'Male' ? 'Brother' : (x && x.sex === 'Female' ? 'Sister' : 'Sibling'), 3); });
-  if ((m = fam.match(/^Rescued with (.+)$/i))) names(m[1]).forEach((n) => add(byName[n.toLowerCase()], 'Rescued together', 4));
-  all.forEach((x) => { const f = String(x.family || ''); const mm = f.match(/^Rescued with (.+)$/i); if (mm && names(mm[1]).some((n) => n.toLowerCase() === String(r.name).toLowerCase())) add(x, 'Rescued together', 4); });
+  if ((m = fam.match(/^(?:Rescued|Adopted) with (.+)$/i))) names(m[1]).forEach((n) => add(byName[n.toLowerCase()], /^Adopted/i.test(fam) ? 'Same home' : 'Rescued together', 4));
+  all.forEach((x) => { const f = String(x.family || ''); const mm = f.match(/^(?:Rescued|Adopted) with (.+)$/i); if (mm && names(mm[1]).some((n) => n.toLowerCase() === String(r.name).toLowerCase())) add(x, 'Rescued together', 4); });
   out.sort((a, b) => a.order - b.order);
   const list = out.map(({ x, rel }) => { const ph = (x.photos && x.photos[0] && x.photos[0].image) || ''; return { name: x.name, rel, href: 'rescue.html#' + x.slug, photo: ph, noPhoto: !ph, color: F.solid(x), frame: F.solid(x), status: F.statusLabel(x.status) }; });
   const onlyTogether = out.length && out.every((o) => o.order === 4);
@@ -309,7 +309,7 @@ const __kin = (() => {
   const joinN = (a) => a.length < 2 ? (a[0] || '') : a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1];
   if (onlyTogether) list.forEach((k) => { k.rel = ''; });
   return { kin: list, kinHas: !!list.length, kinCls: list.length > 3 ? 'fhj-kin2many' : '',
-    kinTitle: onlyTogether ? 'Rescued together with' : r.name + "'s family",
+    kinTitle: onlyTogether ? (/^Adopted with/i.test(fam) || r.status === 'Adopted' ? 'Adopted into the same home' : 'Rescued together with') : r.name + "'s family",
     kinText: onlyTogether ? (list.length === 1 ? r.name + ' and ' + list[0].name + ' were rescued together and went through everything side by side.' : r.name + ' was rescued together with these friends.') : 'Meet the family ' + r.name + ' was rescued with.',
     kinTogether: r.status === 'Available' && avail.length > 0, kinNote: 'Would you like to adopt ' + r.name + ' together with ' + joinN(avail) + '? Just tell us when you apply.' };
 })();

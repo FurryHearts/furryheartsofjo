@@ -7889,14 +7889,19 @@
       "color": "green",
       "condition": "",
       "tags": [],
-      "family": "",
+      "family": "Adopted with Luca and Casper",
       "age": "",
       "sex": "",
       "summary": "",
       "story": "",
       "case_number": "231",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/moka-luca.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -7907,6 +7912,7 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "destination": "Milan, Italy",
       "slug": "231-moka"
     },
     {
@@ -8039,7 +8045,7 @@
       "color": "tangerine",
       "condition": "",
       "tags": [],
-      "family": "",
+      "family": "Adopted with Moka and Luca",
       "age": "",
       "sex": "",
       "summary": "",
@@ -8057,6 +8063,7 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "destination": "Milan, Italy",
       "slug": "236-casper"
     },
     {
@@ -8489,14 +8496,19 @@
       "color": "lavender",
       "condition": "",
       "tags": [],
-      "family": "",
+      "family": "Adopted with Moka and Casper",
       "age": "",
       "sex": "",
       "summary": "",
       "story": "",
       "case_number": "251",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/moka-luca.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -8507,6 +8519,7 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "destination": "Milan, Italy",
       "slug": "251-luca"
     },
     {
