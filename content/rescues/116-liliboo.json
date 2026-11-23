@@ -18,7 +18,12 @@
   "story": "",
   "case_number": "116",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/liliboo-1.jpg",
+      "label": "Cuddles on my shoulder"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
