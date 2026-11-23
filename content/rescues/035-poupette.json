@@ -21,6 +21,18 @@
     {
       "image": "img/poupette-1.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/poupette-found-1.jpg",
+      "label": "The day I found her"
+    },
+    {
+      "image": "img/poupette-found-2.jpg",
+      "label": "Hiding in the rubble"
+    },
+    {
+      "image": "img/poupette-found-3.jpg",
+      "label": "Curled up among the stones"
     }
   ],
   "facts": [],
