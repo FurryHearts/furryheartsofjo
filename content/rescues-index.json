@@ -6930,7 +6930,16 @@
       "story": "",
       "case_number": "210",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/asha-1.jpg",
+          "label": "Main photo"
+        },
+        {
+          "image": "img/asha-2.jpg",
+          "label": "Healing in her donut collar"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -9144,7 +9153,7 @@
         "Rescued as puppies"
       ],
       "family": "",
-      "age": "",
+      "age": "Puppy",
       "sex": "",
       "summary": "A fluffy, sweet puppy who loves belly rubs. Neutered, first vaccine done, dewormed and protected with Bravecto.",
       "story": "",
