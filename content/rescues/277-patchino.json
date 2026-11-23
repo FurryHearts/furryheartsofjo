@@ -19,12 +19,12 @@
   "can_fly": true,
   "photos": [
     {
-      "image": "img/patchino-1.jpg",
+      "image": "img/patchino-2.jpg",
       "label": "Main photo"
     },
     {
-      "image": "img/patchino-2.jpg",
-      "label": "Belly rubs"
+      "image": "img/patchino-1.jpg",
+      "label": "Sweet face"
     },
     {
       "image": "img/patchino-3.jpg",
