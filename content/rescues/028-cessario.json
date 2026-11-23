@@ -4,19 +4,49 @@
   "order": 28,
   "featured": false,
   "species": "Cat",
-  "status": "Lives with us",
+  "status": "Available",
   "color": "sky",
   "condition": "",
   "tags": [],
   "family": "",
-  "age": "",
-  "sex": "",
-  "summary": "",
-  "story": "",
+  "age": "Under 2 years",
+  "sex": "Male",
+  "summary": "A sweet, gentle boy who loves to eat and sleep. Neutered, fully vaccinated, dewormed and flea-treated.",
+  "story": "We rescued Cessario in Zarqa, a city far from Amman. It is a very poor, desert area where many people don't care for animals. He had been dumped near an abandoned factory, with no food at all.\n\nHe was only about 8 months old, starving and so thin he looked like a skeleton. You can see how he looked back then in his rescue video on our Instagram.\n\nToday Cessario is under 2 years old, healthy and very sweet. He loves to eat and to sleep. He is neutered, fully vaccinated, and we always keep his deworming and flea treatment up to date.",
   "case_number": "28",
   "can_fly": true,
-  "photos": [],
-  "facts": [],
+  "photos": [
+    {
+      "image": "img/cessario-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/cessario-2.jpg",
+      "label": "Sitting pretty"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Neutered",
+      "value": "Yes"
+    },
+    {
+      "label": "Vaccines",
+      "value": "Fully vaccinated"
+    },
+    {
+      "label": "Deworming & fleas",
+      "value": "Kept up to date"
+    },
+    {
+      "label": "Food",
+      "value": "Wet and dry food"
+    },
+    {
+      "label": "Personality",
+      "value": "Sweet, loves to eat and sleep"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
