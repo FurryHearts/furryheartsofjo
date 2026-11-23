@@ -6228,7 +6228,12 @@
       "story": "",
       "case_number": "184",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/patch-1.jpg",
+          "label": "Rescue day"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
