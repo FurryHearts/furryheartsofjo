@@ -217,7 +217,12 @@
       "story": "",
       "case_number": "7",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/orcca-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
