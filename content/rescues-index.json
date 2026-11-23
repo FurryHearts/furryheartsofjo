@@ -9396,7 +9396,7 @@
       "age": "About 3 years",
       "sex": "Male",
       "summary": "A very gentle boy who fully recovered from leishmaniasis. Neutered, vaccinated, dewormed and flea-treated.",
-      "story": "Oldie had leishmaniasis when he came to us. We treated him with medicine brought in from Italy, and a local pharmacy kindly helped us get it, thank you so much. In the future we will also reach out to the manufacturer directly, so we can keep learning how to best treat cases like his.\n\nAfter his treatment we ran several tests and made sure he is 100% recovered. He has not shown any symptoms since, and he also completed a quarantine period. It makes us so happy to see him healthy and strong again.\n\nWe handle diseases like this very professionally, together with Dr. Ludmila, a Ukrainian vet well known in Jordan with 30 years of experience in this field.\n\nOldie is about 3 years old and lost one of his eyes, but he is very gentle and sweet. He is neutered, fully vaccinated, dewormed and flea-treated. We really hope he finds a loving home.",
+      "story": "Oldie had leishmaniasis when he came to us. We treated him with medicine brought in from Italy, and a local pharmacy kindly helped us get it, thank you so much. In the future we will also reach out to the manufacturer directly, so we can keep learning how to best treat cases like his.\n\nAfter his treatment we ran several tests and made sure he is 100% recovered. He has not shown any symptoms since, and he also completed a quarantine period. His latest leishmaniasis test came back negative, and he is now completely recovered. It makes us so happy to see him healthy and strong again.\n\nWe handle diseases like this very professionally, together with Dr. Ludmila, a Ukrainian vet well known in Jordan with 30 years of experience in this field.\n\nOldie is about 3 years old and lost one of his eyes, but he is very gentle and sweet. He is neutered, fully vaccinated, dewormed and flea-treated. We really hope he finds a loving home.",
       "case_number": "275",
       "can_fly": true,
       "photos": [
@@ -9428,7 +9428,7 @@
         },
         {
           "label": "Leishmaniasis",
-          "value": "Treated, 100% recovered"
+          "value": "Fully recovered, latest test negative"
         },
         {
           "label": "Eyes",
@@ -9440,7 +9440,15 @@
         }
       ],
       "reels": [],
-      "tests": [],
+      "tests": [
+        {
+          "name": "Leishmaniasis test",
+          "result": "Negative",
+          "date": "November 2026",
+          "clinic": "",
+          "file": "img/oldie-lsh-test.jpg"
+        }
+      ],
       "receipts": [],
       "fee_country": "",
       "fee_total": "",
