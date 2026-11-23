@@ -51,7 +51,12 @@
       "story": "",
       "case_number": "2",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/bob-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -9361,6 +9366,10 @@
         {
           "image": "img/oldie-1.jpg",
           "label": "Main photo"
+        },
+        {
+          "image": "img/oldie-2.jpg",
+          "label": "Chin scratches at the clinic"
         }
       ],
       "facts": [

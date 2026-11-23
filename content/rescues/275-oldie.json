@@ -21,6 +21,10 @@
     {
       "image": "img/oldie-1.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/oldie-2.jpg",
+      "label": "Chin scratches at the clinic"
     }
   ],
   "facts": [
