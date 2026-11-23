@@ -17,7 +17,12 @@
   "story": "",
   "case_number": "276",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/mark-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [
     {
       "label": "Special needs",
