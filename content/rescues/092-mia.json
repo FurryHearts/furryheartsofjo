@@ -13,12 +13,17 @@
   "family": "",
   "age": "",
   "sex": "",
-  "summary": "",
+  "summary": "Our Siamese girl who lives with us at home.",
   "story": "",
   "case_number": "92",
   "can_fly": true,
   "photos": [],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Breed",
+      "value": "Siamese"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
