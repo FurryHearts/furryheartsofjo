@@ -17,7 +17,12 @@
   "story": "",
   "case_number": "92",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/meya-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [
     {
       "label": "Breed",
