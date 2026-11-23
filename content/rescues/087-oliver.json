@@ -17,7 +17,12 @@
   "story": "",
   "case_number": "87",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/oliver-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
