@@ -191,3 +191,26 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
   else boot();
 })();
+
+/* Home hero slideshow: auto-advance + clickable dots */
+(function () {
+  var cur = 0, last = Date.now(), DELAY = 8000, PAUSE = 14000, hold = 0;
+  function show(sec, i) {
+    var slides = sec.querySelectorAll(':scope > .fhj-hero');
+    if (slides.length < 2) return;
+    cur = (i + slides.length) % slides.length;
+    sec.classList.add('fhj-js');
+    slides.forEach(function (s, k) { s.classList.toggle('fhj-show', k === cur); s.setAttribute('aria-hidden', k === cur ? 'false' : 'true'); });
+    sec.querySelectorAll('.fhj-herodots button').forEach(function (b, k) { b.classList.toggle('on', k === cur); b.setAttribute('aria-pressed', k === cur ? 'true' : 'false'); });
+  }
+  setInterval(function () {
+    var sec = document.querySelector('.fhj-heroswap.fhj-swap-on'); if (!sec) return;
+    if (!sec.classList.contains('fhj-js')) { show(sec, cur); last = Date.now(); return; }
+    if (sec.matches(':hover')) { last = Date.now(); return; }
+    if (Date.now() - last >= (hold || DELAY)) { hold = 0; show(sec, cur + 1); last = Date.now(); }
+  }, 250);
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('.fhj-herodots [data-hero]'); if (!b) return;
+    var sec = b.closest('.fhj-heroswap'); show(sec, +b.getAttribute('data-hero')); last = Date.now(); hold = PAUSE;
+  });
+})();
