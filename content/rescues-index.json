@@ -9132,7 +9132,7 @@
       "slug": "276-mark"
     },
     {
-      "name": "Pacino",
+      "name": "Patchino",
       "number": 277,
       "order": 277,
       "featured": false,
@@ -9144,11 +9144,36 @@
       "family": "",
       "age": "",
       "sex": "",
-      "summary": "Neutered, first vaccine done.",
+      "summary": "A fluffy, sweet puppy who loves belly rubs. Neutered, first vaccine done, dewormed and protected with Bravecto.",
       "story": "",
       "case_number": "277",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/patchino-1.jpg",
+          "label": "Main photo"
+        },
+        {
+          "image": "img/patchino-2.jpg",
+          "label": "Belly rubs"
+        },
+        {
+          "image": "img/patchino-3.jpg",
+          "label": "Playtime"
+        },
+        {
+          "image": "img/patchino-4.jpg",
+          "label": "Happy pup"
+        },
+        {
+          "image": "img/patchino-5.jpg",
+          "label": "Upside down"
+        },
+        {
+          "image": "img/patchino-6.jpg",
+          "label": "Sweet face"
+        }
+      ],
       "facts": [
         {
           "label": "Vaccines",
@@ -9176,7 +9201,7 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
-      "slug": "277-pacino"
+      "slug": "277-patchino"
     },
     {
       "name": "Golden",
