@@ -4,7 +4,7 @@
   "order": 278,
   "featured": false,
   "species": "Dog",
-  "status": "Soon traveling",
+  "status": "Lives with us",
   "color": "coral",
   "condition": "",
   "tags": [],
@@ -15,7 +15,16 @@
   "story": "",
   "case_number": "278",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/golden-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/golden-2.jpg",
+      "label": "With his favorite toy"
+    }
+  ],
   "facts": [
     {
       "label": "Vaccines",
