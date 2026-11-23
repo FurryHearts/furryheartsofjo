@@ -80,7 +80,7 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 </template>
 </dl>
 <div style="display: flex; flex-wrap: wrap; gap: 12px">
-<template data-sc-if="{{ctaHref}}"><a href="{{ctaHref}}" data-msg="{{ctaMsg}}" target="_blank" rel="noopener" style="text-decoration: none; background: {{ctaBg}}; color: var(--paper, #FFFFFF); padding: 17px 30px; border-radius: 999px; font-weight: 500; font-size: 17px">{{ctaLabel}}</a></template><template data-sc-if="{{ctaText}}"><span style="background: {{ctaBg}}; color: var(--paper, #FFFFFF); padding: 17px 30px; border-radius: 999px; font-weight: 500; font-size: 17px">{{ctaLabel}}</span></template>
+<template data-sc-if="{{ctaHref}}"><a href="{{ctaHref}}" data-msg="{{ctaMsg}}" target="_blank" rel="noopener" style="text-decoration: none; background: var(--paper, #FFFFFF); color: {{colorSolid}}; border: 3px solid {{colorSolid}}; padding: 14px 28px; border-radius: 999px; font-weight: 500; font-size: 17px">{{ctaLabel}}</a></template><template data-sc-if="{{ctaText}}"><span style="background: var(--paper, #FFFFFF); color: {{colorSolid}}; border: 3px solid {{colorSolid}}; padding: 14px 28px; border-radius: 999px; font-weight: 500; font-size: 17px">{{ctaLabel}}</span></template>
 </div>
 </div>
 </section>
