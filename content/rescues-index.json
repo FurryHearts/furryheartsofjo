@@ -268,7 +268,12 @@
       "story": "",
       "case_number": "9",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/matilda-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
