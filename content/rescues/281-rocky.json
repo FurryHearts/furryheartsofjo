@@ -1,0 +1,42 @@
+{
+  "name": "Rocky",
+  "number": 281,
+  "order": 281,
+  "featured": false,
+  "species": "Dog",
+  "status": "Passed away",
+  "color": "tangerine",
+  "condition": "",
+  "tags": [],
+  "family": "",
+  "age": "",
+  "sex": "Male",
+  "summary": "",
+  "story": "",
+  "case_number": "281",
+  "can_fly": true,
+  "photos": [
+    {
+      "image": "img/rocky-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/rocky-2.jpg",
+      "label": "The day we found him"
+    },
+    {
+      "image": "img/rocky-3.jpg",
+      "label": "The day we found him"
+    }
+  ],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false
+}
