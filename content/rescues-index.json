@@ -55,6 +55,10 @@
         {
           "image": "img/bob-1.jpg",
           "label": "Main photo"
+        },
+        {
+          "image": "img/bob-2.jpg",
+          "label": "At the clinic"
         }
       ],
       "facts": [],
