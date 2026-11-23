@@ -9257,13 +9257,15 @@
       "species": "Dog",
       "status": "Available",
       "color": "sunshine",
-      "condition": "",
-      "tags": [],
+      "condition": "Lost one eye",
+      "tags": [
+        "Special needs"
+      ],
       "family": "",
-      "age": "",
-      "sex": "",
-      "summary": "Fully vaccinated and neutered.",
-      "story": "",
+      "age": "About 3 years",
+      "sex": "Male",
+      "summary": "A very gentle boy who fully recovered from leishmaniasis. Neutered, vaccinated, dewormed and flea-treated.",
+      "story": "Oldie had leishmaniasis when he came to us. We treated him with medicine brought in from Italy, and a local pharmacy kindly helped us get it, thank you so much. In the future we will also reach out to the manufacturer directly, so we can keep learning how to best treat cases like his.\n\nAfter his treatment we ran several tests and made sure he is 100% recovered. He has not shown any symptoms since, and he also completed a quarantine period. It makes us so happy to see him healthy and strong again.\n\nWe handle diseases like this very professionally, together with Dr. Ludmila, a Ukrainian vet well known in Jordan with 30 years of experience in this field.\n\nOldie is about 3 years old and lost one of his eyes, but he is very gentle and sweet. He is neutered, fully vaccinated, dewormed and flea-treated. We really hope he finds a loving home.",
       "case_number": "275",
       "can_fly": true,
       "photos": [
@@ -9274,12 +9276,28 @@
       ],
       "facts": [
         {
+          "label": "Neutered",
+          "value": "Yes"
+        },
+        {
           "label": "Vaccines",
           "value": "Fully vaccinated"
         },
         {
-          "label": "Neutered",
-          "value": "Yes"
+          "label": "Deworming & fleas",
+          "value": "Done"
+        },
+        {
+          "label": "Leishmaniasis",
+          "value": "Treated, 100% recovered"
+        },
+        {
+          "label": "Eyes",
+          "value": "Lost one eye"
+        },
+        {
+          "label": "Personality",
+          "value": "Very gentle"
         }
       ],
       "reels": [],
@@ -9324,6 +9342,10 @@
         {
           "image": "img/mark-3.jpg",
           "label": "The day we found him"
+        },
+        {
+          "image": "img/mark-4.jpg",
+          "label": "Where the bullet went in"
         }
       ],
       "facts": [
