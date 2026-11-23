@@ -15,7 +15,12 @@
   "story": "",
   "case_number": "75",
   "can_fly": false,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/teacup-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
