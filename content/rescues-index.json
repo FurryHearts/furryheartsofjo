@@ -2731,17 +2731,17 @@
       "order": 80,
       "featured": false,
       "species": "Cat",
-      "status": "Lives with us",
+      "status": "Available",
       "color": "rose",
       "condition": "Liver disease",
       "tags": [
         "Special needs"
       ],
       "family": "",
-      "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
+      "age": "About 2.5 years",
+      "sex": "Male",
+      "summary": "Neutered, fully vaccinated and healthy. A special boy who loves to play and nap.",
+      "story": "We rescued Charlie in Zarqa, sitting in a mud puddle. He was very thin and very weak.\n\nAt first his liver readings were high, so he was on Royal Canin Hepatic food for a while, with fluids, check-ups and tests. Little by little he got better, and today his readings are back to normal and he is healthy.\n\nCharlie is a very special boy. He loves to play and to sleep, and he is a little chubby, but in good health. His story started out sad, but thankfully everything is fine now.",
       "case_number": "80",
       "can_fly": true,
       "photos": [
@@ -2750,7 +2750,24 @@
           "label": "Main photo"
         }
       ],
-      "facts": [],
+      "facts": [
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        },
+        {
+          "label": "Vaccines",
+          "value": "Fully vaccinated"
+        },
+        {
+          "label": "Health",
+          "value": "Liver readings back to normal"
+        },
+        {
+          "label": "Personality",
+          "value": "Loves to play and nap"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
