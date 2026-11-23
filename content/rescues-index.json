@@ -8542,12 +8542,21 @@
       "tags": [],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Male",
       "summary": "",
       "story": "",
       "case_number": "254",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/tweety-1.jpg",
+          "label": "Main photo"
+        },
+        {
+          "image": "img/tweety-2.jpg",
+          "label": "Looking up"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
