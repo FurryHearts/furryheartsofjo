@@ -35,5 +35,9 @@
   "travel": [],
   "papers": [],
   "care_enabled": false,
-  "destination": "Milan, Italy"
+  "destination": "Milan, Italy",
+  "coat": [
+    "Grey",
+    "White"
+  ]
 }

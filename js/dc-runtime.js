@@ -131,6 +131,13 @@
       });
       return { items: out, n: out.length };
     },
+    coatWords: function (r) {
+      var EX = { orange: 'orange ginger', grey: 'grey gray blue', black: 'black', white: 'white', cream: 'cream', brown: 'brown', golden: 'golden', tan: 'tan brown', tabby: 'tabby striped', calico: 'calico tricolor', tortie: 'tortie tortoiseshell', colorpoint: 'colorpoint pointed', fluffy: 'fluffy longhair long hair' };
+      var c = (r.coat || []).map(function (x) { return String(x).toLowerCase(); });
+      var out = c.map(function (x) { return EX[x] || x; });
+      if (c.indexOf('black') >= 0 && c.indexOf('white') >= 0) out.push('tuxedo black and white');
+      return out.join(' ');
+    },
     statusLabel: function (s) { return { 'Passed away': 'In loving memory' }[s] || s; },
     meta: function (r) {
       var bits = [];

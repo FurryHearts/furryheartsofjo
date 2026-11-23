@@ -38,5 +38,9 @@
   "fee_items": [],
   "travel": [],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "coat": [
+    "Tan",
+    "Brown"
+  ]
 }

@@ -54,5 +54,10 @@
     "treatment",
     "diapers"
   ],
-  "sponsor_food": "Royal Canin Gastrointestinal Fibre Response"
+  "sponsor_food": "Royal Canin Gastrointestinal Fibre Response",
+  "coat": [
+    "Black",
+    "White",
+    "Fluffy"
+  ]
 }

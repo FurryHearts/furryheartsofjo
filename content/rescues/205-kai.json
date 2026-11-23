@@ -143,5 +143,9 @@
     "Special needs",
     "Rescued as a kitten"
   ],
-  "family": ""
+  "family": "",
+  "coat": [
+    "Orange",
+    "Tabby"
+  ]
 }

@@ -40,5 +40,10 @@
   "number": 17,
   "condition": "",
   "tags": [],
-  "family": ""
+  "family": "",
+  "coat": [
+    "Grey",
+    "White",
+    "Fluffy"
+  ]
 }

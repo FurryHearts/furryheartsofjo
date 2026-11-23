@@ -36,6 +36,8 @@ collections:
       - {label: "Age", name: "age", widget: string, required: false}
       - {label: "Birth date (approx.) — sorts kittens and adults automatically", name: birth, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", required: false}
       - {label: "Condition / special needs · الحالة الصحية", name: condition, widget: string, required: false}
+      - {label: "Coat colour (for search) · لون الفرو", name: coat, widget: select, multiple: true, required: false, options: ["Orange", "Cream", "Golden", "Grey", "Black", "White", "Brown", "Tan", "Tabby", "Calico", "Tortie", "Colorpoint", "Fluffy"]}
+      - {label: "Breed (optional, e.g. Arabian Mau, Persian) · السلالة", name: breed, widget: string, required: false}
       - {label: "Groups", name: tags, widget: select, multiple: true, required: false, options: ["Special needs", "Rescued as a kitten", "Mother", "Siblings", "Outdoor cat"]}
       - {label: "Family (e.g. Mother of Tia / Sibling of Misty)", name: family, widget: string, required: false}
       - {label: "Sex", name: sex, widget: select, options: ["Male", "Female"], required: false}

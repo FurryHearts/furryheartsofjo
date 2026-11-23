@@ -71,6 +71,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange",
+        "White"
+      ],
       "slug": "002-bob"
     },
     {
@@ -138,6 +142,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tabby",
+        "Brown",
+        "Fluffy"
+      ],
       "slug": "004-sasha"
     },
     {
@@ -233,6 +242,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Grey",
+        "White"
+      ],
       "slug": "007-orcca"
     },
     {
@@ -315,6 +328,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Black",
+        "White",
+        "Fluffy"
+      ],
       "slug": "009-matilda"
     },
     {
@@ -573,7 +591,12 @@
       "number": 17,
       "condition": "",
       "tags": [],
-      "family": ""
+      "family": "",
+      "coat": [
+        "Grey",
+        "White",
+        "Fluffy"
+      ]
     },
     {
       "name": "Mika",
@@ -809,6 +832,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Grey",
+        "Tabby",
+        "Fluffy"
+      ],
       "slug": "024-vito"
     },
     {
@@ -867,6 +895,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Cream",
+        "White",
+        "Fluffy"
+      ],
       "slug": "025-finn"
     },
     {
@@ -991,6 +1024,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Grey",
+        "White",
+        "Fluffy"
+      ],
       "slug": "028-cessario"
     },
     {
@@ -1031,6 +1069,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Colorpoint",
+        "Cream",
+        "Fluffy"
+      ],
       "slug": "029-julie"
     },
     {
@@ -1177,6 +1220,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange",
+        "Fluffy"
+      ],
       "slug": "033-cappy"
     },
     {
@@ -1256,6 +1303,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Black",
+        "White"
+      ],
       "slug": "035-poupette"
     },
     {
@@ -1293,6 +1344,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Colorpoint",
+        "Fluffy"
+      ],
       "slug": "036-cocoley"
     },
     {
@@ -1665,6 +1720,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tabby",
+        "Brown",
+        "Fluffy"
+      ],
       "slug": "047-nina"
     },
     {
@@ -1702,6 +1762,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tabby",
+        "Brown",
+        "Fluffy"
+      ],
       "slug": "048-olivia"
     },
     {
@@ -1874,6 +1939,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "White",
+        "Cream",
+        "Fluffy"
+      ],
       "slug": "053-lia"
     },
     {
@@ -1972,6 +2042,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Colorpoint",
+        "White",
+        "Fluffy"
+      ],
       "slug": "055-katy"
     },
     {
@@ -2343,6 +2418,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Colorpoint",
+        "White",
+        "Fluffy"
+      ],
       "slug": "066-pia"
     },
     {
@@ -2666,6 +2746,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Cream",
+        "Fluffy"
+      ],
       "slug": "075-teacup"
     },
     {
@@ -2733,6 +2817,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tabby",
+        "Brown"
+      ],
       "slug": "077-tushi"
     },
     {
@@ -2851,6 +2939,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange",
+        "Fluffy"
+      ],
       "slug": "080-charlie"
     },
     {
@@ -2987,6 +3079,9 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Grey"
+      ],
       "slug": "084-lucy"
     },
     {
@@ -3092,6 +3187,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tabby",
+        "White"
+      ],
       "slug": "087-oliver"
     },
     {
@@ -3219,6 +3318,9 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Cream"
+      ],
       "slug": "091-teo"
     },
     {
@@ -3261,6 +3363,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Colorpoint"
+      ],
+      "breed": "Siamese",
       "slug": "092-meya"
     },
     {
@@ -3644,6 +3750,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Black",
+        "White",
+        "Fluffy"
+      ],
       "slug": "104-tesho"
     },
     {
@@ -3867,6 +3978,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Grey",
+        "Fluffy"
+      ],
       "slug": "111-meluk"
     },
     {
@@ -4033,6 +4148,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tabby",
+        "Brown",
+        "Fluffy"
+      ],
       "slug": "116-liliboo"
     },
     {
@@ -4164,6 +4284,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Grey",
+        "White",
+        "Fluffy"
+      ],
       "slug": "120-nut"
     },
     {
@@ -4714,6 +4839,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange",
+        "Cream"
+      ],
       "slug": "137-blaze"
     },
     {
@@ -5006,6 +5135,9 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange"
+      ],
       "slug": "146-bumpa"
     },
     {
@@ -5366,6 +5498,9 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange"
+      ],
       "slug": "157-ed"
     },
     {
@@ -5590,6 +5725,11 @@
         "diapers"
       ],
       "sponsor_food": "Royal Canin Gastrointestinal Fibre Response",
+      "coat": [
+        "Black",
+        "White",
+        "Fluffy"
+      ],
       "slug": "163-marley"
     },
     {
@@ -6261,6 +6401,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tabby",
+        "White",
+        "Fluffy"
+      ],
       "slug": "184-patch"
     },
     {
@@ -7048,7 +7193,11 @@
         "Special needs",
         "Rescued as a kitten"
       ],
-      "family": ""
+      "family": "",
+      "coat": [
+        "Orange",
+        "Tabby"
+      ]
     },
     {
       "name": "Bloom",
@@ -7094,6 +7243,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tabby",
+        "White"
+      ],
       "slug": "206-bloom"
     },
     {
@@ -7189,6 +7342,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tabby",
+        "Grey"
+      ],
       "slug": "208-music"
     },
     {
@@ -7263,6 +7420,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange",
+        "White",
+        "Fluffy"
+      ],
       "slug": "210-asha"
     },
     {
@@ -7747,6 +7909,9 @@
       "papers": [],
       "care_enabled": false,
       "destination": "Switzerland",
+      "coat": [
+        "Calico"
+      ],
       "slug": "225-april"
     },
     {
@@ -7818,6 +7983,9 @@
       "papers": [],
       "care_enabled": false,
       "destination": "Switzerland",
+      "coat": [
+        "White"
+      ],
       "slug": "226-tavi"
     },
     {
@@ -7894,6 +8062,9 @@
       "papers": [],
       "care_enabled": false,
       "destination": "Milan, Italy",
+      "coat": [
+        "Orange"
+      ],
       "slug": "227-butterscotch"
     },
     {
@@ -7967,6 +8138,10 @@
       "papers": [],
       "care_enabled": false,
       "destination": "Milan, Italy",
+      "coat": [
+        "Grey",
+        "White"
+      ],
       "slug": "229-mia"
     },
     {
@@ -8038,6 +8213,10 @@
       "papers": [],
       "care_enabled": false,
       "destination": "Milan, Italy",
+      "coat": [
+        "Grey",
+        "White"
+      ],
       "slug": "230-dino"
     },
     {
@@ -8199,6 +8378,9 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Calico"
+      ],
       "slug": "235-suzy"
     },
     {
@@ -8239,6 +8421,10 @@
       "papers": [],
       "care_enabled": false,
       "destination": "Milan, Italy",
+      "coat": [
+        "White",
+        "Cream"
+      ],
       "slug": "236-casper"
     },
     {
@@ -8794,6 +8980,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange",
+        "Golden"
+      ],
       "slug": "254-tweety"
     },
     {
@@ -9219,6 +9409,9 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Grey"
+      ],
       "slug": "268-nonose"
     },
     {
@@ -9258,6 +9451,9 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "White"
+      ],
       "slug": "269-bella"
     },
     {
@@ -9293,6 +9489,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Black",
+        "White"
+      ],
       "slug": "270-aliksa"
     },
     {
@@ -9358,6 +9558,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Brown",
+        "Tan"
+      ],
       "slug": "272-bruno"
     },
     {
@@ -9401,6 +9605,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "White",
+        "Brown"
+      ],
       "slug": "273-della"
     },
     {
@@ -9518,6 +9726,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Black",
+        "Tan"
+      ],
       "slug": "275-oldie"
     },
     {
@@ -9596,6 +9808,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Black",
+        "White"
+      ],
       "slug": "276-mark"
     },
     {
@@ -9670,6 +9886,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Brown",
+        "Black",
+        "White"
+      ],
       "slug": "277-patchino"
     },
     {
@@ -9722,6 +9943,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Golden",
+        "Brown"
+      ],
       "slug": "278-golden"
     },
     {
@@ -9825,6 +10050,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tan",
+        "Brown"
+      ],
       "slug": "281-rocky"
     }
   ]
