@@ -9294,6 +9294,10 @@
         {
           "image": "img/mark-1.jpg",
           "label": "Main photo"
+        },
+        {
+          "image": "img/mark-2.jpg",
+          "label": "Resting during treatment"
         }
       ],
       "facts": [
