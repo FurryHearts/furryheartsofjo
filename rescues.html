@@ -49,7 +49,6 @@ radial-gradient(circle,#fff 8px,transparent 8.6px) right top/22px 22px no-repeat
 <template data-sc-if="{{q}}"><button type="button" onClick="{{clear}}" aria-label="Clear search" style="font: inherit; cursor: pointer; border: 0; border-radius: 999px; padding: 10px 16px; background: var(--cream, #fcf2f0); color: var(--peach, #ffb68d); font-weight: 500">Clear</button></template>
 <span aria-hidden="true" style="flex: 0 0 auto; width: 46px; height: 46px; border-radius: 999px; background: var(--peach, #ffb68d); display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 24 24" width="22" height="22"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#fff" stroke-width="2.8"></circle><path d="M15.5 15.5 L20.5 20.5" stroke="#fff" stroke-width="2.8" stroke-linecap="round"></path></svg></span>
 </label>
-<template data-sc-if="{{notSearching}}"><div class="fhj-qchips" role="group" aria-label="Search ideas"><span>Try:</span><template data-sc-for="{{chips}}" data-as="c"><button type="button" onClick="{{c.pick}}">{{c.label}}</button></template></div></template>
 <template data-sc-if="{{searching}}"><p style="margin: 4px 0 0; font-size: 15px; font-weight: 500; color: var(--cocoa, #a38273)">{{resultLabel}}</p></template>
 </div><div class="fhj-globe"><img src="{{globe}}" alt="{{globeAlt}}" style="width: 100%; height: auto; display: block; mix-blend-mode: multiply"><span class="fhj-gsnow" aria-hidden="true"><i></i><i></i><i></i></span><span class="fhj-gsmoke" aria-hidden="true"><i></i><i></i><i></i></span></div></section>
 
@@ -159,8 +158,7 @@ const T = (label, id, color) => btn(label, tg === id, color, () => this.setState
 const __r = {
   globe: (sp === 'dog' && (F.data.settings || {}).snowglobe_dog) ? F.data.settings.snowglobe_dog : 'img/snowglobe.jpg', globeAlt: sp === 'dog' ? 'A felted puppy holding a peach heart inside a snow globe' : 'A felted kitten holding a peach heart inside a snow globe',
   q: this.state.q || '', searching: !!words.length, notSearching: !words.length,
-  ph: window.innerWidth < 560 ? 'Name, colour, kitten…' : 'Search by name, colour, breed or need',
-  chips: (sp === 'dog' ? ['Puppy', 'Special needs', 'Black'] : ['Kitten', 'Special needs', 'Orange']).map((c) => ({ label: c, pick: () => this.setState({ q: c.toLowerCase() }) })),
+  ph: window.innerWidth < 560 ? 'Name, blind, ' + (sp === 'dog' ? 'puppy' : 'kitten') + '…' : 'Search by name, or try: special needs, blind, ' + (sp === 'dog' ? 'puppy' : 'orange kitten'),
   resultLabel: shown.length === 1 ? '1 rescue found' : shown.length + ' rescues found',
   emptyMsg: words.length ? 'No rescue matches that yet. Try another word.' : 'No rescues match these filters right now.', intro: this.state.species === 'dog' ? 'Every dog we have rescued, treated and loved: the ones waiting for a home, the ones who live with us, the ones who flew to new families, and the ones we lost. Tap a card to meet them.' : 'Every cat we have rescued, treated and loved: the ones waiting for a home, the ones who live with us, the ones who flew to new families, and the ones we lost. Tap a card to meet them.',
   onSearch: (e) => this.setState({ q: e.target.value }),
