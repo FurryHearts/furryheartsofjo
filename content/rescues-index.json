@@ -6930,6 +6930,14 @@
         {
           "image": "img/bloom-1.jpg",
           "label": "Main photo"
+        },
+        {
+          "image": "img/bloom-2.jpg",
+          "label": "Healing in her donut collar"
+        },
+        {
+          "image": "img/bloom-3.jpg",
+          "label": "Looking up in her donut collar"
         }
       ],
       "facts": [],
