@@ -3756,7 +3756,12 @@
       "story": "",
       "case_number": "111",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/meluk-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
