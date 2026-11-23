@@ -9307,9 +9307,9 @@
       ],
       "family": "",
       "age": "",
-      "sex": "",
-      "summary": "A happy tripod dog. Neutered, first vaccine done.",
-      "story": "",
+      "sex": "Male",
+      "summary": "A gentle, sweet tripod boy. Neutered, fully vaccinated and dewormed, hoping for a home abroad.",
+      "story": "For 29 days, Mark was lying on the street and nobody helped him. Only one man came by to feed him, and Mark had to drag himself along the ground.\n\nSomeone had shot him with a pump-action gun. The bullet went deep into his thigh bone and broke it. We did everything we could to save his leg, but sadly we couldn't.\n\nToday Mark is a tripod dog, and he walks just fine on three legs. He is very gentle and sweet, and his colors are so unusual and lovely.\n\nMark is neutered, fully vaccinated and dewormed. We hope to find him a loving home abroad.",
       "case_number": "276",
       "can_fly": true,
       "photos": [
@@ -9320,6 +9320,10 @@
         {
           "image": "img/mark-2.jpg",
           "label": "Resting during treatment"
+        },
+        {
+          "image": "img/mark-3.jpg",
+          "label": "The day we found him"
         }
       ],
       "facts": [
@@ -9328,20 +9332,28 @@
           "value": "Tripod, three legs"
         },
         {
-          "label": "Vaccines",
-          "value": "First vaccine done, second coming up"
+          "label": "Flea & tick",
+          "value": "Bravecto, done"
         },
         {
           "label": "Neutered",
           "value": "Yes"
         },
         {
+          "label": "Vaccines",
+          "value": "Fully vaccinated"
+        },
+        {
           "label": "Deworming",
           "value": "Done"
         },
         {
-          "label": "Flea & tick",
-          "value": "Bravecto, done"
+          "label": "Legs",
+          "value": "Three, walks well"
+        },
+        {
+          "label": "Personality",
+          "value": "Gentle and sweet"
         }
       ],
       "reels": [],
