@@ -17,7 +17,12 @@
   "story": "",
   "case_number": "84",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/lucy-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
