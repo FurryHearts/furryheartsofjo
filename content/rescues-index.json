@@ -759,15 +759,28 @@
       "tags": [
         "Rescued as a kitten"
       ],
-      "family": "",
+      "family": "Rescued with Finn",
       "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
+      "sex": "Male",
+      "summary": "Neutered and fully vaccinated. A very friendly boy.",
+      "story": "Vito and Finn were rescued together. We don't know if they are brothers, because they don't look alike, but they were found side by side.\n\nA girl gave them to a delivery driver to take to another girl. That girl stopped answering and sent him a location at a factory in Sahab. When he arrived, there was no food and no place for the cats, and nobody answered his calls. He took photos and reached out to a friend's husband, an engineer, who told his wife, and she told us.\n\nWhen we took them in, they had diarrhea and fleas, their fur was badly matted, and they were starving. We treated them, neutered them and gave them all their vaccines.\n\nToday Vito is healthy, very friendly, and gets along well with other cats.",
       "case_number": "24",
       "can_fly": true,
       "photos": [],
-      "facts": [],
+      "facts": [
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        },
+        {
+          "label": "Vaccines",
+          "value": "Fully vaccinated"
+        },
+        {
+          "label": "Personality",
+          "value": "Very friendly"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
@@ -791,11 +804,11 @@
       "tags": [
         "Rescued as a kitten"
       ],
-      "family": "",
+      "family": "Rescued with Vito",
       "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
+      "sex": "Male",
+      "summary": "Neutered and fully vaccinated. A very friendly boy.",
+      "story": "Finn and Vito were rescued together. We don't know if they are brothers, because they don't look alike, but they were found side by side.\n\nA girl gave them to a delivery driver to take to another girl. That girl stopped answering and sent him a location at a factory in Sahab. When he arrived, there was no food and no place for the cats, and nobody answered his calls. He took photos and reached out to a friend's husband, an engineer, who told his wife, and she told us.\n\nWhen we took them in, they had diarrhea and fleas, their fur was badly matted, and they were starving. We treated them, neutered them and gave them all their vaccines.\n\nToday Finn is healthy, very friendly, and gets along well with other cats.",
       "case_number": "25",
       "can_fly": true,
       "photos": [
@@ -812,7 +825,20 @@
           "label": "Looking out"
         }
       ],
-      "facts": [],
+      "facts": [
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        },
+        {
+          "label": "Vaccines",
+          "value": "Fully vaccinated"
+        },
+        {
+          "label": "Personality",
+          "value": "Very friendly"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
