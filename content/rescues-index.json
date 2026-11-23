@@ -8183,7 +8183,12 @@
       "story": "",
       "case_number": "235",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/suzy-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
