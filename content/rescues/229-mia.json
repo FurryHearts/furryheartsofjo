@@ -1,5 +1,5 @@
 {
-  "name": "Meya",
+  "name": "Mia",
   "number": 229,
   "order": 229,
   "featured": false,
@@ -17,11 +17,11 @@
   "can_fly": true,
   "photos": [
     {
-      "image": "img/meya-1.jpg",
+      "image": "img/mia-1.jpg",
       "label": "Main photo"
     },
     {
-      "image": "img/meya-2.jpg",
+      "image": "img/mia-2.jpg",
       "label": "Her fluffy tail"
     }
   ],
