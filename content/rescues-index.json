@@ -9184,6 +9184,14 @@
         {
           "image": "img/della-1.jpg",
           "label": "Main photo"
+        },
+        {
+          "image": "img/della-2.jpg",
+          "label": "Cuddles in her new home"
+        },
+        {
+          "image": "img/della-3.jpg",
+          "label": "So much love"
         }
       ],
       "facts": [],
