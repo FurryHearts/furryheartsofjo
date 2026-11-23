@@ -6,15 +6,15 @@
   "species": "Cat",
   "status": "In treatment",
   "color": "sky",
-  "condition": "Lost his back limbs",
+  "condition": "Lost his back legs",
   "tags": [
     "Special needs",
     "Rescued as a kitten"
   ],
   "family": "",
-  "age": "",
-  "sex": "",
-  "summary": "",
+  "age": "5–6 months",
+  "sex": "Male",
+  "summary": "A sweet ginger kitten, about 5–6 months old. He lost his back legs and is healing with us.",
   "story": "",
   "case_number": "210",
   "can_fly": true,
@@ -28,7 +28,12 @@
       "label": "Healing in her donut collar"
     }
   ],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Condition",
+      "value": "Lost his back legs"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
