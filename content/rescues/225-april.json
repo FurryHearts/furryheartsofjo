@@ -17,7 +17,12 @@
   "story": "",
   "case_number": "225",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/april-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
