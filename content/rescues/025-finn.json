@@ -17,7 +17,20 @@
   "story": "",
   "case_number": "25",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/finn-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/finn-2.jpg",
+      "label": "On his chair"
+    },
+    {
+      "image": "img/finn-3.jpg",
+      "label": "Looking out"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
