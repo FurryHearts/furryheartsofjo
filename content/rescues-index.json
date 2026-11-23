@@ -8052,7 +8052,16 @@
       "story": "",
       "case_number": "236",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/casper-milan-1.jpg",
+          "label": "Main photo"
+        },
+        {
+          "image": "img/casper-milan-2.jpg",
+          "label": "At home in Milan"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
