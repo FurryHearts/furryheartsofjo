@@ -9423,6 +9423,10 @@
         {
           "image": "img/golden-2.jpg",
           "label": "With his favorite toy"
+        },
+        {
+          "image": "img/golden-3.jpg",
+          "label": "Fresh from grooming"
         }
       ],
       "facts": [
