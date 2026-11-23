@@ -17,7 +17,20 @@
   "story": "",
   "case_number": "137",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/blaze-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/blaze-2.jpg",
+      "label": "Relaxing on the sofa"
+    },
+    {
+      "image": "img/blaze-3.jpg",
+      "label": "Those eyes"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
