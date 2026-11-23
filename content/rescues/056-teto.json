@@ -17,7 +17,16 @@
   "story": "",
   "case_number": "56",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/teto-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/teto-2.jpg",
+      "label": "Cuddles with mom Katy"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
