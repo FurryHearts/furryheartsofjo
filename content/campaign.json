@@ -10,8 +10,8 @@
   "story_photo": "img/dina-hero-1.jpg",
   "story_quote": "Every cat I rescue deserves more than just surviving. My promise to them is a safe home, real care, and a future they can count on.",
   "story_by": "Dina, founder of Furry Hearts of Jordan",
-  "story_frame": "img/frame-teal-rect.webp",
-  "story_fw": 1000,
+  "story_frame": "img/frame-teal-wide.webp",
+  "story_fw": 1320,
   "story_fh": 1323,
-  "story_pos": "left: 19.86%; top: 18.36%; width: 60.29%; height: 64.47%; -webkit-mask: url(img/mask-frame-teal-rect.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-teal-rect.png) center / 100% 100% no-repeat"
+  "story_pos": "left: 14.7%; top: 18.07%; width: 70.53%; height: 65.08%; -webkit-mask: url(img/mask-frame-teal-wide.png) center / 100% 100% no-repeat; mask: url(img/mask-frame-teal-wide.png) center / 100% 100% no-repeat"
 }
