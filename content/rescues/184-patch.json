@@ -17,6 +17,14 @@
   "can_fly": true,
   "photos": [
     {
+      "image": "img/patch-2.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/patch-3.jpg",
+      "label": "Healthy, fluffy and home"
+    },
+    {
       "image": "img/patch-1.jpg",
       "label": "Rescue day"
     }
