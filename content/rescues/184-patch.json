@@ -9,10 +9,10 @@
   "condition": "",
   "tags": [],
   "family": "",
-  "age": "",
-  "sex": "",
-  "summary": "",
-  "story": "",
+  "age": "About 3 years",
+  "sex": "Male",
+  "summary": "Neutered and vaccinated.",
+  "story": "We found Patch at the door of our cat house. He was skin and bones, with a deep open wound on his neck and blood all over him. We took him in, treated his wound and slowly fed him back to health. Today he is a healthy, fluffy boy who lives with us.",
   "case_number": "184",
   "can_fly": true,
   "photos": [
@@ -29,7 +29,20 @@
       "label": "Rescue day"
     }
   ],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Vaccines",
+      "value": "Vaccinated"
+    },
+    {
+      "label": "Neutered",
+      "value": "Yes"
+    },
+    {
+      "label": "Food",
+      "value": "Wet and dry food"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
