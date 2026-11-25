@@ -134,7 +134,7 @@
     search: function (all, q) {
       var F = this;
       var s = ' ' + String(q || '').toLowerCase().replace(/[’']/g, '') + ' ';
-      var PH = [[/blue[ -]?eye[ds]?/g, ' colorpoint '], [/black (and|&|n) white/g, ' tuxedo '], [/one[ -]?eye[ds]?/g, ' oneeye '], [/three[ -]?leg(ged|s)?/g, ' tripod '], [/special[ -]?needs?/g, ' specialneed '], [/long[ -]?hair(ed)?/g, ' fluffy '], [/short[ -]?hair(ed)?/g, ' shorthair '], [/scottish fold/g, ' fold '], [/maine coon/g, ' fluffy '], [/arabian mau/g, ' mau '], [/(cant|can not|cannot) walk/g, ' paraly '], [/no teeth/g, ' noteeth ']];
+      var PH = [[/blue[ -]?eye[ds]?/g, ' colorpoint '], [/black (and|&|n) white/g, ' tuxedo '], [/one[ -]?eye[ds]?/g, ' oneeye '], [/three[ -]?leg(ged|s)?/g, ' tripod '], [/special[ -]?needs?/g, ' specialneed '], [/long[ -]?hair(ed)?/g, ' fluffy '], [/short[ -]?hair(ed)?/g, ' shorthair '], [/scottish fold/g, ' fold '], [/maine coon/g, ' fluffy '], [/arabian mau/g, ' mau '], [/(cant|can not|cannot) walk/g, ' paraly '], [/no teeth/g, ' noteeth '], [/(no|without a?) tail|tail(less| amputated| amputation)|lost (her|his|the) tail/g, ' notail ']];
       PH.forEach(function (p) { s = s.replace(p[0], p[1]); });
       var raw = s.replace(/[^a-z0-9؀-ۿ#]+/g, ' ').split(' ').filter(Boolean);
       var STOP = { a: 1, an: 1, the: 1, with: 1, and: 1, of: 1, for: 1, is: 1, who: 1, my: 1, i: 1, want: 1, looking: 1, to: 1, in: 1, that: 1, has: 1, have: 1, cute: 1, beautiful: 1, pretty: 1, lovely: 1, sweet: 1, color: 1, colour: 1, colored: 1, coloured: 1, hair: 1, haired: 1, fur: 1, furred: 1, eyes: 1, eye: 1, pet: 1, please: 1, me: 1, show: 1, find: 1, any: 1, some: 1, very: 1, little: 1, small: 1 };
@@ -142,7 +142,7 @@
         paralysed: 'paraly', paralyzed: 'paraly', paralysis: 'paraly', paralyze: 'paraly', paralized: 'paraly', paralised: 'paraly', wheelchair: 'paraly', wheels: 'paraly',
         disabled: 'specialneed', disability: 'specialneed', handicapped: 'specialneed', handicap: 'specialneed', special: 'specialneed', needs: 'specialneed', need: 'specialneed', sn: 'specialneed', sick: 'specialneed', chronic: 'specialneed',
         blind: 'blind', blindness: 'blind', sight: 'blind', vision: 'blind', eyeless: 'blind', deaf: 'deaf', deafness: 'deaf', hearing: 'deaf',
-        tripod: 'tripod', amputee: 'tripod', amputated: 'tripod', legged: 'tripod',
+        tripod: 'tripod', amputee: 'tripod', notail: 'notail', tailless: 'notail', bobtail: 'notail', amputated: 'tripod', legged: 'tripod',
         healthy: 'healthy', normal: 'healthy', fit: 'healthy',
         kitten: 'young', kittens: 'young', kitty: 'cat', baby: 'young', babies: 'young', young: 'young', puppy: 'puppy', puppies: 'puppy', pup: 'puppy',
         adult: 'adult', grown: 'adult', senior: 'senior', old: 'senior', older: 'senior', elderly: 'senior',
@@ -178,6 +178,7 @@
         deaf: function (x) { return cond(x).indexOf('deaf') >= 0; },
         tripod: function (x) { return any(cond(x), ['tripod', 'three leg', 'amput', 'three-leg']); },
         noteeth: function (x) { return cond(x).indexOf('no teeth') >= 0; },
+        notail: function (x) { return any(cond(x), ['tail amputated', 'lost her tail', 'lost his tail', 'no tail', 'tailless']); },
         young: function (x) { var m = age(x); return (m !== null && m < 12) || /puppy|kitten|baby/i.test(x.age || ''); }, puppy: function (x) { var m = age(x); return !isCat(x) && ((m !== null && m < 12) || /puppy|baby/i.test(x.age || '')); },
         adult: function (x) { var m = age(x); return m !== null && m >= 12; }, senior: function (x) { var m = age(x); return (m !== null && m >= 96) || cond(x).indexOf('senior') >= 0; },
         male: function (x) { return x.sex === 'Male'; }, female: function (x) { return x.sex === 'Female'; }

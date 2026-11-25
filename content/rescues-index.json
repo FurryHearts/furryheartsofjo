@@ -2565,7 +2565,7 @@
       "species": "Cat",
       "status": "Lives with us",
       "color": "orchid",
-      "condition": "Paralyzed",
+      "condition": "Paralyzed, tail amputated",
       "tags": [
         "Special needs"
       ],
@@ -5680,7 +5680,7 @@
       "species": "Cat",
       "status": "In treatment",
       "color": "sunshine",
-      "condition": "Paralyzed, nerve, gastro and bladder issues",
+      "condition": "Paralyzed, tail amputated, nerve, gastro and bladder issues",
       "tags": [
         "Special needs",
         "Rescued as a kitten"
