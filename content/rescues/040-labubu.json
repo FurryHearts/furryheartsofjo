@@ -6,18 +6,23 @@
   "species": "Cat",
   "status": "Passed away",
   "color": "black",
-  "condition": "Severe rectal infestation & intestinal complications",
+  "condition": "Congenital narrowing of the rectal opening",
   "tags": [
     "Rescued as a kitten"
   ],
   "family": "Cocoley's kitten",
   "age": "",
-  "sex": "",
+  "sex": "Female",
   "summary": "",
-  "story": "",
+  "story": "We rescued Labubu together with her mom, Cocoley, and her brothers and sisters Bubbles, Pino and Doritto.\n\nLabubu was born with a very narrow, tiny rectal opening, most likely a congenital problem, so she struggled to pass stool. The vets tried surgery, but it is a very difficult area to operate on. She kept suffering for a while, and sadly it didn't work out, and we lost her.\n\nHer brothers and sisters are alive and doing great today. They are neutered, vaccinated and thriving. We will always remember our sweet Labubu.",
   "case_number": "40",
   "can_fly": false,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/labubu-1.jpg",
+      "label": "In loving memory"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
@@ -27,5 +32,10 @@
   "fee_items": [],
   "travel": [],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "coat": [
+    "Tabby",
+    "Brown",
+    "Fluffy"
+  ]
 }

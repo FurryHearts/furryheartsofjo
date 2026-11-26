@@ -13,12 +13,21 @@
   "family": "Cocoley's kitten",
   "age": "",
   "sex": "",
-  "summary": "",
+  "summary": "Neutered, vaccinated and doing great.",
   "story": "",
   "case_number": "37",
   "can_fly": true,
   "photos": [],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Neutered",
+      "value": "Yes"
+    },
+    {
+      "label": "Vaccines",
+      "value": "Vaccinated"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
