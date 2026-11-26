@@ -15,7 +15,12 @@
   "story": "",
   "case_number": "51",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/teddybee-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
@@ -25,5 +30,10 @@
   "fee_items": [],
   "travel": [],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "coat": [
+    "Cream",
+    "White",
+    "Fluffy"
+  ]
 }
