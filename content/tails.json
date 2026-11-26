@@ -97,10 +97,10 @@
       "species": "cat"
     },
     {
-      "name": "Leo",
+      "name": "Léon",
       "route": "Jordan → Paris, France",
-      "photo": "",
-      "link": "",
+      "photo": "img/leon-1.jpg",
+      "link": "rescue.html#186-leon",
       "color": "purple",
       "species": "cat"
     },

@@ -298,7 +298,7 @@ const __kin = (() => {
   const fam = String(r.family || ''); const out = []; const seen = {}; seen[r.slug] = 1;
   const add = (x, rel, order) => { if (!x || seen[x.slug]) return; seen[x.slug] = 1; out.push({ x, rel, order }); };
   let m;
-  if ((m = fam.match(/^Mother of (.+)$/i))) names(m[1]).forEach((n) => add(byName[n.toLowerCase()], r.sex === 'Male' ? 'His kitten' : 'Her kitten', 2));
+  if ((m = fam.match(/^Mother of (.+)$/i))) names(m[1]).forEach((n) => add(byName[n.toLowerCase()], (r.sex === 'Male' ? 'His ' : 'Her ') + (r.species === 'Dog' ? 'puppy' : 'kitten'), 2));
   if ((m = fam.match(/^(.+?)'s kitten$/i))) { const moms = all.filter((x) => String(x.name).toLowerCase() === m[1].toLowerCase()); const mom = moms.find((x) => new RegExp('\\b' + r.name + '\\b', 'i').test(String(x.family || ''))) || moms[0]; add(mom, 'Mom', 1); all.forEach((x) => { if (String(x.family || '').toLowerCase() === (m[1] + "'s kitten").toLowerCase()) add(x, x.sex === 'Male' ? 'Brother' : (x.sex === 'Female' ? 'Sister' : 'Sibling'), 3); }); }
   if ((m = fam.match(/^Siblings? of (.+)$/i))) names(m[1]).forEach((n) => { const x = byName[n.toLowerCase()]; add(x, x && x.sex === 'Male' ? 'Brother' : (x && x.sex === 'Female' ? 'Sister' : 'Sibling'), 3); });
   if ((m = fam.match(/^(?:Rescued|Adopted) with (.+)$/i))) names(m[1]).forEach((n) => add(byName[n.toLowerCase()], /^Adopted/i.test(fam) ? 'Same home' : 'Rescued together', 4));
