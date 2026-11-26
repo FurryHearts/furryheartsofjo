@@ -6277,19 +6277,24 @@
       "species": "Cat",
       "status": "Passed away",
       "color": "black",
-      "condition": "",
+      "condition": "Congenital condition",
       "tags": [
         "Rescued as a kitten",
         "Siblings"
       ],
       "family": "Sibling of Satch",
       "age": "",
-      "sex": "",
+      "sex": "Male",
       "summary": "",
-      "story": "",
+      "story": "Satchi had a congenital condition, and we never found out exactly what was behind it. From early on he wasn't growing. His brother Satch kept getting bigger, but Satchi stayed small.\n\nThen, suddenly, he started to decline. We did everything we could for him, but sadly he passed away. We will always remember our little boy.",
       "case_number": "179",
       "can_fly": false,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/satchi-1.jpg",
+          "label": "In loving memory"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -6300,6 +6305,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Black",
+        "White"
+      ],
       "slug": "179-satchi"
     },
     {
