@@ -3044,7 +3044,12 @@
       "story": "",
       "case_number": "83",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/madeline-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -3056,6 +3061,11 @@
       "papers": [],
       "care_enabled": false,
       "food_note": "Madeline is the only one who doesn't like wet food. She prefers dry food.",
+      "coat": [
+        "Colorpoint",
+        "Cream",
+        "Fluffy"
+      ],
       "slug": "083-madeline"
     },
     {
