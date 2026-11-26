@@ -8575,14 +8575,32 @@
       "condition": "",
       "tags": [],
       "family": "",
-      "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
+      "age": "9 years",
+      "sex": "Male",
+      "summary": "Adopted by a friend of ours.",
+      "story": "Gizmo is a 9-year-old boy, going by the age his previous owners gave us. We took him in and treated him, neutered him and gave him his first vaccine, with deworming and flea treatment like every cat we rescue. A friend of ours then adopted him and gave him a loving home.",
       "case_number": "238",
       "can_fly": true,
-      "photos": [],
-      "facts": [],
+      "photos": [
+        {
+          "image": "img/gizmo-1.jpg",
+          "label": "Main photo"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        },
+        {
+          "label": "Vaccines",
+          "value": "First vaccine done"
+        },
+        {
+          "label": "Deworming & fleas",
+          "value": "Done"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
@@ -8592,6 +8610,9 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Grey"
+      ],
       "slug": "238-gizmo"
     },
     {
