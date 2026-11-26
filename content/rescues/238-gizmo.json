@@ -19,6 +19,10 @@
     {
       "image": "img/gizmo-1.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/gizmo-2.jpg",
+      "label": "Cozy in his blanket"
     }
   ],
   "facts": [
