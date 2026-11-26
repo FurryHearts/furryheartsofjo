@@ -23,6 +23,10 @@
       "label": "Main photo"
     },
     {
+      "image": "img/dino-street.jpg",
+      "label": "On the street, before his rescue"
+    },
+    {
       "image": "img/dino-2.jpg",
       "label": "Rescue day"
     },
