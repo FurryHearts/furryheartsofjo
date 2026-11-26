@@ -21,6 +21,14 @@
     {
       "image": "img/miva-1.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/miva-2.jpg",
+      "label": "Sleepy kitten face"
+    },
+    {
+      "image": "img/miva-3.jpg",
+      "label": "Fast asleep in her blanket"
     }
   ],
   "facts": [],
