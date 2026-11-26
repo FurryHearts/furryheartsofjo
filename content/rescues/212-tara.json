@@ -21,6 +21,14 @@
     {
       "image": "img/tara-1.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/tara-2.jpg",
+      "label": "Peeking out of her pouch"
+    },
+    {
+      "image": "img/tara-3.jpg",
+      "label": "First vet check"
     }
   ],
   "facts": [
