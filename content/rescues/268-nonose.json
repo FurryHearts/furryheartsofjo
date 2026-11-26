@@ -6,22 +6,53 @@
   "species": "Cat",
   "status": "Lives with us",
   "color": "lavender",
-  "condition": "",
-  "tags": [],
+  "condition": "Lost his nose after an untreated injury, missing some teeth",
+  "tags": [
+    "Special needs"
+  ],
   "family": "",
   "age": "",
-  "sex": "",
-  "summary": "",
-  "story": "",
+  "sex": "Male",
+  "summary": "A very sweet, friendly boy with no nose. Not vaccinated yet.",
+  "story": "No Nose was dumped in Khalda, near a school. Three different people told us about him. The first time, by the time we asked where he was, he had disappeared. A second woman found him in the same area, and while we were sending a taxi to pick him up, he vanished again. The third time, a friend of ours found him, and we finally got him to the clinic.\n\nThe vet told us he had been hit, which tore his nose. With no treatment, infections slowly ate away at it over time. He had surgery to remove the dead part of his nose, and the broken teeth in his upper jaw were removed too.\n\nSo now he has no nose, but he lives a completely normal life. He eats wet and dry food, and he is very sweet and very friendly. No Nose lives with us now.",
   "case_number": "268",
   "can_fly": true,
   "photos": [
     {
       "image": "img/nonose-1.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/nonose-2.jpg",
+      "label": "Out exploring"
+    },
+    {
+      "image": "img/nonose-3.jpg",
+      "label": "Sitting pretty"
+    },
+    {
+      "image": "img/nonose-4.jpg",
+      "label": "Coming to say hello"
     }
   ],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Vaccines",
+      "value": "Not yet"
+    },
+    {
+      "label": "Deworming & fleas",
+      "value": "Done"
+    },
+    {
+      "label": "Food",
+      "value": "Wet and dry food"
+    },
+    {
+      "label": "Personality",
+      "value": "Very sweet and friendly"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
@@ -32,6 +63,7 @@
   "papers": [],
   "care_enabled": false,
   "coat": [
-    "Grey"
+    "Grey",
+    "Fluffy"
   ]
 }
