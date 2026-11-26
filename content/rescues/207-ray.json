@@ -21,6 +21,10 @@
     {
       "image": "img/ray-1.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/ray-2.jpg",
+      "label": "Sunny boy"
     }
   ],
   "facts": [
