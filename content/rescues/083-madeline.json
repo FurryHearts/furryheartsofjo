@@ -21,6 +21,10 @@
     {
       "image": "img/madeline-1.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/madeline-2.jpg",
+      "label": "Cuddles in her blanket"
     }
   ],
   "facts": [],
