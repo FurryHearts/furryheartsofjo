@@ -17,7 +17,12 @@
   "story": "",
   "case_number": "202",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/miva-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
@@ -27,5 +32,10 @@
   "fee_items": [],
   "travel": [],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "coat": [
+    "Calico",
+    "White",
+    "Fluffy"
+  ]
 }
