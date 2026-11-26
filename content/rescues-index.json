@@ -7317,7 +7317,12 @@
       "story": "",
       "case_number": "207",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/ray-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -7329,6 +7334,11 @@
       "papers": [],
       "care_enabled": false,
       "destination": "England, UK",
+      "coat": [
+        "Grey",
+        "Tabby",
+        "White"
+      ],
       "slug": "207-ray"
     },
     {
