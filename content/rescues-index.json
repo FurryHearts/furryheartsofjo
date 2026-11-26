@@ -3551,13 +3551,31 @@
       ],
       "family": "",
       "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
+      "sex": "Female",
+      "summary": "Spayed and fully vaccinated, with her vaccines kept up to date.",
+      "story": "I rescued Tooteh in 2022, when she was a tiny kitten near City Mall. She was skin and bones, and fungus had covered her whole body. Honestly, when I first saw her, I didn't think she would survive.\n\nTooteh was one of the cats I treated myself at home, without a clinic, with guidance from the house-call vet we work with. Slowly she healed and grew strong. Later she was spayed and vaccinated, and her vaccines are still kept up to date.\n\nWhen I look at who she was and who she is now, I feel so proud. Tooteh lives with us.",
       "case_number": "98",
       "can_fly": true,
-      "photos": [],
-      "facts": [],
+      "photos": [
+        {
+          "image": "img/tooteh-1.jpg",
+          "label": "Main photo"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Spayed",
+          "value": "Yes"
+        },
+        {
+          "label": "Vaccines",
+          "value": "Up to date"
+        },
+        {
+          "label": "With us since",
+          "value": "2022"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
@@ -3567,6 +3585,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "White",
+        "Cream"
+      ],
       "slug": "098-tooteh"
     },
     {
