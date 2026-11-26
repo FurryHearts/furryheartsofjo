@@ -11,14 +11,24 @@
     "Rescued as a kitten"
   ],
   "family": "",
-  "age": "",
-  "sex": "",
-  "summary": "",
+  "age": "2 months",
+  "sex": "Female",
+  "summary": "A recent rescue. Not vaccinated yet.",
   "story": "",
   "case_number": "212",
   "can_fly": true,
-  "photos": [],
-  "facts": [],
+  "photos": [
+    {
+      "image": "img/tara-1.jpg",
+      "label": "Main photo"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Vaccines",
+      "value": "Not yet"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
@@ -27,5 +37,10 @@
   "fee_items": [],
   "travel": [],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "coat": [
+    "Orange",
+    "White",
+    "Fluffy"
+  ]
 }
