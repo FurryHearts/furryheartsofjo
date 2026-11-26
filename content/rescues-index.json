@@ -7311,10 +7311,10 @@
         "Rescued as a kitten"
       ],
       "family": "",
-      "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
+      "age": "6–7 months",
+      "sex": "Male",
+      "summary": "Vaccinated and microchipped. Neuter coming soon.",
+      "story": "We found Ray on the street when he was a tiny kitten. We took him in, treated him, vaccinated and microchipped him, and he has grown into the sweetest, friendliest boy. It is hard to believe a cat like him was ever left on the street. Ray is soon flying to the UK, where a friend of ours has chosen to adopt him and give him his forever home.",
       "case_number": "207",
       "can_fly": true,
       "photos": [
@@ -7323,7 +7323,24 @@
           "label": "Main photo"
         }
       ],
-      "facts": [],
+      "facts": [
+        {
+          "label": "Vaccines",
+          "value": "Vaccinated"
+        },
+        {
+          "label": "Microchip",
+          "value": "Yes"
+        },
+        {
+          "label": "Neutered",
+          "value": "Not yet, coming soon"
+        },
+        {
+          "label": "Personality",
+          "value": "Very sweet and friendly"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
@@ -7333,7 +7350,7 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
-      "destination": "England, UK",
+      "destination": "UK",
       "coat": [
         "Grey",
         "Tabby",
