@@ -33,6 +33,18 @@
     {
       "image": "img/nonose-4.jpg",
       "label": "Coming to say hello"
+    },
+    {
+      "image": "img/nonose-5.jpg",
+      "label": "Up close"
+    },
+    {
+      "image": "img/nonose-6.jpg",
+      "label": "Dinner time"
+    },
+    {
+      "image": "img/nonose-7.jpg",
+      "label": "Lounging in the shade"
     }
   ],
   "facts": [
