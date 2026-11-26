@@ -7600,19 +7600,37 @@
       "species": "Cat",
       "status": "Lives with us",
       "color": "orange",
-      "condition": "Lost his ear",
+      "condition": "Lost his ear after a hematoma, lost all his teeth",
       "tags": [
         "Special needs"
       ],
       "family": "",
-      "age": "",
-      "sex": "",
-      "summary": "",
-      "story": "",
+      "age": "Senior",
+      "sex": "Male",
+      "summary": "A gentle senior boy. Neutered, vaccinated, dewormed and treated for fleas.",
+      "story": "Mateo is an older house cat who was thrown out by his owners. For years he lived on the street outside a pharmacy, where people gave him milk to drink. When we spotted him, we shared his story, and together with a friend we took him in and got him treated.\n\nHis teeth were all broken and damaged, and he lost every one of them. Recently he developed a hematoma in his ear and needed surgery, and sadly he lost the ear.\n\nMateo is a very sweet and gentle soul. At his age, after everything he has been through, he could never go back to life on the street. We still cannot understand how anyone could abandon him.",
       "case_number": "213",
       "can_fly": true,
-      "photos": [],
-      "facts": [],
+      "photos": [
+        {
+          "image": "img/mateo-1.jpg",
+          "label": "Main photo"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Neutered",
+          "value": "Yes"
+        },
+        {
+          "label": "Vaccines",
+          "value": "Vaccinated"
+        },
+        {
+          "label": "Deworming & fleas",
+          "value": "Done"
+        }
+      ],
       "reels": [],
       "tests": [],
       "receipts": [],
@@ -7622,6 +7640,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Grey",
+        "White",
+        "Fluffy"
+      ],
       "slug": "213-mateo"
     },
     {
