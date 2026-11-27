@@ -12,12 +12,25 @@
   ],
   "family": "",
   "age": "",
-  "sex": "",
+  "sex": "Male",
   "summary": "",
   "story": "",
   "case_number": "71",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/oso-2.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/oso-1.jpg",
+      "label": "Fish time!"
+    },
+    {
+      "image": "img/oso-3.jpg",
+      "label": "Hugging his fish"
+    }
+  ],
   "facts": [
     {
       "label": "Daily care",
@@ -44,5 +57,10 @@
     "treatment",
     "diapers"
   ],
-  "sponsor_food": "Royal Canin Gastrointestinal Fibre Response"
+  "sponsor_food": "Royal Canin Gastrointestinal Fibre Response",
+  "coat": [
+    "Colorpoint",
+    "Brown",
+    "Fluffy"
+  ]
 }
