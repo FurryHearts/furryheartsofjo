@@ -19,6 +19,14 @@
     {
       "image": "img/teacup-1.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/teacup-5.jpg",
+      "label": "That fluffy face"
+    },
+    {
+      "image": "img/teacup-6.jpg",
+      "label": "Looking out the window"
     }
   ],
   "facts": [],
