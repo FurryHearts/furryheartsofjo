@@ -2722,12 +2722,17 @@
       ],
       "family": "Pia's kitten",
       "age": "",
-      "sex": "",
+      "sex": "Male",
       "summary": "",
       "story": "",
       "case_number": "70",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/marvel-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -2738,6 +2743,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tabby",
+        "Grey",
+        "White"
+      ],
       "slug": "070-marvel"
     },
     {
