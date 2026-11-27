@@ -15,7 +15,24 @@
   "story": "",
   "case_number": "242",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/tooth-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/tooth-2.jpg",
+      "label": "Before: healing in her strawberry collar"
+    },
+    {
+      "image": "img/tooth-3.jpg",
+      "label": "Before: at the clinic"
+    },
+    {
+      "image": "img/tooth-4.jpg",
+      "label": "Before: recovering in her cone"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
@@ -25,5 +42,10 @@
   "fee_items": [],
   "travel": [],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "coat": [
+    "Tabby",
+    "Brown",
+    "Fluffy"
+  ]
 }
