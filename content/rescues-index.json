@@ -531,12 +531,17 @@
       "tags": [],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Male",
       "summary": "",
       "story": "",
       "case_number": "16",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/ash-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -547,6 +552,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Grey",
+        "Fluffy"
+      ],
       "slug": "016-ash"
     },
     {
