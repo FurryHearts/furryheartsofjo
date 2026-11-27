@@ -12,12 +12,17 @@
   ],
   "family": "Pia's kitten",
   "age": "",
-  "sex": "",
+  "sex": "Female",
   "summary": "",
   "story": "",
   "case_number": "69",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/joise-1.jpg",
+      "label": "Main photo"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
@@ -27,5 +32,11 @@
   "fee_items": [],
   "travel": [],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "coat": [
+    "Calico",
+    "Grey",
+    "White",
+    "Fluffy"
+  ]
 }
