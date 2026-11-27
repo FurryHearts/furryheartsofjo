@@ -1052,6 +1052,18 @@
         {
           "image": "img/julie-1.jpg",
           "label": "Main photo"
+        },
+        {
+          "image": "img/julie-before-1.jpg",
+          "label": "Before: resting in her carrier"
+        },
+        {
+          "image": "img/julie-before-2.jpg",
+          "label": "Before: looking up"
+        },
+        {
+          "image": "img/julie-before-3.jpg",
+          "label": "Before: healing in her cone"
         }
       ],
       "facts": [
