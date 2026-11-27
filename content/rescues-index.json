@@ -2658,12 +2658,17 @@
       ],
       "family": "Pia's kitten",
       "age": "",
-      "sex": "",
+      "sex": "Male",
       "summary": "",
       "story": "",
       "case_number": "68",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/bruno-cat-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -2674,6 +2679,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Black",
+        "Fluffy"
+      ],
       "slug": "068-bruno"
     },
     {
