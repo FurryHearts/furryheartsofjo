@@ -10,7 +10,7 @@
   "tags": [],
   "family": "",
   "age": "",
-  "sex": "",
+  "sex": "Male",
   "summary": "",
   "story": "",
   "case_number": "51",
@@ -21,7 +21,12 @@
       "label": "Main photo"
     }
   ],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Flea treatment",
+      "value": "Bravecto, 27 Nov 2026"
+    }
+  ],
   "reels": [],
   "tests": [],
   "receipts": [],
