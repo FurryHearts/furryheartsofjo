@@ -3155,6 +3155,10 @@
         {
           "image": "img/charlie-1.jpg",
           "label": "Main photo"
+        },
+        {
+          "image": "img/charlie-2.jpg",
+          "label": "Handsome boy"
         }
       ],
       "facts": [
