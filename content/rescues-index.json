@@ -4509,12 +4509,25 @@
       ],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Female",
       "summary": "",
       "story": "",
       "case_number": "117",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/shesho-1.jpg",
+          "label": "Main photo"
+        },
+        {
+          "image": "img/shesho-2.jpg",
+          "label": "Our little angel"
+        },
+        {
+          "image": "img/shesho-3.jpg",
+          "label": "Fresh haircut, same attitude"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -4525,6 +4538,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange",
+        "Fluffy"
+      ],
       "slug": "117-shesho"
     },
     {
