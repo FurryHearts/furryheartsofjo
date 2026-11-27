@@ -1,0 +1,41 @@
+{
+  "name": "Oreo",
+  "number": 283,
+  "order": 283,
+  "featured": false,
+  "species": "Cat",
+  "status": "Passed away",
+  "color": "black",
+  "condition": "",
+  "tags": [
+    "Rescued as a kitten"
+  ],
+  "family": "",
+  "age": "",
+  "sex": "Male",
+  "summary": "",
+  "story": "",
+  "case_number": "283",
+  "can_fly": false,
+  "photos": [
+    {
+      "image": "img/oreo-1.jpg",
+      "label": "In loving memory"
+    }
+  ],
+  "facts": [],
+  "reels": [],
+  "tests": [],
+  "receipts": [],
+  "fee_country": "",
+  "fee_total": "",
+  "fee_items": [],
+  "travel": [],
+  "papers": [],
+  "care_enabled": false,
+  "coat": [
+    "Black",
+    "White",
+    "Fluffy"
+  ]
+}
