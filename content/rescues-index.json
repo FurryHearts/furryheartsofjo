@@ -4977,12 +4977,17 @@
       ],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Female",
       "summary": "",
       "story": "",
       "case_number": "130",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/aimee-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -4993,6 +4998,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "White",
+        "Orange"
+      ],
       "slug": "130-aimee"
     },
     {
