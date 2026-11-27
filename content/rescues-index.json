@@ -395,12 +395,17 @@
       "tags": [],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Male",
       "summary": "",
       "story": "",
       "case_number": "10",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/fabio-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -411,6 +416,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange",
+        "Tabby"
+      ],
       "slug": "010-fabio"
     },
     {
