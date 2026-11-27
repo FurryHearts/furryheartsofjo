@@ -4689,7 +4689,12 @@
       "story": "",
       "case_number": "121",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/roben-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -4700,6 +4705,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange",
+        "Tabby"
+      ],
       "slug": "121-roben"
     },
     {
