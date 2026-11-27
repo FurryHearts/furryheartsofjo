@@ -255,7 +255,7 @@
       "tags": [],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Male",
       "summary": "",
       "story": "",
       "case_number": "7",
@@ -264,6 +264,10 @@
         {
           "image": "img/orcca-1.jpg",
           "label": "Main photo"
+        },
+        {
+          "image": "img/orcca-2.jpg",
+          "label": "Up on the cat tree"
         }
       ],
       "facts": [],
