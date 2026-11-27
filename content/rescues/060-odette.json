@@ -12,12 +12,21 @@
   ],
   "family": "",
   "age": "",
-  "sex": "",
+  "sex": "Female",
   "summary": "",
   "story": "",
   "case_number": "60",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/odette-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/odette-2.jpg",
+      "label": "Our brave girl"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
@@ -27,5 +36,9 @@
   "fee_items": [],
   "travel": [],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "coat": [
+    "White",
+    "Fluffy"
+  ]
 }
