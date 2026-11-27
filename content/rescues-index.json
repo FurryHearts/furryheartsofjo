@@ -545,12 +545,17 @@
       ],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Male",
       "summary": "",
       "story": "",
       "case_number": "15",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/raffaello-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -561,6 +566,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Orange",
+        "White"
+      ],
       "slug": "015-raffaello"
     },
     {
