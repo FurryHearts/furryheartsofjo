@@ -9028,12 +9028,17 @@
       "tags": [],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Female",
       "summary": "",
       "story": "",
       "case_number": "237",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/lilac-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -9044,6 +9049,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Colorpoint",
+        "Grey",
+        "Cream"
+      ],
       "slug": "237-lilac"
     },
     {
