@@ -17,8 +17,12 @@
   "can_fly": true,
   "photos": [
     {
-      "image": "img/julie-1.jpg",
+      "image": "img/julie-main.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/julie-1.jpg",
+      "label": "Sweet Julie"
     },
     {
       "image": "img/julie-before-1.jpg",
