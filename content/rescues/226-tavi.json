@@ -37,6 +37,14 @@
     {
       "image": "img/tavi-5.jpg",
       "label": "Looking up"
+    },
+    {
+      "image": "img/tavi-6.jpg",
+      "label": "Looking up at me"
+    },
+    {
+      "image": "img/tavi-7.jpg",
+      "label": "Big stretch"
     }
   ],
   "facts": [
