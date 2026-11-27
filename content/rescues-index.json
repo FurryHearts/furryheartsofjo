@@ -3280,12 +3280,17 @@
       ],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Female",
       "summary": "",
       "story": "",
       "case_number": "81",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/zoe-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -3296,6 +3301,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tortie",
+        "Grey",
+        "Fluffy"
+      ],
       "slug": "081-zoe"
     },
     {
