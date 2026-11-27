@@ -19,6 +19,10 @@
     {
       "image": "img/matilda-1.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/matilda-2.jpg",
+      "label": "Saying hello"
     }
   ],
   "facts": [
