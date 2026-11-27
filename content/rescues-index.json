@@ -59,6 +59,10 @@
         {
           "image": "img/bob-2.jpg",
           "label": "At the clinic"
+        },
+        {
+          "image": "img/bob-before.jpg",
+          "label": "Before: his first days with us"
         }
       ],
       "facts": [],
