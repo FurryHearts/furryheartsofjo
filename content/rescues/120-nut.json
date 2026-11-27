@@ -23,6 +23,14 @@
     {
       "image": "img/nut-2.jpg",
       "label": "Nap time on the sofa"
+    },
+    {
+      "image": "img/nut-3.jpg",
+      "label": "Those sleepy eyes"
+    },
+    {
+      "image": "img/nut-4.jpg",
+      "label": "Nap time"
     }
   ],
   "facts": [],
