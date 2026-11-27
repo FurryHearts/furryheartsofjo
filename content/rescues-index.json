@@ -23,6 +23,10 @@
         {
           "image": "img/rolex-1.jpg",
           "label": "Main photo"
+        },
+        {
+          "image": "img/rolex-2.jpg",
+          "label": "Recovering after his eye surgery"
         }
       ],
       "facts": [],
