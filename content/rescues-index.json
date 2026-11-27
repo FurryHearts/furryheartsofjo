@@ -2626,12 +2626,17 @@
       ],
       "family": "Pia's kitten",
       "age": "",
-      "sex": "",
+      "sex": "Male",
       "summary": "",
       "story": "",
       "case_number": "67",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/alabester-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -2642,6 +2647,12 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Cream",
+        "Orange",
+        "White",
+        "Fluffy"
+      ],
       "slug": "067-alabester"
     },
     {
