@@ -2001,7 +2001,12 @@
       "story": "",
       "case_number": "50",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/blacky-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -2012,6 +2017,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Black",
+        "Fluffy"
+      ],
       "slug": "050-blacky"
     },
     {
