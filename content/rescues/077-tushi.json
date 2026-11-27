@@ -21,6 +21,10 @@
     {
       "image": "img/tushi-1.jpg",
       "label": "Main photo"
+    },
+    {
+      "image": "img/tushi-2.jpg",
+      "label": "Sleepy on his pillow"
     }
   ],
   "facts": [],
