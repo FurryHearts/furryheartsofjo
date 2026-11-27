@@ -2077,12 +2077,29 @@
       ],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Male",
       "summary": "",
       "story": "",
       "case_number": "52",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/moon-1.jpg",
+          "label": "Main photo"
+        },
+        {
+          "image": "img/moon-2.jpg",
+          "label": "Those blue eyes"
+        },
+        {
+          "image": "img/moon-3.jpg",
+          "label": "Coming to say hi"
+        },
+        {
+          "image": "img/moon-4.jpg",
+          "label": "Looking up"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -2093,6 +2110,9 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "White"
+      ],
       "slug": "052-moon"
     },
     {
