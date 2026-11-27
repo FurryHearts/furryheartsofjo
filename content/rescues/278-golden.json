@@ -27,6 +27,10 @@
     {
       "image": "img/golden-3.jpg",
       "label": "Fresh from grooming"
+    },
+    {
+      "image": "img/golden-4.jpg",
+      "label": "Smiling through recovery"
     }
   ],
   "facts": [
