@@ -708,12 +708,17 @@
       "tags": [],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Female",
       "summary": "",
       "story": "",
       "case_number": "19",
       "can_fly": false,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/bianca-1.jpg",
+          "label": "In loving memory"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -724,6 +729,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "White",
+        "Fluffy"
+      ],
       "slug": "019-bianca"
     },
     {
