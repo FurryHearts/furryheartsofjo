@@ -2317,7 +2317,12 @@
       "story": "",
       "case_number": "57",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/peaches-misty-1.jpg",
+          "label": "Peaches and Misty together"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -2349,7 +2354,12 @@
       "story": "",
       "case_number": "58",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/peaches-misty-1.jpg",
+          "label": "Peaches and Misty together"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
