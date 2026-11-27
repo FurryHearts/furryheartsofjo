@@ -15,7 +15,24 @@
   "story": "",
   "case_number": "118",
   "can_fly": false,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/lemon-1.jpg",
+      "label": "In loving memory"
+    },
+    {
+      "image": "img/lemon-2.jpg",
+      "label": "Peeking out of the carrier"
+    },
+    {
+      "image": "img/lemon-3.jpg",
+      "label": "At the clinic"
+    },
+    {
+      "image": "img/lemon-4.jpg",
+      "label": "Belly up, looking at me"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
@@ -25,5 +42,9 @@
   "fee_items": [],
   "travel": [],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "coat": [
+    "White",
+    "Fluffy"
+  ]
 }
