@@ -19,7 +19,16 @@
   "story": "",
   "case_number": "138",
   "can_fly": true,
-  "photos": [],
+  "photos": [
+    {
+      "image": "img/apollo-atlas-1.jpg",
+      "label": "Main photo"
+    },
+    {
+      "image": "img/apollo-atlas-2.jpg",
+      "label": "Apollo and Atlas together"
+    }
+  ],
   "facts": [],
   "reels": [],
   "tests": [],
@@ -29,5 +38,9 @@
   "fee_items": [],
   "travel": [],
   "papers": [],
-  "care_enabled": false
+  "care_enabled": false,
+  "coat": [
+    "Tabby",
+    "Brown"
+  ]
 }
