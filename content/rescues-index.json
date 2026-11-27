@@ -700,12 +700,17 @@
       ],
       "family": "",
       "age": "",
-      "sex": "",
+      "sex": "Male",
       "summary": "",
       "story": "",
       "case_number": "18",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/mika-1.jpg",
+          "label": "Main photo"
+        }
+      ],
       "facts": [],
       "reels": [],
       "tests": [],
@@ -716,6 +721,11 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Colorpoint",
+        "White",
+        "Fluffy"
+      ],
       "slug": "018-mika"
     },
     {
