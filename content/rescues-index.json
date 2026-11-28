@@ -10386,7 +10386,24 @@
       "story": "",
       "case_number": "274",
       "can_fly": true,
-      "photos": [],
+      "photos": [
+        {
+          "image": "img/choco-1.jpg",
+          "label": "Main photo"
+        },
+        {
+          "image": "img/choco-2.jpg",
+          "label": "Big happy smile"
+        },
+        {
+          "image": "img/choco-3.jpg",
+          "label": "Those amber eyes"
+        },
+        {
+          "image": "img/choco-4.jpg",
+          "label": "With a puppy friend"
+        }
+      ],
       "facts": [
         {
           "label": "Vaccines",
@@ -10406,6 +10423,10 @@
       "travel": [],
       "papers": [],
       "care_enabled": false,
+      "coat": [
+        "Tan",
+        "Black"
+      ],
       "slug": "274-choco"
     },
     {
@@ -10439,6 +10460,18 @@
         {
           "image": "img/oldie-3.jpg",
           "label": "Sweet old face"
+        },
+        {
+          "image": "img/oldie-4.jpg",
+          "label": "Relaxing in the garden"
+        },
+        {
+          "image": "img/oldie-5.jpg",
+          "label": "Garden portrait"
+        },
+        {
+          "image": "img/oldie-6.jpg",
+          "label": "With a puppy friend"
         }
       ],
       "facts": [
@@ -10529,6 +10562,18 @@
         {
           "image": "img/mark-5.jpg",
           "label": "Recovering in his crate"
+        },
+        {
+          "image": "img/mark-6.jpg",
+          "label": "Resting in the garden"
+        },
+        {
+          "image": "img/mark-7.jpg",
+          "label": "Chin scratches"
+        },
+        {
+          "image": "img/mark-8.jpg",
+          "label": "Sweet grey muzzle"
         }
       ],
       "facts": [

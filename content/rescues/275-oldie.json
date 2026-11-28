@@ -29,6 +29,18 @@
     {
       "image": "img/oldie-3.jpg",
       "label": "Sweet old face"
+    },
+    {
+      "image": "img/oldie-4.jpg",
+      "label": "Relaxing in the garden"
+    },
+    {
+      "image": "img/oldie-5.jpg",
+      "label": "Garden portrait"
+    },
+    {
+      "image": "img/oldie-6.jpg",
+      "label": "With a puppy friend"
     }
   ],
   "facts": [

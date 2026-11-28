@@ -37,6 +37,18 @@
     {
       "image": "img/mark-5.jpg",
       "label": "Recovering in his crate"
+    },
+    {
+      "image": "img/mark-6.jpg",
+      "label": "Resting in the garden"
+    },
+    {
+      "image": "img/mark-7.jpg",
+      "label": "Chin scratches"
+    },
+    {
+      "image": "img/mark-8.jpg",
+      "label": "Sweet grey muzzle"
     }
   ],
   "facts": [
